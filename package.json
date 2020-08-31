@@ -1,0 +1,24 @@
+{
+  "name": "documentation",
+  "version": "0.0.1",
+  "description": "documentation witivio",
+  "main": "index.js",
+  "authors": {
+    "name": "nibaldo",
+    "email": "ndonoso@witivio.com"
+  },
+  "repository": "/documentation",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-active-header-links": "^1.5.4",
+    "@vuepress/plugin-back-to-top": "^1.5.4",
+    "@vuepress/plugin-medium-zoom": "^1.5.4",
+    "@vuepress/plugin-nprogress": "^1.5.4",
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {}
+}
