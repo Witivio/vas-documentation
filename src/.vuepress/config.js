@@ -48,6 +48,33 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     locales: {
+      '/': {
+        searchPlaceholder: 'recherche...',
+        // text for the language dropdown
+        selectText: 'Languages',
+        // label for this locale in the language dropdown
+        label: 'fr-FR',
+        // Aria Label for locale in the dropdown
+        ariaLabel: 'Languages',
+        // text for the edit-on-github link
+        editLinkText: 'Edit this page on GitHub',
+        // config for Service Worker
+        serviceWorker: {
+          updatePopup: {
+            message: "New content is available.",
+            buttonText: "Refresh"
+          }
+        },
+        // algolia docsearch options for current locale
+        algolia: {},
+        nav: [
+          { text: 'Witivio 365', link: '/fr/articles/creation_chatbot' },
+          { text: 'Dynameet', link: '/fr/dynameet/' },
+          { text: 'Videos', link: '/fr/videos/' },
+          { text: 'Teams Apps', link: '/fr/teams_apps/' },
+          { text: 'Trust Center', link: '/en/trust_center/' }
+        ]
+      },
       '/fr/': {
         searchPlaceholder: 'recherche...',
         // text for the language dropdown
