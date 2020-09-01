@@ -7,7 +7,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['link', { rel: "icon", sizes: "16x16", href: "/assets/img/index/favicon.ico" }],
     ['link', { rel: 'icon', href: '/assets/img/logo_white.png' }],
-    ['script', { src: "scripts/chatbot.js" }]
+    ['script', { src: "/scripts/chatbot.js" }]
   ],
   locales: {
     '/': {
