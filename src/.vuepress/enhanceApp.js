@@ -11,5 +11,18 @@ export default ({
   siteData // site metadata
 }) => {
   // ...apply enhancements for the site.
-
+  router.addRoutes([
+    {
+      path: "/fr/articles/canaux.html",
+      redirect: "/articles/parametres/canaux.html",
+    },
+    {
+      path: "/fr/articles/escalade.html",
+      redirect: "/articles/outils/escalade.html",
+    },
+    {
+      path: "/fr/articles/accessibilites du chatbot.html",
+      redirect: "/articles/parametres/accessibilite_de_chatbot.html",
+    }
+  ])
 }
