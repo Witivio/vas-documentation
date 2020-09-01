@@ -127,9 +127,10 @@ N’oubliez pas d’enregistrer après toute modification !
 :::
 
 ::: tip How to create a push campaign
-<br />
+<br style="margin: .5rem 0;" >
+
 <iframe class="video_embed" src="https://www.youtube.com/embed/_Vhu2RpzHbY?list=PLRFG2FXmQTR_EV3iWJ9HL2Go95WhNq9Qb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br />
-<br />
+<br style="margin: .5rem 0;" >
+
 :::
 

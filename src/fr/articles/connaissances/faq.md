@@ -194,10 +194,11 @@ Différents symboles s'affichent à droite d'une nouvelle connaissance
 
 
 ::: tip Créer une nouvelle question
-<br />
+<br style="margin: .5rem 0;" >
+
 <iframe class="video_embed" src="https://www.youtube.com/embed/xGBL_6MD6eM?list=PLRFG2FXmQTR_EV3iWJ9HL2Go95WhNq9Qb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br />
-<br />
+<br style="margin: .5rem 0;" >
+
 :::
 
 
@@ -252,10 +253,10 @@ Pour plus d'information sur le format [**markdown**](/fr/articles/connaissances/
 
 
 ::: tip Comment créer une réponse simple de type texte
-<br />
+<br style="margin: .5rem 0;" >
+
 <iframe class="video_embed" src="https://www.youtube.com/embed/moPgRayWpjs?list=PLRFG2FXmQTR_EV3iWJ9HL2Go95WhNq9Qb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br />
-<br />
+<br style="margin: .5rem 0;" >
 
 :::
 
@@ -318,10 +319,10 @@ N’oubliez pas d'enregistrer au fur et à mesure !
 :::
 
 ::: tip Comment créer une réponse simple de type Adaptive Card
-<br />
+<br style="margin: .5rem 0;" >
+
 <iframe class="video_embed" src="https://www.youtube.com/embed/Id56vYpZWbE?list=PLRFG2FXmQTR_EV3iWJ9HL2Go95WhNq9Qb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br />
-<br />
+<br style="margin: .5rem 0;" >
 
 :::
 
@@ -348,10 +349,11 @@ N’oubliez pas d'enregistrer au fur et à mesure !
 :::
 
 ::: tip Comment créer un réponse contextuelle
-<br />
+<br style="margin: .5rem 0;" >
+
 <iframe class="video_embed" src="https://www.youtube.com/embed/DVt62VHPTVI?list=PLRFG2FXmQTR_EV3iWJ9HL2Go95WhNq9Qb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br />
-<br />
+<br style="margin: .5rem 0;" >
+
 :::
 
 
@@ -586,10 +588,10 @@ N’oubliez pas d’enregistrer en cliquant sur « **Sauvegarder** » en bas à 
 :::
 
 ::: tip Comment créer un Arbre des Conversations
-<br />
+<br style="margin: .5rem 0;" >
+
 <iframe class="video_embed" src="https://www.youtube.com/embed/qrUMs6ngN44?list=PLRFG2FXmQTR_EV3iWJ9HL2Go95WhNq9Qb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br />
-<br />
+<br style="margin: .5rem 0;" >
 
 :::
 
@@ -942,10 +944,10 @@ En cliquant sur ce nombre, toutes les alternatives s'affichent. Vous pouvez alor
 </div>
 
 ::: tip Ajouter alternatives et editer des questions
-<br />
+<br style="margin: .5rem 0;" >
+
 <iframe class="video_embed" src="https://www.youtube.com/embed/_KCGeSKguh8?list=PLRFG2FXmQTR_EV3iWJ9HL2Go95WhNq9Qb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br />
-<br />
+<br style="margin: .5rem 0;" >
 
 :::
 

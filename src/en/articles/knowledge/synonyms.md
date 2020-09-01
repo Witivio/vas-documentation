@@ -1,6 +1,6 @@
 # Synonyms
 
-Click on**Knowledge** then **Synonyms**.
+Click on **Knowledge** then **Synonyms**.
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/knowledge/synonyms1.png')" alt="low score">
@@ -49,9 +49,10 @@ To synchronize the synonyms, click on "PUBLISH" at the top right of the page.
 :::
 
 ::: tip How to create a synonym
-<br/>
+<br style="margin: .5rem 0;" >
+
 <iframe class="video_embed" src="https://www.youtube.com/embed/05TwZrXej6k?list=PLRFG2FXmQTR_EV3iWJ9HL2Go95WhNq9Qb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br/>
-<br/>
+<br style="margin: .5rem 0;" >
+
 :::
 

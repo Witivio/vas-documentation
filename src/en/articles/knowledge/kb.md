@@ -202,10 +202,9 @@ Different symbols are displayed next to the new question:
 - ready to be published: Once the answer is validated, the status of the question can be changed to "ready to publish". The question can then be published.
 
 ::: tip How to create a question
-<br/>
+<br style="margin: .5rem 0;" >
 <iframe class="video_embed" src="https://www.youtube.com/embed/xGBL_6MD6eM?list=PLRFG2FXmQTR_EV3iWJ9HL2Go95WhNq9Qb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br/>
-<br/>
+<br style="margin: .5rem 0;" >
 
 :::
 
@@ -319,10 +318,9 @@ It is also possible to create an Adaptive Card using a JSON code. To do this, cl
 Feel free to visit [**https://adaptivecards.io/samples/**](https://adaptivecards.io/samples/)
 
 ::: tip How to create an adaptive card answer
-<br/>
+<br style="margin: .5rem 0;" >
 <iframe class="video_embed" src="https://www.youtube.com/embed/Id56vYpZWbE?list=PLRFG2FXmQTR_EV3iWJ9HL2Go95WhNq9Qb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br/>
-<br/>
+<br style="margin: .5rem 0;" >
 :::
 
 ### Contextual answer
@@ -363,10 +361,10 @@ Example:
 
 <!-- <video-embed src="https://www.youtube.com/watch?v=DVt62VHPTVI&list=PLRFG2FXmQTR_EV3iWJ9HL2Go95WhNq9Qb&index=5"></video-embed> -->
 ::: tip How to create a contextual answer
-<br/>
+<br style="margin: .5rem 0;" >
 <iframe class="video_embed" src="https://www.youtube.com/embed/DVt62VHPTVI?list=PLRFG2FXmQTR_EV3iWJ9HL2Go95WhNq9Qb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br/>
-<br/>
+<br style="margin: .5rem 0;" >
+
 :::
 
 ### Image answer
@@ -531,10 +529,10 @@ Once you saved your Visio file, synchronize it in the Witivio platform. To this,
 During a conversation with the chatbot, it is possible to come back to a previous box to change and select a new choice. However, if different questions have the same answer choice, it will not be possible to change your choice in the conversation.
 
 ::: tip How to create a simple conversation tree
-<br/>
+<br style="margin: .5rem 0;" >
 <iframe class="video_embed" src="https://www.youtube.com/embed/qrUMs6ngN44?list=PLRFG2FXmQTR_EV3iWJ9HL2Go95WhNq9Qb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br/>
-<br/>
+<br style="margin: .5rem 0;" >
+
 :::
 
 ### Dynamic conversation
@@ -892,10 +890,10 @@ templates to add alternatives. Tick one or several alternatives to delete them
 
 
 ::: tip Add Alternatives and edit the question
-<br/>
+<br style="margin: .5rem 0;" >
 <iframe class="video_embed" src="https://www.youtube.com/embed/_KCGeSKguh8?list=PLRFG2FXmQTR_EV3iWJ9HL2Go95WhNq9Qb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br/>
-<br/>
+<br style="margin: .5rem 0;" >
+
 :::
 
 

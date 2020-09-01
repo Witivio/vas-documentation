@@ -24,9 +24,10 @@ Cette section recense les questions des utilisateurs auxquelles le chatbot n'a p
 </div>
 
 ::: tip Comment gérer les questions sans réponse
-<br />
+<br style="margin: .5rem 0;" >
+
 <iframe class="video_embed" src="https://www.youtube.com/embed/xIWY-gcGXBE?list=PLRFG2FXmQTR_EV3iWJ9HL2Go95WhNq9Qb" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br />
-<br />
+<br style="margin: .5rem 0;" >
+
 :::
 

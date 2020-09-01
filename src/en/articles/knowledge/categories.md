@@ -40,10 +40,11 @@ a category can be modified (pen icon) or deleted (trash icon).
 
 
 ::: tip How to create a category
-<br />
+<br style="margin: .5rem 0;" >
+
 <iframe class="video_embed" src="https://www.youtube.com/embed/cmJw4ZWXbDQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<br />
-<br />
+<br style="margin: .5rem 0;" >
+
 :::
 
 
