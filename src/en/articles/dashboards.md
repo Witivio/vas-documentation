@@ -20,7 +20,7 @@ A reset date is indicated next to the performance and usage reports.
 </div>
 
 
-::: danger Important !
+::: danger 🔴
 Dashboard statistics are calculated every fixed hour. For instance, at 5pm you
 will have access to all the statistics available between 4pm and 5pm. However,
 at 4:55 p.m. statistics will not be available at the current time.

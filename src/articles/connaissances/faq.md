@@ -41,13 +41,13 @@ Une question mère (1), la réponse à la question mère (2) et les alternatives
   <img :src="$withBase('/assets/img/fr/connaissances/kb2.png')" alt="low score">
 </div>
 
-::: warning Attention !
+::: warning ⚠️
 **Dans la colonne 2 (réponse)**
 :::
 
 Copier/Coller de la même réponse ! Ne pas la recopier à la main car s’il y a une différence, l’alternative ne sera pas rattachée à la question mère.
 
-::: warning Attention !
+::: warning ⚠️
 **Titre et en-tête**
 :::
 
@@ -152,7 +152,7 @@ Afin d'alimenter la base de connaissances du chatbot, il faut ajouter des:
 ```
 
 
-::: danger Important
+::: danger 🔴
 Lorsque vous utilisez un template ou un modèle, la plateforme génèrera des alternatives automatiquement
 :::
 
@@ -305,7 +305,7 @@ Cliquez sur "**Add a new fact**” si vous souhaitez ajouter un élément suppl�
 * **TextBlock** : utilisez cet élément pour ajouter du texte dans vos Adaptive Cards
 * **Rich TextBlock** : utilisez le JSON editor pour éditer du texte à l’aide de cet élément
 * **Image** : 
-::: warning 
+::: warning ⚠️ 
 **Ajouter l’url de l’image** que vous souhaitez ajouter
 :::
 * **Media** : Il est possible d’ajouter une vidéo mais cette dernière sera visible uniquement en Webchat ( l’élément média n’est pas disponible pour le canal Teams)
@@ -313,8 +313,8 @@ Cliquez sur "**Add a new fact**” si vous souhaitez ajouter un élément suppl�
 
 Il est également possible de créer une Adaptive Card à l’aide d’un code JSON. Pour cela cliquez sur « JSON en bas à gauche de la page. N’hesitez pas à consulter [**https://adaptivecards.io/samples/**](https://adaptivecards.io/samples/)
 
-::: tip 
-💾 N’oubliez pas d'enregistrer au fur et à mesure !
+::: tip 💾
+N’oubliez pas d'enregistrer au fur et à mesure !
 :::
 
 ::: tip Comment créer une réponse simple de type Adaptive Card
@@ -343,8 +343,8 @@ Vous pouvez ajouter et supprimer un ou plusieurs choix (2) & (3).
 </div>
 
 
-::: tip 
-💾 N’oubliez pas d'enregistrer au fur et à mesure !
+::: tip 💾
+N’oubliez pas d'enregistrer au fur et à mesure !
 :::
 
 ::: tip Comment créer un réponse contextuelle
@@ -377,7 +377,7 @@ Pour ajouter une image à partir d'une url, copiez puis collez-la dans le champ 
 
 Pour ajouter une image depuis la galerie d'images, accédez à l'onglet puis choisissez une image déjà présente ou ajoutez-la directement à l'aide du bouton Ajouter, charger une image ou par un simple glisser-déposer.
 
-::: warning Attention !
+::: warning ⚠️
 La taille maximale de l'image est de 2 MB et les formats supportés sont .png, .jpeg et .gif.
 :::
 
@@ -402,7 +402,7 @@ Sélectionnez le type de réponse "Arbre de conversation".
 
 Après avoir nommé le fichier, cliquez sur enregistrer. Le fichiers visio sera crée automatiquement.
 
-::: warning Attention !
+::: warning ⚠️
 Il est nécessaire d’enlever les accents et apostrophes présents dans la question avant de créer le fichier visio.
 :::
 
@@ -413,7 +413,7 @@ Il est nécessaire d’enlever les accents et apostrophes présents dans la ques
 
 Cliquez à nouveau sur la question que vous venez de créer. Le fichier Visio apparait (2).
 
-::: warning Attention !
+::: warning ⚠️
 Lorsqu’il s’agit de votre première utilisation de Visio, téléchargez les Template Witivio. Pour cela, cliquez sur "Télécharger les formes Visio" (3).
 :::
 
@@ -440,11 +440,11 @@ Par exemple :
 
 Clic droit sur la nouvelle question puis "Ouvrir dans Visio".
 
-::: warning Attention !
+::: warning ⚠️
 La plateforme n'est pas compatible avec les version Visio 2013, mais elle est compatible avec les versions Standard et Professionnelle de Visio de 2016 jusqu'à 2019.
 :::
 
-::: warning Attention !
+::: warning ⚠️
 Il vous faudra, avant de commencer à construire votre arbre, récupérer les Template téléchargés au préalable. Cliquez sur "Formes" > "Autre formes" > "Mes formes" > "Organiser mes formes" > Witivio.
 :::
 
@@ -463,7 +463,7 @@ Il s’agira de la seule forme dont le bandeau de couleur sera remplit (1). Chaq
   <img :src="$withBase('/assets/img/fr/connaissances/responseconversation6.png')" alt="reponse de type conversation 6">
 </div>
 
-::: warning Attention !
+::: warning ⚠️
 Lorsque vous souhaitez ajouter un arbre de conversation dans votre base de connaissances et que celle-ci comporte déjà un nombre important que questions avec des réponses simples et contextuelles, l'entrainement (c'est à dire la synchronisation) peut être plus long. Cliquez sur "Entrainer" et patientez jusqu'à ce que le bouton soit grisé, avant de poursuivre la construction de vos connaissances.
 :::
 
@@ -484,11 +484,11 @@ Lorsque le Chatbot doit demander à l'utilisateur de faire un choix (afin de pr�
 </div>
 
 
-::: warning 💡️ Bonne pratique
+::: tip 💡️ Bonne pratique
 Lorsque vous proposez des choix à l'utilisateur dans une "Bot Question", n'oubliez pas de prévoir un choix de type : "Autre" ou "Aucun de ces choix" auquel cas, l'utilisateur devra être obligé de faire un choix qui ne lui convient pas.
 :::
 
-::: danger Important
+::: danger 🔴
 Cliquez [ici](/articles/connaissances/faq.html#conversations-dynamiques) pour consulter l'ensemble des formes Witivio pour créer un arbre de conversation dynamique.
 :::
 
@@ -498,7 +498,7 @@ Une fois les formes créées, il ne vous reste plus qu’à les relier en cliqua
   <img :src="$withBase('/assets/img/fr/connaissances/responseconversation8.png')" alt="reponse de type conversation 8">
 </div>
 
-::: warning Attention !
+::: warning ⚠️
 Les formes doivent bien être reliées entre elles, pour cela, faites attention à la zone sélectionnée en vert :
 :::
 
@@ -510,7 +510,7 @@ Les formes doivent bien être reliées entre elles, pour cela, faites attention 
   <img :src="$withBase('/assets/img/fr/connaissances/responseconversation10.png')" alt="reponse de type conversation 10">
 </div>
 
-::: warning 💡️ Bonne pratique
+::: tip 💡️ Bonne pratique
 Pour vérifier si les formes sont bien reliées, nous vous conseillons de les déplacer légerémenent.
 :::
 
@@ -534,7 +534,7 @@ Après la synchronisation, vous verrez apparaître votre arbre. Si ce dernier s�
 
 # Changement de choix dans les arbres de conversation
 
-::: danger Important
+::: danger 🔴
 En fonction de l'arbre de conversation, vous pouvez changer votre choix pendant la conversation. Cependant, il existe des limites :
 :::
 
@@ -581,8 +581,8 @@ Ci-dessous, le retour sera possible uniquement vers le choix 3/4 et 1/2, mais pa
 
 * Si l'arbre de conversation comporte des appels à des API, et que vous décidez de changer votre choix dans le dialogue, il se peut que les informations des API ne soient pas correctes.
 
-::: tip Enregistrer !
-💾 N’oubliez pas d’enregistrer en cliquant sur « **Sauvegarder** » en bas à droite de la page !
+::: tip 💾
+N’oubliez pas d’enregistrer en cliquant sur « **Sauvegarder** » en bas à droite de la page !
 :::
 
 ::: tip Comment créer un Arbre des Conversations
@@ -741,7 +741,7 @@ lowerorequal
 ```
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/rconnaissances/esponsedynamique9.png')" alt="reponse de type dyanmique 9">
+  <img :src="$withBase('/assets/img/fr/connaissances/responsedynamique9.png')" alt="reponse de type dyanmique 9">
 </div>
 
 
@@ -770,7 +770,7 @@ Type (string)
 [REQUETE JSONPATH DE LA PROPRIETE JSON]
 ```
 
-::: warning Attention !
+::: warning ⚠️
  Le call API doit retourner un Tableau
 :::
 
@@ -805,7 +805,7 @@ Type (string)
 [REQUETE JSONPATH DE LA PROPRIETE JSON]
 ```
 
-::: warning Attention !
+::: warning ⚠️
 Le call API doit retourner un Tableau
 :::
 
@@ -917,7 +917,7 @@ Une alternative est une reformulation de la question mère. Le nombre d'alternat
 
 Lorsque l’on choisit un template ou un modèle, la question aura plusieurs alternatives automatiquement.
 
-::: danger Important
+::: danger 🔴
 Ces alternatives créées automatiquement sont des alternatives dites "simples", la question mère est reformulée plusieurs fois à partir des mêmes mots. Seuls les utilisateurs peuvent nous apporter des alternatives dites "complexes". Ces dernières n'ont pas du tout la même forme ni parfois les mêmes mots que la question mère mais le sens reste le même. La réponse du chatbot sera la même.
 :::
 
@@ -927,11 +927,11 @@ Exemple :
 -   Alternative simple : Dis moi comment faire une note de frais ?
 -   Alternative complexe : Comment je me fais rembourser mes frais?
 
-::: warning 💡 Bonne Pratique
+::: tip 💡 Bonne Pratique
 Une question mère doit avoir au minimum 5 alternatives complexes et au maximum 99 alternatives simples et complexes confondues.
 :::
 
-::: tip Bonne pratique
+::: tip 💡 Bonne pratique
 Il n'est pas possible d'avoir plus de 99 alternatives.
 :::
 
@@ -962,7 +962,7 @@ En cliquant sur ce nombre, toutes les alternatives s'affichent. Vous pouvez alor
 
 La syntaxe markdown permet de mettre en forme riche le contenu du chatbot.
 
-::: tip Attention !
+::: tip 💡
 Il est possible de positionner des markdown dans les réponses et les messages
 :::
 

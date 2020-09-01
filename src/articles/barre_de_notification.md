@@ -15,8 +15,8 @@ En haut à droit de la plateforme, cliquez sur l’icône de votre profil puis s
 * Les informations au sujet de votre licence : date d'expiration, nombre de chatbot
 * Votre logo : changez et personnalisez le en important un fichier png ( taille 136x30 px).
 
-::: tip Enregistrer !
-💾 Pensez à enregistrer si vous effectuez des modifications !
+::: tip 💾
+Pensez à enregistrer si vous effectuez des modifications !
 :::
 
 

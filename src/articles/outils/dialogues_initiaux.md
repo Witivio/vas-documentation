@@ -21,7 +21,7 @@ Lorsqu'il s'agit de votre première utilisation de Visio, suivez les étapes sui
 
 Vous pouvez ainsi apporter les modifications souhaitées, à savoir le modifier ou le supprimer, ainsi que changer la langue ou le profil.
 
-::: danger Important
+::: danger 🔴
 Synchronisez afin que votre dialogue initial soit mis à jour et disponible.
 :::
 

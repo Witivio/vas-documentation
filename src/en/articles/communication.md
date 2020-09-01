@@ -12,11 +12,11 @@
 the chatbot starts the conversation with the chatbot.  
   
 
-::: warning 💡 Good practice
+::: tip 💡 Good practice
 The push communication is also a good way to promote the chatbot within the company
 :::
 
-::: warning Attention !
+::: warning ⚠️
 The push communication is supported in Skype for Business and Microsoft Teams.
 :::
 

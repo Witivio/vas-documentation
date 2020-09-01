@@ -16,7 +16,7 @@ Cliquez sur « **Connaissances** » afin d'alimenter la base de connaissance du 
 L’onglet « Messages » vous permet de configurer les messages de base. Ce sont les réponses du chatbot dans des situations précises.
 
 
-::: danger Important !
+::: danger 🔴
 S'il existe plusieurs [**profils**](/articles/profil.html), configurez les messages de bases propres à chaque profil.
 :::
 
@@ -94,7 +94,7 @@ Il n'est pas nécessaire de présenter en détail le chatbot, en effet, une fois
 
 Le bouton « Ajouter une alternative » permet d'ajouter une reformulation des messages de base, le chatbot choisit de manière aléatoire parmis les alternatives.
 
-::: warning Attention !
-💾 N'oubliez pas d'enregistrer après toute modification !
+::: tip 💾
+N'oubliez pas d'enregistrer après toute modification !
 :::
 

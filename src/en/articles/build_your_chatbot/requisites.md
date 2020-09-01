@@ -6,7 +6,7 @@ Before performing this step, your chatbot must be created on the Witivio platfor
 
 ## Creation of an Azure Bot Channel
 
-::: warning Attention !
+::: warning ⚠️
 Before starting, you must have access to an Azure subscription.
 :::
 
@@ -99,7 +99,7 @@ When created, your chatbot Teams does not have an picture.
 
 To add a photo, access the bot channel on Azure. Click on Settings then Add a picture.
 
-::: tip Save !
-<strong>💾 Don't forget to register!</strong>
+::: tip 💾
+Don't forget to register !
 :::
 

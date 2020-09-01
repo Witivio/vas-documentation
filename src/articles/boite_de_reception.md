@@ -12,11 +12,11 @@ Lorsqu'un utilisateur pose une question, une intelligence artificielle calcule p
 
 La boîte de réception permet donc de répertorier toutes les questions pour lesquelles le chatbot n'a pas de réponse ou n'a pas su répondre directement.
 
-::: danger Important
+::: danger 🔴
 La boîte de réception permet au coach de traiter les questions non comprises afin d’assurer une amélioration continue des connaissances du chatbot.
 :::
 
-::: warning 💡️ Bonne pratique
+::: tip 💡️ Bonne pratique
 Il est essentiel de traiter les données de la boîte de réception régulièrement afin de consolider les connaissances du chatbot.
 :::
 
@@ -55,7 +55,7 @@ Les règles des scores sont les règles qui déterminent le déclenchement de l�
 
 4.  **Pas de réponse:** le chatbot ne connaît pas la réponse lorsque le score est inférieur à 30%.
 
-::: warning Attention !
+::: warning ⚠️
 Si dans l’onglet « Pas de réponse » vous retrouvez des scores supérieurs à 30%, cela s’explique par le fait que l’utilisateur a fait le choix « aucune de ces questions » lorsque l'Active Learning s'est déclenché.
 :::
 

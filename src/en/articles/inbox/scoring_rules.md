@@ -1,6 +1,8 @@
 # Scoring rules
 
-👉 The scoring rules are the rules which determine the triggering of the
+::: tip 💡️
+The scoring rules are the rules which determine the triggering of the
+:::
 
 -   [**Active Learning**](/en/articles/tools/active_learning.html),
 
@@ -24,7 +26,7 @@
     30%.
 
 
-::: warning Attention !
+::: warning ⚠️
 If you find scores above 30% in the "No answer" tab, it means that the user
 chose "none of these questions" when the Active Learning was triggered.
 :::

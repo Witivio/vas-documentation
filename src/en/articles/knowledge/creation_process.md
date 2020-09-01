@@ -73,7 +73,7 @@ A new version (V2) of the Webchat window allows to display the Adaptive Card
 answers. This version does not overwrite the current version (V1), however, the
 latter will no longer be supported, from October 1, 2019.
 
-::: warning Attention !
+::: warning ⚠️
 Don't forget to migrate to the new version!
 :::
 
@@ -86,7 +86,7 @@ the other hand, this version allows to avoid adding webchats without permission.
 The Webchat Is also available in the Webchat channel in the "Settings" tab.
 Here, it is possible the test and talk directly to the chatbot in production.
 
-::: warning Attention !
+::: warning ⚠️
 In case you want to add a conversation tree to your knowledge base and the latter already contains a large number of questions with simple and contextual answers, the training (i.e. synchronization) can be longer. Click on "Train" and wait until the button is greyed out, before continuing to build your knowledge. 
 :::
 

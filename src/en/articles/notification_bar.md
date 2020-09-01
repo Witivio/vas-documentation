@@ -20,8 +20,8 @@ This tab allows you to:
   <img :src="$withBase('/assets/img/en/notification_bar/notification2.png')" alt="low score">
 </div>
 
-::: tip Note
-💾 Do not forget to save changes !
+::: tip 💾
+Do not forget to save changes !
 :::
 
 

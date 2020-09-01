@@ -2,7 +2,7 @@
 
 Pour lancer une communication push, il vous faut créer une campagne. Cliquez sur « **Communication** » puis « **Campagnes** »
 
-::: warning Attention !
+::: warning ⚠️
 Cet onglet est disponible uniquement pour les chatbots ayant Skype ou Teams comme canal de diffusion.
 :::
 
@@ -95,7 +95,7 @@ Cliquez sur "**INFORMATIONS**" pour connaître :
 
 Vous pouvez également supprimer ou décider de tester votre campagne.
 
-::: warning Attention !
+::: warning ⚠️
 Une fois une campagne démarrée, elle ne pourra être ni modifée ni annullée.
 :::
 
@@ -122,8 +122,8 @@ Voici un exemple.
 </div>
 
 
-::: tip Enregistrer !
-💾 N’oubliez pas d’enregistrer après toute modification !
+::: tip 💾
+N’oubliez pas d’enregistrer après toute modification !
 :::
 
 ::: tip How to create a push campaign

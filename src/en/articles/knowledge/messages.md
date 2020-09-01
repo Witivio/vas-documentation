@@ -17,30 +17,23 @@ The "Messages" tab gives you the possibility to configure basic messages. These
 are the chatbot's answers in specific situations:
 
 -   Hello
-
 -   Goodbye
-
 -   When the chatbot is not sure about my answer
-
 -   When the chatbot can’t find the answer in the knowledge base
-
 -   Thank you
-
 -   When the user need help
 
 **These messages are essential to create a chatbot on the Witivio platform!**
 
 In case a chatbot has different [**profiles**](/en/articles/profile), you have to configure the messages for each profile.
 
-::: warning 💡 Good practice
+::: tip 💡 Good practice
 1.  **“What should I say when users say Hello?”**
 
 When configuring this message, it is recommended to:
 
 -   Remind the name (for example: Mary)
-
 -   Indicate the area of expertise (for example: HR )
-
 -   Give some examples of questions that the chatbot can answer
 :::
 
@@ -94,12 +87,12 @@ example its area of expertise and some sample questions.s
 This message allows the chatbot to initiate a conversation on the Webchat or
 Teams.
 
-::: warning 💡 Good practice
+::: tip 💡 Good practice
 It is not necessary to present the chatbot in detail, indeed,
 once the chat window is open, the "Hello" message is automatically displayed.
 :::
 
-::: tip Save !
-💾 Do not forget to save changes !
+::: tip 💾
+Do not forget to save changes !
 :::
 

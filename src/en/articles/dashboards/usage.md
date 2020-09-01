@@ -8,14 +8,14 @@
 
 Click on “**Dashboards**” then "**Usage**" to get the usage report.
 
-::: warning Attention !
-⚠️Choose the **time period** you want to display (Today, the last 7, 14, 30 days
+::: warning ⚠️
+Choose the **time period** you want to display (Today, the last 7, 14, 30 days
 or the last 12 months) (1) by clicking on the filter at the top right. This will
 display the corresponding tiles.
 :::
 
-::: warning Attention !
-⚠️ The usage report can be also filtered according to the existing **profiles**
+::: warning ⚠️
+The usage report can be also filtered according to the existing **profiles**
 (2) but also according to the **channels** (3).
 :::
 

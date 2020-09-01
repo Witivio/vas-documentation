@@ -28,7 +28,7 @@ Ce qui diffère cette option de la précédente est que cette dernière permet d
 -   Si uniquement la deuxième option est activée (identité des utilisateurs): vous savez qui a parlé au chatbot mais vous n'avez pas l'information concernant ce que l'utilisateur a dit.
 -   Si la deuxième option est désactivée : la plateforme remplace l'identité de l'utilisateur par un identifiant (Skype : Adresse SIP, Teams: UPN). Il s'agit d'un identifiant généré par un Hash, vous n'aurez donc pas la possibilité de savoir qui est l'utilisateur.
 
-::: warning Attention !
+::: warning ⚠️
 L' anonymisation n'est pas rétroactive. Chaque message reçu par le chatbot applique les paramètres de confidentialité en vigueur au moment de la réception. Si le paramétrage change alors qu'un utilisateur est en pleine conversation avec le bot, les nouveaux paramètres seront appliqués jusqu'à 10 minutes après enregistrement des nouveaux paramètres.
 :::
 
@@ -42,9 +42,9 @@ Vous devrez alors personnaliser le message de prévention.
 
 >Exemple : Bonjour, notre conversation est enregistrée. SI tu ne souhaites pas que tes données personnelles soient sauvegardées à des fins d'amélioration, je t'invite à poser tes questions à tes collègues. Pour plus d'informations, voici le lien vers notre politique de protection des données personnelles de l'entreprise.
 
-::: warning Attention !
-Les données que Witivio est susceptible d'enregistrer sont les suivantes :
->* E-mail (en fonction du canal : UPN et/ou SIP) - Nom - Prénom.
+::: warning ⚠️
+* Les données que Witivio est susceptible d'enregistrer sont les suivantes :
+  * E-mail (en fonction du canal : UPN et/ou SIP) - Nom - Prénom.
 :::
 
 Ces données sont exploitées uniquement lorsque l'enregistrement de l'historique de conversation et celui de l'identité des utilisateurs sont activés à des fins d'amélioration de la performance du chatbot.
@@ -189,7 +189,7 @@ Il est possible de désactiver les intentions préconfigurées liées au RGPD. C
   <img :src="$withBase('/assets/img/fr/parametres/rgpd5.png')" alt="low score">
 </div>
 
-::: warning Note !
+::: warning ⚠️
 La désactivation des intentions liées au RGPD fait que les utilisateurs ne peuvent plus demander au chatbot de compiler leurs données et de les anonymiser. Nous vous conseillons lors de la désactivation des intentions de ne pas stocker l'identité de l'utilisateur pour éviter tout problème de données personnelles.
 :::
 

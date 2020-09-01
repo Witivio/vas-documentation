@@ -30,7 +30,7 @@ This tab is automatically set up but it is possible to modify its settings:
     return (3).
 -   the chatbot can also list users' choices during Active Learning (4).
 
-::: tip Note !
-💾 Don't forget to save changes!
+::: tip 💾
+Don't forget to save changes!
 :::
 

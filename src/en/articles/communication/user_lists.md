@@ -7,7 +7,7 @@ Click on **“Communication”** then “**User lists**”.
 </div>
 
 
-::: warning Attention !
+::: warning ⚠️
 The “Communication” tab is available only for chatbots with the channel Skype
 for Business.
 :::
@@ -24,11 +24,11 @@ These lists can be configured:
 </div>
 
 
-::: warning Attention !
+::: warning ⚠️
 Add **SIP addresses** for Skype and **UPN adresses** for Microsoft Teams. 
 :::
 
-::: warning Attention !
+::: warning ⚠️
 All lines of the file (name, first name, SIP/UPN address) must be filled in.
 :::
 
@@ -77,7 +77,7 @@ Click on “EDIT” to modify the name of the list, to delete it or add users.
 </div>
 
 
-::: danger Important !
+::: danger 🔴
 When you want to create a push campaign on Microsoft Teams, you have the possiblity to know if your recipients have installed the chatbot application in Microsoft Teams. 
 Only users with the Teams icon to the right of their address will receive the push message. 
 :::
@@ -87,7 +87,7 @@ Only users with the Teams icon to the right of their address will receive the pu
 </div>
 
 
-::: tip Note !
-💾 Save changes!
+::: tip 💾
+Save changes!
 :::
 

@@ -22,11 +22,11 @@ click on the sample.
 </div>
 
 
-::: warning Attention !
+::: warning ⚠️
 Add **SIP addresses** and not email addresses.
 :::
 
-::: warning Attention !
+::: warning ⚠️
 All lines of the file (name, first name, SIP address) must be filled in.
 :::
 
@@ -56,8 +56,8 @@ Click on “EDIT” to modify the name of the list, to delete it or add users.
 </div>
 
 
-::: tip Note !
-💾 Save changes!
+::: tip 💾
+Save changes!
 :::
 
 

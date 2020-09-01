@@ -15,12 +15,12 @@ called the confidence score. [**(See : scoring rules)**](/en/articles/inbox/scor
 The inbox therefore makes it possible to list all the questions for which the
 chatbot has no answer or has not been able to answer directly.
 
-::: danger Important !
+::: danger 🔴
 The inbox allows the coach to handle unanswered questions in order to
 guarantee a continuous improvement of the chatbot's knowledge.
 :::
 
-::: warning 💡️ Good practice
+::: tip 💡️ Good practice
 It is essential to process the inbox data regularly in order to
 consolidate the chatbot's knowledge.
 :::
@@ -70,7 +70,7 @@ The scoring rules are the rules which determine the triggering of the
 4.  **No answer:** the chatbot does not know the answer when the score is under
     30%.
 
-::: warning Attention !
+::: warning ⚠️
 If you find scores above 30% in the "No answer" tab, it means that the user
 chose "none of these questions" when the Active Learning was triggered.
 :::

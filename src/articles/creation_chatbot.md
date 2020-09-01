@@ -40,8 +40,9 @@ Entrez ensuite le nom de votre société et cliquez sur Activer pour débuter l'
 Création de votre chatbot 
 -----
 
-
-👉 **C'est parti!** Depuis la page d'acceuil, Jeff, votre assistant vous guide pour créer et activer votre nouveau chatbot. Rien de plus simple, il suffit de cliquer sur "Créer un nouveau chatbot"
+::: tip C'est parti ! 👉  
+Depuis la page d'acceuil, Jeff, votre assistant vous guide pour créer et activer votre nouveau chatbot. Rien de plus simple, il suffit de cliquer sur "Créer un nouveau chatbot"
+:::
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/creation_chatbot/trial6.png')" alt="creation chatbot">
@@ -54,15 +55,14 @@ Tout d’abord, un chatbot est conçu pour répondre à des besoins spécifiques
   <img :src="$withBase('/assets/img/fr/creation_chatbot/trial4.png')" alt="creation chatbot">
 </div>
 
+::: warning 💡 Bonnes pratiques
 
-> 💡**Bonnes pratiques**
->
->Afin de ne pas confondre un chatbot et un être humain, il est conseillé de ne pas attribuer au chatbot un prénom commun.
+Afin de ne pas confondre un chatbot et un être humain, il est conseillé de ne pas attribuer au chatbot un prénom commun.
 
->Il est également important de ne pas tromper l’utilisateur au travers la photo : le chatbot doit être totalement transparent. Il faut donc éviter d’ajouter une photo à apparence humaine.
+Il est également important de ne pas tromper l’utilisateur au travers la photo : le chatbot doit être totalement transparent. Il faut donc éviter d’ajouter une photo à apparence humaine.
 
->Le format de la photo est de 96x96 px. Si vous n'avez pas de photo, il sera possible de la modifier ultérieurement en cliquant sur l’onglet "PARAMETRES" puis à nouveau [**"Paramètres"**](/articles/parametres/parametres.html).
-
+Le format de la photo est de 96x96 px. Si vous n'avez pas de photo, il sera possible de la modifier ultérieurement en cliquant sur l’onglet "PARAMETRES" puis à nouveau [**"Paramètres"**](/articles/parametres/parametres.html).
+:::
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/creation_chatbot/trial5.png')" alt="creation chatbot">
 </div>
@@ -92,7 +92,9 @@ Configuration du chatbot
 
 Une fois le chatbot crée, une phase de configuration est nécessaire. Pour cela, sélectionnez la langue principale.
 
->💡️ Il sera possible de rajouter une ou plusieures langues supplémentaires ultérieurement via la plateforme une fois le chatbot crée et configuré. (Onglet "PARAMETRES" > "Paramètres" > "Langues". 
+::: tip 💡️ 
+Il sera possible de rajouter une ou plusieures langues supplémentaires ultérieurement via la plateforme une fois le chatbot crée et configuré. (Onglet "PARAMETRES" > "Paramètres" > "Langues". 
+:::
 
 En cliquant sur "je t’autorise", le chatbot sera autorisé accéder au site [**SharePoint**](/articles/parametres/parametres.html#sharepoint) pour lire et écrire les fichiers Visio pour les arbres de conversation.
 
@@ -140,8 +142,8 @@ Vous pouvez également saisir les questions/réponses manuellement.
 </div>
 
 
-::: tip 
-👉 C’est parti ! 🕺
+::: tip 👉
+C’est parti ! 🕺
 :::
 
 

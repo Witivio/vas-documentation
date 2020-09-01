@@ -5,11 +5,11 @@
 
 La campagne push est un nouveau moyen de communication qui permet au chatbot de diffuser une information en interne (par exemple : diffuser les bonnes pratiques et/ou des évènements éphémères) : le chatbot vient parler à l'utilisateur.
 
-::: warning 💡️ Bonne pratique
+::: tip 💡️ Bonne pratique
 La communication push est également un moyen intéressant pour indiquer l'existence du chatbot et le promouvoir.
 :::
 
-::: warning Attention !
+::: warning ⚠️
 Cet outil est disponible sur Skype et Microsoft Teams également, mais n'est pas disponible en Webchat.
 :::
 

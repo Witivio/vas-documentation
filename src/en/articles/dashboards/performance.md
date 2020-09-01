@@ -6,13 +6,13 @@
 
 Click on “Dashboards” then "Performance" to get the performance report.
 
-::: warning Attention !
+::: warning ⚠️
 Choose the time period you want to display (Today, the last 7, 14, 30 days or
 the last 12 months) (1) by clicking on the filter at the top right. This will
 display the corresponding tiles.
 :::
 
-::: warning Attention !
+::: warning ⚠️
 The performance report can be also filtered according to the existing profiles
 (2) but also according to the channels (3).
 :::

@@ -80,7 +80,7 @@ The webchat channel is automatically activated.
 </div>
 
 
-::: danger Important !
+::: danger 🔴
 The Webchat window is your chatbot in integration and allows you to test the chatbot before publishing it.
 :::
 
@@ -189,7 +189,7 @@ the choice of the new profile in the test.
 
 The Webchat allows you to manage the **security of the chatbot** in a better way. It allows you to know where the webchat is deployed. For governance purposes, it is mandatory to explicitly indicate where the webchat is located, and therefore declare the different sites on which it will be available.
 
-::: warning Attention !
+::: warning ⚠️
 **Without this explicit definition, the webchat will not upload to your site**. This prevents a person from adding webchat without permission.
 :::
 
@@ -197,7 +197,7 @@ The Webchat allows you to manage the **security of the chatbot** in a better way
   <img :src="$withBase('/assets/img/en/settings/settingsuserlist8.png')" alt="low score">
 </div>
 
-::: danger Important !
+::: danger 🔴
 The Webchat also appears in the Webchat channel settings tab, so you can test and talk directly to the chatbot in production.
 :::
 
@@ -247,7 +247,7 @@ The webchat is now available from your pages in your SharePoint site.
   <img :src="$withBase('/assets/img/en/settings/settingsuserlist12.png')" alt="low score">
 </div>
 
-::: tip Note !
+::: tip 💡
 It will not appear until you configure it.
 :::
 
@@ -255,7 +255,7 @@ It will not appear until you configure it.
 
 Please refere to the article above to understand the configuration
 
-::: tip Note !
+::: tip 💡
 When adding the webpart to SharePoint the user context is send to the webchat. That means that the upn and the name of the user is send to the bot. Do not forget to review your privacy policies if you want your users to be anonymous.
 :::
 

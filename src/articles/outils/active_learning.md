@@ -20,7 +20,7 @@ De plus, vous pouvez indiquer l’expression qui sera utilisée par le chatbot l
 
 Le nombre d’élément que doit retourner l’Active Learning est également paramétrable (4).
 
-::: tip Note !
-💾 N'oubliez pas d'enregistrer après toute modification!
+::: tip 💾
+N'oubliez pas d'enregistrer après toute modification!
 :::
 

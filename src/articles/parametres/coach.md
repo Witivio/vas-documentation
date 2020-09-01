@@ -27,6 +27,6 @@ Cliquez sur « ajouter un co-administrateur » (1) afin d’ajouter les noms des
 
 Afin que ces co-administrateurs n'aient accès qu'au chatbot sélectionné,il vous faudra les supprimer en tant que user en cliquant sur votre icône en haut à droite, puis sur " Administrateurs".
 
-::: tip 
+::: tip 💡
 En savoir plus sur les [**super adminitrateurs**](/articles/administrateur_de_licence)
 :::

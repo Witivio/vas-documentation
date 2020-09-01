@@ -42,8 +42,12 @@ Ajoutez ensuite ce package dans Teams. Choisissez une équipe et un canal sous c
 
 Le canal Webchat est activé par défaut.
 
-::: danger Important
-La fenêtre Webchat <img class="webchat_img" :src="$withBase('/assets/img/fr/parametres/canaux4.png')" alt="canaux"> est votre chatbot en intégration et vous permet de le tester et voir ses comportements, avant la publication de ses connaissances. Lorsque vous modifiez le profil dans la base de connaissances, le chatbot prend en compte le choix du nouveau profil dans le test.
+<div class="image_center">
+  <img class="webchat_img" :src="$withBase('/assets/img/fr/parametres/canaux4.png')" alt="canaux">
+</div>
+
+::: danger 🔴
+La fenêtre Webchat est votre chatbot en intégration et vous permet de le tester et voir ses comportements, avant la publication de ses connaissances. Lorsque vous modifiez le profil dans la base de connaissances, le chatbot prend en compte le choix du nouveau profil dans le test.
 :::
 
 ## Configuration du composant webchat V2
@@ -204,7 +208,7 @@ La fenêtre Webchat <img class="webchat_img" :src="$withBase('/assets/img/fr/par
 
 La webchat géré également **la sécurité du chatbot** d'une meilleure façon. Elle permet de savoir où est déployée la webchat. A des fins de gouvernance, **il est obligatoire** d'indiquer explicitement où se trouve la webchat, et donc de déclarer les différents sites sur lesquels elle sera disponible.
 
-::: warning Attention !
+::: warning ⚠️
 **Sans cette définition explicite, la webchat ne chargera pas sur votre site**. Cela permet d'éviter qu'un individu ajoute la webchat sans que cela soit autorisé.
 :::
 
@@ -213,7 +217,7 @@ La webchat géré également **la sécurité du chatbot** d'une meilleure façon
 </div>
 
 
-::: danger Important
+::: danger 🔴
 La fenêtre Webchat s'affiche également dans le canal de diffusion Webchat (onglet "Paramètres"), afin de vous permettre de tester et parler directement au chatbot en production.
 :::
 
@@ -262,13 +266,13 @@ La webchat est maintenant disponible à partir de vos pages sur votre site Share
   <img :src="$withBase('/assets/img/fr/parametres/canaux9.png')" alt="canauxe">
 </div>
 
-::: warning Note
+::: warning ⚠️
 Il n'apparaîtra pas tant que vous ne l'avez pas configuré.
 :::
 
 5. Sélectionnez le crayon pour éditer les paramètres. Veuillez vous référer à l'article ci-dessus pour comprendre la configuration.
 
-::: warning Note
+::: warning ⚠️
 Lors de l'ajout de la Webpart à SharePoint, le contexte utilisateur est envoyé via la webchat. Cela signifie que l'utilisateur et le nom de l'utilisateur sont envoyés au bot. N'oubliez pas de consulter vos politiques de confidentialité si vous souhaitez que vos utilisateurs soient anonymes.
 :::
 

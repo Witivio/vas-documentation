@@ -27,7 +27,7 @@ able to access the chatbot.
   <img :src="$withBase('/assets/img/en/settings/coach2.png')" alt="low score">
 </div>
 
-::: warning Attention !
+::: warning ⚠️
 In order to allow these co-administrators (coaches) to access only the
 selected chatbot, you will have to delete them as users by clicking on the icon
 at the top right, then on “Administrators”.

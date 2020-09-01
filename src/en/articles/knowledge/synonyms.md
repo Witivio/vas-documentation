@@ -35,7 +35,7 @@ Synonym of vacation
 </div>
 
 
-::: danger Important !
+::: danger 🔴
 The synonyms can be listed by alphabetical order or by creation date.
 :::
 
@@ -44,7 +44,7 @@ The synonyms can be listed by alphabetical order or by creation date.
 </div>
 
 
-::: warning Attention !
+::: warning ⚠️
 To synchronize the synonyms, click on "PUBLISH" at the top right of the page.
 :::
 

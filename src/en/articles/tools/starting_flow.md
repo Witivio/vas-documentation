@@ -23,7 +23,7 @@ Sharepoint and download Visio forms directly from the platform.
 
 This allows you to modify the starting flow if necessary.
 
-::: danger Important !
+::: danger 🔴
 Click on “Synchronize” to updated your Starting flow.
 :::
 
@@ -32,7 +32,7 @@ Click on “Synchronize” to updated your Starting flow.
 </div>
 
 
-::: warning Attention !
+::: warning ⚠️
 Click on PUBLISH so that your conversation tree is available to users.
 Otherwise, it will only be available in the Webchat in integration. -\> phrase
 de arbre de conversation dans support escalade : voir quelle phrase mettre ici

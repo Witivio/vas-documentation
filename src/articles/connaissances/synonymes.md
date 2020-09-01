@@ -33,12 +33,12 @@ Synonymes de « dress-code » : équipement vestimentaire, tenue vestimentaire.
 </div>
 
 
-::: danger Important
+::: danger 🔴
 Les synonymes peuvent être filtrés par mot et classés par ordre alphabetique ou par date de création grâce aux filtres.
 :::
 <img :src="$withBase('/assets/img/fr/connaissances/synonyme4.png')" alt="low score">
 
-::: warning Attention !
+::: warning ⚠️
 Pour que les synonymes soient configurés, appuyez sur « **publier** » en haut à droite de la page.
 :::
 

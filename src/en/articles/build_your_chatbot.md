@@ -30,7 +30,9 @@ Enter your company name and click on Activate to start using your trial version.
 
 ## Create your chatbot
 
-👉 It’s time to create your chatbot !
+::: tip 💡️ 
+It’s time to create your chatbot !
+:::
 
 Your assistant Jeff will guide you through the creation and activation of your new chatbot. First, you need to go to [app.witivio.com](https://app.witivio.com) and click on <strong>Create a new chatbot</strong>.
 
@@ -45,7 +47,7 @@ A chatbot is built to meet specific needs therefore several use cases exist: cho
   <img :src="$withBase('/assets/img/en/build_your_chatbot/trialen3.png')" alt="trialen jeff chatbot witivio">
 </div>
 
-::: warning 💡 Good practices
+::: tip 💡 Good practice
 - In order to avoid confusing a chatbot with a person, it is recommended not to use a common first name.
 - It is also important not to mislead the user through the image: avoid adding a picture with a human appearance.
 - The photo size is 96x96 px (.jpg, .png). You can add or modify it later in the settings menu <strong>(Settings > Bot)</strong>.
@@ -64,7 +66,7 @@ Click on <strong>validate</strong> to finalize the creation.
 
 Once the chatbot is created, a configuration phase is necessary. First, select the main language.
 
-::: warning 💡️ Good practices
+::: tip 💡️ Good practice
 You can add other languages later in the settings menu once you created and configured the chatbot (Settings > Settings> Languages).
 :::
 
@@ -95,6 +97,6 @@ Your identity is saved by Witivio and remains valid for 90 days. Your Office 365
 
 The next step is optional and allows you to import from a SharePoint site. The latter is used to store Visio documents for conversation tree creation.
 
-::: tip 
-<strong>👉 Let’s go ! 🕺</strong>
+::: tip 👉 
+Let’s go ! 🕺
 :::

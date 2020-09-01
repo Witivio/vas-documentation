@@ -21,7 +21,7 @@ Une date de réinitialisation est indiquée à coté des rapports de performance
 </div>
 
 
-::: danger Important
+::: danger 🔴
 Les statistiques des tableaux de bord sont calculées toutes les heures fixes. Par exemple à 17h vous aurez accès à toutes les statistiques disponibles entre 16h et 17h. En revanche, à 16h55 les statistiques ne seront pas disponibles sur l'heure actuelle.
 :::
 

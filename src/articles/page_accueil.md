@@ -70,8 +70,8 @@ Ces données sont filtrables par chatbot, par coach, par page et par date. Elles
 
 Sur la page d'accueil de la plateforme, l'onglet [**Politiques de confidentialité**](/articles/administrateur_de_licence) vous permet de configurer les paramètres de confidentialités de manière globale pour l'ensemble des chatbots disponibles ou pour chacun de vos chatbots.
 
-::: tip Enregistrer!
-💾 N’oubliez pas d’enregistrer après toute modification !
+::: tip 💾
+N’oubliez pas d’enregistrer après toute modification !
 :::
 
 

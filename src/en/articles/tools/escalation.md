@@ -142,8 +142,8 @@ The Visio file displays. Acess the Sharepoint to modify your Visio file.
 
 Click here to know how to build a [**conversation tree**](/en/articles/Knowledges/Conversation%20tree.html) 
 
-::: danger Important !
-🔴 Click on “Synchronize” to updated your conversation tree.
+::: danger 🔴
+Click on “Synchronize” to updated your conversation tree.
 :::
 
 <div class="image_center">
@@ -151,14 +151,14 @@ Click here to know how to build a [**conversation tree**](/en/articles/Knowledge
 </div>
 
 
-::: danger Important !
+::: danger 🔴
 When the chatbot does not have the answer, he sends the conversation tree directly back without asking the question (for example) "Do you want me to create a ticket?
 :::
 
 In case you want this question to be asked, you have to add it to the
 conversation tree.
 
-::: warning Attention !
+::: warning ⚠️
 Click on PUBLISH so that your conversation tree is available to users.
 Otherwise, it will only be available in the Webchat in integration.
 :::
@@ -320,8 +320,8 @@ Once you configured the escalation, dowload **ZIP of the chatbot** and the **ZIP
 - Fill in the Id and password of the bot service (Click [here](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-3.0) to know more)
 - Select the support team create beforehand.
 
-::: tip Note !
-👉 When the following message is displayed in the Support Microsoft Teams team,
+::: tip 💡 
+When the following message is displayed in the Support Microsoft Teams team,
 it means that the escalation is correctly configured:
 :::
 
@@ -382,13 +382,13 @@ with the user.
 </div>
 
 
-::: warning Attention !
+::: warning ⚠️
 In order to allow the user to receive the message, the agent must identify by
 a tag \@ the chatbot and then write the message, For example " \@Mary-support.
 Hello ****, … "
 :::
 
-::: danger Important !
+::: danger 🔴
 When an agent accepts the support request but does not know the answer, he can
 ask a collaborator (belonging to the support team) for some help by using a \@
 tag. The second agent may also decide whether to accept or reject the support

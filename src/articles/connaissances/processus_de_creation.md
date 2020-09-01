@@ -54,7 +54,7 @@ Une fois l’information "**entraînée**", le bouton « **ESSAYER** » (4) perm
 
 Une nouvelle version (V2) de la fenetre Webchat permet l'affichage des réponses de type Adaptive Card. Cette version n'écrase pas la version actuelle (V1), cependant, cette dernière ne sera plus supportée à partir du 1er octobre 2019.
 
-::: warning Attention !
+::: warning ⚠️
 Pensez bien à migrer sur la nouvelle version!
 :::
 
@@ -64,7 +64,7 @@ Cette nouvelle version permet également de gérer la sécurité du chatbot d'un
 
 Si vous souhaitez aller pour loin, afin de tester les modifications de votre base de connaissances, vous avez la possibilité de créer un [**plan de test**](/articles/connaissances/plan_de_test.html).
 
-::: warning Attention !
+::: warning ⚠️
  Lorsque vous souhaitez ajouter un arbre de conversation dans votre base de connaissances et que celle-ci comporte déjà un nombre important que questions avec des réponses simples et contextuelles, l'entrainement (c'est à dire la synchronisation) peut être plus long. Cliquez sur "Entrainer" et patientez jusqu'à ce que le bouton soit grisé, avant de poursuivre la construction de vos connaissances.
 :::
 

@@ -4,7 +4,7 @@
 
 Before you start, in your Office 365 administration center [https://portal.office.com/adminportal/](https://portal.office.com/adminportal/), create a user with a password for the chatbot.
 
-::: warning 💡 Good Practice
+::: tip 💡 Good Practice
 - Verification: the password never expires
 - Uncheck: the user must change the password at the next login
 - License Skype for Business

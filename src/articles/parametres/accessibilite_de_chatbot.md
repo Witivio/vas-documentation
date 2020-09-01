@@ -54,12 +54,12 @@ L’adresse qui permet d’identifier un utilisateur dans la liste blanche chang
 * Microsoft Teams: adresses UPN
 * Webchat : l'adresse dépend de la configuration
 
-::: warning Attention !
+::: warning ⚠️
 Lorsqu'une la liste blanche est supprimée, le chatbot est à nouveau accèssible à tout le monde.
 :::
 
-::: tip Enregistrer !
-💾 N'oubliez pas d'enregistrer avant de quitter la page.
+::: tip 💾
+N'oubliez pas d'enregistrer avant de quitter la page.
 :::
 
 ## API d'autorisation
@@ -83,7 +83,7 @@ Pour cela, ajoutez un nouveau moyen d'autorisation et sélectionnez "API d'autor
 
 Vous avez la possibilité de tester votre API d'autorisation avant publication. Pour cela, utilisez le bouton "ESSAYER" en haut à droite de votre page de configuration.
 
-::: tip Enregistrer !
-💾 Une fois votre API d'autorisation configurée, n'oubliez pas d'enregistrer !
+::: tip 💾
+Une fois votre API d'autorisation configurée, n'oubliez pas d'enregistrer !
 :::
 

@@ -23,13 +23,13 @@ Vous nommez le nouveau profil, vous choisissez entre le tutoiement et le vouvoie
 
 Une fois le nouveau profil crée, cliquez sur "Modifier" si vous souhaitez changer les éléments ci-dessus.
 
-::: tip Note !
-💾 N’oubliez pas d'enregistrer !
+::: tip 💾
+N’oubliez pas d'enregistrer !
 :::
 
 # Gestion des profils
 
-::: danger Important
+::: danger 🔴
 Les profils ne sont valables que pour les questions de la base de connaissances ainsi que les messages de bases. Ils ne sont pas pris en compte pour le déclenchement d'une escalade et lors des campagnes push. Pour toutes les questions présentes dans la boîte de réception, le profil correspondant est affiché.
 :::
 
@@ -46,7 +46,7 @@ L'information de profil peut venir de :
 -   Azure AD
 -   Nous vous conseillons de consolider cette information via une API (à développer). Cette API peut-être facilement réalisée sans code via Microsoft Flow (voir ci-dessous).
 
-::: warning Attention !
+::: warning ⚠️
 L'api de gestion des profils n'est pas soumise à authentification.
 :::
 
@@ -60,7 +60,7 @@ Lorsqu'un utilisateur parle au chatbot pour la première fois, le chatbot determ
 
 Une fois détérminé le profil est valable 24 heures.
 
-::: warning Attention !
+::: warning ⚠️
 Cas particulier: Lorsque le profil n'est pas configuré (par exemple CDD dans le schéma ci-dessous), l'API renvoie par défaut l'information : profil Everyone.
 :::
 

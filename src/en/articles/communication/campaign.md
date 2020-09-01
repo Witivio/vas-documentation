@@ -3,7 +3,7 @@
 To start a push campaign, you have to create a campaign. Click on
 “**Communication**” tab then on “**Campaign**”.
 
-::: warning Attention !
+::: warning ⚠️
 This tab is available for chatbot with Skype for Business and Microsoft Teams as channel.
 :::
 
@@ -110,7 +110,7 @@ Click on « iNFORMATION » to know:
 
 >   You can also delete the campaign (DELETE button) or test it (TRY button).
 
-::: warning Attention !
+::: warning ⚠️
 Once a campaign has started, it cannot be modified or cancelled. 
 :::
 
@@ -131,8 +131,8 @@ The “TRY” button allows you to test if the campaign works well.
 Enter your e-mail address to check the efficiency of your campaign. If the
 campaign is configured well, you will get the message of the chatbot.
 
-::: tip Note !
-💾 Do not forget to save changes.
+::: tip 💾 
+Do not forget to save changes.
 :::
 
 ::: tip How to create a push campaign

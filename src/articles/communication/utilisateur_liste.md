@@ -2,7 +2,7 @@
 
 Cliquez sur l'onglet « **Communication** » puis « **Listes de diffusion** »
 
-::: warning Attention !
+::: warning ⚠️
 Cet onglet est disponible uniquement pour les chatbots avec Skype et Microsoft Teams comme canaux de diffusion.
 :::
 
@@ -16,11 +16,11 @@ Nommez cette liste. La configuration de ces listes peut se faire :
 
 **1) à partir d'un fichier Excel (liste statique).**. Pour connaître le format de ce fichier Excel, cliquez sur [**exemple**](https://witivio.blob.core.windows.net/static/list-sample.xlsx)" (1)..
 
-::: warning Attention !
+::: warning ⚠️
 Ajoutez les adresse SIP pour Skype et les adresses UPN pour Microsoft Teams.
 :::
 
-::: warning Attention !
+::: warning ⚠️
 Pour que la campagne push fonctionne, toutes les lignes (nom, prénom, adresse SIP/UPN) doivent être remplies.
 :::
 
@@ -49,8 +49,8 @@ Pour que la campagne push fonctionne, toutes les lignes (nom, prénom, adresse S
   <img :src="$withBase('/assets/img/fr/communication/liste_de_diffusion5.png')" alt="low score">
 </div>
 
-::: tip 
-👉 C’est parti !
+::: tip 👉
+C’est parti !
 :::
 
 
@@ -68,7 +68,7 @@ En cliquant sur "modifier'" vous pouvez changer le nom de la liste ou la supprim
 
 
 
-::: danger Important
+::: danger 🔴
 Lorsque vous souhaitez créer une campagne push sur Microsoft Teams, vous avez la possibilité de savoir si vos destinataires ont installé l'application du chatbot dans Microsoft Teams. Tout utilisateur ayant l'icône Teams à droite de son adresse, recevra le message push. 
 :::
 
@@ -77,7 +77,7 @@ Lorsque vous souhaitez créer une campagne push sur Microsoft Teams, vous avez l
 </div>
 
 
-::: tip Note !
-💾 N’oubliez pas d'enregistrer !
+::: tip 💾
+N’oubliez pas d'enregistrer !
 :::
 

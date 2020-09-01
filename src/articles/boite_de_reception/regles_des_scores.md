@@ -10,7 +10,7 @@ Les règles des scores sont les règles qui déterminent le déclenchement de l�
 
 4.  **Pas de réponse** : le chatbot ne connaît pas la réponse lorsque le score est inférieur à 35%.
 
-::: warning Attention !
+::: warning ⚠️
 Si dans l’onglet « Pas de réponse » vous retrouvez des scores supérieurs à 30%, cela s’explique par le fait que l’utilisateur a fait le choix « aucune de ces questions » lorsque l'Active Learning s'est déclenché.
 :::
 

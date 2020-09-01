@@ -7,12 +7,12 @@ Deux possibilités s'offrent à vous afin d'activer votre chatbot en multilingue
 
 Aujourd'hui, les chatbots Witivio s’expriment en français, anglais, allemand et italien.
 
-::: warning Attention !
+::: warning ⚠️
 Pour rappel, toute langue activée doit avoir une base de connaissance correspondate. Dans l'onglet Paramètres puis Multilingue, cochez donc la langue souhaitée puis accédez à l'onglet Connaissances > FAQ afin d'ajouter les questions corréspondantes.
 :::
 
-::: tip Enregistrer !
-💾 N’oubliez pas de cliquer sur "Sauvegarder" lorsque vous ajoutez/enlevez une langue.
+::: tip 💾
+ N’oubliez pas de cliquer sur "Sauvegarder" lorsque vous ajoutez/enlevez une langue.
 :::
 
 <div class="image_center">
@@ -30,7 +30,7 @@ Pour rappel, toute langue activée doit avoir une base de connaissance correspon
 
 -   **Détection de la langue:** lorsque l’utilisateur commence la discussion, le chatbot reconnaît automatiquement la langue souhaitée. Par exemple, si l’utilisateur débute la conversation par « Bonjour », le chatbot détecte la langue française et la conversation continuera en français.
 
-::: warning Attention !
+::: warning ⚠️
 Commencer une conversation par « Hello » pourrait induire le chatbot en erreur, car il s’agit d’un terme courant en français également.
 :::
 
@@ -91,11 +91,11 @@ Les questions posées en Espagnol et Bosniaque sont détéctées et traduites al
 
 Enfin, vous pouvez décider de traduire ou ne pas traduire la réponse.
 
-::: warning Attention !
+::: warning ⚠️
 Lorsque la traduction automatique est configurée, la mise en forme des réponses n'est pas conservée et peut donc être altérée.
 :::
 
-::: warning Attention !
+::: warning ⚠️
   Veuillez également noter que certains termes, tels que des mots métiers peuvent être traduits.
 :::
 

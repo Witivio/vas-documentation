@@ -113,13 +113,13 @@ Cliquez ici pour avoir plus d'informations sur comment construire un [**arbre de
 </div>
 
 
-::: danger Important
+::: danger 🔴
 Lorsque le chatbot n'a pas la réponse, il renvoie directement l'arbre de conversation sans poser la question (par exemple) "Souhaitez-vous que je crée un ticket?". Si vous souhaitez que cette question soit posée, il vous suffit de l'ajouter dans l'arbre de conversation.
 :::
 
 Une fois ce type d'escalade ajouté, vous pouvez modifier l'ordre de priorité, synchroniser ou supprimer l'arbre de conversation ainsi qu'ouvrir SharePoint.
 
-::: warning Attention !
+::: warning ⚠️
 N'oubliez pas de PUBLIER pour que votre arbre de conversation soit disponible pour les utilisateurs. Lorsque vous ne publiez pas, il sera disponible seulement dans la fenêtre Webchat en intégration.
 :::
 
@@ -256,7 +256,7 @@ Une fois l'escalade configurée, téléchargez le fichier ZIP du chatbot ainsi q
 - Sélectionnez l'équipe support Teams créer au préalable.
 - Renseignez l'Id et le mot de passe du bot service (Cliquez ici pour en savoir plus)
 
-::: tip 
+::: tip 💡
 Lorsque le message suivant apparait dans l'équipe Support Teams, cela signifie que l'escalade est correctement configurée:
 :::
 
@@ -309,11 +309,11 @@ L’agent clique sur le bouton « Déconnecter » lorsqu’il souhaite terminer 
 </div>
 
 
-::: warning Attention !
+::: warning ⚠️
 Pour que l’utilisateur reçoit les messages, l’agent doit obligatoirement identifier par un tag @ le chatbot et rédiger ensuite le message souhaité. Par exemple " @Mary . Bonjour Tanguy, il faut que le collaborateur soit dans l'entreprise depuis plus de 6 mois (période d'essai terminée)"
 :::
 
-::: danger important
+::: danger 🔴
 Lorsqu’un agent accepte la demande de support mais n’a pas la réponse, il peut solliciter un collaborateur (faisant partie de l’équipe Teams support) par un simple tag @. Le deuxième agent peut également décider d’accepter ou refuser la demande de support.
 :::
 

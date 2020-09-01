@@ -94,7 +94,7 @@ Depending on the channel, the following information is filled in:
     -   Display Name (which corresponds to the UserName property in the webchat
         configuration)
 
-::: warning Attention !
+::: warning ⚠️
 There is no need to make a distinction between channels if you only have one
 configured or if your email, upn and sip addresses are the same.
 :::

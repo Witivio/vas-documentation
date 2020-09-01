@@ -51,7 +51,7 @@ message.
     with an Id (Skype: SIP address, Teams: UPN). This is an identifier generated
     by a Hash, so you will not be able to know who the user is.
 
-::: warning Attention !
+::: warning ⚠️
 Anonymization is not retroactive. Each message received by the chatbot applies
 the privacy settings in effect at the time of receipt. If the setting changes
 while a user talks with the bot, the new settings will be applied up to 10
@@ -76,7 +76,7 @@ not wish your personal data to be saved for improvement purposes, I invite you
 to ask your colleagues your questions. Here is the link to our company's
 personal data protection policy.
 
-::: warning Attention !
+::: warning ⚠️
 The data that Witivio may record are:
 :::
 
@@ -191,7 +191,7 @@ If the chatbot is multi-channel, it is possible that the file does not contain a
 
 When a user asks the chatbot to anonymize his data, the chatbot executes the request. He compiles all the data about the user (as if it was going to send them) and starts the update process. The text of messages sent to and from the chatbot is replaced by the string"(anonymized)" and the identifiers are replaced by a hash.
 
-::: tip Note !
+::: tip 💡
 Escalation lists and distribution lists are not modified because they are necessary for the good functioning of the application.
 :::
 
@@ -223,7 +223,7 @@ It is possible de disable the intentions previously configured and linked to the
   <img :src="$withBase('/assets/img/en/settings/gdpr4.png')" alt="GDPR">
 </div>
 
-::: warning Attention !
+::: warning ⚠️
 The deactivation of GDPR intentions means that users can no longer ask the chatbot to compile their data and anonymize it. We advise you, when disabling intentions, not to store the user's identity to avoid any personal data problems.
 :::
 

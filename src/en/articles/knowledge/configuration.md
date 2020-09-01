@@ -21,7 +21,7 @@ Click on **Knowledge** then **Configuration**.
 Automatic spell checker (1) can be activated or deactivated. When this feature
 is enabled, the chatbot corrects spelling and typing mistakes.
 
-::: warning Attention !
+::: warning ⚠️
 Business acronyms may also be corrected by the automatic spell checker can
 also correct them.
 :::

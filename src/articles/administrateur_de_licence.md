@@ -11,12 +11,9 @@ Cliquez sur votre icône en haut à droite de la plateforme puis sur "**Administ
 
 La page "**Administrateurs**" permet de rajouter ou de supprimer des coachs de licence aux chatbots.
 
-::: tip
-Les administrateurs de licence sont les coachs qui ont accès à l'ensemble des chatbots d'une licence.
-:::
-
-::: tip
-**Un coach** n'a accès uniquement à un ou plusieurs chatbot(s) défini(s). L'accès des coachs à la plateforme est geré depuis l'onglet Paramètres > Coach.
+::: tip 💡
+* Les administrateurs de licence sont les coachs qui ont accès à l'ensemble des chatbots d'une licence.
+* **Un coach** n'a accès uniquement à un ou plusieurs chatbot(s) défini(s). L'accès des coachs à la plateforme est geré depuis l'onglet Paramètres > Coach.
 :::
 
 Pour rappel, le coach est la personne qui assure l’amélioration continue du chatbot. Il lui apprend les questions auxquelles il ne sait pas répondre et améliore l’ensemble de ses connaissances (questions, réponses, synonymes…).

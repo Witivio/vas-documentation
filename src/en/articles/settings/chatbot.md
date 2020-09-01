@@ -57,12 +57,12 @@ according to the channel:
 -   Microsoft Teams: UPN adress
 -   Webchat: the adress depend on the configuration
 
-::: warning Attention !
+::: warning ⚠️
 When a white list is deleted, the chatbot will again be access to everyone.
 :::
 
-::: tip Note !
-💾 Do not forget to save changes!
+::: tip 💾
+Do not forget to save changes!
 :::
 
 ## API d'autorisation
@@ -85,7 +85,7 @@ To do this, click on "add a new authorization mode" and select "Authorization AP
 
 You have the possibility to test your authorization API before publication. To do this, use the "TRY" button at the top right of your configuration page. 
 
-::: tip Note !
-💾 Once you have configured your authorization API, don't forget to register! 
+::: tip 💾
+Once you have configured your authorization API, don't forget to register! 
 :::
 

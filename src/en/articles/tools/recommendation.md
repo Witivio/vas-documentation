@@ -1,6 +1,6 @@
 # Recommendation
 
-::: tip Note !
+::: tip 💡
 A recommendation tool allows you to provide additional content in addition to the first answer. This recommendation tool is available for the Teams app "Learn". 
 :::
 

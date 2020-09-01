@@ -48,13 +48,13 @@ the user when the chatbot send the welcome message (3).
 
 Once the profile is created, click on “EDIT” to modify its configuration.
 
-::: tip Note !
-💾 Remember to save changes !
+::: tip 💾 
+Remember to save changes !
 :::
 
 ## Profil management
 
-::: danger Important !
+::: danger 🔴
 The profiles are only available for the questions in the knowledge base and
 the messages. They are not taken into account when triggering an escalation and
 during push campaigns. For all questions in the inbox, the corresponding profile
@@ -77,7 +77,7 @@ The information of the profil may come from :
     (see below).
 
 
-::: warning Attention !
+::: warning ⚠️
 L'api for profile management is not submitted to an authentication.
 :::
 
@@ -92,7 +92,7 @@ profiles according to the following plan:
 
 Once determined, the profile is available 24 hours.
 
-::: warning Attention !
+::: warning ⚠️
 Specific situation: When a profile is not configured (for example, “permanent
 contract” in the diagram below), the API returns this information: profile -
 Everyone.

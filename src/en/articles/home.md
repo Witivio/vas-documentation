@@ -80,7 +80,7 @@ chatbots (2) :
 </div>
 
 
-::: tip Note
-💾 Remeber to save changes !
+::: tip 💾
+Remeber to save changes !
 :::
 

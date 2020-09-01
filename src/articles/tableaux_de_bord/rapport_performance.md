@@ -7,11 +7,11 @@
 
 Cliquez sur « **Performance** » afin d’obtenir le rapport de la performance.
 
-::: warning
+::: warning ⚠️
 Choisissez la période souhaitée (Aujourd'hui, les 7, 14, 30 derniers jours ou les 12 derniers mois) en cliquant en haut à droite sur le filtre (1). Ainsi les tuiles correspondantes s’afficheront.
 :::
 
-::: warning
+::: warning ⚠️
 Le rapport de la performance peut être filtré selon les profils existants mais également selon les canaux de diffusion (2).
 :::
 

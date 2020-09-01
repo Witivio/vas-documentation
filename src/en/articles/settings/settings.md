@@ -16,7 +16,7 @@ Click on **Settings tab** then **Settings** again.
 This tab allows to have information about the Id of the chatbot, but also to
 modify its name and pictue, when needed.
 
-::: tip Note !
+::: tip 💡
 You can also delete the chatbot.
 :::
 
@@ -86,8 +86,8 @@ forget to modify it in your APIs.
   <img :src="$withBase('/assets/img/en/settings/setting6.png')" alt="low score">
 </div>
 
-::: tip Note !
-💾 Save Changes!
+::: tip 💾
+Save Changes!
 :::
 
 

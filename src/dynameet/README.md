@@ -18,7 +18,7 @@ Pour en savoir plus, cliquez sur l'onglet Organiser.
 
 ## Comment ?
 
-::: danger Important
+::: danger 🔴
 Dynameet est disponible sur Skype et Teams et il est directement connecté à Exchange (Office 365) :
 :::
 

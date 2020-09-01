@@ -17,8 +17,8 @@ En cliquant sur « je t’autorise » , le chatbot sera mis à jour. Il est cons
 
 Cette autorisation permet au chatbot de récupérer les fichiers Visio afin de les synchorniser. Lorsque l'autorisation est expirée, cliquez sur le bouton "Je t'autorise" pour renouveler votre connexion à SharePoint.
 
-::: tip Enregistrer!
-💾 N’oubliez pas de sauvegarder !
+::: tip 💾
+N’oubliez pas de sauvegarder !
 :::
 
 
@@ -67,8 +67,8 @@ Si la clef n'est pas envoyée dans le header "witivio-apikey" de la requête alo
 
 Si vous pensez que la clef d'API n'est plus sécurisée, alors vous pouvez la régénérer. N'oubliez pas de la modifier dans vos API.
 
-::: tip Note!
-💾 N’oubliez pas de sauvegarder !
+::: tip 💾
+N’oubliez pas de sauvegarder !
 :::
 
 **Suppression des données**

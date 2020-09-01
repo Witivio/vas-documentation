@@ -20,7 +20,7 @@ Cliquez sur « **Connaissances** » puis « **Configuration** »
 
 La correction orthographique automatique (1) peut être activée ou désactivée. Lorsque cette fonctionnalité est activée, le chatbot corrige les fautes d'orthographe et les fautes de frappe de l'utilisateur.
 
-::: warning Attention !
+::: warning ⚠️
 Si vous utilisez des acronymes métiers, le correcteur orthographique peut également les corriger.
 :::
 

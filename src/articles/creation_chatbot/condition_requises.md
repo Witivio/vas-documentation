@@ -6,7 +6,7 @@ Avant de pouvoir effectuer cette étape, votre chatbot doit être créé sur la 
 
 ## Création d'un Azure Bot Channel
 
-::: warning Attention !
+::: warning ⚠️
 Avant de commencer, vous devez avoir accès à une souscription Azure.
 :::
 
@@ -99,7 +99,7 @@ Par défaut votre chatbot Teams n'a pas d'image.
 Pour lui ajouter une photo, accèdez au bot channel sur azure. Cliquez sur Settings puis Add a picture.
 
 
-::: tip Note !
-💾 N'oubliez pas d'enregistrer!
+::: tip 💾
+N'oubliez pas d'enregistrer!
 :::
 

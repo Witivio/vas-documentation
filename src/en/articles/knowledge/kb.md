@@ -39,9 +39,7 @@ from a FAQ, you can import this data into the platform. The file must be in
 Excel format and follow this specific form:
 
 -   **Column 1:** Questions
-
 -   **Columns 2:** The answers
-
 -   **Alternatives:** below the “principal” question. The altenative will be
     different than the e the same.
 
@@ -57,13 +55,14 @@ user.
   <img :src="$withBase('/assets/img/en/knowledge/kb3.png')" alt="low score">
 </div>
 
-::: warning In column 2 (answer)
-Copy/Paste the answer to have exactly the same for the question and the
+::: warning ⚠️
+* **In column 2 (answer)**
+* Copy/Paste the answer to have exactly the same for the question and the
 alternatives. If it’s written differently, the alternative will not be linked to
 its principal question.
 :::
 
-::: warning Attention !
+::: warning ⚠️
 **Title and header**
 :::
 
@@ -138,9 +137,7 @@ test and finally publish the questions and answers.
 In order to enrich the chatbot's knowledge base, it is necessary to add:
 
 -   [**Questions**](/en/articles/knowledge/kb.html#new-question)
-
 -   [**Alternatives**](/en/articles/knowledge/kb.html#alternatives) 
-
 -   [**Answers**](/en/articles/knowledge/kb.html#types-of-answer)
 
 ### New question
@@ -164,7 +161,7 @@ In order to enrich the chatbot's knowledge base, it is necessary to add:
 </div>
 
 
-::: danger Important !
+::: danger 🔴
 When you use a template, the platform will generate **alternatives**
 automatically.
 :::
@@ -234,22 +231,16 @@ Once the question is created, choose the appropriate answer:
 
 -   [**Simple answer:**](/en/articles/knowledge/kb.html#simple-answer) Write a simple and direct answer. Format it with the rich
     text editor. 
-
 -   [**Adaptive card answer:**](/en/articles/knowledge/kb.html#adaptive-card) Configure an Adaptive Card answer with a visual
     designer for advanced layout (available only for Webchat and Microsoft Teams
     channels). 
-
 -   [**Contextual answer:**](/en/articles/knowledge/kb.html#contextual-answer) Retrieve a context element from the user in order to
     provide the appropriate answer. 
-
 -   [**Conversation tree**](/en/articles/knowledge/kb.html#conversation-tree): Create a conversational tree to answer
     advanced requests or orders.
-
 -   **Microsoft Flow** (Coming soon): Connect to other applications with Microsoft Flow
     middleware to build your answer.
-
 -   **Webhook** (Coming soon): Connect directly to an API to build your answer.
-
 -   **Azure Logic Apps** (Coming soon): Connect to other applications with Azure Logic
     Apps middleware to build your answer.
 
@@ -281,8 +272,8 @@ See more about [**markdown**](/en/articles/knowledge/kb.html#advanced-settings)
 </div>
 
 
-::: tip Note !
-💾 Do not forget to save changes !
+::: tip 💾
+Do not forget to save changes !
 :::
 
 
@@ -358,8 +349,8 @@ Feel free to add new choices (4).
 </div>
 
 
-::: tip Note !
-💾 Remember to save changes!
+::: tip 💾
+Remember to save changes!
 :::
 
 
@@ -394,7 +385,7 @@ To add an image from a url, copy and paste it into the provided field.
 
 To add an image from the image gallery, go to the tab then you can either choose an already existing image or add one directly using the Add button, upload an image button or by a drag and drop.
 
-::: warning
+::: warning ⚠️
 The maximum image size is 2 MB and supported formats are .png, .jpeg and .gif.
 :::
 
@@ -414,7 +405,7 @@ To build a conversation tree, a synchronized Visio file in the Sharepoint librar
 * First, create a new question and choose conversation tree.
 * Click on “Create file”
 
-::: warning
+::: warning ⚠️
 Remove accents and apostrophes in the question before creating the file.
 :::
 
@@ -425,7 +416,7 @@ Remove accents and apostrophes in the question before creating the file.
 
 Click a second time on the question to have the preview of your Visio file (1).
 
-::: warning
+::: warning ⚠️
 On your **first time** using Visio , download the Witivio Templates. To do this, click on "**Download Visio stencils**" (2).
 :::
 
@@ -455,7 +446,7 @@ Open the file in Visio. To this, right-click on the new question, then “Open�
 </div>
 
 
-::: warning
+::: warning ⚠️
 The platform is compatible with Visio 2016 to Visio 2019 ( it is not compatible with the Visio 2013).
 :::
 
@@ -479,7 +470,7 @@ This first shape is **the only one** with text (the question) in the colored str
 
 You can now start building your tree. To this, first create your boxes.
 
-::: warning
+::: warning ⚠️
 In case you want to add a conversation tree to your knowledge base and the latter already contains a large number of questions with simple and contextual answers, the training (i.e. synchronization) can be longer. Click on "Train" and wait until the button is greyed out, before continuing to build your knowledge.
 :::
 
@@ -503,13 +494,13 @@ For example, if the chatbot need to ask a question to the user, add the “Bot Q
 When using the “Bot Question” shape, it is recommanded to add a choice “Other” ou “None of this choices”, in order to allow the user.
 :::
 
-::: danger Important
+::: danger 🔴
 Click here to acess all Witivio shapes which allow you create a dynamic conversation.
 :::
 
 Once you created all the boxes you need, use the “Relationship” shape <img :src="$withBase('/assets/img/en/knowledge/answer_shape2.png')" alt="low score"> to link one shape to another.
 
-::: warning
+::: warning ⚠️
 The green frame helps you to link boxes. To check if the relationship between the shapes is good, try to move the box.
 :::
 
@@ -521,8 +512,8 @@ The green frame helps you to link boxes. To check if the relationship between th
 Once you finish to draw the conversation tree, click on “Save”.
 
 <div class="image_center">
-  </div>
-<img :src="$withBase('/assets/img/en/knowledge/answer_shape4.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/knowledge/answer_shape4.png')" alt="low score">
+</div>
 
 
 
@@ -614,15 +605,10 @@ During a conversation with the chatbot, it is possible to come back to a previou
 {
 
 ‘’userId’’ : ‘’user id”
-
 ‘’userProfiled’’ : ’’profil id’’,
-
 ‘’userProfileName’’ : ‘profil name’’,
-
 ‘’userName’’ : ‘’display user’s name’’,
-
 ‘’VARIABLE1’’
-
 ‘’VARIABLE2’’
 
 }
@@ -674,35 +660,20 @@ Use the Visio Http header in order to add Headers (name, value) to your API.
 
 ```
 [INDEX OF THE API SHAPE IN THE FLOW]
-
 :
-
 [
-
 Operator
-
 equal
-
 notequal
-
 greater
-
 lower
-
 greaterorequal
-
 lowerorequal
-
-(
-
+( 
 ‘JSONPATH REQUEST OF THE JSON PROPERTY’
-
 ,
-
 ‘Value to compare
-
 )
-
 ]
 ```
 
@@ -719,33 +690,28 @@ lowerorequal
 
 ```
 [INDEX OF THE API SHAPE IN THE FLOW]
-
 :
+[JSONPATH REQUEST OF THE JSON PROPERTY]
 ```
 
-* [JSONPATH REQUEST OF THE JSON PROPERTY]
 * Save in ‘’Input’’
 * Syntax:
 
 ```
 Variable name
-
 :
-
 Type (string)
 
 [INDEX OF THE API SHAPE IN THE FLOW]
-
 :
-
 [JSONPATH REQUEST OF THE JSON PROPERTY]
 ```
 
-::: warning
+::: warning ⚠️
 The API call must callback a table
 :::
 
-::: tip
+::: tip 💾
 Remember to add an output choice!
 :::
 
@@ -763,9 +729,7 @@ Remember to add an output choice!
 
 ```
 [INDEX DE LA FORME API DANS LE FLUX]
-
 :
-
 [REQUET JSONPATH DE LA PROPRIETE JSON]7
 ```
 
@@ -774,19 +738,15 @@ Remember to add an output choice!
 
 ```
 Nom de la variable
-
 :
-
 Type (string)
 
 [INDEX OF THE API SHAPE IN THE FLOW]
-
 :
-
 [JSONPATH REQUEST OF THE JSON PROPERTY]
 ```
 
-::: warning
+::: warning ⚠️
 The API call must callback a table
 :::
 
@@ -903,7 +863,7 @@ alternatives to a main question is displayed below on the right.
 If you select a template when creating the question , it will have several
 alternatives automatically.
 
-::: danger Important !
+::: danger 🔴
 These alternatives created automatically, called "**simple**" alternatives are
 rewording of the main question, using the same words. Only users can provide the
 chatbot with "**complex**" alternatives. The latter are formulated differently
@@ -913,13 +873,11 @@ but lead to the same answer.
 Example :
 
 -   Main question : Where can I find the reset password process?
-
 -   Simple alternative : Where are the reset password process?
-
 -   Complex alternative : I forgot my password, how can I reset it?
 
 
-::: warning 💡 Good practices
+::: tip 💡 Good practices
 A main question must have at least 5 complex alternatives and
 the maximum number of altenatives is 99 (simple+complex) .
 :::
@@ -947,7 +905,9 @@ templates to add alternatives. Tick one or several alternatives to delete them
 
 The markdown is a text formatting syntax aimed at making richer the content of the chatbot.
 
-👉 It is possible to put markdowns in answers and messages
+::: tip 💡 
+It is possible to put markdowns in answers and messages
+:::
 
 * Italics: *Italic*
 * Bold : **Bold**
