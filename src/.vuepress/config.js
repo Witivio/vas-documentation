@@ -8,7 +8,12 @@ module.exports = {
     ['link', { rel: "icon", sizes: "16x16", href: "/assets/img/index/favicon.ico" }],
     ['link', { rel: 'icon', href: '/assets/img/logo_white.png' }],
     ['script', { src: "/scripts/redirection.js" }],
-    ['script', { src: "/scripts/chatbot.js" }]
+    ['script', { src: "/scripts/chatbot.js" }],
+    ['script', { id: "hs-script-loader", async: "", defer: "", src: "//js.hs-scripts.com/5583418.js"}],
+    ['script', { async:"", src: "https://www.googletagmanager.com/gtag/js?id=UA-176942222-1"}],
+    ['script', { src:"/scripts/google.js" }]
+
+    
   ],
   locales: {
     '/': {
@@ -378,10 +383,6 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     '@vuepress/nprogress',
-    '@vuepress/medium-zoom',
-    '@vuepress/google-analytics',
-    {
-      'ga': 'UA-135971639-1' // UA-00000000-0
-    }
+    '@vuepress/medium-zoom'
   ]
 }
