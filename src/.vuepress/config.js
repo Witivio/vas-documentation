@@ -6,7 +6,8 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['link', { rel: "icon", sizes: "16x16", href: "/assets/img/index/favicon.ico" }],
-    ['link', { rel: 'icon', href: '/assets/img/logo_white.png' }]
+    ['link', { rel: 'icon', href: '/assets/img/logo_white.png' }],
+    ['script', { src: "scripts/chatbot.js" }]
   ],
   locales: {
     '/': {
@@ -376,6 +377,10 @@ module.exports = {
     '@vuepress/plugin-back-to-top',
     '@vuepress/plugin-medium-zoom',
     '@vuepress/nprogress',
-    '@vuepress/medium-zoom'
+    '@vuepress/medium-zoom',
+    '@vuepress/google-analytics',
+    {
+      'ga': 'UA-135971639-1' // UA-00000000-0
+    }
   ]
 }
