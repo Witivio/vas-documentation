@@ -13,7 +13,7 @@ if (navigator.language === 'en-US') {
 
 if (navigator.language === 'fr-FR') {
 
-  if (window.location.href === `https://kind-desert-00b6b8203.azurestaticapps.net`) {
+  if (window.location.href === `https://kind-desert-00b6b8203.azurestaticapps.net/`) {
     window.location.href = "https://kind-desert-00b6b8203.azurestaticapps.net/fr/"
   }
 

@@ -1,5 +1,6 @@
 const path = require('path')
 module.exports = {
+  title: 'Documentation',
   additionalPages: [
     {
       path: '/fr/articles/canaux.html',
