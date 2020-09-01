@@ -24,9 +24,9 @@ Les cadres suivant permettent d'indiquer les informations de connexion (E-mail, 
 </div>
 
 
-## Microsoft Teams
+## Teams
 
->Pour activer un bot sur teams, la démarche est expliquée [ici](/articles/creation_chatbot/condition_requises.html).
+>Pour activer un bot sur teams, la démarche est expliquée [ici](/fr/articles/creation_chatbot/condition_requises.html).
 
 #### Télécharger son package teams
 ---

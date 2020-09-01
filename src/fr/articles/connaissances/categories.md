@@ -14,7 +14,7 @@ Les questions présentes dans la base de connaissances (FAQ) peuvent être class
 
 Dans l'onglet FAQ, vous pourrez ensuite filtrer vos questions par catégorie dans la barre de recherche.
 
-Si un tri a été fait par catégories dans la base de connaissances, vous retrouverez dans l'onglet tableaux de bords le [**pourcentage des catégories**](/articles/tableaux_de_bord/rapport_usage.html#questions-repondues-par-categorie) les plus sollicitées par les utilisateurs.
+Si un tri a été fait par catégories dans la base de connaissances, vous retrouverez dans l'onglet tableaux de bords le [**pourcentage des catégories**](/fr/articles/tableaux_de_bord/rapport_usage.html#questions-repondues-par-categorie) les plus sollicitées par les utilisateurs.
 
 
 ### Comment ?

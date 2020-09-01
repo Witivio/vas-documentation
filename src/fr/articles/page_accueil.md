@@ -51,7 +51,7 @@ L’ensemble de ces informations peut être exporté à l’aide du bouton EXPOR
 
 ## **Audit** ##
 
-La page d'Audit est accessible uniquement aux [**Adiministrateurs de licence**](/articles/administrateur_de_licence) qui, pour rappel, ont accès à l'ensemble des chatbots.
+La page d'Audit est accessible uniquement aux [**Adiministrateurs de licence**](/fr/rticles/administrateur_de_licence) qui, pour rappel, ont accès à l'ensemble des chatbots.
 
 Cette page vous permettra d'identifier :
 
@@ -68,7 +68,7 @@ Ces données sont filtrables par chatbot, par coach, par page et par date. Elles
 
 ## **Politiques de confidentialités**
 
-Sur la page d'accueil de la plateforme, l'onglet [**Politiques de confidentialité**](/articles/administrateur_de_licence) vous permet de configurer les paramètres de confidentialités de manière globale pour l'ensemble des chatbots disponibles ou pour chacun de vos chatbots.
+Sur la page d'accueil de la plateforme, l'onglet [**Politiques de confidentialité**](/fr/articles/administrateur_de_licence) vous permet de configurer les paramètres de confidentialités de manière globale pour l'ensemble des chatbots disponibles ou pour chacun de vos chatbots.
 
 ::: tip 💾
 N’oubliez pas d’enregistrer après toute modification !

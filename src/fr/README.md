@@ -4,7 +4,7 @@ heroImage: /assets/img/index/logo_black.png
 tagline: Chatbots d’entreprise pour le Digital Workplace
 taglineStartup: Witivio 365 est la plateforme complète de création et monitoring de Chatbots pour le Digital Workplace et Office 365. Nos solutions sont pensées pour vos collaborateurs et visent à faciliter l’accès à l’information au sein de votre organisation.
 actionText: Commencer →
-actionLink: /articles/creation_chatbot
+actionLink: /fr/articles/creation_chatbot
 features:
 - title: /assets/img/index/1bot-300x228.png
   details: Grâce à la plateforme Witivio, créez autant de chatbots que vous voulez, de façon simple et sans code !
@@ -16,34 +16,34 @@ items:
 - title: Création d'un chatbot
   itemImage: /assets/img/index/robotic-arm.png
   itemDescription: Créez et configurez votre chatbot.
-  link: /articles/creation_chatbot.html
+  link: /fr/articles/creation_chatbot.html
 - title: Boîte de réception
   itemImage: /assets/img/index/email.png
   itemDescription: Traitez les questions des utilisateurs.
-  link: /articles/boite_de_reception.html
+  link: /fr/articles/boite_de_reception.html
 - title: Tableaux de bord
   itemImage: /assets/img/index/dashboard.png
   itemDescription: Performance et usage du chatbot.
-  link: /articles/tableaux_de_bord.html
+  link: /fr/articles/tableaux_de_bord.html
 - title: Connaissances
   itemImage: /assets/img/index/knowledge.png
   itemDescription: Configurez votre base de connaissances.
-  link: /articles/connaissances/processus_de_creation.html
+  link: /fr/articles/connaissances/processus_de_creation.html
 - title: Outils
   itemImage: /assets/img/index/technical-support.png
   itemDescription: Développez les capacités de votre chatbot.
-  link: /articles/outils.html
+  link: /fr/articles/outils.html
 - title: Communication push
   itemImage: /assets/img/index/conversation.png
   itemDescription: Diffusez des informations en interne.
-  link: /articles/communication.html
+  link: /fr/articles/communication.html
 - title: Profil
   itemImage: /assets/img/index/user.png
   itemDescription: Créez de profils pour apporter la bonne réponse à la bonne personne.
-  link: /articles/profil.html
+  link: /fr/articles/profil.html
 - title: Paramètres
   itemImage: /assets/img/index/programming.png
   itemDescription: Paramétrez les accès, les canaux et les politiques de confidentialité.
-  link: /articles/parametres.html
+  link: /fr/articles/parametres.html
 footer: Créé par Witivio avec ❤️
 ---

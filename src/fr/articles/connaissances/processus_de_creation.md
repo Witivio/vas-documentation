@@ -33,7 +33,7 @@ En cliquant sur l’onglet « **Connaissances** » puis « **FAQ** », vous retr
 ------------------------------
 
 
-Tout d’abord, il est possible d’importer (1) un fichier Excel, autrement dit une base de données crée en amont. S’il existe plusieurs catégories, il faut sélectionner [**la catégorie**](/articles/connaissances/categories.html) dans laquelle vous souhaitez importer. [**(En savoir plus)**](/articles/connaissances/faq.html)
+Tout d’abord, il est possible d’importer (1) un fichier Excel, autrement dit une base de données crée en amont. S’il existe plusieurs catégories, il faut sélectionner [**la catégorie**](/fr/articles/connaissances/categories.html) dans laquelle vous souhaitez importer. [**(En savoir plus)**](/fr/articles/connaissances/faq.html)
 
 Une fois votre base de connaissances alimentée, le bouton « **EXPORTER** » (2) vous permet de télécharger l'ensemble de vos connaissances. Il est possible de télécharger par catégories en ajoutant un filtre avant l’exportation. Ce fichier comporte la question, la catégorie, le profil, le type de réponse (de type texte, adaptive card, contextuelle avec les choix, arbre de conversation), la date de publication, de création et de modification aisni que la personne qui la crée et/ou modifiée
 
@@ -62,7 +62,7 @@ Cette nouvelle version permet également de gérer la sécurité du chatbot d'un
 
 >La fenêtre Webchat s'affiche également dans le canal de diffusion Webchat dans l'onglet "Paramètres", afin de vous permettre de tester et parler directement au chatbot en production.
 
-Si vous souhaitez aller pour loin, afin de tester les modifications de votre base de connaissances, vous avez la possibilité de créer un [**plan de test**](/articles/connaissances/plan_de_test.html).
+Si vous souhaitez aller pour loin, afin de tester les modifications de votre base de connaissances, vous avez la possibilité de créer un [**plan de test**](/fr/articles/connaissances/plan_de_test.html).
 
 ::: warning ⚠️
  Lorsque vous souhaitez ajouter un arbre de conversation dans votre base de connaissances et que celle-ci comporte déjà un nombre important que questions avec des réponses simples et contextuelles, l'entrainement (c'est à dire la synchronisation) peut être plus long. Cliquez sur "Entrainer" et patientez jusqu'à ce que le bouton soit grisé, avant de poursuivre la construction de vos connaissances.

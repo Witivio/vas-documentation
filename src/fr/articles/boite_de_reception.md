@@ -8,7 +8,7 @@
 ------
 
 
-Lorsqu'un utilisateur pose une question, une intelligence artificielle calcule pour chaque question présente dans la base de connaissances son pourcentage de correspondance avec la question posée. C'est ce qu'on appelle le score de confiance. [**(voir les Règles des scores)**](/articles/boite_de_reception/regles_des_scores.html)
+Lorsqu'un utilisateur pose une question, une intelligence artificielle calcule pour chaque question présente dans la base de connaissances son pourcentage de correspondance avec la question posée. C'est ce qu'on appelle le score de confiance. [**(voir les Règles des scores)**](/fr/articles/boite_de_reception/regles_des_scores.html)
 
 La boîte de réception permet donc de répertorier toutes les questions pour lesquelles le chatbot n'a pas de réponse ou n'a pas su répondre directement.
 
@@ -26,13 +26,13 @@ Il est essentiel de traiter les données de la boîte de réception régulièrem
 
 La boîte de réception est composée de quatre sections :
 
--   [**Questions sans réponses**](/articles/boite_de_reception/questions_sans_reponses.html)
+-   [**Questions sans réponses**](/fr/articles/boite_de_reception/questions_sans_reponses.html)
 
--   [**Score faible**](/articles/boite_de_reception/score_faible.html)
+-   [**Score faible**](/fr/articles/boite_de_reception/score_faible.html)
 
--   [**Questions suggérées**](/articles/boite_de_reception/questions_suggerees.html)
+-   [**Questions suggérées**](/fr/articles/boite_de_reception/questions_suggerees.html)
 
--   [**Feedback Négatif**](/articles/boite_de_reception/feedback_negatif.html) 
+-   [**Feedback Négatif**](/fr/articles/boite_de_reception/feedback_negatif.html) 
 
 Le bouton "Exporter" en haut à droite vous permet d'exporter l'ensemble de ces données.
 
@@ -44,7 +44,7 @@ Le bouton "Exporter" en haut à droite vous permet d'exporter l'ensemble de ces 
 ---------------
 
 
-Les règles des scores sont les règles qui déterminent le déclenchement de l’[Active Learning](/articles/outils/active_learning.html) , [Score Faible](/articles/boite_de_reception/score_faible.html) et **Pas de réponse**.
+Les règles des scores sont les règles qui déterminent le déclenchement de l’[Active Learning](/fr/articles/outils/active_learning.html) , [Score Faible](/fr/articles/boite_de_reception/score_faible.html) et **Pas de réponse**.
 
 
 1.  **Réponse directe**: le chatbot donne une réponse lorsque le score est supérieur à 50%.

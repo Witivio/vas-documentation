@@ -35,7 +35,7 @@ Choisissez ensuite le canal sur lequel vous souhaitez diffuser votre campagne : 
 
 
 
-Les destinataires peuvent être ajoutés à partir d’une [**liste de diffusion**](/articles/communication.html#communication-push) déjà existante mais également en créant une nouvelle liste de diffusion (1).
+Les destinataires peuvent être ajoutés à partir d’une [**liste de diffusion**](/fr/articles/communication.html#communication-push) déjà existante mais également en créant une nouvelle liste de diffusion (1).
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/communication/campagne4.png')" alt="low score">
