@@ -4,7 +4,7 @@ heroImage: /assets/img/index/logo_black.png
 tagline: Chatbots for Digital Workplace
 taglineStartup: Witivio 365 is the design and monitoring platform for chatbots for the digital workplace and Office 365. Our solutions are designed for your employees and focus on facilitating access to information in your organization.
 actionText: Get Started →
-actionLink: /en/articles/build_your_chatbot
+actionLink: /en/chatbot/build_your_chatbot
 features:
 - title: /assets/img/index/1bot-300x228.png
   details: With the Witivio platform, create as many chatbots as you want, it’s simple and codeless!
@@ -16,34 +16,34 @@ items:
 - title: Build your chatbot
   itemImage: /assets/img/index/robotic-arm.png
   itemDescription: Create and configure your  chatbot.
-  link: /en/articles/build_your_chatbot.html
+  link: /en/chatbot/build_your_chatbot.html
 - title: Inbox
   itemImage: /assets/img/index/email.png
   itemDescription: Manage user's questions.
-  link: /en/articles/inbox.html
+  link: /en/chatbot/inbox.html
 - title: Dashboards
   itemImage: /assets/img/index/dashboard.png
   itemDescription: Chatbot performance and usage.
-  link: /en/articles/dashboards.html
+  link: /en/chatbot/dashboards.html
 - title: Knowledges
   itemImage: /assets/img/index/knowledge.png
   itemDescription: Configure your knowledge base.
-  link: /en/articles/knowledge/creation_process.html
+  link: /en/chatbot/knowledge/creation_process.html
 - title: Tools
   itemImage: /assets/img/index/technical-support.png
   itemDescription: Expand the capabilities of your chatbot.
-  link: /en/articles/tools.html
+  link: /en/chatbot/tools.html
 - title: Push communication
   itemImage: /assets/img/index/conversation.png
   itemDescription: Distiribute ans share information internally.
-  link: /en/articles/communication.html
+  link: /en/chatbot/communication.html
 - title: Profile
   itemImage: /assets/img/index/user.png
   itemDescription: Create profiles to give the right anwser to the right person.
-  link: /en/articles/profile.html
+  link: /en/chatbot/profile.html
 - title: Settings
   itemImage: /assets/img/index/programming.png
   itemDescription: Set up access, channels and privacy polices.
-  link: /en/articles/settings.html
+  link: /en/chatbot/settings.html
 footer: Made by Witivio with ❤️
 ---

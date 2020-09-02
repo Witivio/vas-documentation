@@ -42,7 +42,7 @@ chatbots (2) :
 
 -   record the identity of users
 -   record the conversation history
--   enable pre-configured queries related to the [**GDPR**](/en/articles/settings/privacy.html#gdprl)
+-   enable pre-configured queries related to the [**GDPR**](/en/chatbot/settings/privacy.html#gdprl)
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/licence_administrators/licence3.png')" alt="low score">

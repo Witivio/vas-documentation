@@ -12,7 +12,7 @@ chatbot give then the answers.
 
 The Active Learning is triggered when the chatbot has a doubt about the
 understanding of the question. Several questions in the knowledge base trigger a
-high score [**(Scoring rules)**](/en/articles/inbox/scoring_rules.html) (difference of less than 20 points between
+high score [**(Scoring rules)**](/en/chatbot/inbox/scoring_rules.html) (difference of less than 20 points between
 the different questions).
 
 <div class="image_center">

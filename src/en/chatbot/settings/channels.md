@@ -53,7 +53,7 @@ It also possible to consult the event logs of the connector.
 
 ## Microsoft Teams
 
-Click [**here**](/en/articles/build_your_chatbot/requisites.html) to know how to activate a chatbot on Microsoft Teams.
+Click [**here**](/en/chatbot/build_your_chatbot/requisites.html) to know how to activate a chatbot on Microsoft Teams.
 
 
 #### Download the Teams package
@@ -184,7 +184,7 @@ the choice of the new profile in the test.
         </tr>
 </table>
 
-#### [Configuration of the Webchat V1 component compatible with IE11 (obsolete)](/en/articles/webchat_v1.html)
+#### [Configuration of the Webchat V1 component compatible with IE11 (obsolete)](/en/chatbot/webchat_v1.html)
 
 ## Security of the chatbot 
 

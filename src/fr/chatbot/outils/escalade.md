@@ -22,7 +22,7 @@ Il existe 8 types d’interactions :
 Pour tout type d'escalade, deux cas de figure vous permettent de la lancer :
 
 1. lorsqu'il n' y a pas de réponse à la question posée.
-2. lorsque les utilisateurs donnent un [feedback négatif](/fr/articles/boite_de_reception/feedback_negatif.html)
+2. lorsque les utilisateurs donnent un [feedback négatif](/fr/chatbot/boite_de_reception/feedback_negatif.html)
 
     -   quand la réponse contient des fautes
     -   quand la réponse est incomplète
@@ -106,7 +106,7 @@ Lorsque le chatbot n'a pas la réponse, vous pouvez créer un arbre de conversat
 * L'arbre de conversation s'affiche.
 
 
-Cliquez ici pour avoir plus d'informations sur comment construire un [**arbre de conversation**](/fr/articles/connaissances/faq.html#arbres-des-conversation) 
+Cliquez ici pour avoir plus d'informations sur comment construire un [**arbre de conversation**](/fr/chatbot/connaissances/faq.html#arbres-des-conversation) 
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/outils/escalade8.png')" alt="low score">
@@ -139,7 +139,7 @@ Ajoutez un nouveau support d'escalade puis sélectionnez "Teams-beta".
 
 Choisissez dans un premier temps quand souhaitez vous lancer l'escalade.
 
-Ajoutez les informations pour la configuration du canal Teams, à savoir l'id de l'application Microsoft ainsi que le mot de passe [(voir Documentation )](/fr/articles/fonctionnalites_teams.html).
+Ajoutez les informations pour la configuration du canal Teams, à savoir l'id de l'application Microsoft ainsi que le mot de passe [(voir Documentation )](/fr/chatbot/fonctionnalites_teams.html).
 
 
 <div class="image_center">

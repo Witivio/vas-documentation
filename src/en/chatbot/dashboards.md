@@ -9,8 +9,8 @@
 
 All the data allows the continuous improvement of the Chatbot.
 
-The dashboards include [**the performance report**](/en/articles/Dashboards/Performance.html) as well as
-[**the usage report**](/en/articles/Dashboards/Usage.html).
+The dashboards include [**the performance report**](/en/chatbot/Dashboards/Performance.html) as well as
+[**the usage report**](/en/chatbot/Dashboards/Usage.html).
 
 
 A reset date is indicated next to the performance and usage reports.

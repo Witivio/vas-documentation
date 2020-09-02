@@ -26,7 +26,7 @@ Les cadres suivant permettent d'indiquer les informations de connexion (E-mail, 
 
 ## Microsoft Teams
 
->Pour activer un bot sur teams, la démarche est expliquée [ici](/fr/articles/creation_chatbot/condition_requises.html).
+>Pour activer un bot sur teams, la démarche est expliquée [ici](/fr/chatbot/creation_chatbot/condition_requises.html).
 
 #### Télécharger son package teams
 ---
@@ -203,7 +203,7 @@ La fenêtre Webchat est votre chatbot en intégration et vous permet de le teste
         </tr>
 </table>
 
-#### [Configuration du composant Webchat V1 compatible avec IE11 (obsolete)](/fr/articles/webchat_v1.html)
+#### [Configuration du composant Webchat V1 compatible avec IE11 (obsolete)](/fr/chatbot/webchat_v1.html)
 
 ## Sécurité du chatbot
 

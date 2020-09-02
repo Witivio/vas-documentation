@@ -8,7 +8,7 @@
 
 The conversations and the identity of users are registered. The user can be
 informed that the conversations are registered. These privacy policies are
-configured beforehand but can be modified: [**Privacy policies**](/en/articles/settings/privacy.html). 
+configured beforehand but can be modified: [**Privacy policies**](/en/chatbot/settings/privacy.html). 
 
 You can find all conversations in the tab **Tools** > **History**. 
 

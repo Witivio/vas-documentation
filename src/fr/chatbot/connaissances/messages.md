@@ -17,7 +17,7 @@ L’onglet « Messages » vous permet de configurer les messages de base. Ce son
 
 
 ::: danger 🔴
-S'il existe plusieurs [**profils**](/fr/articles/profil.html), configurez les messages de bases propres à chaque profil.
+S'il existe plusieurs [**profils**](/fr/chatbot/profil.html), configurez les messages de bases propres à chaque profil.
 :::
 
 <div class="image_center">

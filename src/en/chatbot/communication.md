@@ -23,9 +23,9 @@ The push communication is supported in Skype for Business and Microsoft Teams.
 ### How ?
 ---
 
-1) First, click on “Communication” then [**“Users Lists”**](/en/articles/communication/user_lists.html) to add user lists.
+1) First, click on “Communication” then [**“Users Lists”**](/en/chatbot/communication/user_lists.html) to add user lists.
 
 2) Then, create a campaign to start your push communication. To this, click
-on “Communication” then [**“Campaign”**](/en/articles/communication/campaign.html)
+on “Communication” then [**“Campaign”**](/en/chatbot/communication/campaign.html)
 
 

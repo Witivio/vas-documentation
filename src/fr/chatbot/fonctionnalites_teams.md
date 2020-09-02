@@ -1,5 +1,4 @@
-**Fonctionnalités Microsoft Teams**
-===========================
+# Fonctionnalités Microsoft Teams
 
 Epinglez votre application à la barre de navigation afin d'y accéder plus facilement.
 

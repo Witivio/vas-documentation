@@ -9,7 +9,7 @@ Click on **Settings** then **User lists**.
 
 
 
-You can create a user list to set a [**white list**](/en/articles/settings/chatbot.html)
+You can create a user list to set a [**white list**](/en/chatbot/settings/chatbot.html)
 
 To this, click on “+ new users list”, name the list.
 

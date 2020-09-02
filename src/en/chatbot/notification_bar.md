@@ -27,7 +27,7 @@ Do not forget to save changes !
 
 ## Admnistrator
 
-Click [**here**](/en/articles/licence_administrators) to know more about Administrators.
+Click [**here**](/en/chatbot/licence_administrators) to know more about Administrators.
 
 
 

@@ -19,7 +19,7 @@ Construire une base de connaissances, c'est répondre aux questions suivantes :
 -   A quoi doit répondre mon chatbot ?.
 -   Qui sont les utilisateurs de mon chatbot ?.
 
-Avant de débuter la construction de votre base de connaissances, n'hésitez pas à consulter les [**limitations techniques**](/fr/articles/limitations.html).
+Avant de débuter la construction de votre base de connaissances, n'hésitez pas à consulter les [**limitations techniques**](/fr/chatbot/limitations.html).
 
 
 ## Import
@@ -62,7 +62,7 @@ Pour importer un fichier, il faut cliquer sur "Importer"(1)
 </div>
 
 
-Il vous faut ensuite sélectionner une [**catégorie**](/fr/articles/connaissances/categories.html) dans laquelle vous souhaitez importer votre fichier. La catégorie **Editorial** regroupe l’ensemble des questions.
+Il vous faut ensuite sélectionner une [**catégorie**](/fr/chatbot/connaissances/categories.html) dans laquelle vous souhaitez importer votre fichier. La catégorie **Editorial** regroupe l’ensemble des questions.
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/connaissances/kb4.png')" alt="low score">
@@ -119,7 +119,7 @@ Une fois votre question créer, cliquez dessus afin de la modifier, d'ajouter la
 * Tags : Assignation, réponse à compléter,... A vous de déterminer l'usage de cette fonctionnalité! Ajoutez également des tags à vos chatbots depuis l'onglet paramètres > Paramètres > Bot .
 
 
-La base de connaissances est l'ensemble des questions auxquelles le chatbot saura répondre. [Le processus de création](/fr/articles/connaissances/processus_de_creation.html) regroupe l’ensemble des étapes permettant de créer, modifier, tester et enfin publier les questions/réponses.
+La base de connaissances est l'ensemble des questions auxquelles le chatbot saura répondre. [Le processus de création](/fr/chatbot/connaissances/processus_de_creation.html) regroupe l’ensemble des étapes permettant de créer, modifier, tester et enfin publier les questions/réponses.
 
 Afin d'alimenter la base de connaissances du chatbot, il faut ajouter des:
 
@@ -206,13 +206,13 @@ Différents symboles s'affichent à droite d'une nouvelle connaissance
 
 Une fois la question validée, vous pouvez choisir un type de réponse:
 
--   [**Réponse simple de type texte:**](/fr/articles/connaissances/faq.html#reponse-simple) Rédige une réponse simple et directe. Mets la en forme grâce à l'éditeur de texte riche.
+-   [**Réponse simple de type texte:**](/fr/chatbot/connaissances/faq.html#reponse-simple) Rédige une réponse simple et directe. Mets la en forme grâce à l'éditeur de texte riche.
 
--   [**Réponse simple de type Adaptive card:**](/fr/articles/connaissances/faq.html#reponse-simple-de-type-adaptive-card) Configure une réponse Adaptive Card grâce à un designer visuel pour une mise en forme avancée (disponible uniquement en Webchat et sur Microsoft Teams). 
+-   [**Réponse simple de type Adaptive card:**](/fr/chatbot/connaissances/faq.html#reponse-simple-de-type-adaptive-card) Configure une réponse Adaptive Card grâce à un designer visuel pour une mise en forme avancée (disponible uniquement en Webchat et sur Microsoft Teams). 
 
--   [**Réponse contextuelle:**](/fr/articles/connaissances/faq.html#reponse-contextuelle) Demande un élément de contexte auprès de l'utilisateur afin de lui fournir une réponse 
+-   [**Réponse contextuelle:**](/fr/chatbot/connaissances/faq.html#reponse-contextuelle) Demande un élément de contexte auprès de l'utilisateur afin de lui fournir une réponse 
 
--   [**Réponse de type arbre de conversation**](/fr/articles/connaissances/faq.html#arbres-des-conversation): Crée un parcours conversationnel complet pour répondre à des demandes ou commandes avancées.
+-   [**Réponse de type arbre de conversation**](/fr/chatbot/connaissances/faq.html#arbres-des-conversation): Crée un parcours conversationnel complet pour répondre à des demandes ou commandes avancées.
 
 -   **Microsoft Flow** (Prochainement) : Connecte-toi à d'autres applications par l'intermédiaire de Microsoft Flow pour construire tes réponses.
 
@@ -244,7 +244,7 @@ Dans la fenêtre de votre réponse simple, vous retrouvez :
 
 Vous pouvez ensuite rédiger votre réponse avec des éléments de forme, et avez également la possibilité de créer un lien hypertexte.
 
-Pour plus d'information sur le format [**markdown**](/fr/articles/connaissances/faq.html#configuration-avancee).
+Pour plus d'information sur le format [**markdown**](/fr/chatbot/connaissances/faq.html#configuration-avancee).
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/connaissances/reponsesimple1.png')" alt="reponse simple et de type texte">
@@ -491,7 +491,7 @@ Lorsque vous proposez des choix à l'utilisateur dans une "Bot Question", n'oubl
 :::
 
 ::: danger 🔴
-Cliquez [ici](/fr/articles/connaissances/faq.html#conversations-dynamiques) pour consulter l'ensemble des formes Witivio pour créer un arbre de conversation dynamique.
+Cliquez [ici](/fr/chatbot/connaissances/faq.html#conversations-dynamiques) pour consulter l'ensemble des formes Witivio pour créer un arbre de conversation dynamique.
 :::
 
 Une fois les formes créées, il ne vous reste plus qu’à les relier en cliquant sur "Relationship" à gauche dans le menu "Formes" et de glisser le symbole (4).

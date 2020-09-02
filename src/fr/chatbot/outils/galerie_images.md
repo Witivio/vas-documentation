@@ -1,7 +1,7 @@
 # Galerie d’images
 
 
-La page galerie d'images permet de gérer le stockage des vos images pour la construction des réponses de type [Adaptive card](/fr/articles/connaissances/faq.html#reponse-simple-de-type-adaptive-card) et [Image](/fr/articles/connaissances/faq.html#reponse-image).
+La page galerie d'images permet de gérer le stockage des vos images pour la construction des réponses de type [Adaptive card](/fr/chatbot/connaissances/faq.html#reponse-simple-de-type-adaptive-card) et [Image](/fr/chatbot/connaissances/faq.html#reponse-image).
 
 
 Accédez à l'onglet **Outils** puis **galerie d'images**. Sélectionnez un dossier afin de charger vos images. Les dossiers correspondent à vos catégories.

@@ -1,5 +1,4 @@
-**Administrateurs de licence**
-======================
+# Administrateurs de licence
 
 
 Cliquez sur votre icône en haut à droite de la plateforme puis sur "**Administrateurs**".

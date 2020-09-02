@@ -1,10 +1,10 @@
 # Image gallery
 
 
-The image gallery page allows you to manage the storage of your images to build [**Adaptive card**](/en/articles/knowledge/kb.html#adaptive-card) answers and [**Image**](/en/articles/knowledge/kb.html#image-answer) answers. 
+The image gallery page allows you to manage the storage of your images to build [**Adaptive card**](/en/chatbot/knowledge/kb.html#adaptive-card) answers and [**Image**](/en/chatbot/knowledge/kb.html#image-answer) answers. 
 
 
-Go to the **Tools** tab and then **image gallery**. Select a folder to upload your images. The folders correspond to your [**categories**](/en/articles/knowledge/categories.html). 
+Go to the **Tools** tab and then **image gallery**. Select a folder to upload your images. The folders correspond to your [**categories**](/en/chatbot/knowledge/categories.html). 
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/tools/image1.png')" alt="low score">

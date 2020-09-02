@@ -69,6 +69,6 @@ Cas particulier: Lorsque le profil n'est pas configuré (par exemple CDD dans le
 </div>
 
 
-[**Créer une API de profils avec Flow et Sharepoint**](/fr/articles/profil/api_profil.html#creer-une-api-de-profils-avec-flow-et-sharepoint) 
+[**Créer une API de profils avec Flow et Sharepoint**](/fr/chatbot/profil/api_profil.html#creer-une-api-de-profils-avec-flow-et-sharepoint) 
 
 

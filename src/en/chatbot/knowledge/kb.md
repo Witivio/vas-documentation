@@ -19,7 +19,7 @@ Building a knowledge base means answering the following questions:
 
 -   Who are the users of my chatbot?
 
-Before starting to build your knowledge base, please read the technical [**limitations**](/en/articles/Limitations.html) .
+Before starting to build your knowledge base, please read the technical [**limitations**](/en/chatbot/limitations.html) .
 
 
 ### How ?
@@ -151,14 +151,14 @@ You can also add tags to your chatbots from the Settings tab > Settings > Bot.
 
 
 The knowledge base corresponds to all questions that the chatbot will be able to
-answer. [**The creation process**](/en/articles/Knowledges/Creation%20process.html) includes all the steps to create, modify,
+answer. [**The creation process**](/en/chatbot/Knowledges/Creation%20process.html) includes all the steps to create, modify,
 test and finally publish the questions and answers.
 
 In order to enrich the chatbot's knowledge base, it is necessary to add:
 
--   [**Questions**](/en/articles/knowledge/kb.html#new-question)
--   [**Alternatives**](/en/articles/knowledge/kb.html#alternatives) 
--   [**Answers**](/en/articles/knowledge/kb.html#types-of-answer)
+-   [**Questions**](/en/chatbot/knowledge/kb.html#new-question)
+-   [**Alternatives**](/en/chatbot/knowledge/kb.html#alternatives) 
+-   [**Answers**](/en/chatbot/knowledge/kb.html#types-of-answer)
 
 ### New question
 
@@ -233,14 +233,14 @@ Different symbols are displayed next to the new question:
 
 Once the question is created, choose the appropriate answer:
 
--   [**Simple answer:**](/en/articles/knowledge/kb.html#simple-answer) Write a simple and direct answer. Format it with the rich
+-   [**Simple answer:**](/en/chatbot/knowledge/kb.html#simple-answer) Write a simple and direct answer. Format it with the rich
     text editor. 
--   [**Adaptive card answer:**](/en/articles/knowledge/kb.html#adaptive-card) Configure an Adaptive Card answer with a visual
+-   [**Adaptive card answer:**](/en/chatbot/knowledge/kb.html#adaptive-card) Configure an Adaptive Card answer with a visual
     designer for advanced layout (available only for Webchat and Microsoft Teams
     channels). 
--   [**Contextual answer:**](/en/articles/knowledge/kb.html#contextual-answer) Retrieve a context element from the user in order to
+-   [**Contextual answer:**](/en/chatbot/knowledge/kb.html#contextual-answer) Retrieve a context element from the user in order to
     provide the appropriate answer. 
--   [**Conversation tree**](/en/articles/knowledge/kb.html#conversation-tree): Create a conversational tree to answer
+-   [**Conversation tree**](/en/chatbot/knowledge/kb.html#conversation-tree): Create a conversational tree to answer
     advanced requests or orders.
 -   **Microsoft Flow** (Coming soon): Connect to other applications with Microsoft Flow
     middleware to build your answer.
@@ -269,7 +269,7 @@ In the answer window you can find several features:
 * **Change the type of answer**: You can change the answer model (switch to an adaptive card answer) (3) or change the answer type (contextual answer, conversation tree, …) (4).
 * **A text editor** allows the message formatting. You also have the possibility to add a hypertext link (5).
 
-See more about [**markdown**](/en/articles/knowledge/kb.html#advanced-settings)
+See more about [**markdown**](/en/chatbot/knowledge/kb.html#advanced-settings)
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/knowledge/asnwersimple1.png')" alt="low score">
@@ -755,7 +755,7 @@ The API call must callback a table
 #### BOT JSON ADAPTIVE CARD
 
 * Allow to display an adaptive card from a JSO code
-* Include the JSON code from https://adaptivecards.io/samples/ for example.
+* Include the JSON code from [https://adaptivecards.io/samples/](https://adaptivecards.io/samples/) for example.
 * Supported only in Teams and Webchat
 
 <div class="image_center">

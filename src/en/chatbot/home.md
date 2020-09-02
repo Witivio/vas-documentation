@@ -49,7 +49,7 @@ This page also contains a summary table indicating:
 ## Audit
 
 
-This Audit page is accessible only to [**Licence Administrators**](/en/articles/licence_administrators). As a reminder, they have access to all chatbots.
+This Audit page is accessible only to [**Licence Administrators**](/en/chatbot/licence_administrators). As a reminder, they have access to all chatbots.
 
 
 This page will allow you to identify :
@@ -73,7 +73,7 @@ chatbots (2) :
 
 -   record the identity of users
 -   record the conversation history
--   enable pre-configured queries related to the [**GDPR**](/en/articles/settings/privacy.html#gdpr)
+-   enable pre-configured queries related to the [**GDPR**](/en/chatbot/settings/privacy.html#gdpr)
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/home/home7.png')" alt="low score">

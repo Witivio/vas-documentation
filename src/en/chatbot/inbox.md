@@ -10,7 +10,7 @@
 
 When a user asks a question, an artificial intelligence calculates for each
 question in the knowledge base its match rates with the question asked. This is
-called the confidence score. [**(See : scoring rules)**](/en/articles/inbox/scoring_rules.html)
+called the confidence score. [**(See : scoring rules)**](/en/chatbot/inbox/scoring_rules.html)
 
 The inbox therefore makes it possible to list all the questions for which the
 chatbot has no answer or has not been able to answer directly.
@@ -30,13 +30,13 @@ consolidate the chatbot's knowledge.
 
 The inbox has four sections:
 
--   [**Unanswered questions**](/en/articles/inbox/unanswered_questions.html)
+-   [**Unanswered questions**](/en/chatbot/inbox/unanswered_questions.html)
 
--   [**Low score**](/en/articles/inbox/low_score.html)
+-   [**Low score**](/en/chatbot/inbox/low_score.html)
 
--   [**Suggested questions**](/en/articles/inbox/suggested_questions.html)
+-   [**Suggested questions**](/en/chatbot/inbox/suggested_questions.html)
 
--   [**Negative Feedbacks**](/en/articles/inbox/negative_feedbacks.html) 
+-   [**Negative Feedbacks**](/en/chatbot/inbox/negative_feedbacks.html) 
 
 The "Export" button in the top right corner allows you to export all this data.
 
@@ -50,9 +50,9 @@ The "Export" button in the top right corner allows you to export all this data.
 
 The scoring rules are the rules which determine the triggering of the
 
--   [**Active Learning**](/en/articles/tools/active_learning.html)
+-   [**Active Learning**](/en/chatbot/tools/active_learning.html)
 
--   [**Low Score**](/en/articles/inbox/low_score.html)
+-   [**Low Score**](/en/chatbot/inbox/low_score.html)
 
 -   **No Answer**
 

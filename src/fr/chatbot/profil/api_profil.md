@@ -249,7 +249,7 @@ Une fois l'API testée, vous pouvez retourner sur la plateforme dans l'onglet Pr
 
 -   Cadre 1: URL de l'API précédemment crée
 
--   Cadre 2: La query JSON PATH permet de vérifier le resultat renvoyé par l'API. Elle ressemble toujours à equals('something', 'result') Par exemple, dans notre cas, elle pourrait être : equals('$.user.profile', 'stagiaire'). Le $.user.profile équivaut à la query JSON PATH du retour de l'api. Plus d'infos sur : https://jsonpath.com/
+-   Cadre 2: La query JSON PATH permet de vérifier le resultat renvoyé par l'API. Elle ressemble toujours à equals('something', 'result') Par exemple, dans notre cas, elle pourrait être : equals('$.user.profile', 'stagiaire'). Le $.user.profile équivaut à la query JSON PATH du retour de l'api. Plus d'infos sur : [https://jsonpath.com/](https://jsonpath.com/)
 
 Si besoin, vous pouvez multiplier les appels d'API pour determiner un profil. Pour cela vous pouvez supprimer ou ajouter une nouvelle condition (1). Les deux conditions devront être remplies pour determiner le profil de l'utilisateur (ET logique).
 

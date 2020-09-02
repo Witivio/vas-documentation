@@ -39,7 +39,7 @@ Un fois le plan de test crée, vous pouvez en rajouter un supplémentaire (4).
 
 
 
-Vous allez pouvoir définir une règle, c’est-à-dire un [**score**](/fr/articles/boite_de_reception.html) minimum attendu entre la question posée par l’utilisateur et la question présente dans la base de connaissances.
+Vous allez pouvoir définir une règle, c’est-à-dire un [**score**](/fr/chatbot/boite_de_reception.html) minimum attendu entre la question posée par l’utilisateur et la question présente dans la base de connaissances.
 
 Une fois crée et exécuté, cliquez sur le cas de test souhaité. Vous pouvez décider de supprimer ce plan de test mais également de le tester à nouveau à l'aide du bouton EXECUTER ( en haut à droite).
 

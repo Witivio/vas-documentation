@@ -104,5 +104,5 @@ Everyone.
 
 
 
-[**CREATE A PROFILE API WITH FLOW AND SHAREPOINT**](/en/articles/profile/api_profile.html) 
+[**CREATE A PROFILE API WITH FLOW AND SHAREPOINT**](/en/chatbot/profile/api_profile.html) 
 

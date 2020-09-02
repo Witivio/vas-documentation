@@ -1,8 +1,7 @@
-Création d’un nouveau chatbot 🤖
-======================
+# Création d’un nouveau chatbot 🤖
 
 
-Activez votre licence
+### Activez votre licence
 ------ 
 
 Suivez les étapes suivantes afin d'activer votre licence : 
@@ -13,7 +12,7 @@ Suivez les étapes suivantes afin d'activer votre licence :
 Votre licence est maintenant activée! 
 
 
-Version d'essai 
+### Version d'essai 
 -----
 
 
@@ -37,7 +36,7 @@ Entrez ensuite le nom de votre société et cliquez sur Activer pour débuter l'
 
 
 
-Création de votre chatbot 
+### Création de votre chatbot 
 -----
 
 ::: tip C'est parti ! 👉  
@@ -61,7 +60,7 @@ Afin de ne pas confondre un chatbot et un être humain, il est conseillé de ne 
 
 Il est également important de ne pas tromper l’utilisateur au travers la photo : le chatbot doit être totalement transparent. Il faut donc éviter d’ajouter une photo à apparence humaine.
 
-Le format de la photo est de 96x96 px. Si vous n'avez pas de photo, il sera possible de la modifier ultérieurement en cliquant sur l’onglet "PARAMETRES" puis à nouveau [**"Paramètres"**](/articles/parametres/parametres.html).
+Le format de la photo est de 96x96 px. Si vous n'avez pas de photo, il sera possible de la modifier ultérieurement en cliquant sur l’onglet "PARAMETRES" puis à nouveau [**"Paramètres"**](/fr/chatbot/parametres/parametres.html).
 :::
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/creation_chatbot/trial5.png')" alt="creation chatbot">
@@ -87,16 +86,16 @@ Cliquez sur "activer" pour finaliser la création.
 
 
 
-Configuration du chatbot 
-=========================
+## Configuration du chatbot 
+
 
 Une fois le chatbot crée, une phase de configuration est nécessaire. Pour cela, sélectionnez la langue principale.
 
 ::: tip 💡️ 
-Il sera possible de rajouter une ou plusieures langues supplémentaires ultérieurement via la plateforme une fois le chatbot crée et configuré. (Onglet "PARAMETRES" > "Paramètres" > "Langues". 
+Il sera possible de rajouter une ou plusieures langues supplémentaires ultérieurement via la plateforme une fois le chatbot crée et configuré. (Onglet "**PARAMETRES**" > "Paramètres" > "Langues". 
 :::
 
-En cliquant sur "je t’autorise", le chatbot sera autorisé accéder au site [**SharePoint**](/articles/parametres/parametres.html#sharepoint) pour lire et écrire les fichiers Visio pour les arbres de conversation.
+En cliquant sur "je t’autorise", le chatbot sera autorisé accéder au site [**SharePoint**](/fr/chatbot/parametres/parametres.html#sharepoint) pour lire et écrire les fichiers Visio pour les arbres de conversation.
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/creation_chatbot/trial9.png')" alt="creation chatbot">

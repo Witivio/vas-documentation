@@ -25,7 +25,7 @@ are the chatbot's answers in specific situations:
 
 **These messages are essential to create a chatbot on the Witivio platform!**
 
-In case a chatbot has different [**profiles**](/en/articles/profile), you have to configure the messages for each profile.
+In case a chatbot has different [**profiles**](/en/chatbot/profile), you have to configure the messages for each profile.
 
 ::: tip 💡 Good practice
 1.  **“What should I say when users say Hello?”**
@@ -58,7 +58,7 @@ randomly among several alternatives.
 
 **1.  What should I say if I am not sure of the answer?**
 
-This message is displayed when the score is low [**(Low score)**](/en/articles/inbox/low_score.html). The
+This message is displayed when the score is low [**(Low score)**](/en/chatbot/inbox/low_score.html). The
 latter is triggered when only one question in the knowledge base corresponds to the question asked by the user but the score is as its name suggests: low
 (between 30 and 50%).
 

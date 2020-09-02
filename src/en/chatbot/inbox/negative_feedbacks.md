@@ -75,7 +75,7 @@ Inbox tab.
 
 
 
-This feature is not automatically activated. However, you can decide to activate and configure it in the Tools menu [**(Feedback)**](/en/articles/tools/feedback.html).
+This feature is not automatically activated. However, you can decide to activate and configure it in the Tools menu [**(Feedback)**](/en/chatbot/tools/feedback.html).
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/inbox/negfeed9.png')" alt="Suggested questions 2">

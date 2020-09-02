@@ -4,8 +4,8 @@
 The scoring rules are the rules which determine the triggering of the
 :::
 
--   [**Active Learning**](/en/articles/tools/active_learning.html),
--   [**Low Score**](/en/articles/inbox/low_score.html),
+-   [**Active Learning**](/en/chatbot/tools/active_learning.html),
+-   [**Low Score**](/en/chatbot/inbox/low_score.html),
 -   **No Answer**
 
 

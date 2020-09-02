@@ -7,9 +7,9 @@
 
 Click on "Tools" tab and then on the appropriate tool among :
 
--   [**Starting flow**](/en/articles/tools/starting_flow.html)
--   [**Escalation**](/en/articles/tools/escalation.html)
--   [**Active Learning**](/en/articles/tools/active_learning.html)
--   [**Feedback**](/en/articles/tools/feedback.html)
--   [**Image gallery**](/en/articles/tools/image_gallery.html)
--   [**History**](/en/articles/tools/history.html)
+-   [**Starting flow**](/en/chatbot/tools/starting_flow.html)
+-   [**Escalation**](/en/chatbot/tools/escalation.html)
+-   [**Active Learning**](/en/chatbot/tools/active_learning.html)
+-   [**Feedback**](/en/chatbot/tools/feedback.html)
+-   [**Image gallery**](/en/chatbot/tools/image_gallery.html)
+-   [**History**](/en/chatbot/tools/history.html)

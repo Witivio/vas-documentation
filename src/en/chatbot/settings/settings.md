@@ -36,8 +36,8 @@ Don't forget to click on SAVE.
 This tab allows to s choose the date from which you want to display the
 dashboards.
 
-* [**Performance dashboard**](/en/articles/dashboards/performance.html)
-* [**Usage dashboard**](/en/articles/dashboards/usage.html)
+* [**Performance dashboard**](/en/chatbot/dashboards/performance.html)
+* [**Usage dashboard**](/en/chatbot/dashboards/usage.html)
 
 
 When resetting the date, the chatbot performance and usage statics will only be displayed starting from the chosen date. 
@@ -55,7 +55,7 @@ Once the library is configured, click on "Import a library from SharePoint" and 
   <img :src="$withBase('/assets/img/en/settings/setting3.png')" alt="low score">
 </div>
 
-When the authorization has expired, access the [**Authorization**](/en/articles/settings/settings.html#authorization) tab then select "I authorize you". Do not forget to click on save. 
+When the authorization has expired, access the [**Authorization**](/en/chatbot/settings/settings.html#authorization) tab then select "I authorize you". Do not forget to click on save. 
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/settings/setting4.png')" alt="low score">

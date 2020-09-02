@@ -77,7 +77,7 @@ Log in to your Office 365 administration center [https://portal.office.com/admin
 ## Allow an Azure AD application
 
 * Copy this URL into the notepad: 
-<pre style="color:white">https://login.microsoftonline.com/common/oauth2/authorize?response_type=id_token&client_id=[APPIDingeredirect_uri=https:/www.witivio.com/s4b&response_mode=form_post&form.online.lync.com& prompt=admin_consent</pre>
+<pre style="color:white">https://login.microsoftonline.com/common/oauth2/authorize?response_type=id_token&client_id=[APPIDingeredirect_uri=https:/www.witivio.com/s4b&response_mode=form_post&form.online.lync.com & prompt=admin_consent</pre>
 
 * Replace the word <strong>[APPID]</strong> with the application created previously.
 * Copy-paste in a browser.

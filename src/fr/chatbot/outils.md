@@ -6,11 +6,11 @@
 
 Cliquez sur l'onglet « **Outil** » puis sur l'outil souhaité parmi :
 
--   [**Dialogue initaux**](/fr/articles/outils/dialogues_initiaux.html)
--   [**Escalade**](/fr/articles/outils/escalade.html)
--   [**Active Learning**](/fr/articles/outils/active_learning.html)
--   [**Feedback**](/fr/articles/outils/feedback.html)
--   [**Galerie d'images**](/fr/articles/outils/galerie_images.html)
--   [**Historique**](/fr/articles/outils/historique.html)
+-   [**Dialogue initaux**](/fr/chatbot/outils/dialogues_initiaux.html)
+-   [**Escalade**](/fr/chatbot/outils/escalade.html)
+-   [**Active Learning**](/fr/chatbot/outils/active_learning.html)
+-   [**Feedback**](/fr/chatbot/outils/feedback.html)
+-   [**Galerie d'images**](/fr/chatbot/outils/galerie_images.html)
+-   [**Historique**](/fr/chatbot/outils/historique.html)
 
 

@@ -140,7 +140,7 @@ escalation supports are available).
 
 The Visio file displays. Acess the Sharepoint to modify your Visio file.
 
-Click here to know how to build a [**conversation tree**](/en/articles/Knowledges/Conversation%20tree.html) 
+Click here to know how to build a [**conversation tree**](/en/chatbot/Knowledges/Conversation%20tree.html) 
 
 ::: danger 🔴
 Click on “Synchronize” to updated your conversation tree.

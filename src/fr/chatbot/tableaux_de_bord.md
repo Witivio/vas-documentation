@@ -12,7 +12,7 @@
 
 Toutes les données permettent l'amélioration continue du Chatbot.
 
-Les tableaux de bord comportent [le rapport de la performance](/fr/articles/tableaux_de_bord/rapport_performance.html) ainsi que [le rapport d'usage](/fr/articles/tableaux_de_bord/rapport_usage.html).
+Les tableaux de bord comportent [le rapport de la performance](/fr/chatbot/tableaux_de_bord/rapport_performance.html) ainsi que [le rapport d'usage](/fr/chatbot/tableaux_de_bord/rapport_usage.html).
 
 Une date de réinitialisation est indiquée à coté des rapports de performance et d'usage.
 

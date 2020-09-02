@@ -39,7 +39,7 @@ Choose the channel on which you want to boradcast your campaign: Skype or Micros
 
 
 
-Recipients can be added from an existing [**user list**](/en/articles/communication/user_lists.html) but also by
+Recipients can be added from an existing [**user list**](/en/chatbot/communication/user_lists.html) but also by
 creating a new mailing list.
 
 <div class="image_center">

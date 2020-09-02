@@ -26,9 +26,9 @@ N’oubliez pas de sauvegarder !
 
 Cet onglet vous permet de choisir la date à partir de laquelle vous souhaitez afficher les différentes informations des tableaux de bord.
 
-[**Tableau de bord de performance**](/articles/tableaux_de_bord/rapport_performance.html)
+[**Tableau de bord de performance**](/fr/chatbot/tableaux_de_bord/rapport_performance.html)
 
-[**Tableau d'usage**](/articles/tableaux_de_bord/rapport_usage.html)
+[**Tableau d'usage**](/fr/chatbot/tableaux_de_bord/rapport_usage.html)
 
 Lorsque vous réinitialisez la date, les statiques de performance et d'usage du chatbot seront affichées uniquement à partir de la date sélectionnez. Effacez celle-ci si vous souhaitez revenir aux informations précédentes.
 

@@ -50,7 +50,7 @@ The supported confidence scores can also be configured.
 The minimum score difference between one question and another in order to **start the Active Learning** can also be configured.
 
 As a reminder, **the Active Learning is triggered when the chatbot has a doubt about the understanding of the question and several questions in the knowledge base trigger a
-high score [**(Scoring rules)**](/en/articles/inbox/scoring_rules.html) (difference of less than 20 points between
+high score [**(Scoring rules)**](/en/chatbot/inbox/scoring_rules.html) (difference of less than 20 points between
 the different questions).
 
 <div class="image_center">

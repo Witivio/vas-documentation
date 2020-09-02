@@ -33,5 +33,5 @@ selected chatbot, you will have to delete them as users by clicking on the icon
 at the top right, then on “Administrators”.
 :::
 
-Click [**here**](/en/articles/licence_administrators) to know more about super administrators.
+Click [**here**](/en/chatbot/licence_administrators) to know more about super administrators.
 
