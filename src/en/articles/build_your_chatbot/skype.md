@@ -68,7 +68,7 @@ Log in to your Office 365 administration center [https://portal.office.com/admin
 * Select Select permissions
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/build_your_chatbot/skype6.jpg')" alt="azure deleged permissions">
+  <img :src="$withBase('/assets/img/en/build_your_chatbot/skype6.jpg')" alt="azure permissions">
 </div>
 
 * Select all elements in the section Delegated permissions
