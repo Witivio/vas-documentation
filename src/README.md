@@ -1,49 +1,49 @@
 ---
 home: true
 heroImage: /assets/img/index/logo_black.png
-tagline: Chatbots d’entreprise pour le Digital Workplace
-taglineStartup: Witivio 365 est la plateforme complète de création et monitoring de Chatbots pour le Digital Workplace et Office 365. Nos solutions sont pensées pour vos collaborateurs et visent à faciliter l’accès à l’information au sein de votre organisation.
-actionText: Commencer →
-actionLink: /fr/articles/creation_chatbot
+tagline: Chatbots for Digital Workplace
+taglineStartup: Witivio 365 is the design and monitoring platform for chatbots for the digital workplace and Office 365. Our solutions are designed for your employees and focus on facilitating access to information in your organization.
+actionText: Get Started →
+actionLink: /en/articles/build_your_chatbot
 features:
 - title: /assets/img/index/1bot-300x228.png
-  details: Grâce à la plateforme Witivio, créez autant de chatbots que vous voulez, de façon simple et sans code !
+  details: With the Witivio platform, create as many chatbots as you want, it’s simple and codeless!
 - title: /assets/img/index/2lesagentsmeties-300x246.png
-  details: Donnez la main au métier ! Chaque spécialité peut construire son chatbot facilement et de façon autonome.
+  details: Each department can build its own chatbot easily and independently!
 - title: /assets/img/index/3realisationcommune.png
-  details: Nous réalisons et activons ensemble le 1er assistant virtuel. Les chatbots n’auront plus aucun secrets pour vous !
+  details: Together we create and activate the 1st virtual assistant. Chatbots will no longer have any secrets for you!
 items:
-- title: Création d'un chatbot
+- title: Build your chatbot
   itemImage: /assets/img/index/robotic-arm.png
-  itemDescription: Créez et configurez votre chatbot.
-  link: /fr/articles/creation_chatbot.html
-- title: Boîte de réception
+  itemDescription: Create and configure your  chatbot.
+  link: /en/articles/build_your_chatbot.html
+- title: Inbox
   itemImage: /assets/img/index/email.png
-  itemDescription: Traitez les questions des utilisateurs.
-  link: /fr/articles/boite_de_reception.html
-- title: Tableaux de bord
+  itemDescription: Manage user's questions.
+  link: /en/articles/inbox.html
+- title: Dashboards
   itemImage: /assets/img/index/dashboard.png
-  itemDescription: Performance et usage du chatbot.
-  link: /fr/articles/tableaux_de_bord.html
-- title: Connaissances
+  itemDescription: Chatbot performance and usage.
+  link: /en/articles/dashboards.html
+- title: Knowledges
   itemImage: /assets/img/index/knowledge.png
-  itemDescription: Configurez votre base de connaissances.
-  link: /fr/articles/connaissances/processus_de_creation.html
-- title: Outils
+  itemDescription: Configure your knowledge base.
+  link: /en/articles/knowledge/creation_process.html
+- title: Tools
   itemImage: /assets/img/index/technical-support.png
-  itemDescription: Développez les capacités de votre chatbot.
-  link: /fr/articles/outils.html
-- title: Communication push
+  itemDescription: Expand the capabilities of your chatbot.
+  link: /en/articles/tools.html
+- title: Push communication
   itemImage: /assets/img/index/conversation.png
-  itemDescription: Diffusez des informations en interne.
-  link: /fr/articles/communication.html
-- title: Profil
+  itemDescription: Distiribute ans share information internally.
+  link: /en/articles/communication.html
+- title: Profile
   itemImage: /assets/img/index/user.png
-  itemDescription: Créez de profils pour apporter la bonne réponse à la bonne personne.
-  link: /fr/articles/profil.html
-- title: Paramètres
+  itemDescription: Create profiles to give the right anwser to the right person.
+  link: /en/articles/profile.html
+- title: Settings
   itemImage: /assets/img/index/programming.png
-  itemDescription: Paramétrez les accès, les canaux et les politiques de confidentialité.
-  link: /fr/articles/parametres.html
-footer: Créé par Witivio avec ❤️
+  itemDescription: Set up access, channels and privacy polices.
+  link: /en/articles/settings.html
+footer: Made by Witivio with ❤️
 ---

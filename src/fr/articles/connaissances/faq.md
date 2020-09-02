@@ -28,7 +28,7 @@ Si vous possédez déjà une base de connaissances créée en amont (questions/r
 
 -   **Colonne 1** : Les questions
 -   **Colonne 2:** Les réponses
--   **Les alternatives:** La question sera différente (en dessous de la question dite "mère"*), mais la réponse sera identique.
+-   **Les alternatives:** La question sera différente (en dessous de la question dite "mère"), mais la réponse sera identique.
 
 ::: tip Qu'est-ce qu'une question mère ?
 La question mère est la question qui apparaît en évidence dans votre base de connaissances. Une question mère doit avoir plusieurs alternatives. Le chatbot ne fera pas la différence entre "question mère" et "alternative" lorsqu'il s'agira de comprendre l'utilisateur.
@@ -968,7 +968,7 @@ Il est possible de positionner des markdown dans les réponses et les messages
 * Header1-5: #H1
 * Lien: ```[bing](http://bing.com)```
 
-Image et bouton (beta - Webchat et Teams uniquement)
+Image et bouton (bêta - Webchat et Teams uniquement)
 
 ### Image
 

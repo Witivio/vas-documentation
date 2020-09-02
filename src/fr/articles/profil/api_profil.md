@@ -165,7 +165,7 @@ Remplacez les resultats vide par les données de votre requête sur SharePoint:
   <img :src="$withBase('/assets/img/fr/profil/api12.png')" alt="low score">
 </div>
 
--   Remplace Profile par la valeur récupéré sur Sharepoint : first(body('Obtenir_les_éléments')?['value'])?['profile']
+-   Remplace Profile par la valeur récupéré sur Sharepoint : ```first(body('Obtenir_les_éléments')?['value'])?['profile']```
 
 >   Expression = *first(body('Get_items')?['value'])?['profile']*
 

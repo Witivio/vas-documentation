@@ -190,7 +190,6 @@ export default {
     opacity 1
     display flex
     flex-direction column
-    // text-align center
     align-items flex-start
     justify-content flex-start
     img
@@ -255,7 +254,7 @@ export default {
     display flex
     width 100%
     flex-direction column
-    max-width 100%
+    max-width 70%
     h1
       font-size 2rem
   .home
@@ -264,7 +263,9 @@ export default {
     .feature
       max-width 100%
       padding 0 2.5rem
-@media (max-width: $MQMobileNarrow)
+@media (max-width: 1024px)
+  .hero_container
+    max-width 100%
   .home
     padding-left 1.5rem
     padding-right 1.5rem
