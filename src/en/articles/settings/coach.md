@@ -15,7 +15,7 @@ access to the coach to one or several chatbots.
 
 The coach is the person who ensure the continuous improvement of the chatbot, by
 teaching it new questions and by improving already existing element of its
-knowledge base (questions, alternative, synonyms, … ).
+knowledge base (questions, alternative, synonyms …).
 
 ### How ?
 ---
