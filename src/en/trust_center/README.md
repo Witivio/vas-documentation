@@ -1,8 +1,9 @@
 ---
 sidebar : auto
+title: "Architecture and security"
 ---
 
-# Architecture and security
+
 
 ## Introduction
 
