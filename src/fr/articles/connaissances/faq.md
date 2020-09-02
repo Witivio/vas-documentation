@@ -130,7 +130,7 @@ Afin d'alimenter la base de connaissances du chatbot, il faut ajouter des:
 
 
 ### Nouvelle question
-
+---
 
 1.  Tout d’abord sélectionnez la catégorie à laquelle vous souhaitez rattacher votre question. Choisissez «éditorial» (catégorie présente par défaut) ou une autre catégorie .
 2.  Sélectionnez «Texte libre» si vous souhaitez rédiger la question librement. Autrement, utilisé un des templates de la plateforme: il s'agit de différentes propositions de formulation de phrase (1) :
@@ -169,7 +169,7 @@ Lorsque vous utilisez un template ou un modèle, la plateforme génèrera des al
 
 
 ### Signification des symboles
-
+---
 Différents symboles s'affichent à droite d'une nouvelle connaissance
 
 |Symbole| Signification                                                                                                                                |
@@ -229,10 +229,10 @@ On the Knowledge Base tab click on the question and select the type of answer.
 
 
 ### Réponse Simple
-
+---
 **Il s’agit d’une réponse simple et directe.**
 
-# Réponse simple de type texte
+#### Réponse simple de type texte
 
 Dans la fenêtre de votre réponse simple, vous retrouvez :
 
@@ -263,7 +263,7 @@ Pour plus d'information sur le format [**markdown**](/fr/articles/connaissances/
 
 
 ### Réponse simple de type Adaptive Card
-
+---
 Les réponses simples de type Adaptive Card permettent une mise en forme plus riche. En effet, il est possible d'ajouter des images, des actions, des boutons, des vidéos, ... Ce type de réponse simple est disponible uniquement en Webcaht et sur Microsoft Teams. Vous n'aurez pas accès aux Adaptive Cards sur les canaux Skype et Sms, cependant si vous avez **plusieurs canaux** vous avez la possibilité de designer une réponse simple de type Adaptive Card pour les canaux Teams et Webchat et rédiger une réponse simple de type texte pour les canaux Skype et Sms.
 
 <div class="image_center">
@@ -330,7 +330,7 @@ N’oubliez pas d'enregistrer au fur et à mesure !
 
 
 ### Réponse Contextuelle
-
+---
 Il y a un échange entre l'utilisateur et le chatbot car la réponse dépend du contexte (exemple : lieu, type de contrat,...).
 
 Vous pouvez ajouter et supprimer un ou plusieurs choix (2) & (3).
@@ -365,7 +365,7 @@ N’oubliez pas d'enregistrer au fur et à mesure !
 
 
 ### Réponse Image
-
+---
 La réponse de type **image** permet de designer une simple adaptive card composée d'une image obligatoire et d'un titre et du texte optionnels.
 
 Lors de la création d'une réponse image, ajoutez un titre et du texte si vous le souhaitez puis choisissez une image. Celle-ci peut etre ajoutée à partir d'une url ou de la galerie d'images.
@@ -393,7 +393,7 @@ La taille maximale de l'image est de 2 MB et les formats supportés sont .png, .
 
 
 ### Arbres des conversation
-
+---
 **Un arbre de conversation est le type de réponse utilisé lorsque les réponses simples ou contextuelles ne suffisent pas. L’arbre de conversation prévoit plusieurs échanges entre le chatbot et l’utilisateur.**
 
 Il s’agit d’un fichier Visio synchronisé dans la bibliothèque SharePoint liée au chatbot.
@@ -534,7 +534,7 @@ Cliquez sur « Synchroniser" (1).
 
 Après la synchronisation, vous verrez apparaître votre arbre. Si ce dernier s’affiche cela signifie que toutes les formes sont bien connectées.
 
-# Changement de choix dans les arbres de conversation
+#### Changement de choix dans les arbres de conversation
 
 ::: danger 🔴
 En fonction de l'arbre de conversation, vous pouvez changer votre choix pendant la conversation. Cependant, il existe des limites :
@@ -598,7 +598,7 @@ N’oubliez pas d’enregistrer en cliquant sur « **Sauvegarder** » en bas à 
 
 
 ### Conversations dynamiques
-
+---
 #### QUESTION
 ---
 * Forme : Bot Input

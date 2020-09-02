@@ -45,7 +45,7 @@ Par exemple, comme indiqué ci-dessus, sur les 7 derniers jours, le chatbot a ap
 
 Ici par exemple, sur les 7 derniers jours, le chatbot n’a pas su répondre à 20 questions
 
-### Le nombre total de questions posées
+## Le nombre total de questions posées
 
 Le graphique suivant indique l’évolution du nombre de questions posées sur la période choisie. Par exemple, sur les 7 derniers jours.
 

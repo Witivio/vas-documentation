@@ -1,8 +1,8 @@
 # Processus de création
 
 ### A quoi sert ?
-
->Le processus de création regroupe l’ensemble des étapes permettant de créer, modifier, tester et enfin publier les questions/réponses.
+---
+Le processus de création regroupe l’ensemble des étapes permettant de créer, modifier, tester et enfin publier les questions/réponses.
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/connaissances/creation1.png')" alt="low score">
@@ -12,7 +12,7 @@
 
 
 ### Comment ?
-
+---
 
 En cliquant sur l’onglet « **Connaissances** » puis « **FAQ** », vous retrouverez les différentes composantes afin de débuter le processus de création
 

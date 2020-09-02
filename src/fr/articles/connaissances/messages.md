@@ -11,7 +11,7 @@ Cliquez sur « **Connaissances** » afin d'alimenter la base de connaissance du 
 
 
 ### A quoi sert ?
-
+---
 
 L’onglet « Messages » vous permet de configurer les messages de base. Ce sont les réponses du chatbot dans des situations précises.
 
