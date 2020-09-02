@@ -9,9 +9,6 @@ Click on **Settings tab** then **Settings** again.
 
 ## Bot
 
-<div class="image_center">
-  <img :src="$withBase('/assets/img/en/settings/setting2.png')" alt="low score">
-</div>
 
 This tab allows to have information about the Id of the chatbot, but also to
 modify its name and pictue, when needed.
@@ -19,6 +16,10 @@ modify its name and pictue, when needed.
 ::: tip 💡
 You can also delete the chatbot.
 :::
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/settings/setting2.png')" alt="low score">
+</div>
 
 ## Authorization
 

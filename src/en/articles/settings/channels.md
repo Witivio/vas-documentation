@@ -22,7 +22,7 @@ Here you can click on pause ⏸️ if you want that the chatbot appear “offlin
 skype; or click on 🔄 restart to start the connector in case of issue.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/settings/settingsuserlist4.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/settings/channels3.png')" alt="low score">
 </div>
 
 
@@ -30,7 +30,7 @@ The following boxes contain the connection information: E-mail, password, Azure
 ID.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/settings/settingsuserlist5.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/settings/channels4.png')" alt="low score">
 </div>
 
 
@@ -39,14 +39,14 @@ For example: HR assistant. In case you decide to modify it, the change will
 automatically appear on Skype above the chatbot name.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/settings/settingsuserlist6.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/settings/channels5.png')" alt="low score">
 </div>
 
 
 It also possible to consult the event logs of the connector.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/settings/settingsuserlist7.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/settings/channels6.png')" alt="low score">
 </div>
 
 
@@ -184,6 +184,7 @@ the choice of the new profile in the test.
         </tr>
 </table>
 
+#### [Configuration of the Webchat V1 component compatible with IE11 (obsolete)](/en/articles/webchat_v1.html)
 
 ## Security of the chatbot 
 
@@ -194,7 +195,7 @@ The Webchat allows you to manage the **security of the chatbot** in a better way
 :::
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/settings/settingsuserlist8.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/settings/channels8.png')" alt="low score">
 </div>
 
 ::: danger 🔴
@@ -215,14 +216,14 @@ In order to add the webpart into your SharePoint Modern, you need to add the spp
 2. Upload or drag and drop the witivio-webchat.sppkg to the app catalog.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/settings/settingsuserlist9.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/settings/channels9.png')" alt="low score">
 </div>
 
 
 This deploys the client-side solution package. Because this is a full trust client-side solution, SharePoint displays a dialog and asks you to trust the client-side solution to deploy.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/settings/settingsuserlist10.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/settings/channels10.png')" alt="low score">
 </div>
 
 3. Select Deploy.
@@ -237,14 +238,14 @@ The webchat is now available from your pages in your SharePoint site.
 3. If you scroll down you will find "Witivio-webchat" webpart
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/settings/settingsuserlist11.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/settings/channels11.png')" alt="low score">
 </div>
 
 
 4. Select it. the component appear, but the webchat is not configured yet.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/settings/settingsuserlist12.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/settings/channels12.png')" alt="low score">
 </div>
 
 ::: tip 💡

@@ -203,6 +203,7 @@ La fenêtre Webchat est votre chatbot en intégration et vous permet de le teste
         </tr>
 </table>
 
+#### [Configuration du composant Webchat V1 compatible avec IE11 (obsolete)](/fr/articles/webchat_v1.html)
 
 ## Sécurité du chatbot
 

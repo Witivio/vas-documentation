@@ -2,12 +2,7 @@
 sidebar : auto
 ---
 
-# Trust Center
-
-## Architecture and security
-
-<br />
-<br />
+# Architecture and security
 
 ## Introduction
 

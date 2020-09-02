@@ -52,15 +52,20 @@ user.
 :::
 
 <div class="image_center">
+  <img :src="$withBase('/assets/img/en/knowledge/kb11.png')" alt="low score">
+</div>
+
+<div class="image_center">
   <img :src="$withBase('/assets/img/en/knowledge/kb3.png')" alt="low score">
 </div>
 
 ::: warning ⚠️
-* **In column 2 (answer)**
-* Copy/Paste the answer to have exactly the same for the question and the
+**In column 2 (answer)**
+:::
+
+Copy/Paste the answer to have exactly the same for the question and the
 alternatives. If it’s written differently, the alternative will not be linked to
 its principal question.
-:::
 
 ::: warning ⚠️
 **Title and header**
@@ -88,7 +93,7 @@ your file. The "Editorial" category includes all the questions.
 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/knowledge/kb7.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/knowledge/kb6.png')" alt="low score">
 </div>
 
 
@@ -112,7 +117,7 @@ can therefore filter by:
 - Select All 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/knowledge/kb8.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/knowledge/kb7.png')" alt="low score">
 </div>
 
 
@@ -123,12 +128,27 @@ can therefore filter by:
 Once your knowledge base is exported, make the required modifications, save your excel export and then import it using the **ADVANCED IMPORT** button.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/knowledge/kb9.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/knowledge/kb8.png')" alt="low score">
 </div>
 
 
 
 ## Create a new question
+
+Once you have created your question, click on it to modify it, add the answer and/or alternatives.
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/knowledge/nexquestion4.png')" alt="low score">
+</div>
+
+* It is now possible to modify the advanced parameters (category, profile, schedule ...) of a question before entering the answer.
+* Status: Fill in the status of your question and add a tag to facilitate the construction of your chatbot's knowledge base (Ready to be published or validated).
+* Tags: Improve, complete the enswer,... It's up to you to determine the use of this feature!
+
+You can also add tags to your chatbots from the Settings tab > Settings > Bot.
+
+
+
 
 The knowledge base corresponds to all questions that the chatbot will be able to
 answer. [**The creation process**](/en/articles/Knowledges/Creation%20process.html) includes all the steps to create, modify,
@@ -208,21 +228,6 @@ Different symbols are displayed next to the new question:
 
 :::
 
-Once you have created your question, click on it to modify it, add the answer and/or alternatives. 
-
-<div class="image_center">
-  <img :src="$withBase('/assets/img/en/knowledge/kb10.png')" alt="low score">
-</div>
-
-
-
-- It is now possible to modify the advanced parameters (category, profile, schedule ...) of a question before entering the answer. 
-- Status: Fill in the status of your question and add a tag to facilitate the construction of your chatbot's knowledge base (Ready to be published or validated).
-- Tags: Improve, complete the enswer,... It's up to you to determine the use of this feature! 
-
-You can also add tags to your chatbots from the Settings tab > Settings > Bot. 
-
-Translated with www.DeepL.com/Translator (free version)
 
 ## Types of answer
 
@@ -536,7 +541,7 @@ During a conversation with the chatbot, it is possible to come back to a previou
 :::
 
 ### Dynamic conversation
-
+---
 #### QUESTION
 
 * Shape: Bot Input
@@ -634,18 +639,12 @@ Use the Visio Http header in order to add Headers (name, value) to your API.
 
 ```
 [INDEX OF THE API SHAPE IN THE FLOW]
-
 :
-
 [JSONPATH REQUEST OF THE JSON PROPERTY]
 ```
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/knowledge/answer_dynamic8.png')" alt="Answer Dynamic">
-</div>
-
-<div class="image_center">
-  <img :src="$withBase('/assets/img/en/knowledge/answer_dynamic9.png')" alt="Answer Dynamic">
 </div>
 
 

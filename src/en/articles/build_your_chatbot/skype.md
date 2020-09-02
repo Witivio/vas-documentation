@@ -55,16 +55,24 @@ Log in to your Office 365 administration center [https://portal.office.com/admin
 
 * Select WitivioConnector from the list of applications.
 * Copy the application ID
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/build_your_chatbot/skype5.png')" alt="azure deleged permissions">
+</div>
+
+
 * Select Required permissions in the right panel.
 * Select Add
 * Select Select an API
 * Select Skype for Business Online
 * Select Select permissions
-* Select all elements in the section Delegated permissions
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/build_your_chatbot/skype6.jpg')" alt="azure deleged permissions">
 </div>
+
+* Select all elements in the section Delegated permissions
+
 
 
 * Select <strong>Save</strong>

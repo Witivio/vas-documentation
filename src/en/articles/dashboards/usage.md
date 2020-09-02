@@ -31,11 +31,8 @@ channels.
 The " Usage " tab provides information about:
 
 -   **Total number of messages: any type of message (chitchats and questions)**
-
 -   **Number of distinct users**
-
 -   **Average conversation time**
-
 -   **Total number of conversations**
 
 <div class="image_center">

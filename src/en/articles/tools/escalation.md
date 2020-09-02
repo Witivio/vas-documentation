@@ -280,7 +280,7 @@ contact the support
 to contact the support
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/tools/escalation19.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/tools/escalation20.png')" alt="low score">
 </div>
 
 
@@ -290,7 +290,7 @@ Configure the feedback request message and the message when the agent puts the
 user on hold.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/tools/escalation20.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/tools/escalation21.png')" alt="low score">
 </div>
 
 
@@ -337,7 +337,7 @@ The pre-configured Teams Support Team agents receive a support request.
 Log in with your Offic e365 account to access the **support ticket list** of your chatbot. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/tools/escalation21.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/tools/escalation22.png')" alt="low score">
 </div>
 
 
@@ -354,7 +354,7 @@ When agents receive a new request for assistance, they may:
 - ⏸️ Accept and put on hold
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/tools/escalation22.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/tools/escalation23.png')" alt="low score">
 </div>
 
 
@@ -365,7 +365,7 @@ When agents receive a new request for assistance, they may:
 The following example shows that the request has been accepted.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/tools/escalation23.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/tools/escalation24.png')" alt="low score">
 </div>
 
 
@@ -378,7 +378,7 @@ The agent clicks on "Disconnect" button when he wants to end the conversation
 with the user.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/tools/escalation24.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/tools/escalation25.png')" alt="low score">
 </div>
 
 
@@ -404,7 +404,7 @@ The chatbot asks the user to wait until the agent is available.
 The agent then clicks on ''Connect'' button to take over the conversation.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/tools/escalation25.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/tools/escalation26.png')" alt="low score">
 </div>
 
 
@@ -417,7 +417,7 @@ The agent may decide to reject a support request and indicate the reason for the
 refusal.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/tools/escalation26.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/tools/escalation27.png')" alt="low score">
 </div>
 
 

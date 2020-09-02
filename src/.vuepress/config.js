@@ -223,41 +223,49 @@ module.exports = {
           title: 'Licence Administrators',
           path: '/en/articles/licence_administrators',
           collapsable: false,
-          children: [
-            ['/en/articles/licence_administrators.md', 'Licence administrators'],
-          ]
+          // children: [
+          //   ['/en/articles/licence_administrators.md', 'Licence administrators'],
+          // ]
         },
         {
           title: 'Home',
           path: '/en/articles/home',
           collapsable: false,
-          children: [
-            ['/en/articles/home.md', 'Home'],
-          ]
+          // children: [
+          //   ['/en/articles/home.md', 'Home'],
+          // ]
         },
         {
           title: 'Notification bar',
           path: '/en/articles/notification_bar',
           collapsable: false,
-          children: [
-            ['/en/articles/notification_bar.md', 'Home'],
-          ]
+          // children: [
+          //   ['/en/articles/notification_bar.md', 'Home'],
+          // ]
         },
         {
           title: 'Limitations',
           path: '/en/articles/limitations',
           collapsable: false,
-          children: [
-            ['/en/articles/limitations.md', 'Limitations'],
-          ]
+          // children: [
+          //   ['/en/articles/limitations.md', 'Limitations'],
+          // ]
         },
         {
           title: 'Teams Features',
           path: '/en/articles/teams_features',
           collapsable: false,
-          children: [
-            ['/en/articles/teams_features.md', 'Teams Features'],
-          ]
+          // children: [
+          //   ['/en/articles/teams_features.md', 'Teams Features'],
+          // ]
+        },
+        {
+          title: 'Webchat V1 (obsolete)',
+          path: '/en/articles/webchat_v1',
+          collapsable: false,
+          // children: [
+          //   ['/en/articles/webchat_v1.md', 'Webchat V1 (obsolete)'],
+          // ]
         }
       ],
       '/fr/articles/': [
@@ -357,41 +365,49 @@ module.exports = {
           title: 'Administrateurs de licence',
           path: '/fr/articles/administrateur_de_licence',
           collapsable: false,
-          children: [
-            ['/fr/articles/administrateur_de_licence.md', 'Administrateur de Licence'],
-          ]
+          // children: [
+          //   ['/fr/articles/administrateur_de_licence.md', 'Administrateur de Licence'],
+          // ]
         },
         {
           title: "Page d'accueil",
           path: '/fr/articles/page_accueil',
           collapsable: false,
-          children: [
-            ['/fr/articles/page_accueil.md', "Page d’accueil"],
-          ]
+          // children: [
+          //   ['/fr/articles/page_accueil.md', "Page d’accueil"],
+          // ]
         },
         {
           title: 'Barre de notifications',
           path: '/fr/articles/barre_de_notification',
           collapsable: false,
-          children: [
-            ['/fr/articles/barre_de_notification.md', 'Barre de notifications'],
-          ]
+          // children: [
+          //   ['/fr/articles/barre_de_notification.md', 'Barre de notifications'],
+          // ]
         },
         {
           title: 'Limitations',
           path: '/fr/articles/limitations',
           collapsable: false,
-          children: [
-            ['/fr/articles/limitations.md', 'Limitations'],
-          ]
+          // children: [
+          //   ['/fr/articles/limitations.md', 'Limitations'],
+          // ]
         },
         {
           title: 'Fonctionnalités Teams',
           path: '/fr/articles/fonctionnalites_teams',
           collapsable: false,
-          children: [
-            ['/fr/articles/fonctionnalites_teams.md', 'Fonctionnalités Teams'],
-          ]
+          // children: [
+          //   ['/fr/articles/fonctionnalites_teams.md', 'Fonctionnalités Teams'],
+          // ]
+        },
+        {
+          title: 'Webchat V1 (obsolète)',
+          path: '/fr/articles/webchat_v1',
+          collapsable: false,
+          // children: [
+          //   ['/fr/articles/webchat_v1.md', 'Webchat V1 (obsolète)'],
+          // ]
         }
       ],
       '/fr/dynameet/': [

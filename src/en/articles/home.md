@@ -22,7 +22,7 @@ You can also find the status of publications as well as the tags of your chatbot
 - 2) **Tags** are configurable in the Settings tab > Settings. Enter the wished tag(s) and then click on "+ Add". You will then find the tags added on your home page. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/home3.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/home/home4.png')" alt="low score">
 </div>
 
 
@@ -33,7 +33,7 @@ the number and percentage of conversations per chatbot. Select the wished period
 by using the available filter.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/home4.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/home/home5.png')" alt="low score">
 </div>
 
 
@@ -61,7 +61,7 @@ This page will allow you to identify :
 The information can be filtered by chatbot, by coach, by page and by date. It can also be exported. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/home5.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/home/home6.png')" alt="low score">
 </div>
 
 
@@ -76,7 +76,7 @@ chatbots (2) :
 -   enable pre-configured queries related to the [**GDPR**](/en/articles/settings/privacy.html#gdpr)
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/home6.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/home/home7.png')" alt="low score">
 </div>
 
 
