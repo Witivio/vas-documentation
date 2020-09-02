@@ -4,15 +4,15 @@ module.exports = {
   additionalPages: [
     {
       path: '/fr/articles/canaux.html',
-      filePath: path.resolve(__dirname, '../fr/articles/parametres/canaux.md')
+      filePath: path.resolve(__dirname, '../fr/chatbot/parametres/canaux.md')
     },
     {
       path: '/fr/articles/escalade.html',
-      filePath: path.resolve(__dirname, '../fr/articles/outils/escalade.md')
+      filePath: path.resolve(__dirname, '../fr/chatbot/outils/escalade.md')
     },
     {
       path: '/fr/articles/accessibilites du chatbot.html',
-      filePath: path.resolve(__dirname, '../fr/articles/parametres/accessibilite_de_chatbot.md')
+      filePath: path.resolve(__dirname, '../fr/chatbot/parametres/accessibilite_de_chatbot.md')
     }
   ],
   description: "witivio - Chatbots d’entreprise pour le Digital Workplace",
@@ -69,7 +69,7 @@ module.exports = {
         // algolia docsearch options for current locale
         algolia: {},
         nav: [
-          { text: 'Witivio 365', link: '/fr/articles/creation_chatbot' },
+          { text: 'Witivio 365', link: '/fr/chatbot/creation_chatbot' },
           { text: 'Dynameet', link: '/fr/dynameet/' },
           { text: 'Videos', link: '/fr/videos/' },
           { text: 'Teams Apps', link: '/fr/teams_apps/' },
@@ -96,7 +96,7 @@ module.exports = {
         // algolia docsearch options for current locale
         algolia: {},
         nav: [
-          { text: 'Witivio 365', link: '/fr/articles/creation_chatbot' },
+          { text: 'Witivio 365', link: '/fr/chatbot/creation_chatbot' },
           { text: 'Dynameet', link: '/fr/dynameet/' },
           { text: 'Videos', link: '/fr/videos/' },
           { text: 'Teams Apps', link: '/fr/teams_apps/' },
@@ -115,7 +115,7 @@ module.exports = {
           }
         },
         nav: [
-          { text: 'Witivio 365', link: '/en/articles/build_your_chatbot' },
+          { text: 'Witivio 365', link: '/en/chatbot/build_your_chatbot' },
           { text: 'Dynameet', link: '/en/dynameet/' },
           { text: 'Videos', link: '/en/videos/' },
           { text: 'Teams Apps', link: '/en/teams_apps/' },
@@ -126,194 +126,194 @@ module.exports = {
       }
     },
     sidebar: {
-      '/en/articles/': [
+      '/en/chatbot/': [
         {
           title: 'Build your chatbot',
-          path: '/en/articles/build_your_chatbot',
+          path: '/en/chatbot/build_your_chatbot',
           collapsable: false,
           children: [
-            ['/en/articles/build_your_chatbot/skype.md', 'Skype for Business Online prerequisites'],
-            ['/en/articles/build_your_chatbot/requisites.md', 'Teams prerequisites']
+            ['/en/chatbot/build_your_chatbot/skype.md', 'Skype for Business Online prerequisites'],
+            ['/en/chatbot/build_your_chatbot/requisites.md', 'Teams prerequisites']
           ]
         },
         {
           title: 'Inbox',
-          path: '/en/articles/inbox',
+          path: '/en/chatbot/inbox',
           collapsable: false,
           children: [
-            ['/en/articles/inbox/unanswered_questions.md', 'Unanswered Questions'],
-            ['/en/articles/inbox/low_score.md', 'Low Score'],
-            ['/en/articles/inbox/suggested_questions.md', 'Suggested Questions'],
-            ['/en/articles/inbox/negative_feedbacks.md', 'Negative Feedbacks'],
-            ['/en/articles/inbox/scoring_rules.md', 'Scoring Rules'],
+            ['/en/chatbot/inbox/unanswered_questions.md', 'Unanswered Questions'],
+            ['/en/chatbot/inbox/low_score.md', 'Low Score'],
+            ['/en/chatbot/inbox/suggested_questions.md', 'Suggested Questions'],
+            ['/en/chatbot/inbox/negative_feedbacks.md', 'Negative Feedbacks'],
+            ['/en/chatbot/inbox/scoring_rules.md', 'Scoring Rules'],
           ]
         },
         {
           title: 'Dashboards',
-          path: '/en/articles/dashboards',
+          path: '/en/chatbot/dashboards',
           collapsable: false,
           children: [
-            ['/en/articles/dashboards/performance.md', 'Performance Dashboard'],
-            ['/en/articles/dashboards/usage.md', 'Usage Dashboard'],
-            ['/en/articles/dashboards/power_bi.md', 'Power Bi Dashboard'],
+            ['/en/chatbot/dashboards/performance.md', 'Performance Dashboard'],
+            ['/en/chatbot/dashboards/usage.md', 'Usage Dashboard'],
+            ['/en/chatbot/dashboards/power_bi.md', 'Power Bi Dashboard'],
           ]
         },
         {
           title: 'Knowledge',
-          path: '/en/articles/knowledge/creation_process',
+          path: '/en/chatbot/knowledge/creation_process',
           collapsable: false,
           sidebarDepth: 3,
           children: [
-            ['/en/articles/knowledge/creation_process.md', 'Creation Process'],
-            ['/en/articles/knowledge/messages.md', 'Messages'],
-            ['/en/articles/knowledge/categories.md', 'Categories'],
-            ['/en/articles/knowledge/kb.md', 'KB'],
-            ['/en/articles/knowledge/entities.md', 'Entities'],
-            ['/en/articles/knowledge/synonyms.md', 'Synonyms'],
-            ['/en/articles/knowledge/test_plan.md', 'Test Plan'],
-            ['/en/articles/knowledge/configuration.md', 'Configuration'],
+            ['/en/chatbot/knowledge/creation_process.md', 'Creation Process'],
+            ['/en/chatbot/knowledge/messages.md', 'Messages'],
+            ['/en/chatbot/knowledge/categories.md', 'Categories'],
+            ['/en/chatbot/knowledge/kb.md', 'KB'],
+            ['/en/chatbot/knowledge/entities.md', 'Entities'],
+            ['/en/chatbot/knowledge/synonyms.md', 'Synonyms'],
+            ['/en/chatbot/knowledge/test_plan.md', 'Test Plan'],
+            ['/en/chatbot/knowledge/configuration.md', 'Configuration'],
           ]
         },
         {
           title: 'Tools',
-          path: '/en/articles/tools',
+          path: '/en/chatbot/tools',
           collapsable: false,
           children: [
-            ['/en/articles/tools/starting_flow.md', 'Starting Flow'],
-            ['/en/articles/tools/escalation.md', 'Escalation'],
-            ['/en/articles/tools/active_learning.md', 'Active Learning'],
-            ['/en/articles/tools/feedback.md', 'Feedback'],
-            ['/en/articles/tools/image_gallery.md', 'Image Gallery'],
-            ['/en/articles/tools/recommendation.md', 'Recommendation'],
-            ['/en/articles/tools/history.md', 'History'],
+            ['/en/chatbot/tools/starting_flow.md', 'Starting Flow'],
+            ['/en/chatbot/tools/escalation.md', 'Escalation'],
+            ['/en/chatbot/tools/active_learning.md', 'Active Learning'],
+            ['/en/chatbot/tools/feedback.md', 'Feedback'],
+            ['/en/chatbot/tools/image_gallery.md', 'Image Gallery'],
+            ['/en/chatbot/tools/recommendation.md', 'Recommendation'],
+            ['/en/chatbot/tools/history.md', 'History'],
           ]
         },
         {
           title: 'Communication',
-          path: '/en/articles/communication',
+          path: '/en/chatbot/communication',
           collapsable: false,
           children: [
-            ['/en/articles/communication/user_lists.md', 'User Lists'],
-            ['/en/articles/communication/campaign.md', 'Campaign'],
+            ['/en/chatbot/communication/user_lists.md', 'User Lists'],
+            ['/en/chatbot/communication/campaign.md', 'Campaign'],
           ]
         },
         {
           title: 'Profile',
-          path: '/en/articles/profile',
+          path: '/en/chatbot/profile',
           collapsable: false,
           children: [
-            ['/en/articles/profile/api_profile.md', 'API Profile with SharedPoint and MS Flow'],
+            ['/en/chatbot/profile/api_profile.md', 'API Profile with SharedPoint and MS Flow'],
           ]
         },
         {
           title: 'Settings',
-          path: '/en/articles/settings',
+          path: '/en/chatbot/settings',
           collapsable: false,
           children: [
-            ['/en/articles/settings/privacy.md', 'Privacy policies'],
-            ['/en/articles/settings/chatbot.md', 'Chatbot accessibility'],
-            ['/en/articles/settings/multilingual.md', 'Multilingual'],
-            ['/en/articles/settings/user_list.md', 'User List'],
-            ['/en/articles/settings/channels.md', 'Channels'],
-            ['/en/articles/settings/coach.md', 'Coach'],
-            ['/en/articles/settings/settings.md', 'Settings'],
+            ['/en/chatbot/settings/privacy.md', 'Privacy policies'],
+            ['/en/chatbot/settings/chatbot.md', 'Chatbot accessibility'],
+            ['/en/chatbot/settings/multilingual.md', 'Multilingual'],
+            ['/en/chatbot/settings/user_list.md', 'User List'],
+            ['/en/chatbot/settings/channels.md', 'Channels'],
+            ['/en/chatbot/settings/coach.md', 'Coach'],
+            ['/en/chatbot/settings/settings.md', 'Settings'],
           ]
         },
         {
           title: 'Licence Administrators',
-          path: '/en/articles/licence_administrators',
+          path: '/en/chatbot/licence_administrators',
           collapsable: false,
           // children: [
-          //   ['/en/articles/licence_administrators.md', 'Licence administrators'],
+          //   ['/en/chatbot/licence_administrators.md', 'Licence administrators'],
           // ]
         },
         {
           title: 'Home',
-          path: '/en/articles/home',
+          path: '/en/chatbot/home',
           collapsable: false,
           // children: [
-          //   ['/en/articles/home.md', 'Home'],
+          //   ['/en/chatbot/home.md', 'Home'],
           // ]
         },
         {
           title: 'Notification bar',
-          path: '/en/articles/notification_bar',
+          path: '/en/chatbot/notification_bar',
           collapsable: false,
           // children: [
-          //   ['/en/articles/notification_bar.md', 'Home'],
+          //   ['/en/chatbot/notification_bar.md', 'Home'],
           // ]
         },
         {
           title: 'Limitations',
-          path: '/en/articles/limitations',
+          path: '/en/chatbot/limitations',
           collapsable: false,
           // children: [
-          //   ['/en/articles/limitations.md', 'Limitations'],
+          //   ['/en/chatbot/limitations.md', 'Limitations'],
           // ]
         },
         {
           title: 'Teams Features',
-          path: '/en/articles/teams_features',
+          path: '/en/chatbot/teams_features',
           collapsable: false,
           // children: [
-          //   ['/en/articles/teams_features.md', 'Teams Features'],
+          //   ['/en/chatbot/teams_features.md', 'Teams Features'],
           // ]
         },
         {
           title: 'Webchat V1 (obsolete)',
-          path: '/en/articles/webchat_v1',
+          path: '/en/chatbot/webchat_v1',
           collapsable: false,
           // children: [
-          //   ['/en/articles/webchat_v1.md', 'Webchat V1 (obsolete)'],
+          //   ['/en/chatbot/webchat_v1.md', 'Webchat V1 (obsolete)'],
           // ]
         }
       ],
-      '/fr/articles/': [
+      '/fr/chatbot/': [
         {
           title: "Création d'un chatbot",
-          path: '/fr/articles/creation_chatbot',
+          path: '/fr/chatbot/creation_chatbot',
           collapsable: false,
           children: [
-            ['/fr/articles/creation_chatbot/skype.md', 'Pré requis Skype Entreprise Online'],
-            ['/fr/articles/creation_chatbot/condition_requises.md', 'Pré requis Teams']
+            ['/fr/chatbot/creation_chatbot/skype.md', 'Pré requis Skype Entreprise Online'],
+            ['/fr/chatbot/creation_chatbot/condition_requises.md', 'Pré requis Teams']
           ]
         },
         {
           title: 'Boîte de réception',
-          path: '/fr/articles/boite_de_reception',
+          path: '/fr/chatbot/boite_de_reception',
           collapsable: false,
           children: [
-            ['/fr/articles/boite_de_reception/questions_sans_reponses.md', 'Questions sans réponses'],
-            ['/fr/articles/boite_de_reception/score_faible.md', 'Score faible'],
-            ['/fr/articles/boite_de_reception/questions_suggerees.md', 'Questions suggérées'],
-            ['/fr/articles/boite_de_reception/feedback_negatif.md', 'Feedback négatif'],
-            ['/fr/articles/boite_de_reception/regles_des_scores.md', 'Règles des scores'],
+            ['/fr/chatbot/boite_de_reception/questions_sans_reponses.md', 'Questions sans réponses'],
+            ['/fr/chatbot/boite_de_reception/score_faible.md', 'Score faible'],
+            ['/fr/chatbot/boite_de_reception/questions_suggerees.md', 'Questions suggérées'],
+            ['/fr/chatbot/boite_de_reception/feedback_negatif.md', 'Feedback négatif'],
+            ['/fr/chatbot/boite_de_reception/regles_des_scores.md', 'Règles des scores'],
           ]
         },
         {
           title: 'Tableaux de bord',
-          path: '/fr/articles/tableaux_de_bord',
+          path: '/fr/chatbot/tableaux_de_bord',
           collapsable: false,
           children: [
-            ['/fr/articles/tableaux_de_bord/rapport_performance.md', 'Rapport de la performance'],
-            ['/fr/articles/tableaux_de_bord/rapport_usage.md', 'Rapport d’usage'],
-            ['/fr/articles/tableaux_de_bord/rapport_power_bi.md', 'Tableaux de bord Power BI'],
+            ['/fr/chatbot/tableaux_de_bord/rapport_performance.md', 'Rapport de la performance'],
+            ['/fr/chatbot/tableaux_de_bord/rapport_usage.md', 'Rapport d’usage'],
+            ['/fr/chatbot/tableaux_de_bord/rapport_power_bi.md', 'Tableaux de bord Power BI'],
           ]
         },
         {
           title: 'Connaissances',
-          path: '/fr/articles/connaissances/processus_de_creation',
+          path: '/fr/chatbot/connaissances/processus_de_creation',
           collapsable: false,
           sidebarDepth: 3,  
           children: [
-            ['/fr/articles/connaissances/processus_de_creation.md', 'Processus de création'],
-            ['/fr/articles/connaissances/messages.md', 'Messages de bases'],
-            ['/fr/articles/connaissances/categories.md', 'Catégories'],
-            ['/fr/articles/connaissances/faq.md', 'FAQ'],
-            ['/fr/articles/connaissances/entites.md', 'Entités'],
-            ['/fr/articles/connaissances/synonymes.md', 'Synonymes'],
-            ['/fr/articles/connaissances/plan_de_test.md', 'Plan de test'],
-            ['/fr/articles/connaissances/configuration.md', 'Configuration'],
+            ['/fr/chatbot/connaissances/processus_de_creation.md', 'Processus de création'],
+            ['/fr/chatbot/connaissances/messages.md', 'Messages de bases'],
+            ['/fr/chatbot/connaissances/categories.md', 'Catégories'],
+            ['/fr/chatbot/connaissances/faq.md', 'FAQ'],
+            ['/fr/chatbot/connaissances/entites.md', 'Entités'],
+            ['/fr/chatbot/connaissances/synonymes.md', 'Synonymes'],
+            ['/fr/chatbot/connaissances/plan_de_test.md', 'Plan de test'],
+            ['/fr/chatbot/connaissances/configuration.md', 'Configuration'],
           ]
         },
         {
@@ -321,92 +321,234 @@ module.exports = {
           path: '/fr/articles/outils',
           collapsable: false,
           children: [
-            ['/fr/articles/outils/dialogues_initiaux.md', 'Dialogues initiaux'],
-            ['/fr/articles/outils/escalade.md', 'Escalade'],
-            ['/fr/articles/outils/active_learning.md', 'Active Learning'],
-            ['/fr/articles/outils/feedback.md', 'Feedback'],
-            ['/fr/articles/outils/galerie_images.md', 'Galerie d’images'],
-            ['/fr/articles/outils/recommandation.md', 'Recommandation'],
-            ['/fr/articles/outils/historique.md', 'Historique'],
+            ['/fr/chatbot/outils/dialogues_initiaux.md', 'Dialogues initiaux'],
+            ['/fr/chatbot/outils/escalade.md', 'Escalade'],
+            ['/fr/chatbot/outils/active_learning.md', 'Active Learning'],
+            ['/fr/chatbot/outils/feedback.md', 'Feedback'],
+            ['/fr/chatbot/outils/galerie_images.md', 'Galerie d’images'],
+            ['/fr/chatbot/outils/recommandation.md', 'Recommandation'],
+            ['/fr/chatbot/outils/historique.md', 'Historique'],
           ]
         },
         {
           title: 'Communication push',
-          path: '/fr/articles/communication',
+          path: '/fr/chatbot/communication',
           collapsable: false,
           children: [
-            ['/fr/articles/communication/utilisateur_liste.md', "Listes d'utilisateurs"],
-            ['/fr/articles/communication/campagne.md', 'Campagnes'],
+            ['/fr/chatbot/communication/utilisateur_liste.md', "Listes d'utilisateurs"],
+            ['/fr/chatbot/communication/campagne.md', 'Campagnes'],
           ]
         },
         {
           title: 'Profil',
-          path: '/fr/articles/profil',
+          path: '/fr/chatbot/profil',
           collapsable: false,
           children: [
-            ['/fr/articles/profil/api_profil.md', 'Créer une API de profils avec Flow et Sharepoint'],
+            ['/fr/chatbot/profil/api_profil.md', 'Créer une API de profils avec Flow et Sharepoint'],
           ]
         },
         {
           title: 'Paramètres',
-          path: '/fr/articles/parametres',
+          path: '/fr/chatbot/parametres',
           collapsable: false,
           children: [
-            ['/fr/articles/parametres/politiques_de_confidentialite.md', 'Politiques de confidentialité'],
-            ['/fr/articles/parametres/accessibilite_de_chatbot.md', 'Accessibilité du chatbot'],
-            ['/fr/articles/parametres/multilingue.md', 'Multilingue'],
-            ['/fr/articles/parametres/liste_utilisateurs.md', "Listes d'utilisateurs"],
-            ['/fr/articles/parametres/canaux.md', 'Canaux'],
-            ['/fr/articles/parametres/coach.md', 'Coachs'],
-            ['/fr/articles/parametres/parametres.md', 'Paramètres'],
+            ['/fr/chatbot/parametres/politiques_de_confidentialite.md', 'Politiques de confidentialité'],
+            ['/fr/chatbot/parametres/accessibilite_de_chatbot.md', 'Accessibilité du chatbot'],
+            ['/fr/chatbot/parametres/multilingue.md', 'Multilingue'],
+            ['/fr/chatbot/parametres/liste_utilisateurs.md', "Listes d'utilisateurs"],
+            ['/fr/chatbot/parametres/canaux.md', 'Canaux'],
+            ['/fr/chatbot/parametres/coach.md', 'Coachs'],
+            ['/fr/chatbot/parametres/parametres.md', 'Paramètres'],
           ]
         },
         {
           title: 'Administrateurs de licence',
-          path: '/fr/articles/administrateur_de_licence',
+          path: '/fr/chatbot/administrateur_de_licence',
           collapsable: false,
           // children: [
-          //   ['/fr/articles/administrateur_de_licence.md', 'Administrateur de Licence'],
+          //   ['/fr/chatbot/administrateur_de_licence.md', 'Administrateur de Licence'],
           // ]
         },
         {
           title: "Page d'accueil",
-          path: '/fr/articles/page_accueil',
+          path: '/fr/chatbot/page_accueil',
           collapsable: false,
           // children: [
-          //   ['/fr/articles/page_accueil.md', "Page d’accueil"],
+          //   ['/fr/chatbot/page_accueil.md', "Page d’accueil"],
           // ]
         },
         {
           title: 'Barre de notifications',
-          path: '/fr/articles/barre_de_notification',
+          path: '/fr/chatbot/barre_de_notification',
           collapsable: false,
           // children: [
-          //   ['/fr/articles/barre_de_notification.md', 'Barre de notifications'],
+          //   ['/fr/chatbot/barre_de_notification.md', 'Barre de notifications'],
           // ]
         },
         {
           title: 'Limitations',
-          path: '/fr/articles/limitations',
+          path: '/fr/chatbot/limitations',
           collapsable: false,
           // children: [
-          //   ['/fr/articles/limitations.md', 'Limitations'],
+          //   ['/fr/chatbot/limitations.md', 'Limitations'],
           // ]
         },
         {
           title: 'Fonctionnalités Teams',
-          path: '/fr/articles/fonctionnalites_teams',
+          path: '/fr/chatbot/fonctionnalites_teams',
           collapsable: false,
           // children: [
-          //   ['/fr/articles/fonctionnalites_teams.md', 'Fonctionnalités Teams'],
+          //   ['/fr/chatbot/fonctionnalites_teams.md', 'Fonctionnalités Teams'],
           // ]
         },
         {
           title: 'Webchat V1 (obsolète)',
-          path: '/fr/articles/webchat_v1',
+          path: '/fr/chatbot/webchat_v1',
           collapsable: false,
           // children: [
-          //   ['/fr/articles/webchat_v1.md', 'Webchat V1 (obsolète)'],
+          //   ['/fr/chatbot/webchat_v1.md', 'Webchat V1 (obsolète)'],
+          // ]
+        }
+      ],
+      '/fr/articles/': [
+        {
+          title: "Création d'un chatbot",
+          path: '/fr/chatbot/creation_chatbot',
+          collapsable: false,
+          children: [
+            ['/fr/chatbot/creation_chatbot/skype.md', 'Pré requis Skype Entreprise Online'],
+            ['/fr/chatbot/creation_chatbot/condition_requises.md', 'Pré requis Teams']
+          ]
+        },
+        {
+          title: 'Boîte de réception',
+          path: '/fr/chatbot/boite_de_reception',
+          collapsable: false,
+          children: [
+            ['/fr/chatbot/boite_de_reception/questions_sans_reponses.md', 'Questions sans réponses'],
+            ['/fr/chatbot/boite_de_reception/score_faible.md', 'Score faible'],
+            ['/fr/chatbot/boite_de_reception/questions_suggerees.md', 'Questions suggérées'],
+            ['/fr/chatbot/boite_de_reception/feedback_negatif.md', 'Feedback négatif'],
+            ['/fr/chatbot/boite_de_reception/regles_des_scores.md', 'Règles des scores'],
+          ]
+        },
+        {
+          title: 'Tableaux de bord',
+          path: '/fr/chatbot/tableaux_de_bord',
+          collapsable: false,
+          children: [
+            ['/fr/chatbot/tableaux_de_bord/rapport_performance.md', 'Rapport de la performance'],
+            ['/fr/chatbot/tableaux_de_bord/rapport_usage.md', 'Rapport d’usage'],
+            ['/fr/chatbot/tableaux_de_bord/rapport_power_bi.md', 'Tableaux de bord Power BI'],
+          ]
+        },
+        {
+          title: 'Connaissances',
+          path: '/fr/chatbot/connaissances/processus_de_creation',
+          collapsable: false,
+          sidebarDepth: 3,
+          children: [
+            ['/fr/chatbot/connaissances/processus_de_creation.md', 'Processus de création'],
+            ['/fr/chatbot/connaissances/messages.md', 'Messages de bases'],
+            ['/fr/chatbot/connaissances/categories.md', 'Catégories'],
+            ['/fr/chatbot/connaissances/faq.md', 'FAQ'],
+            ['/fr/chatbot/connaissances/entites.md', 'Entités'],
+            ['/fr/chatbot/connaissances/synonymes.md', 'Synonymes'],
+            ['/fr/chatbot/connaissances/plan_de_test.md', 'Plan de test'],
+            ['/fr/chatbot/connaissances/configuration.md', 'Configuration'],
+          ]
+        },
+        {
+          title: 'Outils',
+          path: '/fr/articles/outils',
+          collapsable: false,
+          children: [
+            ['/fr/chatbot/outils/dialogues_initiaux.md', 'Dialogues initiaux'],
+            ['/fr/chatbot/outils/escalade.md', 'Escalade'],
+            ['/fr/chatbot/outils/active_learning.md', 'Active Learning'],
+            ['/fr/chatbot/outils/feedback.md', 'Feedback'],
+            ['/fr/chatbot/outils/galerie_images.md', 'Galerie d’images'],
+            ['/fr/chatbot/outils/recommandation.md', 'Recommandation'],
+            ['/fr/chatbot/outils/historique.md', 'Historique'],
+          ]
+        },
+        {
+          title: 'Communication push',
+          path: '/fr/chatbot/communication',
+          collapsable: false,
+          children: [
+            ['/fr/chatbot/communication/utilisateur_liste.md', "Listes d'utilisateurs"],
+            ['/fr/chatbot/communication/campagne.md', 'Campagnes'],
+          ]
+        },
+        {
+          title: 'Profil',
+          path: '/fr/chatbot/profil',
+          collapsable: false,
+          children: [
+            ['/fr/chatbot/profil/api_profil.md', 'Créer une API de profils avec Flow et Sharepoint'],
+          ]
+        },
+        {
+          title: 'Paramètres',
+          path: '/fr/chatbot/parametres',
+          collapsable: false,
+          children: [
+            ['/fr/chatbot/parametres/politiques_de_confidentialite.md', 'Politiques de confidentialité'],
+            ['/fr/chatbot/parametres/accessibilite_de_chatbot.md', 'Accessibilité du chatbot'],
+            ['/fr/chatbot/parametres/multilingue.md', 'Multilingue'],
+            ['/fr/chatbot/parametres/liste_utilisateurs.md', "Listes d'utilisateurs"],
+            ['/fr/chatbot/parametres/canaux.md', 'Canaux'],
+            ['/fr/chatbot/parametres/coach.md', 'Coachs'],
+            ['/fr/chatbot/parametres/parametres.md', 'Paramètres'],
+          ]
+        },
+        {
+          title: 'Administrateurs de licence',
+          path: '/fr/chatbot/administrateur_de_licence',
+          collapsable: false,
+          // children: [
+          //   ['/fr/chatbot/administrateur_de_licence.md', 'Administrateur de Licence'],
+          // ]
+        },
+        {
+          title: "Page d'accueil",
+          path: '/fr/chatbot/page_accueil',
+          collapsable: false,
+          // children: [
+          //   ['/fr/chatbot/page_accueil.md', "Page d’accueil"],
+          // ]
+        },
+        {
+          title: 'Barre de notifications',
+          path: '/fr/chatbot/barre_de_notification',
+          collapsable: false,
+          // children: [
+          //   ['/fr/chatbot/barre_de_notification.md', 'Barre de notifications'],
+          // ]
+        },
+        {
+          title: 'Limitations',
+          path: '/fr/chatbot/limitations',
+          collapsable: false,
+          // children: [
+          //   ['/fr/chatbot/limitations.md', 'Limitations'],
+          // ]
+        },
+        {
+          title: 'Fonctionnalités Teams',
+          path: '/fr/chatbot/fonctionnalites_teams',
+          collapsable: false,
+          // children: [
+          //   ['/fr/chatbot/fonctionnalites_teams.md', 'Fonctionnalités Teams'],
+          // ]
+        },
+        {
+          title: 'Webchat V1 (obsolète)',
+          path: '/fr/chatbot/webchat_v1',
+          collapsable: false,
+          // children: [
+          //   ['/fr/chatbot/webchat_v1.md', 'Webchat V1 (obsolète)'],
           // ]
         }
       ],
@@ -416,8 +558,8 @@ module.exports = {
           path: '/fr/dynameet/',
           collapsable: false,
           children: [
-            ['dynameet/organiser.md', 'Organiser'],
-            ['dynameet/limites.md', 'Limites']
+            ['organiser.md', 'Organiser'],
+            ['limites.md', 'Limites']
           ]
         }
       ],
@@ -427,8 +569,8 @@ module.exports = {
           path: '/en/dynameet/',
           collapsable: false,
           children: [
-            ['dynameet/organizer.md', 'Organizer'],
-            ['dynameet/limits.md', 'Limits']
+            ['organizer.md', 'Organizer'],
+            ['limits.md', 'Limits']
           ]
         }
       ]
