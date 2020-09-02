@@ -10,12 +10,12 @@ Cliquez sur l'onglet « **Connaissances** » puis « **Synonymes** »
 
 
 ### A quoi sert ?
-
+---
 >Les synonymes permettent d’améliorer les connaissances du chatbot mais également la compréhension des **acronymes métiers**, il peut s'agir d'acronyme ou de type de langage propre à votre milieu (Exemple : TR/Ticket Restaurant/Ticket Resto)
 
 
 ### Comment ?
-
+---
 >Entrez le mot dont vous souhaitez programmer des synonymes puis cliquez sur « + » afin d’associer les différents synonymes/acronymes.
 
 <div class="image_center">

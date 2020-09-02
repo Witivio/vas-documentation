@@ -318,7 +318,7 @@ module.exports = {
         },
         {
           title: 'Outils',
-          path: '/fr/articles/outils',
+          path: '/fr/chatbot/outils',
           collapsable: false,
           children: [
             ['/fr/chatbot/outils/dialogues_initiaux.md', 'Dialogues initiaux'],
@@ -460,7 +460,7 @@ module.exports = {
         },
         {
           title: 'Outils',
-          path: '/fr/articles/outils',
+          path: '/fr/chatbot/outils',
           collapsable: false,
           children: [
             ['/fr/chatbot/outils/dialogues_initiaux.md', 'Dialogues initiaux'],

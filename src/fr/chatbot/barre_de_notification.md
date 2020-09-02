@@ -22,7 +22,7 @@ Pensez à enregistrer si vous effectuez des modifications !
 
 ## Administrateurs
 
-La page « Administrateurs » permet de rajouter ou supprimer des coachs au chatbot. Cet onglet vous permettra de donner accès au coach à la plateforme à un ou plusieurs chatbot(s) défini(s).
+La page « [Administrateurs](/fr/chatbot/administrateur_de_licence.html) » permet de rajouter ou supprimer des coachs au chatbot. Cet onglet vous permettra de donner accès au coach à la plateforme à un ou plusieurs chatbot(s) défini(s).
 
 Si vous souhaitez supprimer un ou plusieurs coach(s), cliquez sur l'adresse puis sur action et supprimer.
 

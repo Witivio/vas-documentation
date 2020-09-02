@@ -106,8 +106,6 @@ Une fois votre base de connaissances exportée, apportez les modifications souha
 
 ## Créer une nouvelle question
 
-Vous retrouverez comment créer une nouvelle question dans l'onglet : Créer une nouvelle question.
-
 Une fois votre question créer, cliquez dessus afin de la modifier, d'ajouter la réponse et/ou des alternatives.
 
 <div class="image_center">
@@ -233,7 +231,7 @@ On the Knowledge Base tab click on the question and select the type of answer.
 **Il s’agit d’une réponse simple et directe.**
 
 #### Réponse simple de type texte
-
+---
 Dans la fenêtre de votre réponse simple, vous retrouvez :
 
 
@@ -416,7 +414,7 @@ Il est nécessaire d’enlever les accents et apostrophes présents dans la ques
 Cliquez à nouveau sur la question que vous venez de créer. Le fichier Visio apparait (2).
 
 ::: warning ⚠️
-Lorsqu’il s’agit de votre première utilisation de Visio, téléchargez les Template Witivio. Pour cela, cliquez sur "Télécharger les formes Visio" (3).
+Lorsqu’il s’agit de votre première utilisation de Visio, téléchargez les Template Witivio. Pour cela, cliquez sur [Télécharger les formes Visio](https://witivio.blob.core.windows.net/static/visio/Witivio.vssx) (3).
 :::
 
 <div class="image_center">
@@ -534,8 +532,8 @@ Cliquez sur « Synchroniser" (1).
 
 Après la synchronisation, vous verrez apparaître votre arbre. Si ce dernier s’affiche cela signifie que toutes les formes sont bien connectées.
 
-#### Changement de choix dans les arbres de conversation
-
+### Changement de choix dans les arbres de conversation
+---
 ::: danger 🔴
 En fonction de l'arbre de conversation, vous pouvez changer votre choix pendant la conversation. Cependant, il existe des limites :
 :::
@@ -646,8 +644,12 @@ N’oubliez pas d’enregistrer en cliquant sur « **Sauvegarder** » en bas à 
   <img :src="$withBase('/assets/img/fr/connaissances/responsedynamique3.png')" alt="reponse de type dyanmique 3">
 </div>
 
-<br/>
-<br/>
+<br style="margin: .5rem 0;" >
+<br style="margin: .5rem 0;" >
+
+CALL API AVEC PARAMETRE EN QUERY STRING
+<br style="margin: .5rem 0;" >
+
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/connaissances/responsedynamique4.png')" alt="reponse de type dyanmique 4">
@@ -963,8 +965,8 @@ La syntaxe markdown permet de mettre en forme riche le contenu du chatbot.
 Il est possible de positionner des markdown dans les réponses et les messages
 :::
 
-* Italique: *Italic*
-* Gras: **Bold**
+* Italique: ```*Italic*```
+* Gras: ```**Bold**```
 * Header1-5: #H1
 * Lien: ```[bing](http://bing.com)```
 

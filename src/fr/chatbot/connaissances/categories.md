@@ -32,7 +32,7 @@ La catégorie " Editorial " est présente par défaut, vous pouvez y ajouter les
 
 La catégorie " Editorial " est présente par défaut, vous pouvez y ajouter les questions qui ne correspondent à aucune autre catégorie par exemple. Une catégorie peut être modifiée (icône stylo) ou supprimée (icône poubelle) une fois ajoutée.
 
-::: tip How to create a category
+::: tip Comment créer une catégorie
 <br style="margin: .5rem 0;" >
 
 <iframe class="video_embed" src="https://www.youtube.com/embed/cmJw4ZWXbDQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

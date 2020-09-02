@@ -88,7 +88,7 @@ En fonction du canal, les informations suivantes sont remplies :
     -   UserId (qui correspond à la propriété envoyée dans le UserId de la configuration du webchat)
     -   Display Name (qui correspond à la propriété UserName dans la configuration du webchat)
 
-::: warning ⚠️
+::: tip 💡
 pas besoin de faire la disctinction entre les canaux si vous n'en avez qu'un de configuré ou si votre email correspond à votre upn et votre sip.
 :::
 

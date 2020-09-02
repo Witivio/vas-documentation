@@ -14,7 +14,7 @@ Il existe 8 types d’interactions :
 -   **SERVICE NOW**
 -   **SUPPORT OFFICE**
 -   **ARBRE DE CONVERSATION**
--   **MICROSOFT TEAMS** (prochainement)
+-   **MICROSOFT TEAMS**
 -   **MICROSOFT FLOW** (prochainement)
 -   **AZURE LOGIC APPS** (prochainement)
 -   **WEBHOOK** (prochainement)
@@ -139,7 +139,7 @@ Ajoutez un nouveau support d'escalade puis sélectionnez "Teams-beta".
 
 Choisissez dans un premier temps quand souhaitez vous lancer l'escalade.
 
-Ajoutez les informations pour la configuration du canal Teams, à savoir l'id de l'application Microsoft ainsi que le mot de passe [(voir Documentation )](/fr/chatbot/fonctionnalites_teams.html).
+Ajoutez les informations pour la configuration du canal Teams, à savoir l'id de l'application Microsoft ainsi que le mot de passe [(voir Documentation )](/fr/chatbot/creation_chatbot/condition_requises.html).
 
 
 <div class="image_center">

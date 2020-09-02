@@ -46,7 +46,9 @@ Vous pouvez créer une nouvelle liste ou sélectionner une liste d'utilisateurs 
   <img :src="$withBase('/assets/img/fr/parametres/chatbot5.png')" alt="low score">
 </div>
 
-
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/parametres/chatbot7.png')" alt="low score">
+</div>
 
 L’adresse qui permet d’identifier un utilisateur dans la liste blanche change en fonction du canal de diffusion:
 
