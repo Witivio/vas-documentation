@@ -15,11 +15,6 @@ module.exports = {
       filePath: path.resolve(__dirname, '../fr/chatbot/parametres/accessibilite_de_chatbot.md')
     }
   ],
-  configureWebpack: {
-    devServer: {
-      headers: { "Access-Control-Allow-Origin": "*" }
-    }
-  },
   description: "witivio - Chatbots d’entreprise pour le Digital Workplace",
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
@@ -31,10 +26,9 @@ module.exports = {
     ['script', { src: "/scripts/chatbot.js" }],
     ['script', { id: "hs-script-loader", async: "", defer: "", src: "//js.hs-scripts.com/5583418.js"}],
     ['script', { async:"", src: "https://www.googletagmanager.com/gtag/js?id=UA-176942222-1"}],
-    ['script', { src:"/scripts/google.js" }],
-    ['script', { src: "/scripts/commentaires.js" }]
+    ['script', { src:"/scripts/google.js" }]
   ],
-  locales: {
+      locales: {
     '/fr/': {
       lang: 'fr-FR', // this will be set as the lang attribute on <html>
       title: 'Documentation',
@@ -134,9 +128,17 @@ module.exports = {
     sidebar: {
       '/en/chatbot/': [
         {
+          title: 'Home',
+          path: '/en/chatbot/home',
+          collapsable: true,
+          // children: [
+          //   ['/en/chatbot/home.md', 'Home'],
+          // ]
+        },
+        {
           title: 'Build your chatbot',
           path: '/en/chatbot/build_your_chatbot',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/en/chatbot/build_your_chatbot/skype.md', 'Skype for Business Online prerequisites'],
             ['/en/chatbot/build_your_chatbot/requisites.md', 'Teams prerequisites']
@@ -145,7 +147,7 @@ module.exports = {
         {
           title: 'Inbox',
           path: '/en/chatbot/inbox',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/en/chatbot/inbox/unanswered_questions.md', 'Unanswered Questions'],
             ['/en/chatbot/inbox/low_score.md', 'Low Score'],
@@ -157,7 +159,7 @@ module.exports = {
         {
           title: 'Dashboards',
           path: '/en/chatbot/dashboards',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/en/chatbot/dashboards/performance.md', 'Performance Dashboard'],
             ['/en/chatbot/dashboards/usage.md', 'Usage Dashboard'],
@@ -167,7 +169,7 @@ module.exports = {
         {
           title: 'Knowledge',
           path: '/en/chatbot/knowledge/creation_process',
-          collapsable: false,
+          collapsable: true,
           sidebarDepth: 3,
           children: [
             ['/en/chatbot/knowledge/creation_process.md', 'Creation Process'],
@@ -183,7 +185,7 @@ module.exports = {
         {
           title: 'Tools',
           path: '/en/chatbot/tools',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/en/chatbot/tools/starting_flow.md', 'Starting Flow'],
             ['/en/chatbot/tools/escalation.md', 'Escalation'],
@@ -197,7 +199,7 @@ module.exports = {
         {
           title: 'Communication',
           path: '/en/chatbot/communication',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/en/chatbot/communication/user_lists.md', 'User Lists'],
             ['/en/chatbot/communication/campaign.md', 'Campaign'],
@@ -206,7 +208,7 @@ module.exports = {
         {
           title: 'Profile',
           path: '/en/chatbot/profile',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/en/chatbot/profile/api_profile.md', 'API Profile with SharedPoint and MS Flow'],
           ]
@@ -214,7 +216,7 @@ module.exports = {
         {
           title: 'Settings',
           path: '/en/chatbot/settings',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/en/chatbot/settings/privacy.md', 'Privacy policies'],
             ['/en/chatbot/settings/chatbot.md', 'Chatbot accessibility'],
@@ -228,23 +230,15 @@ module.exports = {
         {
           title: 'Licence Administrators',
           path: '/en/chatbot/licence_administrators',
-          collapsable: false,
+          collapsable: true,
           // children: [
           //   ['/en/chatbot/licence_administrators.md', 'Licence administrators'],
           // ]
         },
         {
-          title: 'Home',
-          path: '/en/chatbot/home',
-          collapsable: false,
-          // children: [
-          //   ['/en/chatbot/home.md', 'Home'],
-          // ]
-        },
-        {
           title: 'Notification bar',
           path: '/en/chatbot/notification_bar',
-          collapsable: false,
+          collapsable: true,
           // children: [
           //   ['/en/chatbot/notification_bar.md', 'Home'],
           // ]
@@ -252,7 +246,7 @@ module.exports = {
         {
           title: 'Limitations',
           path: '/en/chatbot/limitations',
-          collapsable: false,
+          collapsable: true,
           // children: [
           //   ['/en/chatbot/limitations.md', 'Limitations'],
           // ]
@@ -260,7 +254,7 @@ module.exports = {
         {
           title: 'Teams Features',
           path: '/en/chatbot/teams_features',
-          collapsable: false,
+          collapsable: true,
           // children: [
           //   ['/en/chatbot/teams_features.md', 'Teams Features'],
           // ]
@@ -268,7 +262,7 @@ module.exports = {
         {
           title: 'Webchat V1 (obsolete)',
           path: '/en/chatbot/webchat_v1',
-          collapsable: false,
+          collapsable: true,
           // children: [
           //   ['/en/chatbot/webchat_v1.md', 'Webchat V1 (obsolete)'],
           // ]
@@ -276,9 +270,17 @@ module.exports = {
       ],
       '/fr/chatbot/': [
         {
+          title: "Page d'accueil",
+          path: '/fr/chatbot/page_accueil',
+          collapsable: true,
+          // children: [
+          //   ['/fr/chatbot/page_accueil.md', "Page d’accueil"],
+          // ]
+        },
+        {
           title: "Création d'un chatbot",
           path: '/fr/chatbot/creation_chatbot',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/fr/chatbot/creation_chatbot/skype.md', 'Pré requis Skype Entreprise Online'],
             ['/fr/chatbot/creation_chatbot/condition_requises.md', 'Pré requis Teams']
@@ -287,7 +289,7 @@ module.exports = {
         {
           title: 'Boîte de réception',
           path: '/fr/chatbot/boite_de_reception',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/fr/chatbot/boite_de_reception/questions_sans_reponses.md', 'Questions sans réponses'],
             ['/fr/chatbot/boite_de_reception/score_faible.md', 'Score faible'],
@@ -299,7 +301,7 @@ module.exports = {
         {
           title: 'Tableaux de bord',
           path: '/fr/chatbot/tableaux_de_bord',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/fr/chatbot/tableaux_de_bord/rapport_performance.md', 'Rapport de la performance'],
             ['/fr/chatbot/tableaux_de_bord/rapport_usage.md', 'Rapport d’usage'],
@@ -309,7 +311,7 @@ module.exports = {
         {
           title: 'Connaissances',
           path: '/fr/chatbot/connaissances/processus_de_creation',
-          collapsable: false,
+          collapsable: true,
           sidebarDepth: 3,  
           children: [
             ['/fr/chatbot/connaissances/processus_de_creation.md', 'Processus de création'],
@@ -325,7 +327,7 @@ module.exports = {
         {
           title: 'Outils',
           path: '/fr/chatbot/outils',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/fr/chatbot/outils/dialogues_initiaux.md', 'Dialogues initiaux'],
             ['/fr/chatbot/outils/escalade.md', 'Escalade'],
@@ -339,7 +341,7 @@ module.exports = {
         {
           title: 'Communication push',
           path: '/fr/chatbot/communication',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/fr/chatbot/communication/utilisateur_liste.md', "Listes d'utilisateurs"],
             ['/fr/chatbot/communication/campagne.md', 'Campagnes'],
@@ -348,7 +350,7 @@ module.exports = {
         {
           title: 'Profil',
           path: '/fr/chatbot/profil',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/fr/chatbot/profil/api_profil.md', 'Créer une API de profils avec Flow et Sharepoint'],
           ]
@@ -356,7 +358,7 @@ module.exports = {
         {
           title: 'Paramètres',
           path: '/fr/chatbot/parametres',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/fr/chatbot/parametres/politiques_de_confidentialite.md', 'Politiques de confidentialité'],
             ['/fr/chatbot/parametres/accessibilite_de_chatbot.md', 'Accessibilité du chatbot'],
@@ -370,23 +372,15 @@ module.exports = {
         {
           title: 'Administrateurs de licence',
           path: '/fr/chatbot/administrateur_de_licence',
-          collapsable: false,
+          collapsable: true,
           // children: [
           //   ['/fr/chatbot/administrateur_de_licence.md', 'Administrateur de Licence'],
           // ]
         },
         {
-          title: "Page d'accueil",
-          path: '/fr/chatbot/page_accueil',
-          collapsable: false,
-          // children: [
-          //   ['/fr/chatbot/page_accueil.md', "Page d’accueil"],
-          // ]
-        },
-        {
           title: 'Barre de notifications',
           path: '/fr/chatbot/barre_de_notification',
-          collapsable: false,
+          collapsable: true,
           // children: [
           //   ['/fr/chatbot/barre_de_notification.md', 'Barre de notifications'],
           // ]
@@ -394,7 +388,7 @@ module.exports = {
         {
           title: 'Limitations',
           path: '/fr/chatbot/limitations',
-          collapsable: false,
+          collapsable: true,
           // children: [
           //   ['/fr/chatbot/limitations.md', 'Limitations'],
           // ]
@@ -402,7 +396,7 @@ module.exports = {
         {
           title: 'Fonctionnalités Teams',
           path: '/fr/chatbot/fonctionnalites_teams',
-          collapsable: false,
+          collapsable: true,
           // children: [
           //   ['/fr/chatbot/fonctionnalites_teams.md', 'Fonctionnalités Teams'],
           // ]
@@ -410,7 +404,7 @@ module.exports = {
         {
           title: 'Webchat V1 (obsolète)',
           path: '/fr/chatbot/webchat_v1',
-          collapsable: false,
+          collapsable: true,
           // children: [
           //   ['/fr/chatbot/webchat_v1.md', 'Webchat V1 (obsolète)'],
           // ]
@@ -418,9 +412,17 @@ module.exports = {
       ],
       '/fr/articles/': [
         {
+          title: "Page d'accueil",
+          path: '/fr/chatbot/page_accueil',
+          collapsable: true,
+          // children: [
+          //   ['/fr/chatbot/page_accueil.md', "Page d’accueil"],
+          // ]
+        },
+        {
           title: "Création d'un chatbot",
           path: '/fr/chatbot/creation_chatbot',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/fr/chatbot/creation_chatbot/skype.md', 'Pré requis Skype Entreprise Online'],
             ['/fr/chatbot/creation_chatbot/condition_requises.md', 'Pré requis Teams']
@@ -429,7 +431,7 @@ module.exports = {
         {
           title: 'Boîte de réception',
           path: '/fr/chatbot/boite_de_reception',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/fr/chatbot/boite_de_reception/questions_sans_reponses.md', 'Questions sans réponses'],
             ['/fr/chatbot/boite_de_reception/score_faible.md', 'Score faible'],
@@ -441,7 +443,7 @@ module.exports = {
         {
           title: 'Tableaux de bord',
           path: '/fr/chatbot/tableaux_de_bord',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/fr/chatbot/tableaux_de_bord/rapport_performance.md', 'Rapport de la performance'],
             ['/fr/chatbot/tableaux_de_bord/rapport_usage.md', 'Rapport d’usage'],
@@ -451,7 +453,7 @@ module.exports = {
         {
           title: 'Connaissances',
           path: '/fr/chatbot/connaissances/processus_de_creation',
-          collapsable: false,
+          collapsable: true,
           sidebarDepth: 3,
           children: [
             ['/fr/chatbot/connaissances/processus_de_creation.md', 'Processus de création'],
@@ -467,7 +469,7 @@ module.exports = {
         {
           title: 'Outils',
           path: '/fr/chatbot/outils',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/fr/chatbot/outils/dialogues_initiaux.md', 'Dialogues initiaux'],
             ['/fr/chatbot/outils/escalade.md', 'Escalade'],
@@ -481,7 +483,7 @@ module.exports = {
         {
           title: 'Communication push',
           path: '/fr/chatbot/communication',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/fr/chatbot/communication/utilisateur_liste.md', "Listes d'utilisateurs"],
             ['/fr/chatbot/communication/campagne.md', 'Campagnes'],
@@ -490,7 +492,7 @@ module.exports = {
         {
           title: 'Profil',
           path: '/fr/chatbot/profil',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/fr/chatbot/profil/api_profil.md', 'Créer une API de profils avec Flow et Sharepoint'],
           ]
@@ -498,7 +500,7 @@ module.exports = {
         {
           title: 'Paramètres',
           path: '/fr/chatbot/parametres',
-          collapsable: false,
+          collapsable: true,
           children: [
             ['/fr/chatbot/parametres/politiques_de_confidentialite.md', 'Politiques de confidentialité'],
             ['/fr/chatbot/parametres/accessibilite_de_chatbot.md', 'Accessibilité du chatbot'],
@@ -512,23 +514,15 @@ module.exports = {
         {
           title: 'Administrateurs de licence',
           path: '/fr/chatbot/administrateur_de_licence',
-          collapsable: false,
+          collapsable: true,
           // children: [
           //   ['/fr/chatbot/administrateur_de_licence.md', 'Administrateur de Licence'],
           // ]
         },
         {
-          title: "Page d'accueil",
-          path: '/fr/chatbot/page_accueil',
-          collapsable: false,
-          // children: [
-          //   ['/fr/chatbot/page_accueil.md', "Page d’accueil"],
-          // ]
-        },
-        {
           title: 'Barre de notifications',
           path: '/fr/chatbot/barre_de_notification',
-          collapsable: false,
+          collapsable: true,
           // children: [
           //   ['/fr/chatbot/barre_de_notification.md', 'Barre de notifications'],
           // ]
@@ -536,7 +530,7 @@ module.exports = {
         {
           title: 'Limitations',
           path: '/fr/chatbot/limitations',
-          collapsable: false,
+          collapsable: true,
           // children: [
           //   ['/fr/chatbot/limitations.md', 'Limitations'],
           // ]
@@ -544,7 +538,7 @@ module.exports = {
         {
           title: 'Fonctionnalités Teams',
           path: '/fr/chatbot/fonctionnalites_teams',
-          collapsable: false,
+          collapsable: true,
           // children: [
           //   ['/fr/chatbot/fonctionnalites_teams.md', 'Fonctionnalités Teams'],
           // ]
@@ -552,7 +546,7 @@ module.exports = {
         {
           title: 'Webchat V1 (obsolète)',
           path: '/fr/chatbot/webchat_v1',
-          collapsable: false,
+          collapsable: true,
           // children: [
           //   ['/fr/chatbot/webchat_v1.md', 'Webchat V1 (obsolète)'],
           // ]
