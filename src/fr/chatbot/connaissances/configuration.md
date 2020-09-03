@@ -43,3 +43,27 @@ De plus, les blagues et les conversations courantes (par exemple « comment ça 
 
 La difference de score minimum entre une question et une autre afin de lancer l'Active Learning peut également être configurée (2). Pour rappel, [L’Active Learning](/fr/chatbot/outils/active_learning.html) se déclenche lorsque le chatbot a un doute sur la compréhension de la question, plusieurs questions présentes dans la base de connaissances déclenchent un score élevé (écart de moins de 20 points).
 
+
+
+### Commentaires
+---
+<div id="disqus_thread"></div>
+
+<script>
+
+export default {
+  mounted () {
+    var disqus_config = function () {
+      this.page.url = "https://docs.witivio.com";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "witivio_12"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://docs-witivio.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+  }
+}
+</script>

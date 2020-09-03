@@ -267,3 +267,28 @@ Chat with your chatbot by using text message from your mobile phone.
 
 Click [**here**](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-twilio?view=azure-bot-service-4.0&viewFallbackFrom=azure-bot-service-4.0https%3A%2F%2Fdocs.microsoft.com%2Ffr-fr%2Fazure%2Fbot-service%2Fbot-service-channel-connect-twilio%3Fview%3Dazure-bot-service-4.0) for more information about the Twiliio configuration.
 
+
+
+### Comments
+---
+<div id="disqus_thread"></div>
+
+<script>
+
+export default {
+  mounted () {
+
+    var disqus_config = function () {
+      this.page.url = "https://docs.witivio.com";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "witivio_#22"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://docs-witivio.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+  }
+}
+</script>

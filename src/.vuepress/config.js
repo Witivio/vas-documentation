@@ -31,7 +31,9 @@ module.exports = {
     ['script', { src: "/scripts/chatbot.js" }],
     ['script', { id: "hs-script-loader", async: "", defer: "", src: "//js.hs-scripts.com/5583418.js"}],
     ['script', { async:"", src: "https://www.googletagmanager.com/gtag/js?id=UA-176942222-1"}],
-    ['script', { src:"/scripts/google.js" }]
+    ['script', { src:"/scripts/google.js" }],
+    ['script', { src: "/scripts/commentaires.js" }]
+
   ],
   locales: {
     '/fr/': {

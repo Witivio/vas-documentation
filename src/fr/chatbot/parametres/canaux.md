@@ -283,3 +283,27 @@ Conversez avec votre chatbot par sms depuis votre téléphone portable.
 Cliquez [**ici**](https://docs.microsoft.com/fr-fr/azure/bot-service/bot-service-channel-connect-twilio?view=azure-bot-service-4.0https://docs.microsoft.com/fr-fr/azure/bot-service/bot-service-channel-connect-twilio?view=azure-bot-service-4.0) pour plus sur la configuration Twiliio.
 
 
+
+### Commentaires
+---
+<div id="disqus_thread"></div>
+
+<script>
+
+export default {
+  mounted () {
+
+    var disqus_config = function () {
+      this.page.url = "https://docs.witivio.com";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "witivio_29"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://docs-witivio.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+  }
+}
+</script>

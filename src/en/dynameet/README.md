@@ -23,3 +23,27 @@ He will therefore have all the information in your diary and will then offer you
 
 During your first conversation with Dynameet, all you need to do is inform them about your place of work (building number, floor, office number) so that they can offer you meeting rooms as close as possible to your space. .
 
+
+### Comments
+---
+<div id="disqus_thread"></div>
+
+<script>
+
+export default {
+  mounted () {
+
+    var disqus_config = function () {
+      this.page.url = "https://docs.witivio.com";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "witivio_#51"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = 'https://docs-witivio.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+  }
+}
+</script>
