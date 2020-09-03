@@ -34,7 +34,7 @@ module.exports = {
       title: 'Documentation',
       description: 'witivio'
     },
-    '/': {
+    '/en/': {
       lang: 'en-US',
       title: 'Documentation',
       description: 'witivio'
