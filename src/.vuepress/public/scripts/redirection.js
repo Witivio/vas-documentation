@@ -1,16 +1,22 @@
 //redirection navigator en-US
 
-if (window.location.pathname === "/") {
+window.onload = init;
 
-  if (navigator.language === 'fr-FR' || navigator.language === 'fr' ) {
+function init() {
+  
+  if (window.location.pathname === "/") {
+  
+    if (navigator.language === 'fr-FR' || navigator.language === 'fr' ) {
+  
+      window.location.href = "https://docs.witivio.com/fr/";
+  
+    } else {
+  
+      window.location.href = "https://docs.witivio.com/en/";
+  
+    }
+  
+  } 
 
-    window.location.replace("https://docs.witivio.com/fr/");
-
-  } else {
-
-    window.location.replace("https://docs.witivio.com/en/");
-
-  }
-
-} 
+}
 
