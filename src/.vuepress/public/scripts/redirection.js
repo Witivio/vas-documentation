@@ -2,13 +2,13 @@
 
 if (navigator.language === 'fr-FR' || navigator.language === 'fr' ) {
 
-  if (window.location.href === "https://docs.witivio.com/") {
+  if (window.location.pathname === "/") {
     window.location.replace("https://docs.witivio.com/fr/");
   }
 
 } else {
   
-  if (window.location.href === "https://docs.witivio.com/") {
+if (window.location.pathname === "/") {
     window.location.replace("https://docs.witivio.com/en/");
   }
 
