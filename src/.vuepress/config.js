@@ -44,7 +44,7 @@ module.exports = {
     smoothScroll: true,
     repo: '',
     logo: '/assets/img/index/logo_black.png',
-    editLinks: true,
+    editLinks: false,
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
