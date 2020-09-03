@@ -15,6 +15,11 @@ module.exports = {
       filePath: path.resolve(__dirname, '../fr/chatbot/parametres/accessibilite_de_chatbot.md')
     }
   ],
+  afterDevServer: {
+    allowedHosts: [
+      'app.witivio.com'
+    ]
+  },
   description: "witivio - Chatbots d’entreprise pour le Digital Workplace",
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
