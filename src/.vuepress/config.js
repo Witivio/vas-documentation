@@ -15,10 +15,10 @@ module.exports = {
       filePath: path.resolve(__dirname, '../fr/chatbot/parametres/accessibilite_de_chatbot.md')
     }
   ],
-  afterDevServer: {
-    allowedHosts: [
-      'app.witivio.com'
-    ]
+  configureWebpack: {
+    devServer: {
+      headers: { "Access-Control-Allow-Origin": "*" }
+    }
   },
   description: "witivio - Chatbots d’entreprise pour le Digital Workplace",
   head: [
@@ -33,7 +33,6 @@ module.exports = {
     ['script', { async:"", src: "https://www.googletagmanager.com/gtag/js?id=UA-176942222-1"}],
     ['script', { src:"/scripts/google.js" }],
     ['script', { src: "/scripts/commentaires.js" }]
-
   ],
   locales: {
     '/fr/': {
@@ -76,7 +75,7 @@ module.exports = {
         // algolia docsearch options for current locale
         algolia: {},
         nav: [
-          { text: 'Witivio 365', link: '/en/chatbot/creation_chatbot' },
+          { text: 'Witivio 365', link: '/en/chatbot/build_your_chatbot' },
           { text: 'Dynameet', link: '/en/dynameet/' },
           { text: 'Videos', link: '/en/videos/' },
           { text: 'Teams Apps', link: '/en/teams_apps/' },

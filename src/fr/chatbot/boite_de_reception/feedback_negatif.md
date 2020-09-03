@@ -1,3 +1,7 @@
+---
+layout: SpecialLayout
+---
+
 # Feedback négatif
 
 Le Feedback se déclenche après chaque réponse apportée par le chatbot. Il mesure la satisfaction de l'utilisateur.
@@ -47,23 +51,6 @@ Par défaut cette fonctionnalité est désactivée (1). Vous trouverez tous les 
 
 ### Commentaires
 ---
-<div id="disqus_thread"></div>
+<Commentaire />
 
 
-<script>
-export default {
-  mounted () {
-    var disqus_config = function () {
-      this.page.url = "https://docs.witivio.com";  // Replace PAGE_URL with your page's canonical URL variable
-      this.page.identifier = "witivio_04"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = 'https://docs-witivio.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-  }
-}
-</script>
