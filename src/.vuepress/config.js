@@ -28,13 +28,13 @@ module.exports = {
     ['script', { async:"", src: "https://www.googletagmanager.com/gtag/js?id=UA-176942222-1"}],
     ['script', { src:"/scripts/google.js" }]
   ],
-      locales: {
+  locales: {
     '/fr/': {
       lang: 'fr-FR', // this will be set as the lang attribute on <html>
       title: 'Documentation',
       description: 'witivio'
     },
-    '/en/': {
+    '/': {
       lang: 'en-US',
       title: 'Documentation',
       description: 'witivio'
@@ -50,31 +50,25 @@ module.exports = {
     lastUpdated: false,
     locales: {
       '/': {
-        searchPlaceholder: 'recherche...',
-        // text for the language dropdown
+        searchPlaceholder: 'search...',
         selectText: 'Languages',
-        // label for this locale in the language dropdown
         label: 'en-US',
-        // Aria Label for locale in the dropdown
-        ariaLabel: 'Languages',
-        // text for the edit-on-github link
-        editLinkText: 'Edit this page on GitHub',
-        // config for Service Worker
+        editLinkText: 'text GitHub witivio',
         serviceWorker: {
           updatePopup: {
-            message: "New content is available.",
+            message: "New content is available..",
             buttonText: "Refresh"
           }
         },
-        // algolia docsearch options for current locale
-        algolia: {},
         nav: [
           { text: 'Witivio 365', link: '/en/chatbot/build_your_chatbot' },
           { text: 'Dynameet', link: '/en/dynameet/' },
           { text: 'Videos', link: '/en/videos/' },
           { text: 'Teams Apps', link: '/en/teams_apps/' },
           { text: 'Trust Center', link: '/en/trust_center/' }
-        ]
+
+        ],
+        algolia: {}
       },
       '/fr/': {
         searchPlaceholder: 'recherche...',
