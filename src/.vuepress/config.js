@@ -69,10 +69,10 @@ module.exports = {
         // algolia docsearch options for current locale
         algolia: {},
         nav: [
-          { text: 'Witivio 365', link: '/fr/chatbot/creation_chatbot' },
-          { text: 'Dynameet', link: '/fr/dynameet/' },
-          { text: 'Videos', link: '/fr/videos/' },
-          { text: 'Teams Apps', link: '/fr/teams_apps/' },
+          { text: 'Witivio 365', link: '/en/chatbot/creation_chatbot' },
+          { text: 'Dynameet', link: '/en/dynameet/' },
+          { text: 'Videos', link: '/en/videos/' },
+          { text: 'Teams Apps', link: '/en/teams_apps/' },
           { text: 'Trust Center', link: '/en/trust_center/' }
         ]
       },
