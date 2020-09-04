@@ -23,10 +23,10 @@ module.exports = {
     ['link', { rel: "icon", sizes: "16x16", href: "/assets/img/index/favicon.ico" }],
     ['link', { rel: 'icon', href: '/assets/img/logo_white.png' }],
     ['script', { src: "/scripts/redirection.js" }],
-    ['script', { src: "/scripts/chatbot.js" }],
+    ['script', { src: "https://webchat.witivio.com/v2/init.js"} ],
     ['script', { id: "hs-script-loader", async: "", defer: "", src: "//js.hs-scripts.com/5583418.js"}],
     ['script', { async:"", src: "https://www.googletagmanager.com/gtag/js?id=UA-176942222-1"}],
-    ['script', { src:"/scripts/google.js" }]
+    ['script', { src:"/scripts/google.js" }],
   ],
   locales: {
     '/fr/': {

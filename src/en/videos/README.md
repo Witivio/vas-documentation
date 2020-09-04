@@ -176,3 +176,5 @@ Here are the new features brought to the Witivio platform during our last update
 <br/>
 <br/>
 <iframe class="video_embed" src="https://www.youtube.com/embed/jg4_GjXdReU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<Commentaire />

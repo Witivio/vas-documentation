@@ -47,3 +47,24 @@ items:
   link: /fr/chatbot/parametres.html
 footer: Créé par Witivio avec ❤️
 ---
+
+<script>
+export default {
+  mounted () {
+    window.webChatSettings = {
+        botId: '4f8c93fd-b71f-4abc-82b3-184b32cc7e20',
+        color: '903163',
+        title: 'Jeff',
+        height: '500px',
+        callout: true,
+        welcome: true,
+        width: '600px',
+        refresh: false,
+        apiKey: 'gxwhqaNdr01ITVcVFRmVv7HrXF3cyMuu&7V&AS5SmeviXPtQZ0VI50MiYftT',
+        displayMode: 'close'
+      };
+
+      witivioWebChat.load(window.webChatSettings)  
+  }
+}
+</script>
