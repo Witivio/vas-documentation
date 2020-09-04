@@ -1,8 +1,7 @@
 <template>
   <div>
-    <div v-if="window.location.pathname.match(RegExp("^\/..\/videos.+")) "></div>
+    <div v-if="$page.path.match(RegExp(`^\/..\/videos.+`))"></div>
     <div v-else id="disqus_thread"></div>
-
     <script type="text/javascript">
       if(!window.location.pathname.match(RegExp("^\/en.+"))){
           window.webChatSettings = {

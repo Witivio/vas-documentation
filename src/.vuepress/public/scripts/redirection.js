@@ -8,11 +8,11 @@ function init() {
   
     if (navigator.language === 'fr-FR' || navigator.language === 'fr' ) {
   
-      window.location.href = "https://docs.witivio.com/fr/";
+      // window.location.href = "https://docs.witivio.com/fr/";
   
     } else {
   
-      window.location.href = "https://docs.witivio.com/en/";
+      // window.location.href = "https://docs.witivio.com/en/";
   
     }
   
