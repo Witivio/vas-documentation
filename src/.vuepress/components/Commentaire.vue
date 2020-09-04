@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div v-if="isNotVideos()"></div>
+    <div v-if="window.location.pathname.match(RegExp("^\/..\/videos.+")) "></div>
     <div v-else id="disqus_thread"></div>
 
     <script type="text/javascript">
@@ -40,11 +40,6 @@ export default {
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
     })();
-  },
-  methods: {
-    isNotVideos (){
-      return window.location.pathname.match(RegExp("^\/..\/videos.+")) 
-    }
   }
 }
 </script>
