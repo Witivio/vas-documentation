@@ -8,8 +8,8 @@ Cliquez sur « **Connaissainces** » puis « **FAQ** »
 </div>
 
 
-### A quoi sert ? lksdjfslkjdf
----
+### A quoi sert ? 
+
 L'onglet FAQ est la base de connaissances de votre chatbot. Il vous permet de configurer toutes les questions auxquelles vous voulez que le chatbot réponde ainsi que les réponses attendues.
 
 ### Comment ?
