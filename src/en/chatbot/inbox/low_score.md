@@ -4,7 +4,7 @@ The low score is triggered when only **one question** in the knowledge base
 corresponds to the question asked by the user but the score is as its name
 suggests: low.
 
-The confidence score is low when it is **between 35% and 50%.**
+The confidence score is low when it is **between 35% and 50%.** 
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/inbox/low1.png')" alt="low score">
