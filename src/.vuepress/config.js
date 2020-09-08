@@ -201,8 +201,7 @@ module.exports = {
           collapsable: true,
           children: [
             ['/en/chatbot/communication/user_lists.md', 'User Lists'],
-            ['/en/chatbot/communication/campaign.md', 'Campaign'],
-            ['/en/chatbot/communication/test.md', 'Test']
+            ['/en/chatbot/communication/campaign.md', 'Campaign']
           ]
         },
         {
