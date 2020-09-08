@@ -202,6 +202,7 @@ module.exports = {
           children: [
             ['/en/chatbot/communication/user_lists.md', 'User Lists'],
             ['/en/chatbot/communication/campaign.md', 'Campaign'],
+            ['/en/chatbot/communication/test.md', 'Test']
           ]
         },
         {
