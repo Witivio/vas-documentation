@@ -27,6 +27,7 @@ module.exports = {
     ['script', { id: "hs-script-loader", async: "", defer: "", src: "//js.hs-scripts.com/5583418.js"}],
     ['script', { async:"", src: "https://www.googletagmanager.com/gtag/js?id=UA-176942222-1"}],
     ['script', { src:"/scripts/google.js" }],
+    ['link', { rel:"sitemap", type:"application/xml", title:"Sitemap", href:"https://docs.witivio.com/sitemap.xml" }]
   ],
   locales: {
     '/': {
