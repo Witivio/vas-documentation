@@ -10,7 +10,8 @@
   "repository": "/documentation",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "sitemap": "vuepress-sitemap -H 'https://docs.witivio.com' -d 'dist'"
   },
   "license": "MIT",
   "devDependencies": {
@@ -21,7 +22,9 @@
     "vuepress": "^1.5.3"
   },
   "dependencies": {
+    "esm": "^3.2.25",
     "uniqid": "^5.2.0",
-    "uuid": "^8.3.0"
+    "uuid": "^8.3.0",
+    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }

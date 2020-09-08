@@ -29,6 +29,11 @@ module.exports = {
     ['script', { src:"/scripts/google.js" }],
   ],
   locales: {
+    '/': {
+      lang: 'en_US', // this will be set as the lang attribute on <html>
+      title: 'Documentation',
+      description: 'witivio'
+    },
     '/fr/': {
       lang: 'fr-FR', // this will be set as the lang attribute on <html>
       title: 'Documentation',
@@ -570,11 +575,15 @@ module.exports = {
       ]
     }
   },
-  plugins: [
-    '@vuepress/active-header-links',
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
-    '@vuepress/nprogress',
-    '@vuepress/medium-zoom'
-  ]
+  plugins: {
+    'sitemap': {
+      hostname: 'https://docs.witivio.com'
+    },
+    '@vuepress/active-header-links' : true,
+    '@vuepress/plugin-back-to-top': true,
+    '@vuepress/plugin-medium-zoom': true,
+    '@vuepress/nprogress': true,
+    '@vuepress/medium-zoom' : true,
+    }
+  
 }
