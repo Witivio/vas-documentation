@@ -39,11 +39,6 @@ module.exports = {
       lang: 'fr-FR', // this will be set as the lang attribute on <html>
       title: 'Documentation',
       description: 'witivio'
-    },
-    '/en/': {
-      lang: 'en-US',
-      title: 'Documentation',
-      description: 'witivio'
     }
   },
   themeConfig: {
@@ -55,27 +50,6 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     locales: {
-      '/': {
-        searchPlaceholder: 'search...',
-        selectText: 'Languages',
-        label: 'en-US',
-        editLinkText: 'text GitHub witivio',
-        serviceWorker: {
-          updatePopup: {
-            message: "New content is available..",
-            buttonText: "Refresh"
-          }
-        },
-        nav: [
-          { text: 'Witivio 365', link: '/en/chatbot/build_your_chatbot' },
-          { text: 'Dynameet', link: '/en/dynameet/' },
-          { text: 'Videos', link: '/en/videos/' },
-          { text: 'Teams Apps', link: '/en/teams_apps/' },
-          { text: 'Trust Center', link: '/en/trust_center/' }
-
-        ],
-        algolia: {}
-      },
       '/fr/': {
         searchPlaceholder: 'recherche...',
         // text for the language dropdown
@@ -100,10 +74,10 @@ module.exports = {
           { text: 'Dynameet', link: '/fr/dynameet/' },
           { text: 'Videos', link: '/fr/videos/' },
           { text: 'Teams Apps', link: '/fr/teams_apps/' },
-          { text: 'Trust Center', link: '/en/trust_center/'}
+          { text: 'Trust Center', link: '/en/trust-center/'}
         ]
       },
-      '/en/': {
+      '/': {
         searchPlaceholder: 'search...',
         selectText: 'Languages',
         label: 'en-US',
@@ -119,7 +93,7 @@ module.exports = {
           { text: 'Dynameet', link: '/en/dynameet/' },
           { text: 'Videos', link: '/en/videos/' },
           { text: 'Teams Apps', link: '/en/teams_apps/' },
-          { text: 'Trust Center', link: '/en/trust_center/' }
+          { text: 'Trust Center', link: '/en/trust-center/' }
 
         ],
         algolia: {}
