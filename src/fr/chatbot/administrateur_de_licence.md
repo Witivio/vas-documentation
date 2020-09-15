@@ -32,4 +32,5 @@ Sur la page d'accueil de la plateforme, l'onglet "Politiques de confidentialité
 
 ### Commentaires
 ---
+
 <Commentaire />

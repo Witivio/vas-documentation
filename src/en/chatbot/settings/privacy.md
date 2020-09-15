@@ -231,4 +231,5 @@ The deactivation of GDPR intentions means that users can no longer ask the chatb
 
 ### Comments
 ---
+
 <Commentaire />

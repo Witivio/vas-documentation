@@ -23,4 +23,5 @@ La plateforme est compatible avec les versions des navigateurs suivants :
 
 ### Commentaires
 ---
+
 <Commentaire />

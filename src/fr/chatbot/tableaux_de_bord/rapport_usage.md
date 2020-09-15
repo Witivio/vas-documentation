@@ -106,4 +106,5 @@ Par exemple, la question « **à quoi sert mon badge** » a été posée 2 fois 
 
 ### Commentaires
 ---
+
 <Commentaire />

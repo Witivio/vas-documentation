@@ -51,4 +51,5 @@ Pour rappel, pour ajouter un image dans votre Adaptive card glissez l'élement *
 
 ### Commentaires
 ---
+
 <Commentaire />

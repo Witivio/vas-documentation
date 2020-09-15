@@ -32,4 +32,5 @@ Enfin, ajoutez du contenu riche grâce aux Adaptive cards afin de proposer une e
 
 ### Commentaires
 ---
+
 <Commentaire />

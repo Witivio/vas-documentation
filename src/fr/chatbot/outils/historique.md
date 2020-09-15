@@ -22,4 +22,5 @@ Retrouvez vos conversations avec le chatbot dans l’onglet **Outils** > **Histo
 
 ### Commentaires
 ---
+
 <Commentaire />

@@ -26,6 +26,5 @@
 
 ### Comments
 ---
-<Commentaire />
 
-</script>
+<Commentaire />

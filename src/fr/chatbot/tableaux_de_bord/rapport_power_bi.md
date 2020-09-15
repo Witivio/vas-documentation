@@ -59,4 +59,5 @@ Voici un **exemple** de tableau de bord :
 
 ### Commentaires
 ---
+
 <Commentaire />

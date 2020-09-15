@@ -93,4 +93,5 @@ Une fois votre API d'autorisation configurée, n'oubliez pas d'enregistrer !
 
 ### Commentaires
 ---
+
 <Commentaire />

@@ -3,6 +3,7 @@
     <div v-if="$page.path.match(RegExp(`^\/..\/videos.+`))"></div>
     <div v-else id="disqus_thread"></div>
     <script type="text/javascript">
+
       if(!window.location.pathname.match(RegExp("^\/en.+"))){
           window.webChatSettings = {
             botId: '4f8c93fd-b71f-4abc-82b3-184b32cc7e20',

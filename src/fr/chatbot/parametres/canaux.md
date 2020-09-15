@@ -286,4 +286,5 @@ Cliquez [**ici**](https://docs.microsoft.com/fr-fr/azure/bot-service/bot-service
 
 ### Commentaires
 ---
+
 <Commentaire />
