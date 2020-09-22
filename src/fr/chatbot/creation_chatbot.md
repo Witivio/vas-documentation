@@ -16,7 +16,7 @@ Votre licence est maintenant activée!
 -----
 
 
-Vous avez la possbilité d'essayer la solution Witivio pour une durée d'un mois. 
+Vous avez la possibilité d'essayer la solution Witivio pour une durée d'un mois. 
 
 Connectez vous à l'aide de vos identifiant Micorosft sur [**app.witivio.com**](https://app.witivio.com/) puis sélectionnez "Essayer". 
 

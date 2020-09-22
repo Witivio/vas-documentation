@@ -101,6 +101,26 @@ Lorsque la traduction automatique est configurée, la mise en forme des réponse
 
 > Par exemple de l'anglais vers le français, "Microsoft teams" peut être traduit en "Microsoft équipes". 
 
+## 2. Personnalisation de la traduction automatique
+
+
+Cette fonctionnalité vous permet d'apprendre au chatbot de nouveaux mots afin d'améliorer la traduction automatique en tirant partie des technologies de traduction automatique neuronale (NTM). Le chatbot saisira alors mieux le contexte des phrases dans leur ensemble avant de les traduire.
+
+Une fois la traduction automatique activée et configurée, il sera possible de la personnaliser. 
+
+
+Si on active la traduction automatique on a un new onglet qui apparait -> Personnalisation trad automatique dans paramètres 
+
+Limitations : Anglais vers les autres langues -> mettre un tableau avec les langues supportés 
+
+Bouton ENTRAINER 
+ pop up qui indique que ca peut durer 30 minutes
+Train  > tous les boutons sont grisés car pendant le train on peut rien faire sur cette page mais on peut faire d'autres actions ailleurs sur la plateforme 
+Une fois le premier train fini, si on lance un secon train, les éléments du 1er train restent dispo
+
+L'anglais doitr être soit en langues sources ou en langue traduite . 
+
+
 
 
 ### Commentaires
