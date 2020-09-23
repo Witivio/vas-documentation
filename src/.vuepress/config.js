@@ -77,7 +77,7 @@ module.exports = {
           { text: 'Trust Center', link: '/en/trust-center/'}
         ]
       },
-      '/': {
+      '/en/': {
         searchPlaceholder: 'search...',
         selectText: 'Languages',
         label: 'en-US',
@@ -97,7 +97,28 @@ module.exports = {
 
         ],
         algolia: {}
-      }
+      },
+        '/': {
+            searchPlaceholder: 'search...',
+            selectText: 'Languages',
+            label: 'en-US',
+            editLinkText: 'text GitHub witivio',
+            serviceWorker: {
+                updatePopup: {
+                    message: "New content is available..",
+                    buttonText: "Refresh"
+                }
+            },
+            nav: [
+                { text: 'Witivio 365', link: '/en/chatbot/build_your_chatbot' },
+                { text: 'Dynameet', link: '/en/dynameet/' },
+                { text: 'Videos', link: '/en/videos/' },
+                { text: 'Teams Apps', link: '/en/teams_apps/' },
+                { text: 'Trust Center', link: '/en/trust-center/' }
+
+            ],
+            algolia: {}
+        }
     },
     sidebar: {
       '/en/chatbot/': [
