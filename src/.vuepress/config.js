@@ -266,9 +266,9 @@ module.exports = {
             title: 'Metabot',
             path: '/en/chatbot/metabot',
             collapsable: true,
-            children: [
-                ['/en/chatbot/metabot.md', 'Metabot'],
-            ]
+            // children: [
+            //     ['/en/chatbot/metabot.md', 'Metabot'],
+            // ]
         }
       ],
       '/fr/chatbot/': [
@@ -566,9 +566,9 @@ module.exports = {
             title: 'Metabot',
             path: '/fr/chatbot/metabot',
             collapsable: true,
-            children: [
-                ['/fr/chatbot/metabot.md', 'Metabot'],
-            ]
+            // children: [
+            //     ['/fr/chatbot/metabot.md', 'Metabot'],
+            // ]
         }
       ],
       '/fr/dynameet/': [
