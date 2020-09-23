@@ -111,7 +111,7 @@ La personnalisation de la traduction automatique peut s'avérer très utile nota
 Une fois la traduction automatique activée et configurée, il sera possible de la personnaliser. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/tradautomatiquepersonnalisation.png')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/parametres/tradautomatiquepersonnalisation.PNG')" alt="Traduction automatique de personnalisation">
 </div>
 
 Lorsque la fonctionnalité traduction automatique est activée depuis l'onglet Paramètres > Multilingue, un nouvel onglet apparaît : personnalisation de la traduction automatique. 
@@ -128,7 +128,7 @@ Une fois cet entrainement terminé, si vous apportez de nouvelles modification e
 :::
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/personnalisationdelatrad.png')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/parametres/personnalisationdelatrad.PNG')" alt="Personnalisation de la traduction">
 </div>
 
 

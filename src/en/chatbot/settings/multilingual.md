@@ -116,7 +116,7 @@ Once the automatic translation is activated and configured, it will be possible 
 
 <div class="image_center">
 
-  <img :src="$withBase('/assets/img/en/settings/automatictranslationcustom.png')" alt="automatictranslation">
+  <img :src="$withBase('/assets/img/en/settings/automatictranslationcustom.PNG')" alt="automatictranslation">
 
 </div>
 
@@ -151,7 +151,7 @@ Once this training is over, if you make new changes and start a second training,
 
 <div class="image_center">
 
-  <img :src="$withBase('/assets/img/en/settings/automatictranslationcustom2.png')" alt="automatictranslation">
+  <img :src="$withBase('/assets/img/en/settings/automatictranslationcustom2.PNG')" alt="automatictranslation">
 
 </div>
 
