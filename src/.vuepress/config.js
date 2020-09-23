@@ -271,9 +271,9 @@ module.exports = {
             title: 'MetaBot',
             path: '/en/chatbot/metabot_en',
             collapsable: true,
-            children: [
-                ['/en/chatbot/metabot_en.md', 'MetaBot'],
-            ]
+            // children: [
+            //     ['/en/chatbot/metabot_en.md', 'MetaBot'],
+            // ]
         }
       ],
       '/fr/chatbot/': [
@@ -421,9 +421,9 @@ module.exports = {
             title: 'MetaBot',
             path: '/fr/chatbot/metabot',
             collapsable: true,
-            children: [
-                ['/fr/chatbot/metabot.md', 'MetaBot'],
-            ]
+            // children: [
+            //     ['metabot.md', 'MetaBot'],
+            // ]
         }
       ],
       '/fr/articles/': [
@@ -571,9 +571,9 @@ module.exports = {
             title: 'MetaBot',
             path: '/fr/chatbot/metabot',
             collapsable: true,
-            children: [
-                ['/fr/chatbot/metabot.md', 'MetaBot'],
-            ]
+            // children: [
+            //     ['/fr/chatbot/metabot.md', 'MetaBot'],
+            // ]
         }
       ],
       '/fr/dynameet/': [
