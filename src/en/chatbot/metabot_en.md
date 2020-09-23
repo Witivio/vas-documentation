@@ -16,7 +16,7 @@ For instance, a company uses three chatbots, each one having a specific scope: H
 
  
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/metabot/metabot.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/metabot/metabot.png')" alt="metabot">
 </div>
 
 <br />
@@ -36,7 +36,7 @@ The example below shows that the IT chatbot cannot be a MetaBot's friend because
  
  
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/metabot/metabotlanguage.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/metabot/metabotlanguage.png')" alt="metabot language">
 </div>
 <br />
 
@@ -160,7 +160,7 @@ Depending on the chosen perimeter, the answer is logged in the inbox of the chat
 However, if the user chooses "None of above", the result is logged in the MetaBot inbox. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/metabot/metabothowitworks.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/metabot/metabothowitworks.png')" alt="how it works">
 </div>
 
 
@@ -179,7 +179,7 @@ When the MetaBot has no answer, it asks the perimeter of the question asked. If 
 
  
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/metabot/metabotimprovement.png')" alt="low score">
+  <img :src="$withBase('/assets/img/en/metabot/metabotimprovement.png')" alt="Metabot Improvement">
 </div>
 
  

@@ -12,7 +12,7 @@ Le MetaBot devient alors le point unique de contact, car connecté à plusieurs 
 Par exemple, une entreprise a trois chatbots avec chacun un domaine d'expertise : les Ressources Humaines, le support IT et la Direction Juridique. Le MetaBot répondra alors en puisant ses connaissances dans chacun d'eux pour apporter la meilleure réponse à l'utilisateur
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/metabot/metabot1.png')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/metabot/metabot1.png')" alt="Metabot">
 </div>
 
 ## Configuration du MetaBot
@@ -24,7 +24,7 @@ Par exemple, si un MetaBot est configuré en français, ses chatbot ami doivent 
 L'exemple ci-dessous montre que le chatbot IT ne peut pas être ami du MetaBot car il ne parle pas français, la langue de configuration du MetaBot. Les chatbots amis RH et Juridique parlent au moins français. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/metabot/metabotlangue.png')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/metabot/metabotlangue.png')" alt="Metabot Langue">
 </div>
  <br />
  <br />
@@ -101,7 +101,7 @@ En fonction du périmètre indiqué, le résultat est recensé dans la boîte de
 En revanche, si l'utilisateur choisit "Aucun", le résultalt est recensé dans la boîte de réception du MetaBot. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/metabot/metabotfonctionnement.png')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/metabot/metabotfonctionnement.png')" alt="Metabot Fonctionnement">
 </div>
 
  <br />
@@ -127,12 +127,12 @@ La boite de réception du MetaBot comporte un seul onglet "Pas de périmètre". 
  <br />
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/metabot/metabotinbox.png')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/metabot/metabotinbox.png')" alt="Metabot Inbox">
 </div>
 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/metabot/metabottransfert.png')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/metabot/metabottransfert.png')" alt="Metabot Transfert">
 </div>
 
 
