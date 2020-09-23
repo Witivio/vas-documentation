@@ -101,6 +101,31 @@ Lorsque la traduction automatique est configurée, la mise en forme des réponse
 
 > Par exemple de l'anglais vers le français, "Microsoft teams" peut être traduit en "Microsoft équipes". 
 
+## 2. Personnalisation de la traduction automatique
+
+
+Cette fonctionnalité vous permet d'apprendre au chatbot de nouveaux mots afin d'améliorer la traduction automatique en tirant partie des technologies de traduction automatique neuronale (NTM). Le chatbot saisira alors mieux le contexte des phrases dans leur ensemble avant de les traduire.
+
+La personnalisation de la traduction automatique peut s'avérer très utile notamment dans la traduction d'acronymes métier ou de vocabulaire propre à l'entreprise. 
+
+Une fois la traduction automatique activée et configurée, il sera possible de la personnaliser. 
+
+![tradautomatiquepersonnalisation](/src/.vuepress/public/assets/img/fr/parametres/tradautomatiquepersonnalisation.png)
+
+Lorsque la fonctionnalité traduction automatique est activée depuis l'onglet Paramètres > Multilingue, un nouvel onglet apparaît : personnalisation de la traduction automatique. 
+
+
+::: warning ⚠️
+Lors de la configuration, l'anglais doit être soit la langue source soit la langue de traduction.
+:::
+
+::: tip 💡
+Une fois votre dictionnaire enrichi, lorsque vous cliquez sur le bouton ENTRAINER, la synchronisation des éléments ajoutés peut prendre jusqu'à 30 minutes. Pendant ce temps là, il ne sera pas possible d'apporter aucune modification sur cette page. En revanche, vous pouvez utiliser l'ensemble des autres onglets de la plateforme. 
+
+Une fois cet entrainement terminé, si vous apportez de nouvelles modification et vous lancez un second entrainement, les éléments du premier restent disponibles. 
+:::
+
+![personnalisationdelatrad](/src/.vuepress/public/assets/img/fr/parametres/personnalisationdelatrad.png)
 
 
 ### Commentaires

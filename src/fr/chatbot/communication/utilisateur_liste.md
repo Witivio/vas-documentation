@@ -7,7 +7,7 @@ Cet onglet est disponible uniquement pour les chatbots avec Skype et Microsoft T
 :::
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/liste_de_diffusion1.png')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/communication/liste_de_diffusion1.png')" alt="liste1">
 </div>
 
 Dans un premier temps, vous avez la possibilité de créer une liste de diffusion, c'est-à-dire une liste des destinataires du message dans l'onglet "Listes de diffusion".
@@ -25,11 +25,11 @@ Pour que la campagne push fonctionne, toutes les lignes (nom, prénom, adresse S
 :::
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/liste_de_diffusion2.png')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/communication/liste_de_diffusion2.png')" alt="liste2">
 </div>
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/liste_de_diffusion3.png')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/communication/liste_de_diffusion3.png')" alt="liste3">
 </div>
 
 
@@ -42,12 +42,21 @@ Pour que la campagne push fonctionne, toutes les lignes (nom, prénom, adresse S
   * Exécution d’une campagne push. Lecture des membres du groupeLecture de l’adresse SIP des membres. Envoi des messages
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/liste_de_diffusion4.png')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/communication/liste_de_diffusion4.png')" alt="liste4">
 </div>
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/liste_de_diffusion5.png')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/communication/liste_de_diffusion5.png')" alt="liste5">
 </div>
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/communication/liste_de_diffusion5.png')" alt="liste6">
+</div>
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/communication/tesIB.png')" alt="liste7">
+</div>
+
 
 ::: tip 👉
 C’est parti !
@@ -58,11 +67,11 @@ C’est parti !
 En cliquant sur "modifier'" vous pouvez changer le nom de la liste ou la supprimer. Ce bouton permet également d'ajouter des utilisateurs.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/liste_de_diffusion6.jpg')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/communication/liste_de_diffusion6.jpg')" alt="liste8">
 </div>
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/liste_de_diffusion7.png')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/communication/liste_de_diffusion7.png')" alt="liste9">
 </div>
 
 
@@ -73,7 +82,7 @@ Lorsque vous souhaitez créer une campagne push sur Microsoft Teams, vous avez l
 :::
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/liste_de_diffusion8.png')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/communication/liste_de_diffusion8.png')" alt="liste10">
 </div>
 
 
