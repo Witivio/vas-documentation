@@ -269,7 +269,7 @@ module.exports = {
         },
         {
             title: 'MetaBot',
-            path: '/en/chatbot/metabot',
+            path: '/en/chatbot/metabot_en',
             collapsable: true,
             // children: [
             //     ['/en/chatbot/metabot.md', 'Metabot'],
