@@ -194,7 +194,7 @@ module.exports = {
           children: [
             ['/en/chatbot/settings/privacy.md', 'Privacy policies'],
             ['/en/chatbot/settings/chatbot.md', 'Chatbot accessibility'],
-            ['/en/chatbot/settings/multilingual.md', 'Multilingual'],
+            ['/en/chatbot/settings/multilingual.md', 'Languages'],
             ['/en/chatbot/settings/user_list.md', 'User List'],
             ['/en/chatbot/settings/channels.md', 'Channels'],
             ['/en/chatbot/settings/coach.md', 'Coach'],
@@ -240,7 +240,15 @@ module.exports = {
           // children: [
           //   ['/en/chatbot/webchat_v1.md', 'Webchat V1 (obsolete)'],
           // ]
-        }
+        },
+          {
+              title: 'Metabot',
+              path: '/en/chatbot/metabot',
+              collapsable: true,
+              // children: [
+              //   ['/fr/chatbot/webchat_v1.md', 'Webchat V1 (obsolète)'],
+              // ]
+          }
       ],
       '/fr/chatbot/': [
         {
@@ -382,7 +390,15 @@ module.exports = {
           // children: [
           //   ['/fr/chatbot/webchat_v1.md', 'Webchat V1 (obsolète)'],
           // ]
-        }
+          },
+          {
+              title: 'Metabot',
+              path: '/fr/chatbot/metabot',
+              collapsable: true,
+              // children: [
+              //   ['/fr/chatbot/webchat_v1.md', 'Webchat V1 (obsolète)'],
+              // ]
+          }
       ],
       '/fr/articles/': [
         {
@@ -524,7 +540,15 @@ module.exports = {
           // children: [
           //   ['/fr/chatbot/webchat_v1.md', 'Webchat V1 (obsolète)'],
           // ]
-        }
+          },
+          {
+              title: 'Metabot',
+              path: '/fr/chatbot/metabot',
+              collapsable: true,
+              // children: [
+              //   ['/fr/chatbot/webchat_v1.md', 'Webchat V1 (obsolète)'],
+              // ]
+          }
       ],
       '/fr/dynameet/': [
         {

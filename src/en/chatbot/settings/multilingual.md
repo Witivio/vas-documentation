@@ -1,4 +1,4 @@
-# Multilingual
+# Languages
 
 You have two possibilities to activate your chatbot in multilingual: 
 
@@ -102,8 +102,58 @@ Please also note that some words, such as professional words, may also be transl
 
 > For example, from **English** to **French**, "**Microsoft Teams**" can be translated into "**Microsoft équipe**". 
 
+## 2.1 Automatic translation customization
 
+This feature allows you to teach the chatbot new words to improve automatic translation by taking advantage of Neural Machine Translation (NTM) technologies. The chatbot will then better understand the context of the whole sentence before translating it.
 
+ 
+
+Automatic translation customization can be very useful when translating business acronyms or company-specific vocabulary. 
+
+ 
+
+Once the automatic translation is activated and configured, it will be possible to customize it.
+
+<div class="image_center">
+
+  <img :src="$withBase('/assets/img/en/settings/automatictranslationcustom.png')" alt="automatictranslation">
+
+</div>
+
+ <br />
+ <br />
+
+When the automatic translation feature is enabled from the Settings > Languages tab, a new tab appears: Automatic translation customization. 
+
+ <br />
+ 
+
+::: warning ⚠️
+
+When configuring, English must be either the source language or the translation language.
+
+:::
+
+ 
+
+::: tip 💡
+
+Once your dictionary is complete, when you click on the TRAIN button, it can take up to 30 minutes to synchronize the added items. During this time, it will not be possible to make any changes on this page. However, you can use all the other tabs of the platform. 
+
+ 
+
+Once this training is over, if you make new changes and start a second training, the items from the first training will still be available. 
+
+:::
+
+ 
+ <br />
+
+<div class="image_center">
+
+  <img :src="$withBase('/assets/img/en/settings/automatictranslationcustom2.png')" alt="automatictranslation">
+
+</div>
 
 ### Comments
 ---

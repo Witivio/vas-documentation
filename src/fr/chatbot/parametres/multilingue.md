@@ -110,7 +110,9 @@ La personnalisation de la traduction automatique peut s'avérer très utile nota
 
 Une fois la traduction automatique activée et configurée, il sera possible de la personnaliser. 
 
-![tradautomatiquepersonnalisation](/src/.vuepress/public/assets/img/fr/parametres/tradautomatiquepersonnalisation.png)
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/parametres/tradautomatiquepersonnalisation.png')" alt="low score">
+</div>
 
 Lorsque la fonctionnalité traduction automatique est activée depuis l'onglet Paramètres > Multilingue, un nouvel onglet apparaît : personnalisation de la traduction automatique. 
 
@@ -125,7 +127,9 @@ Une fois votre dictionnaire enrichi, lorsque vous cliquez sur le bouton ENTRAINE
 Une fois cet entrainement terminé, si vous apportez de nouvelles modification et vous lancez un second entrainement, les éléments du premier restent disponibles. 
 :::
 
-![personnalisationdelatrad](/src/.vuepress/public/assets/img/fr/parametres/personnalisationdelatrad.png)
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/parametres/personnalisationdelatrad.png')" alt="low score">
+</div>
 
 
 ### Commentaires
