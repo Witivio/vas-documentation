@@ -39,7 +39,12 @@ module.exports = {
       lang: 'fr-FR', // this will be set as the lang attribute on <html>
       title: 'Documentation',
       description: 'witivio'
-    }
+    },
+      '/en/': {
+          lang: 'en-US', // this will be set as the lang attribute on <html>
+          title: 'Documentation',
+          description: 'witivio'
+      }
   },
   themeConfig: {
     smoothScroll: true,
