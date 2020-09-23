@@ -40,23 +40,12 @@ Lorsque l'utilisateur pose une question au MetaBot, ce-dernier recherche la rép
 
 L'utilisateur pose une question, le MetaBot retourne directement une réponse d'un des chatbots amis avec un score supérieur au seuil du score de réponse. 
 
-  Si le feedback du chatbot amis est activé, alors le Metabot demande un feedback. Par exemple lorsqu'un utilisateur indique ne pas être satisfait de la réponse, ce feedback négatif est recensé dans la boîte de réception du chatbot ami.
-
-**2) Demande de périmètre**
-
-L'utilisateur pose une question, si plusieurs amis répondent au Metabot avec un score supérieur au suil du score de réponse, le Metabot demande de contextualiser la réponse et de choisir un des périmètres avant de donner la réponse. 
-
-  Si le feedback du chatbot amis est activé, alors le Metabot demande un feedback. 
-
-NB. Il est possible que le MetaBot identifie plusieurs questions du même périmètre et déclenche donc l'Active Learning. 
+  Si le feedback du chatbot amis est activé, alors le MetaBot demande un feedback. Par exemple lorsqu'un utilisateur indique ne pas être satisfait de la réponse, ce feedback négatif est recensé dans la boîte de réception du chatbot ami.
 
 
-**Contextualisation** 
+**2) Contextualisation** 
 
-Lorsque le Metabot identifie plusieurs réponses de différents chatbots amis, il demande le périmetre. En fonction du choix de l'utilisateur, le MetaBot apporte la réponse trouvée. 
-
-Ajouter 2 cas : soit il reconnait directement le périmtre --> active learning 
-Soit il demande d'abord le périmètre 
+Lorsque le MetaBot identifie plusieurs réponses de différents chatbots amis, il demande d'abord le périmetre. En fonction du choix de l'utilisateur, le MetaBot apporte la réponse trouvée. 
 
 "J'ai un doute, est-ce que ta demande concerne : "
 
@@ -73,10 +62,11 @@ Si l'utilisateur séléctionne un des périmètres alors le MetaBot retourne la 
 
 En revanche, si le choix de l'utilisateur est "Aucun périmètre", la question posée est envoyée vers la boîte de réception du MetaBot. 
 
+NB. Une fois le périmètre demandé, il est possible que le MetaBot identifie plusieurs questions du même périmètre et déclenche donc l'Active Learning. 
 
 **Score inférieur au seuil de réponse** 
 
-Lorsque le score est inférieur au seuil du score de réponse, le Metabot ne trouve aucune réponses parmi les connaissances des chatbots amis, il retourne le message de non réponse et demande le pérmitre. 
+Lorsque le score est inférieur au seuil du score de réponse, le MetaBot ne trouve aucune réponses parmi les connaissances des chatbots amis, il retourne le message de non réponse et demande le périmètre. 
 
 " Est-ce que ta demande concerne : "
 
@@ -88,7 +78,7 @@ Lorsque le score est inférieur au seuil du score de réponse, le Metabot ne tro
 
 - Aucun 
 
-En fonction du périmètre indiqué, le résultat est recensé dans la boîte de réception du chatbot ami dans l'onglet "Questions sans réponse". De plus, si l'escalade du chatbot ami est activée, celle-ci sera déclenché suite au message de non réponse. 
+En fonction du périmètre indiqué, le résultat est recensé dans la boîte de réception du chatbot ami dans l'onglet "Questions sans réponse". De plus, si l'escalade du chatbot ami est activée, celle-ci sera déclenchée suite au message de non réponse. 
 
 En revanche, si l'utilisateur choisit "Aucun", le résultalt est recensé dans la boîte de réception du MetaBot. 
 
