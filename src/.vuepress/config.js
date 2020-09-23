@@ -262,14 +262,14 @@ module.exports = {
           //   ['/en/chatbot/webchat_v1.md', 'Webchat V1 (obsolete)'],
           // ]
         },
-          {
-              title: 'Metabot',
-              path: '/en/chatbot/metabot',
-              collapsable: true,
-              // children: [
-              //   ['/fr/chatbot/webchat_v1.md', 'Webchat V1 (obsolète)'],
-              // ]
-          }
+        {
+            title: 'Metabot',
+            path: '/en/chatbot/metabot',
+            collapsable: true,
+            children: [
+                ['/en/chatbot/metabot.md', 'Metabot'],
+            ]
+        }
       ],
       '/fr/chatbot/': [
         {
@@ -411,15 +411,15 @@ module.exports = {
           // children: [
           //   ['/fr/chatbot/webchat_v1.md', 'Webchat V1 (obsolète)'],
           // ]
-          },
-          {
-              title: 'Metabot',
-              path: '/fr/chatbot/metabot',
-              collapsable: true,
-              // children: [
-              //   ['/fr/chatbot/webchat_v1.md', 'Webchat V1 (obsolète)'],
-              // ]
-          }
+        },
+        {
+            title: 'Metabot',
+            path: '/fr/chatbot/metabot',
+            collapsable: true,
+            children: [
+                ['/fr/chatbot/metabot.md', 'Metabot'],
+            ]
+        }
       ],
       '/fr/articles/': [
         {
@@ -561,15 +561,15 @@ module.exports = {
           // children: [
           //   ['/fr/chatbot/webchat_v1.md', 'Webchat V1 (obsolète)'],
           // ]
-          },
-          {
-              title: 'Metabot',
-              path: '/fr/chatbot/metabot',
-              collapsable: true,
-              // children: [
-              //   ['/fr/chatbot/webchat_v1.md', 'Webchat V1 (obsolète)'],
-              // ]
-          }
+        },
+        {
+            title: 'Metabot',
+            path: '/fr/chatbot/metabot',
+            collapsable: true,
+            children: [
+                ['/fr/chatbot/metabot.md', 'Metabot'],
+            ]
+        }
       ],
       '/fr/dynameet/': [
         {
