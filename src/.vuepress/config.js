@@ -30,18 +30,13 @@ module.exports = {
     ['link', { rel:"sitemap", type:"application/xml", title:"Sitemap", href:"https://docs.witivio.com/sitemap.xml" }]
   ],
   locales: {
-    '/': {
-      lang: 'en_US', // this will be set as the lang attribute on <html>
-      title: 'Documentation',
-      description: 'witivio'
-    },
-    '/fr/': {
-      lang: 'fr-FR', // this will be set as the lang attribute on <html>
-      title: 'Documentation',
-      description: 'witivio'
-    },
-      '/en/': {
-          lang: 'en-US', // this will be set as the lang attribute on <html>
+      '/': {
+          lang: 'en_US', // this will be set as the lang attribute on <html>
+          title: 'Documentation',
+          description: 'witivio'
+      },
+      '/fr/': {
+          lang: 'fr-FR', // this will be set as the lang attribute on <html>
           title: 'Documentation',
           description: 'witivio'
       }
@@ -55,76 +50,55 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     locales: {
-        '/': {
-            searchPlaceholder: 'search...',
-            selectText: 'Languages',
-            label: 'en-US',
-            editLinkText: 'text GitHub witivio',
-            serviceWorker: {
-                updatePopup: {
-                    message: "New content is available..",
-                    buttonText: "Refresh"
-                }
-            },
-            nav: [
-                { text: 'Witivio 365', link: '/en/chatbot/build_your_chatbot' },
-                { text: 'Dynameet', link: '/en/dynameet/' },
-                { text: 'Videos', link: '/en/videos/' },
-                { text: 'Teams Apps', link: '/en/teams_apps/' },
-                { text: 'Trust Center', link: '/en/trust-center/' }
+          '/fr/': {
+              searchPlaceholder: 'recherche...',
+              // text for the language dropdown
+              selectText: 'Languages',
+              // label for this locale in the language dropdown
+              label: 'fr-FR',
+              // Aria Label for locale in the dropdown
+              ariaLabel: 'Languages',
+              // text for the edit-on-github link
+              editLinkText: 'Edit this page on GitHub',
+              // config for Service Worker
+              serviceWorker: {
+                  updatePopup: {
+                      message: "New content is available.",
+                      buttonText: "Refresh"
+                  }
+              },
+              // algolia docsearch options for current locale
+              algolia: {},
+              nav: [
+                  { text: 'Witivio 365', link: '/fr/chatbot/creation_chatbot' },
+                  { text: 'Dynameet', link: '/fr/dynameet/' },
+                  { text: 'Videos', link: '/fr/videos/' },
+                  { text: 'Teams Apps', link: '/fr/teams_apps/' },
+                  { text: 'Trust Center', link: '/en/trust-center/' }
+              ]
+          },
+          '/': {
+              searchPlaceholder: 'search...',
+              selectText: 'Languages',
+              label: 'en-US',
+              editLinkText: 'text GitHub witivio',
+              serviceWorker: {
+                  updatePopup: {
+                      message: "New content is available..",
+                      buttonText: "Refresh"
+                  }
+              },
+              nav: [
+                  { text: 'Witivio 365', link: '/en/chatbot/build_your_chatbot' },
+                  { text: 'Dynameet', link: '/en/dynameet/' },
+                  { text: 'Videos', link: '/en/videos/' },
+                  { text: 'Teams Apps', link: '/en/teams_apps/' },
+                  { text: 'Trust Center', link: '/en/trust-center/' }
 
-            ],
-            algolia: {}
-        },
-        '/en/': {
-            searchPlaceholder: 'search...',
-            selectText: 'Languages',
-            label: 'en-US',
-            editLinkText: 'text GitHub witivio',
-            serviceWorker: {
-            updatePopup: {
-            message: "New content is available..",
-            buttonText: "Refresh"
+              ],
+              algolia: {}
           }
-        },
-        nav: [
-          { text: 'Witivio 365', link: '/en/chatbot/build_your_chatbot' },
-          { text: 'Dynameet', link: '/en/dynameet/' },
-          { text: 'Videos', link: '/en/videos/' },
-          { text: 'Teams Apps', link: '/en/teams_apps/' },
-          { text: 'Trust Center', link: '/en/trust-center/' }
-
-        ],
-        algolia: {}
       },
-    '/fr/': {
-        searchPlaceholder: 'recherche...',
-        // text for the language dropdown
-        selectText: 'Languages',
-        // label for this locale in the language dropdown
-        label: 'fr-FR',
-        // Aria Label for locale in the dropdown
-        ariaLabel: 'Languages',
-        // text for the edit-on-github link
-        editLinkText: 'Edit this page on GitHub',
-        // config for Service Worker
-        serviceWorker: {
-            updatePopup: {
-                message: "New content is available.",
-                buttonText: "Refresh"
-            }
-        },
-        // algolia docsearch options for current locale
-        algolia: {},
-        nav: [
-            { text: 'Witivio 365', link: '/fr/chatbot/creation_chatbot' },
-            { text: 'Dynameet', link: '/fr/dynameet/' },
-            { text: 'Videos', link: '/fr/videos/' },
-            { text: 'Teams Apps', link: '/fr/teams_apps/' },
-            { text: 'Trust Center', link: '/en/trust-center/' }
-        ]
-    }
-    },
     sidebar: {
       '/en/chatbot/': [
         {
@@ -419,7 +393,7 @@ module.exports = {
         },
         {
             title: 'MetaBot',
-            path: '/fr/chatbot/metabot',
+            path: '/fr/chatbot/Metabot',
             collapsable: true,
             // children: [
             //     ['metabot.md', 'MetaBot'],
@@ -569,7 +543,7 @@ module.exports = {
         },
         {
             title: 'MetaBot',
-            path: '/fr/chatbot/metabot',
+            path: '/fr/chatbot/Metabot',
             collapsable: true,
             // children: [
             //     ['/fr/chatbot/metabot.md', 'MetaBot'],
