@@ -101,7 +101,7 @@ Lorsque la traduction automatique est configurée, la mise en forme des réponse
 
 > Par exemple de l'anglais vers le français, "Microsoft teams" peut être traduit en "Microsoft équipes". 
 
-## 2. Personnalisation de la traduction automatique
+## 2.1 Personnalisation de la traduction automatique
 
 
 Cette fonctionnalité vous permet d'apprendre au chatbot de nouveaux mots afin d'améliorer la traduction automatique en tirant partie des technologies de traduction automatique neuronale (NTM). Le chatbot saisira alors mieux le contexte des phrases dans leur ensemble avant de les traduire.
