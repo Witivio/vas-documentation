@@ -21,7 +21,7 @@ Egalement, découvrez la personnalisation de la traduction automatique.
 
 <br/>
 <br/>
-<iframe class="video_embed" src="http://youtube.com/embed/HcJdkOcOMvY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe class="video_embed" src="https://youtube.com/embed/HcJdkOcOMvY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## Galerie d'images

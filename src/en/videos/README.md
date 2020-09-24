@@ -22,8 +22,7 @@ Also, discover the automatic translation customization.
 
 <br/>
 <br/>
-<iframe class="video_embed" src="http://www.youtube.com/embed/HcJdkOcOMvY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe class="video_embed" src="https://www.youtube.com/embed/HcJdkOcOMvY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Image gallery
 **Updated 2 June 2020**
