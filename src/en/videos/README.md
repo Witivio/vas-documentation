@@ -15,7 +15,7 @@ sidebar : auto
 
 
 ## MetaBot & automatic translation customization
-**Mise à jour du 22 septembre 2020**
+**Update 22 September 2020**
 
 Here we go! Witivio officially launches the MetaBot! 
 Also, discover the automatic translation customization. 
