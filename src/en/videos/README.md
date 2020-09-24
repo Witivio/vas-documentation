@@ -14,8 +14,19 @@ sidebar : auto
 [Replay Webinars and tutos](https://www.youtube.com/channel/UCTI2DzxWddbejQ_TlX-WkdQ/videos)
 
 
+## MetaBot & automatic translation customization
+**Mise à jour du 22 septembre 2020**
+
+Here we go! Witivio officially launches the MetaBot! 
+Also, discover the automatic translation customization. 
+
+<br/>
+<br/>
+<iframe class="video_embed" src="http://youtube.com/embed/HcJdkOcOMvY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Image gallery
-**Updated 2 June 20201**
+**Updated 2 June 2020**
 
 An image gallery is now available in the "Tools" tab. You can then load and store images for a URL will be created automatically.
 

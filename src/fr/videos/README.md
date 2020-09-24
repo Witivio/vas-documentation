@@ -13,8 +13,19 @@ sidebar : auto
 [Replay Webinars et tutos](https://www.youtube.com/channel/UCTI2DzxWddbejQ_TlX-WkdQ/videos)
 
 
-## Galérie d'images
-**Mise à jour du 2 Juin 20201**
+## MetaBot & personnalisation de la traduction automatique
+**Mise à jour du 22 septembre 2020**
+
+Le grand jour est arrivé ! Nous lançons officiellement le MetaBot ! 
+Egalement, découvrez la personnalisation de la traduction automatique. 
+
+<br/>
+<br/>
+<iframe class="video_embed" src="http://youtube.com/embed/HcJdkOcOMvY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+## Galerie d'images
+**Mise à jour du 2 Juin 2020**
 
 Une galerie d'images est désormais disponible dans l'onglet "Outils". Vous pourrez alors charger et stocker des images pour lesquelles un URL sera créer automatiquement.
 
