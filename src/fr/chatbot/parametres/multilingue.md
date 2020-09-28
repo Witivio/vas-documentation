@@ -57,7 +57,7 @@ Cependant, corsque cette option est désactivée et le chatbot est mulitlingue, 
 
 ## 2. Traduction automatique (bêta)
 
-Vous avez la possibilité d'activer une version beta de la traduction automatique.
+Vous avez la possibilité d'activer une version beta de la traduction automatique. Cette fonctionnalité traduit l'ensemble du contenu, la question et/ou la réponse. 
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/parametres/multilingual4.png')" alt="low score">
@@ -106,7 +106,7 @@ Lorsque la traduction automatique est configurée, la mise en forme des réponse
 
 Cette fonctionnalité vous permet d'apprendre au chatbot de nouveaux mots afin d'améliorer la traduction automatique en tirant partie des technologies de traduction automatique neuronale (NTM). Le chatbot saisira alors mieux le contexte des phrases dans leur ensemble avant de les traduire.
 
-La personnalisation de la traduction automatique peut s'avérer très utile notamment dans la traduction d'acronymes métier ou de vocabulaire propre à l'entreprise. 
+La personnalisation de la traduction automatique peut s'avérer très utile notamment dans la traduction d'acronymes métier et de vocabulaire propre à l'entreprise. 
 
 Une fois la traduction automatique activée et configurée, il sera possible de la personnaliser. 
 
@@ -120,6 +120,12 @@ Lorsque la fonctionnalité traduction automatique est activée depuis l'onglet P
 ::: warning ⚠️
 Lors de la configuration, l'anglais doit être soit la langue source soit la langue de traduction.
 :::
+
+Voici un tableau des langues supportées 
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/parametres/supportedlanguages.PNG')" alt="Traduction automatique de personnalisation">
+</div>
 
 ::: tip 💡
 Une fois votre dictionnaire enrichi, lorsque vous cliquez sur le bouton ENTRAINER, la synchronisation des éléments ajoutés peut prendre jusqu'à 30 minutes. Pendant ce temps là, il ne sera pas possible d'apporter aucune modification sur cette page. En revanche, vous pouvez utiliser l'ensemble des autres onglets de la plateforme. 

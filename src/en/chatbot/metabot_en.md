@@ -3,14 +3,10 @@
 <br />
 
 ## Why to create a MetaBot? 
-
  
+When several chatbots are available in different scopes, users may not know which chatbot to address. 
 
-When several chatbots are activated in different contexts, users may not know which chatbot to address. 
-
-The MetaBot then becomes the single point of contact. Indeed, it is connected to several chatbots known as "friends", each of which covers a perimeter.
-
- 
+The MetaBot then becomes the primary contact point. Indeed, it is connected to several chatbots known as "friends", each of which covers a specific scope.
 
 For instance, a company uses three chatbots, each one having a specific scope: Human Resources, IT support and Legal Department.
 

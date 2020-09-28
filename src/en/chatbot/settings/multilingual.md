@@ -129,21 +129,20 @@ When the automatic translation feature is enabled from the Settings > Languages 
  
 
 ::: warning ⚠️
-
 When configuring, English must be either the source language or the translation language.
-
 :::
 
- 
+Here is a table of all supported languages
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/parametres/supportedlanguages.PNG')" alt="automatictranslationcustomization">
+</div>
 
 ::: tip 💡
-
 Once your dictionary is complete, when you click on the TRAIN button, it can take up to 30 minutes to synchronize the added items. During this time, it will not be possible to make any changes on this page. However, you can use all the other tabs of the platform. 
-
  
 
 Once this training is over, if you make new changes and start a second training, the items from the first training will still be available. 
-
 :::
 
  
