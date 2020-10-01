@@ -575,6 +575,9 @@ module.exports = {
     }
   },
   plugins: {
+    '@vuepress/plugin-google-analytics': {
+      ga: 'UA-93562801-1',
+    },
     'sitemap': {
       hostname: 'https://docs.witivio.com'
     },
