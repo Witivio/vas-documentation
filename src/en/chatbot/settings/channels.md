@@ -182,6 +182,38 @@ the choice of the new profile in the test.
             <td>autoscroll</td>
             <td>Allows you to force the auto scroll when a user gets back into the conversation and decides to send a message back into the chat.</td>
         </tr>
+        <tr>
+            <td>buttonDesign.shape</td>
+            <td>Allows you to choose the button's shape, possible values: square, circle, chat (default: circle))</td>
+        </tr>
+        <tr>
+            <td>buttonDesign.icon</td>
+            <td>Allows to choose the button icon, possible values: 'bot' will take the avatar of your chatbot, can also take the class of a Font Awesome (for example 'fa fa-quote-right' or 'fas fa-comment') or put a URL to an image (default: fa-comment-dots)</td>
+        </tr>
+        <tr>
+            <td>buttonDesign.height</td>
+            <td>Button length, suggested unit: 'px' (by default: '80px')</td>
+        </tr>
+        <tr>
+            <td>buttonDesign.width</td>
+            <td>Button width, recommended unit: 'px' (by default: '80px')</td>
+        </tr>
+        <tr>
+            <td>buttonDesign.border</td>
+            <td>6 hexadecimal characters for the border or 'none' for no border (beware the 'chat' shape of the button is considered as a border) (by default: 'ffffff')</td>
+        </tr>
+        <tr>
+            <td>buttonDesign.text</td>
+            <td>The text to be displayed next to the chosen icon. Over 25 characters, the text will be cut off.</td>
+        </tr>
+        <tr>
+            <td>headerHeight</td>
+            <td>allows to set the header size. Possible values: small, normal (by default: 'normal' if not specified)</td>
+        </tr>
+        <tr>
+            <td>position</td>
+            <td>webchat position on the page, 'top', 'middle' or 'bottom' then 'left' or 'right' and optionally followed by a margin of maximum 150px (default: 'bottom right 10px 10px')</td>
+        </tr>
 </table>
 
 #### [Configuration of the Webchat V1 component compatible with IE11 (obsolete)](/en/chatbot/webchat_v1.html)
