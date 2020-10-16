@@ -28,15 +28,127 @@ Les cadres suivant permettent d'indiquer les informations de connexion (E-mail, 
 
 >Pour activer un bot sur teams, la démarche est expliquée [ici](/fr/chatbot/creation_chatbot/condition_requises.html).
 
-#### Télécharger son package teams
----
+Depuis la page d'**edition du canal teams**, vous pouvez publier ou retirer votre chatbot dans le catalogue teams de manière automatique ou manuel.
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/parametres/teamsCanal.png')" alt="catalogue teams">
+</div>
+Cliquez sur l'onglet **Publication**
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/parametres/publishTeams.png')" alt="catalogue teams">
+</div>
 
-Lorsque vous configurez ou souhaitez modifier la configuration de votre chatbot Teams, téléchargez le fichier zip contenant: - Un fichier JSON - 2 photos ( 96x96 Px, 20x20 Px )
+### **Automatiquement** ###
+------------------------------
 
-Ce fichier décrit donc les informations fournies dans l'application. (Paramètres > Canaux)
+#### Autorisation ####
+------------------------------
+Afin d'effectuer la publication de votre chatbot dans le catalogue teams, Witivio a besoin de l'autorisation d'un **Administrateur du tenant**.
+Cliquez sur le bouton **"je t'autorise"** afin de commencer le processus d'authenfication.
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/autorisationAuto.png')" alt="autorisation teams">
+</div>
 
-Ajoutez ensuite ce package dans Teams. Choisissez une équipe et un canal sous cette équipe, cliquez sur "Gérer l'équipe", puis "Application" puis en bas à droite de la page "Charger une application personnalisée". Chargez le package Teams.
+Vous devriez voir apparaitre une fenêtre d'authentification microsoft.
+**Identifiez-vous** avec les informations d'un **admnistrateur du tenant**
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/popupautorisation.png')" alt="autorisation teams">
+</div>
 
+Une fois l'autorisation effectué avec succés. Vous devriez voir l'état au dessus du bouton "je t'autorise" passé à **connecté** comme sur l'image ci-dessous.
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/authSucess.png')" alt="autorisation teams">
+</div>
+
+#### Publication ####
+------------------------------
+Une fois **connecté** vous pouvez publier l'application automatiquement depuis la plateforme en cliquant sur le bouton **Publier**
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/publishApp.png')" alt="publication application teams">
+</div>
+
+Une fois la publication effectué vous devriez voir un bouton **Retirer** apparaître afin de retirer l'application du catalogue Teams.
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/unpublishApp.png')" alt="publication application teams">
+</div>
+
+## **Manuellement** ##
+------------------------------
+Si vous ne possédez pas de compte **administrateur du tenant** vous pouvez publier votre bot manuellement dans le catalogue Teams.
+
+### Télechargement ###
+Depuis la page d'**edition du canal teams**, Téléchargez le package de l'application en cliquant sur le bouton **télécharger** comme l'image ci-dessous.
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/downloadZip.png')" alt="download application teams">
+</div>
+
+### Publication ###
+Rendez-vous sur **Teams**, puis cliquez sur **Autres applications ajoutés** comme encadré dans l'image ci-dessous.
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/teams.png')" alt="dropdown teams">
+</div>
+Une fenêtre s'affiche, cliquez alors sur **Autres applications**.
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/dropdownteams.png')" alt="dropdown teams">
+</div>
+Vous êtes maintenant dans le **Catalogue Teams**.
+Cliquez sur **Envoyer au catalogue d'application** comme l'écran ci-dessous.
+Puis cliquez sur **soumettre une application**
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/appliCatalogue.png')" alt="application personalisé teams">
+</div>
+Une fenêtre s'affiche, sélectionnez le package téléchargé au préalable puis cliquez sur **Ouvrir**
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/popupappliperso.png')" alt="application pop up personalisé teams">
+</div>
+Vous devriez voir apparaître votre application avec un status en attente.
+Demandez à un administrateur :
+* D'accepter que votre **chatbot** soit publié dans le catalogue Teams.
+* De vous transmettre **l'id de l'application dans le catalogue**.
+Une fois que l'admnistrateur aura accepter votre application, le statut de votre **chatbot** devrait passer à **Approuvé**
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/approuved.png')" alt="application approuvé">
+</div>
+Dès lors vous pourrez retrouver l'application dans votre **catalogue Teams**
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/chatbotsCatalogues.png')" alt="application approuvé">
+</div>
+Pour finaliser la publication retourner sur la page Catalogue de la plateforme et renseignez **l'id de l'application** fourni par l'administrateur lorsqu'il a approuvé votre **chatbot**.
+Puis cliquez sur **Enregistrer l'id de l'application**
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/idApp.png')" alt="application approuvé">
+</div>
+
+::: danger 🔴
+Sans l'étape du dessus, l'application ne sera pas fonctionnel.
+:::
+
+### Administration ###
+En tant qu'**administrateur** rendez vous sur le **centre d'administration Microsoft Teams** depuis le **portail office**.
+Accéder à l'onglet **Gérer les applications**
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/manageApp.png')" alt="application approuvé">
+</div>
+Grâce à la barre de recherche, retourvez le nom du **chatbot** dans la liste et cliquez dessus.
+Vous accédez à une page d'information de votre **chatbot**.
+Dans  un premier temps transmettez l'**id de l'application** à la personnes ayant publier l'app.
+Elle en aura besoin pour le renseigner dans la plateforme Witivio.
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/detailIdApp.png')" alt="application approuvé">
+</div>
+Ensuite changer l'état de publication de **Envoyé** à **Publié**
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/detailApp.png')" alt="application approuvé">
+</div>
+Puis cliquez sur publier
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/publishPopUp.png')" alt="application approuvé">
+</div>
+
+Vous pouvez aussi choisir d'afficher ou non votre chatbot dans l'application **Chatbots**
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/parametres/displayApp.png')" alt="publication application teams">
+</div>
+>Pour publier l'application **Chatbots** sur teams, la démarche est expliquée [ici](/fr/chatbot/acceuil/catalogue.html).
 
 ## Webchat
 

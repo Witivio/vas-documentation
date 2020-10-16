@@ -253,11 +253,16 @@ module.exports = {
       '/fr/chatbot/': [
         {
           title: "Page d'accueil",
-          path: '/fr/chatbot/page_accueil',
+          path: '/fr/chatbot/acceuil/acceuil',
+          sidebarDepth: 3, 
           collapsable: true,
-          // children: [
-          //   ['/fr/chatbot/page_accueil.md', "Page d’accueil"],
-          // ]
+          children: [
+            ['/fr/chatbot/acceuil/acceuil.md', "Acceuil"],
+            ['/fr/chatbot/acceuil/information.md', "Information"],
+            ['/fr/chatbot/acceuil/audit.md', "Audit"],
+            ['/fr/chatbot/acceuil/catalogue.md', "Catalogue Teams"],
+            ['/fr/chatbot/acceuil/politique-confidentialite.md', "Politique de confidentialité"],
+          ]
         },
         {
           title: "Création d'un chatbot",
