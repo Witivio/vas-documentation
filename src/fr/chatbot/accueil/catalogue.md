@@ -6,11 +6,37 @@ La page **"Catalogue teams"** a pour but  de permettre à un administrateur/coac
   <img :src="$withBase('/assets/img/fr/page_accueil/CatalogueTeams.png')" alt="catalogue teams">
 </div>
 
+## Application de catalogue
+
+Lorsque vous possèdez plusieurs bots sur Teams, il peut être judicieux d'installer une application pour permettre à vos utilisateurs de les identifiers plus facilement.
+Cette application de catalogue recense tous les chatbots disponibles sur Microsoft Teams que vous avez choisi de "publier" sur l'application (voir [publication d'un bot dans Teams](/fr/chatbot/parametres/canaux.html#microsoft-teams))
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/chatbotApp.png')" alt="autorisation teams">
+</div>
+
+Cette application permet d'afficher aux utilisateurs la liste des bots déployé dans le tenant Teams.
+Elle leur rappelle le nom et le perimetre de chaque bot.
+
 ## Installation automatique ##
 ------------------------------
 
 ### Autorisation ###
 ------------------------------
+
+::: warning 
+Pour publier automatiquement l'application **"Chatbots"** et les applications Teams de chaque bot, il est necessaire d'être autorisé par un administrateur du tenant.
+**Sans cette autorisation explicite, vous ne pourrez pas automatiser vos installation d'application Teams.
+:::
+
+Les droits Pour autoriser l'installation d'application Teams sont les suivants :
+| **Name** | Witivio - BotCatalog |
+| --- | --- |
+| **ID** | b4633c92-1b8e-4dbf-86cb-51ec202317c9 |
+| **Permissions** | Delegated permissions |
+| **Scopes** | AppCatalog.Read.All, AppCatalog.Submit, TeamsAppInstallation.ReadWriteForUser, offline_access, openid, |
+
+
 Afin d'effectuer la publication de l'application **"Chatbots"** dans le catalogue teams, Witivio a besoin de l'autorisation d'un **Administrateur du tenant**.
 Cliquez sur le bouton **"je t'autorise"** afin de commencer le processus d'authenfication.
 <div class="image_center">
