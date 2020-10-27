@@ -102,12 +102,17 @@ module.exports = {
     sidebar: {
       '/en/chatbot/': [
         {
-          title: 'Home',
-          path: '/en/chatbot/home',
+          title: "Home",
+          path: '/en/chatbot/home/home',
+          sidebarDepth: 3, 
           collapsable: true,
-          // children: [
-          //   ['/en/chatbot/home.md', 'Home'],
-          // ]
+          children: [
+            ['/en/chatbot/home/home.md', "Home"],
+            ['/en/chatbot/home/information.md', "Information"],
+            ['/en/chatbot/home/audit.md', "Audit"],
+            ['/en/chatbot/home/Catalog.md', "Teams Catalog"],
+            ['/en/chatbot/home/privacypolicies.md', "Privacy policies"],
+          ]
         },
         {
           title: 'Build your chatbot',

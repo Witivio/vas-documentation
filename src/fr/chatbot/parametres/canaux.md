@@ -389,6 +389,14 @@ Il n'apparaîtra pas tant que vous ne l'avez pas configuré.
 Lors de l'ajout de la Webpart à SharePoint, le contexte utilisateur est envoyé via la webchat. Cela signifie que l'utilisateur et le nom de l'utilisateur sont envoyés au bot. N'oubliez pas de consulter vos politiques de confidentialité si vous souhaitez que vos utilisateurs soient anonymes.
 :::
 
+
+::: tip 💡
+Lorsque vous ajoutez la webchat en bas de votre page, pensez bien à scroller pour que celle-ci s'affiche. 
+Placez de préférence votre Webchat en haut de la page pour un meilleur affichage.
+:::  
+
+
+
 ## SMS
 Conversez avec votre chatbot par sms depuis votre téléphone portable.
 

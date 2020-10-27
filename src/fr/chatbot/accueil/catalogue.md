@@ -15,8 +15,8 @@ Cette application de catalogue recense tous les chatbots disponibles sur Microso
   <img :src="$withBase('/assets/img/fr/page_accueil/chatbotApp.png')" alt="autorisation teams">
 </div>
 
-Cette application permet d'afficher aux utilisateurs la liste des bots déployé dans le tenant Teams.
-Elle leur rappelle le nom et le perimetre de chaque bot.
+Cette application permet d'afficher aux utilisateurs la liste des chatbots déployé dans le tenant Teams.
+Elle leur rappelle le nom et le perimetre de chaque chatbot.
 
 ## Installation automatique ##
 ------------------------------
@@ -25,11 +25,11 @@ Elle leur rappelle le nom et le perimetre de chaque bot.
 ------------------------------
 
 ::: warning 
-Pour publier automatiquement l'application **"Chatbots"** et les applications Teams de chaque bot, il est necessaire d'être autorisé par un administrateur du tenant.
-**Sans cette autorisation explicite, vous ne pourrez pas automatiser vos installation d'application Teams.
+Pour publier automatiquement l'application **"Chatbots"** et les applications Teams de chaque chatbot, il est necessaire d'être autorisé par un administrateur du tenant.
+**Sans cette autorisation explicite, vous ne pourrez pas automatiser vos installation d'application Teams.**
 :::
 
-Les droits Pour autoriser l'installation d'application Teams sont les suivants :
+Les droits pour autoriser l'installation d'application Teams sont les suivants :
 | **Name** | Witivio - BotCatalog |
 | --- | --- |
 | **ID** | b4633c92-1b8e-4dbf-86cb-51ec202317c9 |
@@ -49,7 +49,7 @@ Vous devriez voir apparaitre une fenêtre d'authentification microsoft.
   <img :src="$withBase('/assets/img/fr/page_accueil/popupautorisation.png')" alt="autorisation teams">
 </div>
 
-Une fois l'autorisation effectué avec succés. Vous devriez voir l'état au dessus du bouton **"je t'autorise"** passé à **connecté** comme sur l'image ci-dessous.
+Une fois l'autorisation effectuée avec succès, vous devriez voir l'état au dessus du bouton **"je t'autorise"** passé à **connecté** comme sur l'image ci-dessous.
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/page_accueil/authSucess.png')" alt="autorisation teams">
 </div>
@@ -72,7 +72,7 @@ Une fois la publication effectué vous devriez voir un bouton **Retirer** appara
 Si vous ne possédez pas de compte **administrateur du tenant** vous pouvez publier l'application "Chatbots" manuellement dans Teams.
 
 ### Télechargement ###
-Depuis la page **"Catalogue Teams"**, Téléchargez le package de l'application en cliquant sur le bouton **télécharger** comme l'image ci-dessous.
+Depuis la page **"Catalogue Teams"**, téléchargez le package de l'application en cliquant sur le bouton **télécharger** comme l'image ci-dessous.
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/page_accueil/downloadZip.png')" alt="download application teams">
 </div>
@@ -92,25 +92,33 @@ Puis cliquez sur **soumettre une application**
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/page_accueil/appliCatalogue.png')" alt="application personalisé teams">
 </div>
+
 Une fenêtre s'affiche, sélectionnez le package téléchargé au préalable puis cliquez sur **Ouvrir**
+
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/page_accueil/popupappliperso.png')" alt="application pop up personalisé teams">
 </div>
+
 Vous devriez voir apparaître votre application avec un status en attente.
 Demandez à un administrateur (voir [démarche](/fr/chatbot/acceuil/catalogue.html#administration)) :
 * D'accepter que l'application **Chatbots** soit publié dans le catalogue Teams.
 * De vous transmettre **l'id de l'application dans le catalogue**.
 
 Une fois que l'admnistrateur aura accepter votre application, le statut de l'application **Chatbots** devrait passer à **Approuvé**
+
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/page_accueil/approuved.png')" alt="application approuvé">
 </div>
+
 Dès lors vous pourrez retrouver l'application dans votre **catalogue Teams**
+
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/page_accueil/chatbotsCatalogues.png')" alt="application approuvé">
 </div>
+
 Pour finaliser la publication retourner sur la page Catalogue de la plateforme et renseignez **l'id de l'application** fourni par l'administrateur lorsqu'il a approuvé l'application **Chatbots**.
 Puis cliquez sur **Enregistrer l'id de l'application**
+
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/page_accueil/idApp.png')" alt="application approuvé">
 </div>
