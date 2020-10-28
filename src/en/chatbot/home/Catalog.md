@@ -123,7 +123,7 @@ To complete the publication go back to the Platform Catalog page. Enter the **ap
 Then click on **Save app id**.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/idAppen.png')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/en/home/idAppen.png')" alt="application approved">
 </div>
 
 ::: danger 🔴
