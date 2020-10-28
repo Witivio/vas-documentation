@@ -40,7 +40,7 @@ Here are the rights to authorize the installation of the Teams application:
 In order to publish the application **'Chatbots'** in the Teams catalog, Witivio needs the authorization of a **Tenant Administrator**.
 Click on the **"I authorize you "** button to start the authentication process.
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/autorisationAuto.png')" alt="autorisation teams">
+  <img :src="$withBase('/assets/img/en/home/autorisationAuto.PNG')" alt="autorisation teams">
 </div>
 
 Vous devriez voir apparaitre une fenêtre d'authentification microsoft.
@@ -131,7 +131,6 @@ Without the previous step, the application will not work.
 :::
 
 ### Administration ###
-
 
 As an **admin** go to the **Microsoft Teams admin center** from Office 365 portal.
 Access the **Manage apps** tab.
