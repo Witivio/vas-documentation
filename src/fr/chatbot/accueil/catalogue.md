@@ -1,7 +1,6 @@
 # Catalogue Teams
 
 La page **"Catalogue teams"** a pour but  de permettre à un administrateur/coach de publier ou retirer l'application **"Chatbots"** dans le catalogue teams de manière automatique ou manuel.
-
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/page_accueil/CatalogueTeams.png')" alt="catalogue teams">
 </div>

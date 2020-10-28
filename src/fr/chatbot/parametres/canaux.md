@@ -11,7 +11,7 @@ Cet onglet permet de paramétrer les canaux sur lesquels le chatbot est disponib
 
 Ce paramétrage permet de faire passer le chatbot en mode hor ligne sur Skype (bouton Pause) ou de redémarrer le connecteur sur Skype for Business en cas de problème (bouton Redémarrer).
 
-<div class="image_center">scor
+<div class="image_center">
   <img :src="$withBase('/assets/img/fr/parametres/canaux2.png')" alt="canaux">
 </div>
 
@@ -59,7 +59,7 @@ Une fois l'autorisation effectué avec succés. Vous devriez voir l'état au des
   <img :src="$withBase('/assets/img/fr/page_accueil/authSucess.png')" alt="autorisation teams">
 </div>
 
-#### Publication ####
+#### Publication 
 ------------------------------
 Une fois **connecté** vous pouvez publier l'application automatiquement depuis la plateforme en cliquant sur le bouton **Publier**
 <div class="image_center">
@@ -71,17 +71,17 @@ Une fois la publication effectué vous devriez voir un bouton **Retirer** appara
   <img :src="$withBase('/assets/img/fr/page_accueil/unpublishApp.png')" alt="publication application teams">
 </div>
 
-## **Manuellement** ##
+### **Manuellement** 
 ------------------------------
 Si vous ne possédez pas de compte **administrateur du tenant** vous pouvez publier votre bot manuellement dans le catalogue Teams.
 
-### Télechargement ###
+#### Télechargement 
 Depuis la page d'**edition du canal teams**, Téléchargez le package de l'application en cliquant sur le bouton **télécharger** comme l'image ci-dessous.
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/page_accueil/downloadZip.png')" alt="download application teams">
 </div>
 
-### Publication ###
+#### Publication 
 Rendez-vous sur **Teams**, puis cliquez sur **Autres applications ajoutés** comme encadré dans l'image ci-dessous.
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/page_accueil/teams.png')" alt="dropdown teams">
@@ -145,9 +145,11 @@ Puis cliquez sur publier
 </div>
 
 Vous pouvez aussi choisir d'afficher ou non votre chatbot dans l'application **Chatbots**
+
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/parametres/displayApp.png')" alt="publication application teams">
 </div>
+
 >Pour publier l'application **Chatbots** sur teams, la démarche est expliquée [ici](/fr/chatbot/acceuil/catalogue.html).
 
 ## Webchat
@@ -162,7 +164,7 @@ Le canal Webchat est activé par défaut.
 La fenêtre Webchat est votre chatbot en intégration et vous permet de le tester et voir ses comportements, avant la publication de ses connaissances. Lorsque vous modifiez le profil dans la base de connaissances, le chatbot prend en compte le choix du nouveau profil dans le test.
 :::
 
-## Configuration du composant webchat V2
+### Configuration du composant webchat V2
 
 
 ```
@@ -317,7 +319,7 @@ La fenêtre Webchat est votre chatbot en intégration et vous permet de le teste
 
 #### [Configuration du composant Webchat V1 compatible avec IE11 (obsolete)](/fr/chatbot/webchat_v1.html)
 
-## Sécurité du chatbot
+### Sécurité du chatbot
 
 La webchat géré également **la sécurité du chatbot** d'une meilleure façon. Elle permet de savoir où est déployée la webchat. A des fins de gouvernance, **il est obligatoire** d'indiquer explicitement où se trouve la webchat, et donc de déclarer les différents sites sur lesquels elle sera disponible.
 
@@ -334,7 +336,7 @@ La webchat géré également **la sécurité du chatbot** d'une meilleure façon
 La fenêtre Webchat s'affiche également dans le canal de diffusion Webchat (onglet "Paramètres"), afin de vous permettre de tester et parler directement au chatbot en production.
 :::
 
-## Configuration de la webpart SharePoint Modern
+## Webpart SharePoint Modern
 
 
 >Vous pouvez télécharger la webpart [**ici**](http://webchat.witivio.com/webpart/witivio-webchat.sppkg)
@@ -357,9 +359,9 @@ Cela déploie le package de solution côté client. S'agissant d'une solution c�
 </div>
 
 
-1. Selectionner Deployer.
+1. Sélectionner Deployer.
 
-## Configurer la webchat
+### Configurer la webchat
 
 La webchat est maintenant disponible à partir de vos pages sur votre site SharePoint.
 
@@ -385,22 +387,77 @@ Il n'apparaîtra pas tant que vous ne l'avez pas configuré.
 
 5. Sélectionnez le crayon pour éditer les paramètres. Veuillez vous référer à l'article ci-dessus pour comprendre la configuration.
 
-::: warning ⚠️
+::: tip 💡
 Lors de l'ajout de la Webpart à SharePoint, le contexte utilisateur est envoyé via la webchat. Cela signifie que l'utilisateur et le nom de l'utilisateur sont envoyés au bot. N'oubliez pas de consulter vos politiques de confidentialité si vous souhaitez que vos utilisateurs soient anonymes.
 :::
 
 
-::: tip 💡
-Lorsque vous ajoutez la webchat en bas de votre page, pensez bien à scroller pour que celle-ci s'affiche. 
-Placez de préférence votre Webchat en haut de la page pour un meilleur affichage.
+::: warning ⚠️
+La Webpart SharePoint de la webchat doit être ajoutée en haut de la page.
+Sinon, elle ne sera affichée que lors du scroll.
 :::  
+
+
+## Outlook 
+
+La plateforme Witivio permet d'ajouter un chatbot sur Outlook sous forme de webchat. 
+
+Voici les étapes à suivre pour intégrer votre assistant virtuel à votre Outlook : 
+
+>* Dans un premier accédez à la plateforme Witiovio puis à l'onglet **Paramètres > Canaux** 
+
+* Cliquez sur le bouton **+ AJOUTER UN CANAL** et choisissez **Outlook**
+
+* Une URL est generée. Cliquez sur le bouton **COPIER L'URL**. 
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/parametres/outlook.png')" alt="canaloutlook">
+</div>
+
+* Cliquez sur le bouton SUIVANT. Le canal Outlook est prêt à être ajouté!
+
+>* Connectez-vous à Outlook. Accédez à l'onglet Accueil au niveau de la barre de navigation supérieure, puis sélectionnez la commande **Téléchargez des compléments** 
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/parametres/outlook1.png')" alt="canaloutlook">
+</div>
+
+* Une nouvelle fenetre s'affiche. Dans le menu de gauche, cliquez sur **Mes compléments**
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/parametres/outlook3.png')" alt="canaloutlook">
+</div>
+
+* En bas de la page, cliquez sur la commande **+ Ajouter un complément personnalisé** et choisir **à partir d'une URL**. 
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/parametres/outlook4a.png')" alt="canaloutlook">
+</div>
+
+* Collez ici **l'URL** generée depuis la plateforme Witivio. 
+
+* Cliquez ensuite sur **Ok > Installer** 
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/parametres/outlook5.png')" alt="canaloutlook">
+</div>
+
+Une fois ajouté, retrouvez votre complément personnalisé au niveau de la barre de navigation supérieure. Sélectionnez-le, une fenêtre s'ouvre à droite de la page. Échangez ainsi avec votre chatbot depuis Outlook. 
+
+
+## Lumapps 
+
+## Beezy 
+
+## Powell 365
+
 
 
 
 ## SMS
 Conversez avec votre chatbot par sms depuis votre téléphone portable.
 
-Cliquez [**ici**](https://docs.microsoft.com/fr-fr/azure/bot-service/bot-service-channel-connect-twilio?view=azure-bot-service-4.0https://docs.microsoft.com/fr-fr/azure/bot-service/bot-service-channel-connect-twilio?view=azure-bot-service-4.0) pour plus sur la configuration Twiliio.
+Cliquez [**ici**](https://docs.microsoft.com/fr-fr/azure/bot-service/bot-service-channel-connect-twilio?view=azure-bot-service-4.0https://docs.microsoft.com/fr-fr/azure/bot-service/bot-service-channel-connect-twilio?view=azure-bot-service-4.0) pour en savoir plus sur la configuration Twiliio.
 
 
 

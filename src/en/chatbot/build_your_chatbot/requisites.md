@@ -95,7 +95,7 @@ Your channel is configured and your chatbot will be active on Teams in a few min
 
 ### Add an image to the bot
 
-When created, your chatbot Teams does not have an picture.
+When created, your chatbot Teams does not have a picture.
 
 To add a photo, access the bot channel on Azure. Click on Settings then Add a picture.
 

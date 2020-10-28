@@ -56,18 +56,156 @@ It also possible to consult the event logs of the connector.
 Click [**here**](/en/chatbot/build_your_chatbot/requisites.html) to know how to activate a chatbot on Microsoft Teams.
 
 
-#### Download the Teams package
----
-When you configure or want to modify the configuration of your chatbot Teams,
-you can download a zip file containing:
+### Automatic installation 
+------------------------------
 
-* A JSON file
-* 2 photos (96x96 Px, 20x20 Px).
+#### Authorization
+------------------------------
 
-This file describes the information provided in the application.
+::: warning 
+It is required to be authorized by an administrator of the chatbot to automatically publish the application **'Chatbots'** and the Teams applications of each chatbot.
+**Without this explicit authorization, the installation of the Teams application cannot be automated.**
+:::
 
-You can add this package in Teams. Choose a team and a channel in Microsoft
-Teams, choose + to add an application (Click on "Other application").
+Here are the rights to authorize the installation of the Teams application:
+| **Name** | Witivio - BotCatalog |
+| --- | --- |
+| **ID** | b4633c92-1b8e-4dbf-86cb-51ec202317c9 |
+| **Permissions** | Delegated permissions |
+| **Scopes** | AppCatalog.Read.All, AppCatalog.Submit, TeamsAppInstallation.ReadWriteForUser, offline_access, openid, |
+
+
+In order to publish the application **'Chatbots'** in the Teams catalog, Witivio needs the authorization of a **Tenant Administrator**.
+Click on the **"I authorize you "** button to start the authentication process.
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/home/autorisationAuto.png')" alt="autorisation teams">
+</div>
+
+Vous devriez voir apparaitre une fenêtre d'authentification microsoft.
+**Identifiez-vous** avec les informations d'un **admnistrateur du tenant**
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/home/popupautorisation.png')" alt="autorisation teams">
+</div>
+
+Once the authorization is successfully completed, the status above the **"I authorize you "** button should change to **connected** as shown in the following image. 
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/home/authSucess.png')" alt="autorisation teams">
+</div>
+
+#### Publication
+------------------------------
+Once **connected**, you can publish the application automatically from the platform by clicking on the **Publish** button.
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/home/publishApp.png')" alt="publication application teams">
+</div>
+
+Once published, the **Remove** button that appears allows you to remove the application from the Teams catalog.
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/home/unpublishApp.png')" alt="publication application teams">
+</div>
+
+
+### Manual installation 
+------------------------------
+If you do not have a **Tenant administrator** account, you can publish the **'Chatbots'** application manually in Teams.
+
+#### Download 
+
+From the **'Catalog Teams'** page, download the application package by clicking on the **download** button as shown in the image below.
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/home/downloadZip.png')" alt="download application teams">
+</div>
+
+#### Publication
+Go to **Teams**, then click on °°° in the left navigation bar, as shown in the image below. 
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/page_accueil/teams.png')" alt="dropdown teams">
+</div>
+
+A pop-up box appears, then click on **More Apps**.
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/home/dropdownteams.png')" alt="dropdown teams">
+</div>
+
+You are now in **Teams Catalog**.
+Click on **Submit to app catalog** as shown in the screen below.
+Then click on **Submit an app**.
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/home/appliCatalogue.png')" alt="application personalisé teams">
+</div>
+
+A pop-up opens, select the package you downloaded previously and click on **Open**.
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/home/popupappliperso.png')" alt="application pop up personalisé teams">
+</div>
+
+The application will appear with a pending status.
+Ask an administrator [procedure](/en/chatbot/home/catalog.html#administration):
+* To accept that the application **Chatbots** can be published in the Teams catalog.
+* To give you **the id of the application in the catalog**. 
+
+Once the administrator has accepted your application, the status of the application **'Chatbots'** will change to **Approved**.
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/home/approuved.png')" alt="application approuvé">
+</div>
+
+Then you will find the application in your **Teams Catalog**.
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/home/chatbotsCatalogues.png')" alt="application approuvé">
+</div>
+
+To complete the publication go back to the Platform Catalog page. Enter the **application id** provided by the administrator when approving the application **'Chatbots'**.
+Then click on **Save app id**.
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/home/idApp.png')" alt="application approuvé">
+</div>
+
+::: danger 🔴
+Without the previous step, the application will not work. 
+:::
+
+### Administration ###
+
+
+As an **admin** go to the **Microsoft Teams admin center** from Office 365 portal.
+Access the **Manage apps** tab.
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/home/manageappcatalog.png')" alt="catalog">
+</div>
+
+Using the search bar, look for the application **'Chatbots'** in the list and click it.
+You access an information page of the application **'Chatbots'**.
+First, send the **App ID** to the person who published the app.
+This user will need it to add it to the Witivio platform.
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/home/manageappcatalog2.png')" alt="catalog">
+</div>
+
+Then change the publication status from **Submitted** to **Published**.
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/home/manageappcatalog3.png')" alt="application approuvé">
+</div>
+
+Then click on publish.
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/home/manageappcatalog4.png')" alt="application approuvé">
+</div>
+
+You can also choose whether or not to display your chatbot in the **'Chatbots'** application.
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/settings/displayApp.png')" alt="publication application teams">
+</div>
+
+Here are [**the steps**](en/chatbot/home/catalog.html) to follow to publish the **Chatbots** application on Teams.
 
 
 ## Webchat
@@ -88,7 +226,7 @@ If you modify the profile in the knowledge base, the chatbot takes into account
 the choice of the new profile in the test.
 
 
-## Configuration of the Webchat V2 component
+### Configuration of the Webchat V2 component
 
 
 <table>
@@ -218,7 +356,7 @@ the choice of the new profile in the test.
 
 #### [Configuration of the Webchat V1 component compatible with IE11 (obsolete)](/en/chatbot/webchat_v1.html)
 
-## Security of the chatbot 
+### Security of the chatbot 
 
 The Webchat allows you to manage the **security of the chatbot** in a better way. It allows you to know where the webchat is deployed. For governance purposes, it is mandatory to explicitly indicate where the webchat is located, and therefore declare the different sites on which it will be available.
 
@@ -234,7 +372,7 @@ The Webchat allows you to manage the **security of the chatbot** in a better way
 The Webchat also appears in the Webchat channel settings tab, so you can test and talk directly to the chatbot in production.
 :::
 
-## Configuration of the SharePoint Modern webpart
+## SharePoint Modern Webpart
 
 You can download the webpart [here](http://webchat.witivio.com/webpart/witivio-webchat.sppkg)
 
@@ -261,7 +399,7 @@ This deploys the client-side solution package. Because this is a full trust clie
 3. Select Deploy.
 
 
-## Configure the webchat for SharePoint Modern
+### Configure the webchat for SharePoint Modern
 
 The webchat is now available from your pages in your SharePoint site.
 
@@ -280,7 +418,7 @@ The webchat is now available from your pages in your SharePoint site.
   <img :src="$withBase('/assets/img/en/settings/channels12.png')" alt="low score">
 </div>
 
-::: tip 💡
+::: warning ⚠️
 It will not appear until you configure it.
 :::
 
@@ -290,7 +428,18 @@ Please refere to the article above to understand the configuration
 
 ::: tip 💡
 When adding the webpart to SharePoint the user context is send to the webchat. That means that the upn and the name of the user is send to the bot. Do not forget to review your privacy policies if you want your users to be anonymous.
+
+
+::: warning ⚠️
+The sharepoint webpart of the webchat has to be added at the top of the page.
+Otherwise it will only be displayed when scrolling.
 :::
+
+## Lumapps 
+
+## Beezy 
+
+## Powell 365
 
 ## SMS 
 

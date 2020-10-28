@@ -1,8 +1,6 @@
 ## Information
 
-The "Information" page contains details about the license and allows you to know
-the number and percentage of conversations per chatbot. Select the wished period
-by using the available filter.
+The "Information" page contains details about the licence. It displays the number and percentage of conversations per chatbot. Select the wished period by using the filter.
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/home/home5.png')" alt="low score">
