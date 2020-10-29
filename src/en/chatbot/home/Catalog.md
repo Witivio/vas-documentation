@@ -160,8 +160,8 @@ Then click on publish.
   <img :src="$withBase('/assets/img/en/home/manageappcatalog4.png')" alt="application approuvé">
 </div>
 
+
 ### Comments
 ---
-
 <Commentaire />
 
