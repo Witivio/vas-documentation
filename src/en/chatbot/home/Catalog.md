@@ -151,13 +151,13 @@ This user will need it to add it to the Witivio platform.
 Then change the publication status from **Submitted** to **Published**.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/manageappcatalog3e.png')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/en/home/manageappcatalog3e.png')" alt="application approuv">
 </div>
 
 Then click on publish.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/manageappcatalog4e.png')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/en/home/manageappcatalog4e.png')" alt="application approuv">
 </div>
 
 
