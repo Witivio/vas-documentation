@@ -40,7 +40,7 @@ Les droits pour autoriser l'installation d'application Teams sont les suivants :
 Afin d'effectuer la publication de l'application **"Chatbots"** dans le catalogue teams, Witivio a besoin de l'autorisation d'un **Administrateur du tenant**.
 Cliquez sur le bouton **"je t'autorise"** afin de commencer le processus d'authenfication.
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/autorisationAuto.PNG')" alt="autorisation teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/autorisationAuto.png')" alt="autorisation teams">
 </div>
 
 Vous devriez voir apparaitre une fenêtre d'authentification microsoft.
