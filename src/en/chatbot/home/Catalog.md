@@ -39,29 +39,35 @@ Here are the rights to authorize the installation of the Teams application:
 
 In order to publish the application **'Chatbots'** in the Teams catalog, Witivio needs the authorization of a **Tenant Administrator**.
 Click on the **"I authorize you "** button to start the authentication process.
+
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/home/autorisationAutoe.png')" alt="autorisation teams">
 </div>
 
 Vous devriez voir apparaitre une fenêtre d'authentification microsoft.
-**Identifiez-vous** avec les informations d'un **admnistrateur du tenant**
+**Identifiez-vous** avec les informations d'un **admnistrateur du tenant**. 
+
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/home/popupautorisatione.png')" alt="autorisation teams">
 </div>
 
 Once the authorization is successfully completed, the status above the **"I authorize you "** button should change to **connected** as shown in the following image. 
+
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/home/authSucesse.png')" alt="autorisation teams">
 </div>
 
 ### Publication ###
 ------------------------------
+
 Once **connected**, you can publish the application automatically from the platform by clicking on the **Publish** button.
+
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/home/publishAppe.png')" alt="publication application teams">
 </div>
 
 Once published, the **Remove** button that appears allows you to remove the application from the Teams catalog.
+
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/home/unpublishAppe.png')" alt="publication application teams">
 </div>
@@ -74,17 +80,21 @@ If you do not have a **Tenant administrator** account, you can publish the **'Ch
 ### Download ###
 
 From the **'Catalog Teams'** page, download the application package by clicking on the **download** button as shown in the image below.
+
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/home/downloadZipe.png')" alt="download application teams">
 </div>
 
 ### Publication ###
+
 Go to **Teams**, then click on °°° in the left navigation bar, as shown in the image below. 
+
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/page_accueil/teamse.png')" alt="dropdown teams">
 </div>
 
 A pop-up box appears, then click on **More Apps**.
+
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/home/dropdownteamse.png')" alt="dropdown teams">
 </div>
@@ -92,6 +102,7 @@ A pop-up box appears, then click on **More Apps**.
 You are now in **Teams Catalog**.
 Click on **Submit to app catalog** as shown in the screen below.
 Then click on **Submit an app**.
+
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/home/appliCataloguee.png')" alt="application personalisé teams">
 </div>
