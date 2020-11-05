@@ -133,7 +133,7 @@ Pour finaliser la publication retourner sur la page Catalogue de la plateforme e
 Puis cliquez sur **Enregistrer l'id de l'application**
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/idApps.png')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/fr/page_accueil/idAppss.png')" alt="application approuvé">
 </div>
 
 ::: danger 🔴
