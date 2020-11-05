@@ -90,7 +90,7 @@ From the **'Catalog Teams'** page, download the application package by clicking 
 Go to **Teams**, then click on °°° in the left navigation bar, as shown in the image below. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/page_accueil/teamse.png')" alt="dropdown teams">
+  <img :src="$withBase('/assets/img/en/home/teamse.png')" alt="dropdown teams">
 </div>
 
 A pop-up box appears, then click on **More Apps**.
