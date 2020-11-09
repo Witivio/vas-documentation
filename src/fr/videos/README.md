@@ -12,6 +12,19 @@ sidebar : auto
 
 [Replay Webinars et tutos](https://www.youtube.com/channel/UCTI2DzxWddbejQ_TlX-WkdQ/videos)
 
+## Automatisation du déploiement de vos chatbots dans Team, nouveaux canaux & listes d'autorisation pour le Metabot 
+**Mise à jour du 27 octobre 2020**
+
+* Découvrez comment déployer en toute autonomie l'ensemble de vos chatbots dans Microsoft Teams. 
+* Les chatbots créés depuis la plateforme Witivio s'intègrent dorénavant nativement dans les solutions Lumapps, Powell 365, Beezy,  SharePoint et Outlook.
+* Dorénavant, le MetaBot prend en compte les listes d'autorisation 
+
+<br/>
+<br/>
+<iframe class="video_embed" src="http://youtube.com/embed/4KMQuQlF8fs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 
 ## MetaBot & personnalisation de la traduction automatique
 **Mise à jour du 22 septembre 2020**
