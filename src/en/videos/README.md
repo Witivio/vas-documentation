@@ -13,6 +13,21 @@ sidebar : auto
 
 [Replay Webinars and tutos](https://www.youtube.com/channel/UCTI2DzxWddbejQ_TlX-WkdQ/videos)
 
+
+
+
+## Customized period for dashboard display & export of usage and performance logs 
+**Updated 24 November 2020**
+
+* It is now possible to customize the display period of your performance and usage data. 
+* You can export your dashboard data. This information will then be exported as dynamic tables in an Excel file.
+
+<br/>
+<br/>
+<iframe class="video_embed" src="https://youtube.com/embed/4KMQuQlF8fs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 ## Automate the deployment of your chatbots in Team, new channels & authorization lists for Metabot 
 **Updated 27 October 2020**
 
