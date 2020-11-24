@@ -12,6 +12,19 @@ sidebar : auto
 
 [Replay Webinars et tutos](https://www.youtube.com/channel/UCTI2DzxWddbejQ_TlX-WkdQ/videos)
 
+
+
+## Période personnalisée pour l'affichage des tableaux de bords & export des rapports d'usage et performance 
+**Mise à jour du 24 novembre 2020**
+
+* Il est désormais possible de personnaliser la période d'affichage de vos données de performance et d'usage. 
+* Vous pouvez exporter les données de vos tableaux de bord. Ces informations seront alors affichées sous forme de tableaux et de graphiques dans un fichier Excel.
+
+<br/>
+<br/>
+<iframe class="video_embed" src="https://www.youtube.com/embed/0oLCdMk2hIY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Automatisation du déploiement de vos chatbots dans Team, nouveaux canaux & listes d'autorisation pour le Metabot 
 **Mise à jour du 27 octobre 2020**
 
