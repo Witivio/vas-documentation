@@ -30,11 +30,11 @@ Les cadres suivant permettent d'indiquer les informations de connexion (E-mail, 
 
 Depuis la page d'**edition du canal teams**, vous pouvez publier ou retirer votre chatbot dans le catalogue teams de manière automatique ou manuel.
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/teamsCanal.png')" alt="catalogue teams">
+  <img :src="$withBase('/assets/img/fr/parametres/teamsCanal.PNG')" alt="catalogue teams">
 </div>
 Cliquez sur l'onglet **Publication**
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/publishTeams.png')" alt="catalogue teams">
+  <img :src="$withBase('/assets/img/fr/parametres/publishTeams.PNG')" alt="catalogue teams">
 </div>
 
 ### **Automatiquement** ###
@@ -45,30 +45,30 @@ Cliquez sur l'onglet **Publication**
 Afin d'effectuer la publication de votre chatbot dans le catalogue teams, Witivio a besoin de l'autorisation d'un **Administrateur du tenant**.
 Cliquez sur le bouton **"je t'autorise"** afin de commencer le processus d'authenfication.
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/autorisationAuto.png')" alt="autorisation teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/autorisationAuto.PNG')" alt="autorisation teams">
 </div>
 
 Vous devriez voir apparaitre une fenêtre d'authentification microsoft.
 **Identifiez-vous** avec les informations d'un **admnistrateur du tenant**
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/popupautorisation.png')" alt="autorisation teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/popupautorisation.PNG')" alt="autorisation teams">
 </div>
 
 Une fois l'autorisation effectué avec succés. Vous devriez voir l'état au dessus du bouton "je t'autorise" passé à **connecté** comme sur l'image ci-dessous.
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/authSucess.png')" alt="autorisation teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/authSucess.PNG')" alt="autorisation teams">
 </div>
 
 #### Publication 
 ------------------------------
 Une fois **connecté** vous pouvez publier l'application automatiquement depuis la plateforme en cliquant sur le bouton **Publier**
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/publishApp.png')" alt="publication application teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/publishApp.PNG')" alt="publication application teams">
 </div>
 
 Une fois la publication effectué vous devriez voir un bouton **Retirer** apparaître afin de retirer l'application du catalogue Teams.
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/unpublishApp.png')" alt="publication application teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/unpublishApp.PNG')" alt="publication application teams">
 </div>
 
 ### **Manuellement** 
