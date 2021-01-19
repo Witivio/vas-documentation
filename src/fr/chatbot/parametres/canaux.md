@@ -411,7 +411,7 @@ Voici les étapes à suivre pour intégrer votre assistant virtuel à votre Outl
 * Une URL est generée. Cliquez sur le bouton **COPIER L'URL**. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/outlook.png')" alt="canaloutlook">
+  <img :src="$withBase('/assets/img/fr/parametres/outlook.PNG')" alt="canaloutlook">
 </div>
 
 * Cliquez sur le bouton SUIVANT. Le canal Outlook est prêt à être ajouté!
@@ -419,19 +419,19 @@ Voici les étapes à suivre pour intégrer votre assistant virtuel à votre Outl
 >* Connectez-vous à Outlook. Accédez à l'onglet Accueil au niveau de la barre de navigation supérieure, puis sélectionnez la commande **Téléchargez des compléments** 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/outlook1.png')" alt="canaloutlook">
+  <img :src="$withBase('/assets/img/fr/parametres/outlook1.PNG')" alt="canaloutlook">
 </div>
 
 * Une nouvelle fenetre s'affiche. Dans le menu de gauche, cliquez sur **Mes compléments**
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/outlook3.png')" alt="canaloutlook">
+  <img :src="$withBase('/assets/img/fr/parametres/outlook3.PNG')" alt="canaloutlook">
 </div>
 
 * En bas de la page, cliquez sur la commande **+ Ajouter un complément personnalisé** et choisir **à partir d'une URL**. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/outlook4a.png')" alt="canaloutlook">
+  <img :src="$withBase('/assets/img/fr/parametres/outlook4a.PNG')" alt="canaloutlook">
 </div>
 
 * Collez ici **l'URL** generée depuis la plateforme Witivio. 
@@ -439,7 +439,7 @@ Voici les étapes à suivre pour intégrer votre assistant virtuel à votre Outl
 * Cliquez ensuite sur **Ok > Installer** 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/outlook5.png')" alt="canaloutlook">
+  <img :src="$withBase('/assets/img/fr/parametres/outlook5.PNG')" alt="canaloutlook">
 </div>
 
 Une fois ajouté, retrouvez votre complément personnalisé au niveau de la barre de navigation supérieure. Sélectionnez-le, une fenêtre s'ouvre à droite de la page. Échangez ainsi avec votre chatbot depuis Outlook. 
@@ -465,3 +465,4 @@ Cliquez [**ici**](https://docs.microsoft.com/fr-fr/azure/bot-service/bot-service
 ---
 
 <Commentaire />
+

@@ -67,7 +67,6 @@ La performance globale indique le pourcentage de questions répondues sur la pé
 
 Le pourcentage est calculé de la manière suivante : le nombre de questions répondues divisé par le nombre total de questions posées (peu importe le statut: sans réponse + Score faible ou réponse réussie).
 
-the number of questions answered divided by the total number of questions asked (question answered + no answer + Low score).
 
 >Exemple : 12 Q répondues/ (12 Q répondues + 20 nb de Q sans réponse) = 0,375
 >Performance du chatbot : 38%

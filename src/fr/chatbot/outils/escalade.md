@@ -132,7 +132,7 @@ Pour cela :
 
 - Identifiez les agents qui prendront en charge la requête de l'utilisateur
 - Créez une équipe support sur Microsoft Teams
-- Ajoutez dans cette équipe les agents identifiés au préalable
+- Ajoutez dans cette équipe les agents identifiés au préalable. On appelle « Agent » toute personne pouvant de proposer un support dans le cas ou le bot n’aurait pas répondu de manière satisfaisante à l’utilisateur.
 - Configurez ensuite l'escalade Teams sur votre plateforme Witivio. Cliquez sur l'onglet "Outils" puis "Escalade".
 
 Ajoutez un nouveau support d'escalade puis sélectionnez "Teams-beta".
@@ -231,10 +231,7 @@ Configurez le message de demande de feedback et le message lorsque l'agent met l
 </div>
 
 
-
 Le chatbot est maintenant prêt à ajouter le nouveau service d’escalade.
-
-L'utilisateur indique au chatbot qu'il souhaite être mit en contact avec l'équipe de support.
 
 **Charger une application personnalisées dans une équipe Teams**
 
@@ -288,8 +285,24 @@ Lorsqu’un agent reçoit une nouvelle demande d’assistance, il peut :
 </div>
 
 
+### FONCTIONNEMENT GENERAL 
 
-## Demande acceptée
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/outils/fonctionnementgeneralteams.png')" alt="low score">
+</div>
+
+L'utilisateur indique au chatbot qu'il souhaite être mit en contact avec l'équipe de support.
+
+### Déclenchement 
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/outils/declenchementescaladeteams.png')" alt="low score">
+</div>
+
+Une fois l’escalade déclenchée l’utilisateur attend qu’un agent accepte la demande
+
+
+### Demande acceptée
 
 L’exemple suivant montre que la demande a été acceptée
 
@@ -317,7 +330,7 @@ Pour que l’utilisateur reçoit les messages, l’agent doit obligatoirement id
 Lorsqu’un agent accepte la demande de support mais n’a pas la réponse, il peut solliciter un collaborateur (faisant partie de l’équipe Teams support) par un simple tag @. Le deuxième agent peut également décider d’accepter ou refuser la demande de support.
 :::
 
-## Demande acceptée et mise en attente
+### Demande acceptée et mise en attente
 
 Ici par exemple, la demande a été acceptée et mise en attente par un agent.
 
@@ -332,7 +345,7 @@ L’agent clique ensuite sur le bouton ‘’Connecter’’ pour prendre en mai
 
 
 
-## Refuser la demande de support
+### Refuser la demande de support
 
 
 L’agent peut décider de refuser une demande de support et indiquer la raison pour laquelle il a refusé.
