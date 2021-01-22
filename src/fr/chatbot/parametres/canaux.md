@@ -3,7 +3,7 @@
 Cet onglet permet de paramétrer les canaux sur lesquels le chatbot est disponible: - vous pouvez modifier les canaux déjà présent, choisit lors de la création du nouveau chatbot - ajouter ultérieurement un nouveau canal de diffusion.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/canaux1.PNG')" alt="canaux">
+  <img :src="$withBase('/assets/img/fr/parametres/canaux1.png')" alt="canaux">
 </div>
 
 
@@ -12,7 +12,7 @@ Cet onglet permet de paramétrer les canaux sur lesquels le chatbot est disponib
 Ce paramétrage permet de faire passer le chatbot en mode hor ligne sur Skype (bouton Pause) ou de redémarrer le connecteur sur Skype for Business en cas de problème (bouton Redémarrer).
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/canaux2.PNG')" alt="canaux">
+  <img :src="$withBase('/assets/img/fr/parametres/canaux2.png')" alt="canaux">
 </div>
 
 
@@ -20,7 +20,7 @@ Ce paramétrage permet de faire passer le chatbot en mode hor ligne sur Skype (b
 Les cadres suivant permettent d'indiquer les informations de connexion (E-mail, mot depasse, ID Azure) ainsi que l’activité et le rôle du chatbot, par exemple : assistante RH. Une fois modifié, le changement apparaîtra automatiquement sur Skype Entreprise en dessus du nom du chatbot.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/canaux3.PNG')" alt="canaux">
+  <img :src="$withBase('/assets/img/fr/parametres/canaux3.png')" alt="canaux">
 </div>
 
 
@@ -356,7 +356,7 @@ Pour ajouter le composant WebPart dans votre SharePoint Modern, vous devez ajout
 Cela déploie le package de solution côté client. S'agissant d'une solution côté client totalement fiable, SharePoint affiche une boîte de dialogue et vous invite à faire confiance au déploiement de la solution côté client.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/canaux7.PNG')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/parametres/canaux7.png')" alt="low score">
 </div>
 
 
@@ -372,7 +372,7 @@ La webchat est maintenant disponible à partir de vos pages sur votre site Share
 3. Si vous faites défiler l'écran vers le bas, vous trouverez la Webpart "Witivio-webchat"
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/canaux8.PNG')" alt="canaux">
+  <img :src="$withBase('/assets/img/fr/parametres/canaux8.png')" alt="canaux">
 </div>
 
 
