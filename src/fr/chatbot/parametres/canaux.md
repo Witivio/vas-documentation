@@ -329,7 +329,7 @@ La webchat géré également **la sécurité du chatbot** d'une meilleure façon
 :::
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/canauxx5.PNG')" alt="canaux">
+  <img :src="$withBase('/assets/img/fr/parametres/canaux5.png')" alt="canaux">
 </div>
 
 
