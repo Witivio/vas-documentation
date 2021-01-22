@@ -3,7 +3,7 @@
 Cet onglet permet de paramétrer les canaux sur lesquels le chatbot est disponible: - vous pouvez modifier les canaux déjà présent, choisit lors de la création du nouveau chatbot - ajouter ultérieurement un nouveau canal de diffusion.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/canaux1.png')" alt="canaux">
+  <img :src="$withBase('/assets/img/fr/parametres/canaux1.PNG')" alt="canaux">
 </div>
 
 
@@ -12,7 +12,7 @@ Cet onglet permet de paramétrer les canaux sur lesquels le chatbot est disponib
 Ce paramétrage permet de faire passer le chatbot en mode hor ligne sur Skype (bouton Pause) ou de redémarrer le connecteur sur Skype for Business en cas de problème (bouton Redémarrer).
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/canaux2.png')" alt="canaux">
+  <img :src="$withBase('/assets/img/fr/parametres/canaux2.PNG')" alt="canaux">
 </div>
 
 
@@ -20,7 +20,7 @@ Ce paramétrage permet de faire passer le chatbot en mode hor ligne sur Skype (b
 Les cadres suivant permettent d'indiquer les informations de connexion (E-mail, mot depasse, ID Azure) ainsi que l’activité et le rôle du chatbot, par exemple : assistante RH. Une fois modifié, le changement apparaîtra automatiquement sur Skype Entreprise en dessus du nom du chatbot.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/canaux3.png')" alt="canaux">
+  <img :src="$withBase('/assets/img/fr/parametres/canaux3.PNG')" alt="canaux">
 </div>
 
 
@@ -78,27 +78,27 @@ Si vous ne possédez pas de compte **administrateur du tenant** vous pouvez publ
 #### Télechargement 
 Depuis la page d'**edition du canal teams**, Téléchargez le package de l'application en cliquant sur le bouton **télécharger** comme l'image ci-dessous.
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/downloadZip.png')" alt="download application teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/downloadZip.PNG')" alt="download application teams">
 </div>
 
 #### Publication 
 Rendez-vous sur **Teams**, puis cliquez sur **Autres applications ajoutés** comme encadré dans l'image ci-dessous.
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/teams.png')" alt="dropdown teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/teams.PNG')" alt="dropdown teams">
 </div>
 Une fenêtre s'affiche, cliquez alors sur **Autres applications**.
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/dropdownteams.png')" alt="dropdown teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/dropdownteams.PNG')" alt="dropdown teams">
 </div>
 Vous êtes maintenant dans le **Catalogue Teams**.
 Cliquez sur **Envoyer au catalogue d'application** comme l'écran ci-dessous.
 Puis cliquez sur **soumettre une application**
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/appliCatalogue.png')" alt="application personalisé teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/appliCatalogue.PNG')" alt="application personalisé teams">
 </div>
 Une fenêtre s'affiche, sélectionnez le package téléchargé au préalable puis cliquez sur **Ouvrir**
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/popupappliperso.png')" alt="application pop up personalisé teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/popupappliperso.PNG')" alt="application pop up personalisé teams">
 </div>
 Vous devriez voir apparaître votre application avec un status en attente.
 Demandez à un administrateur :
@@ -106,16 +106,16 @@ Demandez à un administrateur :
 * De vous transmettre **l'id de l'application dans le catalogue**.
 Une fois que l'admnistrateur aura accepter votre application, le statut de votre **chatbot** devrait passer à **Approuvé**
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/approuved.png')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/fr/page_accueil/approuved.PNG')" alt="application approuvé">
 </div>
 Dès lors vous pourrez retrouver l'application dans votre **catalogue Teams**
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/chatbotsCatalogues.png')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/fr/page_accueil/chatbotsCatalogues.PNG')" alt="application approuvé">
 </div>
 Pour finaliser la publication retourner sur la page Catalogue de la plateforme et renseignez **l'id de l'application** fourni par l'administrateur lorsqu'il a approuvé votre **chatbot**.
 Puis cliquez sur **Enregistrer l'id de l'application**
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/idApp.png')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/fr/page_accueil/idApp.PNG')" alt="application approuvé">
 </div>
 
 ::: danger 🔴
@@ -126,28 +126,28 @@ Sans l'étape du dessus, l'application ne sera pas fonctionnel.
 En tant qu'**administrateur** rendez vous sur le **centre d'administration Microsoft Teams** depuis le **portail office**.
 Accéder à l'onglet **Gérer les applications**
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/manageApp.png')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/fr/page_accueil/manageApp.PNG')" alt="application approuvé">
 </div>
 Grâce à la barre de recherche, retourvez le nom du **chatbot** dans la liste et cliquez dessus.
 Vous accédez à une page d'information de votre **chatbot**.
 Dans  un premier temps transmettez l'**id de l'application** à la personnes ayant publier l'app.
 Elle en aura besoin pour le renseigner dans la plateforme Witivio.
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/detailIdApp.png')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/fr/page_accueil/detailIdApp.PNG')" alt="application approuvé">
 </div>
 Ensuite changer l'état de publication de **Envoyé** à **Publié**
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/detailApp.png')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/fr/page_accueil/detailApp.PNG')" alt="application approuvé">
 </div>
 Puis cliquez sur publier
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/publishPopUp.png')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/fr/page_accueil/publishPopUp.PNG')" alt="application approuvé">
 </div>
 
 Vous pouvez aussi choisir d'afficher ou non votre chatbot dans l'application **Chatbots**
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/displayApp.png')" alt="publication application teams">
+  <img :src="$withBase('/assets/img/fr/parametres/displayApp.PNG')" alt="publication application teams">
 </div>
 
 >Pour publier l'application **Chatbots** sur teams, la démarche est expliquée [ici](/fr/chatbot/acceuil/catalogue.html).
@@ -328,7 +328,7 @@ La webchat géré également **la sécurité du chatbot** d'une meilleure façon
 :::
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/canaux5.png')" alt="canaux">
+  <img :src="$withBase('/assets/img/fr/parametres/canaux5.PNG')" alt="canaux">
 </div>
 
 
@@ -355,7 +355,7 @@ Pour ajouter le composant WebPart dans votre SharePoint Modern, vous devez ajout
 Cela déploie le package de solution côté client. S'agissant d'une solution côté client totalement fiable, SharePoint affiche une boîte de dialogue et vous invite à faire confiance au déploiement de la solution côté client.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/canaux7.png')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/parametres/canaux7.PNG')" alt="low score">
 </div>
 
 
@@ -371,14 +371,14 @@ La webchat est maintenant disponible à partir de vos pages sur votre site Share
 3. Si vous faites défiler l'écran vers le bas, vous trouverez la Webpart "Witivio-webchat"
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/canaux8.png')" alt="canaux">
+  <img :src="$withBase('/assets/img/fr/parametres/canaux8.PNG')" alt="canaux">
 </div>
 
 
 4. Sélectionnez la. Le composant apparaît, mais la discussion en ligne n'est pas encore configurée.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/canaux9.png')" alt="canauxe">
+  <img :src="$withBase('/assets/img/fr/parametres/canaux9.PNG')" alt="canauxe">
 </div>
 
 ::: warning ⚠️
