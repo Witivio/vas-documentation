@@ -114,6 +114,7 @@ Dès lors vous pourrez retrouver l'application dans votre **catalogue Teams**
 </div>
 Pour finaliser la publication retourner sur la page Catalogue de la plateforme et renseignez **l'id de l'application** fourni par l'administrateur lorsqu'il a approuvé votre **chatbot**.
 Puis cliquez sur **Enregistrer l'id de l'application**
+
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/page_accueil/idApp.PNG')" alt="application approuvé">
 </div>
@@ -328,7 +329,7 @@ La webchat géré également **la sécurité du chatbot** d'une meilleure façon
 :::
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/canaux5.PNG')" alt="canaux">
+  <img :src="$withBase('/assets/img/fr/parametres/canauxx5.PNG')" alt="canaux">
 </div>
 
 
