@@ -14,8 +14,27 @@ sidebar : auto
 
 
 
+## Transfert de fichier via votre chatbot / Catalogue de chatbots dans Teams / Suggérez des questions à vos utilisateurs / Feedback d'apprentissage 
+**Mise à jour du 26 janvier 2021**
+
+* Transfert de fichier via votre chatbot 
+L'utilisateur pourra désormais transférer un fichier durant une conversation avec votre chatbot sans avoir à quitter la fenêtre de discussion. Cette nouvelle fonctionnalité vous permettra d'étendre les capacités de votre chatbot afin d'offrir une expérience conversationnelle complète.
+* Catalogue de chatbots dans Teams
+Déployez votre catalogue de chatbot dans Microsoft Teams afin que chacun de vos utilisateurs puissent choisir à quel chatbot s'adresser selon leur besoin.
+* Suggérez des questions à vos utilisateurs
+Afin de fluidifier toujours plus l'expérience conversationnelle et accompagnez vos utilisateurs, suggérez-leur des questions à poser.
+* Feedback d'apprentissage
+Il est important de recueillir l'avis de vos utilisateurs afin d'améliorer votre outil et ainsi favoriser son utilisation. C'est pourquoi, nous vous proposons une autre forme de feedback : le feedback d'apprentissage.
+
+<br/>
+<br/>
+<iframe class="video_embed" src="https://www.youtube.com/embed/9mX0pveJz5s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
 ## Période personnalisée pour l'affichage des tableaux de bords & export des rapports d'usage et performance 
 **Mise à jour du 24 novembre 2020**
+
 
 * Il est désormais possible de personnaliser la période d'affichage de vos données de performance et d'usage. 
 * Vous pouvez exporter les données de vos tableaux de bord. Ces informations seront alors affichées sous forme de tableaux et de graphiques dans un fichier Excel.

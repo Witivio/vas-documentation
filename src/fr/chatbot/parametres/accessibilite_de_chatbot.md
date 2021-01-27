@@ -33,7 +33,7 @@ Cependant vous pouvez restreindre son accès sur le canal de diffusion Skype for
 
 ## Liste blanche
 
-Vous pouvez également restreindre l'accès au chatbot en paramétrant une liste blanche. Cette option est disponible pour tous les canaux de diffusion.
+Vous pouvez également restreindre l'accès au chatbot en paramétrant une liste blanche. Seules les personnes faisant partie de cette liste auront accès au chatbot. Cette option est disponible pour tous les canaux de diffusion.
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/parametres/chatbot4.png')" alt="low score">
