@@ -14,6 +14,22 @@ sidebar : auto
 [Replay Webinars and tutos](https://www.youtube.com/channel/UCTI2DzxWddbejQ_TlX-WkdQ/videos)
 
 
+## Send files via your chatbot / Chatbots catalog in Teams / Suggest questions to your users / Learning feedback 
+**Updated January 26, 2021** **
+
+* Send files via your chatbot 
+Users will now be able to transfer a file during a conversation with the chatbot without leaving the chat box. This new feature will allow you to extend the chatbot's functionality to provide a complete conversational experience.
+* Chatbots catalog in Teams
+Deploy your chatbot catalog in Microsoft Teams so that all your users can choose which chatbot to address according to their needs.
+* Suggest questions to your users
+In order to improve the conversational experience and help your users, suggest questions to ask the chatbot. 
+* Learning feedback
+It is important to collect the opinions of your users in order to improve your tool and thus promote its use. This is why we offer you another feedback form: the learning feedback.
+
+<br/>
+<br/>
+<iframe class="video_embed" src="https://www.youtube.com/embed/9mX0pveJz5s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 ## Customized period for dashboard display & export of usage and performance logs 
