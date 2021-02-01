@@ -671,8 +671,8 @@ CALL API AVEC PARAMETRE EN QUERY STRING
 ‘’userProfiled’’ : ’’id du profil’’,
 ‘’userProfileName’’ : ‘’nom du profil’’,
 ‘’userName’’ : ‘’displayName de l’utilisateur’’,
-‘’VARIABLE1’’
-‘’VARIABLE2’’
+‘’VARIABLE_NAME_1’’ : ‘’VARIABLE_VALUE_1’’,
+‘’VARIABLE_NAME_2’’ : ‘’VARIABLE_VALUE_2’’
 
 }
 ```
