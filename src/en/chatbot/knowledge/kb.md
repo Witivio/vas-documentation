@@ -611,8 +611,8 @@ During a conversation with the chatbot, it is possible to come back to a previou
 ‘’userProfiled’’ : ’’profil id’’,
 ‘’userProfileName’’ : ‘profil name’’,
 ‘’userName’’ : ‘’display user’s name’’,
-‘’VARIABLE1’’
-‘’VARIABLE2’’
+‘’VARIABLE_NAME_1’’ : ‘’VARIABLE_VALUE_1’’,
+‘’VARIABLE_NAME_2’’ : ‘’VARIABLE_VALUE_2’’
 
 }
 ```
