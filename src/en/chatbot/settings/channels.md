@@ -78,30 +78,30 @@ Here are the rights to authorize the installation of the Teams application:
 In order to publish the application **'Chatbots'** in the Teams catalog, Witivio needs the authorization of a **Tenant Administrator**.
 Click on the **"I authorize you "** button to start the authentication process.
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/autorisationAuto.png')" alt="autorisation teams">
+  <img :src="$withBase('/assets/img/en/home/autorisationAuto.PNG')" alt="autorisation teams">
 </div>
 
-Vous devriez voir apparaitre une fenêtre d'authentification microsoft.
-**Identifiez-vous** avec les informations d'un **admnistrateur du tenant**
+A Microsoft authentication pop-up is displayed.
+**Login** with the credentials of a **tenant administrator**. 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/popupautorisation.png')" alt="autorisation teams">
+  <img :src="$withBase('/assets/img/en/home/popupautorisation.PNG')" alt="autorisation teams">
 </div>
 
 Once the authorization is successfully completed, the status above the **"I authorize you "** button should change to **connected** as shown in the following image. 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/authSucess.png')" alt="autorisation teams">
+  <img :src="$withBase('/assets/img/en/home/authSucess.PNG')" alt="autorisation teams">
 </div>
 
 #### Publication
 ------------------------------
 Once **connected**, you can publish the application automatically from the platform by clicking on the **Publish** button.
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/publishApp.png')" alt="publication application teams">
+  <img :src="$withBase('/assets/img/en/home/publishApp.PNG')" alt="publication application teams">
 </div>
 
 Once published, the **Remove** button that appears allows you to remove the application from the Teams catalog.
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/unpublishApp.png')" alt="publication application teams">
+  <img :src="$withBase('/assets/img/en/home/unpublishApp.PNG')" alt="publication application teams">
 </div>
 
 
@@ -113,31 +113,31 @@ If you do not have a **Tenant administrator** account, you can publish the **'Ch
 
 From the **'Catalog Teams'** page, download the application package by clicking on the **download** button as shown in the image below.
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/downloadZip.png')" alt="download application teams">
+  <img :src="$withBase('/assets/img/en/home/downloadZip.PNG')" alt="download application teams">
 </div>
 
 #### Publication
 Go to **Teams**, then click on °°° in the left navigation bar, as shown in the image below. 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/teams.png')" alt="dropdown teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/teams.PNG')" alt="dropdown teams">
 </div>
 
 A pop-up box appears, then click on **More Apps**.
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/dropdownteams.png')" alt="dropdown teams">
+  <img :src="$withBase('/assets/img/en/home/dropdownteams.PNG')" alt="dropdown teams">
 </div>
 
 You are now in **Teams Catalog**.
 Click on **Submit to app catalog** as shown in the screen below.
 Then click on **Submit an app**.
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/appliCatalogue.png')" alt="application personalisé teams">
+  <img :src="$withBase('/assets/img/en/home/appliCatalogue.PNG')" alt="application personalisé teams">
 </div>
 
 A pop-up opens, select the package you downloaded previously and click on **Open**.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/popupappliperso.png')" alt="application pop up personalisé teams">
+  <img :src="$withBase('/assets/img/en/home/popupappliperso.PNG')" alt="application pop up personalisé teams">
 </div>
 
 The application will appear with a pending status.
@@ -148,20 +148,20 @@ Ask an administrator [procedure](/en/chatbot/home/catalog.html#administration):
 Once the administrator has accepted your application, the status of the application **'Chatbots'** will change to **Approved**.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/approuved.png')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/en/home/approuved.PNG')" alt="application approuvé">
 </div>
 
 Then you will find the application in your **Teams Catalog**.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/chatbotsCatalogues.png')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/en/home/chatbotsCatalogues.PNG')" alt="application approuvé">
 </div>
 
 To complete the publication go back to the Platform Catalog page. Enter the **application id** provided by the administrator when approving the application **'Chatbots'**.
 Then click on **Save app id**.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/idApp.png')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/en/home/idApp.PNG')" alt="application approuvé">
 </div>
 
 ::: danger 🔴
@@ -175,7 +175,7 @@ As an **admin** go to the **Microsoft Teams admin center** from Office 365 porta
 Access the **Manage apps** tab.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/manageappcatalog.png')" alt="catalog">
+  <img :src="$withBase('/assets/img/en/home/manageappcatalog.PNG')" alt="catalog">
 </div>
 
 Using the search bar, look for the application **'Chatbots'** in the list and click it.
@@ -184,25 +184,25 @@ First, send the **App ID** to the person who published the app.
 This user will need it to add it to the Witivio platform.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/manageappcatalog2.png')" alt="catalog">
+  <img :src="$withBase('/assets/img/en/home/manageappcatalog2.PNG')" alt="catalog">
 </div>
 
 Then change the publication status from **Submitted** to **Published**.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/manageappcatalog3.png')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/en/home/manageappcatalog3.PNG')" alt="application approuvé">
 </div>
 
 Then click on publish.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/manageappcatalog4.png')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/en/home/manageappcatalog4.PNG')" alt="application approuvé">
 </div>
 
 You can also choose whether or not to display your chatbot in the **'Chatbots'** application.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/settings/displayApp.png')" alt="publication application teams">
+  <img :src="$withBase('/assets/img/en/settings/displayApp.PNG')" alt="publication application teams">
 </div>
 
 Here are [**the steps**](en/chatbot/home/catalog.html) to follow to publish the **Chatbots** application on Teams.
@@ -227,6 +227,31 @@ the choice of the new profile in the test.
 
 
 ### Configuration of the Webchat V2 component
+
+```
+<script>
+        window.webChatSettings = {
+            botId: '[BOTID]',
+            color: '[COLOR]',
+            background: 'square3d',
+            avatar: '[URL]',
+            title: '[TITLE]',
+            description:"[DESCRIPTION]",
+            height: '650px',
+            callout: true,
+            welcome: true,
+            width:'400px',
+            apiKey: '[API KEY]',
+            displayMode:'close',
+            branding: false,
+            autoscroll: false,
+            autocomplete:false,
+            hideSendBox:false,
+            refresh: false,
+        };
+        !function () { function t() { var t = e.createElement("script"); t.type = "text/javascript", t.async = !0, t.src = "https://webchat.witivio.com/v2/init.js", t.onload = function () { witivioWebChat.load(window.webChatSettings) }; var n = e.getElementsByTagName("script")[0]; n.parentNode.insertBefore(t, n) } var e = document, n = window; n.attachEvent ? n.attachEvent("onload", t) : n.addEventListener("load", t, !1) }();
+</script>
+```
 
 
 <table>
