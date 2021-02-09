@@ -3,7 +3,7 @@
 La page **"Catalogue teams"** a pour but  de permettre à un administrateur/coach de publier ou retirer l'application **"Chatbots"** dans le catalogue teams de manière automatique ou manuel.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/CatalogueTeams.PNG')" alt="catalogue teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/Catalogueteams.PNG')" alt="catalogue teams">
 </div>
 
 ## Application de catalogue
@@ -12,7 +12,7 @@ Lorsque vous possèdez plusieurs bots sur Teams, il peut être judicieux d'insta
 Cette application de catalogue recense tous les chatbots disponibles sur Microsoft Teams que vous avez choisi de "publier" sur l'application (voir [publication d'un bot dans Teams](/fr/chatbot/parametres/canaux.html#microsoft-teams))
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/chatbotApp.PNG')" alt="autorisation teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/ChatbotApp.PNG')" alt="autorisation teams">
 </div>
 
 Cette application permet d'afficher aux utilisateurs la liste des chatbots déployé dans le tenant Teams.
@@ -42,7 +42,7 @@ Afin d'effectuer la publication de l'application **"Chatbots"** dans le catalogu
 Cliquez sur le bouton **"je t'autorise"** afin de commencer le processus d'authenfication.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/autorisationAuto.PNG')" alt="autorisation teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/autorisationauto.PNG')" alt="autorisation teams">
 </div>
 
 Vous devriez voir apparaitre une fenêtre d'authentification microsoft.
@@ -92,6 +92,7 @@ Rendez-vous sur **Teams**, puis cliquez sur **Autres applications ajoutés** com
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/page_accueil/teams.PNG')" alt="dropdown teams">
 </div>
+
 Une fenêtre s'affiche, cliquez alors sur **Autres applications**.
 
 <div class="image_center">
