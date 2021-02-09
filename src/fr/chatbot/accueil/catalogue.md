@@ -3,7 +3,7 @@
 La page **"Catalogue teams"** a pour but  de permettre à un administrateur/coach de publier ou retirer l'application **"Chatbots"** dans le catalogue teams de manière automatique ou manuel.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/CatalogueTeamss.PNG')" alt="catalogue teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/CatalogueTeams.PNG')" alt="catalogue teams">
 </div>
 
 ## Application de catalogue
@@ -12,7 +12,7 @@ Lorsque vous possèdez plusieurs bots sur Teams, il peut être judicieux d'insta
 Cette application de catalogue recense tous les chatbots disponibles sur Microsoft Teams que vous avez choisi de "publier" sur l'application (voir [publication d'un bot dans Teams](/fr/chatbot/parametres/canaux.html#microsoft-teams))
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/chatbotApps.PNG')" alt="autorisation teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/chatbotApp.PNG')" alt="autorisation teams">
 </div>
 
 Cette application permet d'afficher aux utilisateurs la liste des chatbots déployé dans le tenant Teams.
@@ -90,7 +90,7 @@ Depuis la page **"Catalogue Teams"**, téléchargez le package de l'application 
 Rendez-vous sur **Teams**, puis cliquez sur **Autres applications ajoutés** comme encadré dans l'image ci-dessous.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/teamss.PNG')" alt="dropdown teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/teams.PNG')" alt="dropdown teams">
 </div>
 Une fenêtre s'affiche, cliquez alors sur **Autres applications**.
 
@@ -145,7 +145,7 @@ En tant qu'**administrateur** rendez vous sur le **centre d'administration Micro
 Accéder à l'onglet **Gérer les applications**
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/manageApps.PNG')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/fr/page_accueil/manageApp.PNG')" alt="application approuvé">
 </div>
 
 Grâce à la barre de recherche, retrouvez l'application **Chatbots** dans la liste et cliquez dessus.
@@ -154,13 +154,13 @@ Dans  un premier temps transmettez l'**id de l'application** à la personnes aya
 Elle en aura besoin pour le renseigner dans la plateforme Witivio.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/detailIdApps.PNG')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/fr/page_accueil/detailIdApp.PNG')" alt="application approuvé">
 </div>
 
 Ensuite changer l'état de publication de **Envoyé** à **Publié**
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/detailApps.PNG')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/fr/page_accueil/detailApp.PNG')" alt="application approuvé">
 </div>
 
 Puis cliquez sur publier
