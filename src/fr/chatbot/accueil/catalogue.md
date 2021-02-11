@@ -42,7 +42,7 @@ Afin d'effectuer la publication de l'application **"Chatbots"** dans le catalogu
 Cliquez sur le bouton **"je t'autorise"** afin de commencer le processus d'authenfication.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/autorisationauto.PNG')" alt="autorisation teams">
+  <img :src="$withBase('/assets/img/fr/page_accueil/Autorisationauto.PNG')" alt="autorisation teams">
 </div>
 
 Vous devriez voir apparaitre une fenêtre d'authentification microsoft.
