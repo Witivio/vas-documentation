@@ -1,5 +1,9 @@
 # Communication push
 
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/communication/menucommunication.PNG')" alt="catalog">
+</div>
+
 ### A quoi sert ?
 ---
 

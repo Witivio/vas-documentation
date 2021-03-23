@@ -1,6 +1,6 @@
 # Catalogue Teams
 
-La page **"Catalogue teams"** a pour but  de permettre à un administrateur/coach de publier ou retirer l'application **"Chatbots"** dans le catalogue teams de manière automatique ou manuel.
+La page **"Catalogue teams"** a pour but  de permettre à un administrateur/coach de publier ou retirer l'application **"Chatbots"** dans le catalogue Teams de manière automatique ou manuel.
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/page_accueil/CatalogueTeams.PNG')" alt="catalogue teams">
@@ -8,15 +8,15 @@ La page **"Catalogue teams"** a pour but  de permettre à un administrateur/coac
 
 ## Application de catalogue
 
-Lorsque vous possèdez plusieurs bots sur Teams, il peut être judicieux d'installer une application pour permettre à vos utilisateurs de les identifiers plus facilement.
+Lorsque vous possèdez plusieurs chatbots sur Teams, il peut être judicieux d'installer une application pour permettre à vos utilisateurs de les identifiers plus facilement.
 Cette application de catalogue recense tous les chatbots disponibles sur Microsoft Teams que vous avez choisi de "publier" sur l'application (voir [publication d'un bot dans Teams](/fr/chatbot/parametres/canaux.html#microsoft-teams))
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/page_accueil/chatbotApp.PNG')" alt="autorisation teams">
 </div>
 
-Cette application permet d'afficher aux utilisateurs la liste des chatbots déployé dans le tenant Teams.
-Elle leur rappelle le nom et le perimetre de chaque chatbot.
+Cette application permet d'afficher aux utilisateurs la liste des chatbots déployés dans le tenant Teams.
+Elle leur rappelle le nom et le perimetre de chaque chatbot, et pour les chatbots multilingues, les langues supportées. 
 
 ## Installation automatique ##
 ------------------------------
