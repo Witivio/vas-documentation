@@ -5,7 +5,7 @@ Learning has been activated.
 
 The Active Learning is triggered when the chatbot has a doubt about the
 understanding of the question: several questions in the knowledge base trigger a
-score higher than 30% but with a difference of less than 20 points.
+score higher than 50% but with a difference of less than 20 points.
 
 For the questions in this tab, the chatbot suggested few questions and the user
 thus selects the right suggestion to get the corresponding answer.

@@ -2,7 +2,7 @@
 
 L'onglet "Questions suggérées" correspond aux questions pour lesquelles l'Active Learning s'est déclenchée.
 
-L’Active Learning se déclenche lorsque le chatbot a un doute sur la compréhension de la question : plusieurs questions présentes dans la base de connaissances déclenchent un score supérieur à 35% mais avec un écart de moins de 20 points.
+L’Active Learning se déclenche lorsque le chatbot a un doute sur la compréhension de la question : plusieurs questions présentes dans la base de connaissances déclenchent un score supérieur à 50% mais avec un écart de moins de 20 points.
 
 Dans cet onglet, retrouvez l'ensemble des questions proposées par le chatbot lors du déclenchement de l'active learning ainsi que le choix de l'utilisateur.
 
