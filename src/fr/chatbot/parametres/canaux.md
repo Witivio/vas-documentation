@@ -200,7 +200,7 @@ La fenêtre Webchat est votre chatbot en intégration et vous permet de le teste
         </tr>
         <tr>
             <td>color</td>
-            <td>Couleur primaire en hexa</td>
+            <td>Couleur primaire en hexa. Il s'agit de le couleur du bandeau et de la bulle de la webchat. </td>
         </tr>
         <tr>
             <td>avatar</td>
@@ -216,11 +216,11 @@ La fenêtre Webchat est votre chatbot en intégration et vous permet de le teste
         </tr>
 		<tr>
             <td>callout</td>
-            <td>Activer le message de bienvenue. (par défaut: true)</td>
+            <td>Activer le message de bienvenue (par défaut: true). Il s'agit du message de base d'invitation à la conversation (dernier message de base) à personnaliser depuis l'onglet Connaissances > Messages.</td>
         </tr>
 		<tr>
             <td>welcome</td>
-            <td>Activer l'affichage du message de bienvenue dans la fenêtre de discussion. (par défaut : true)</td>
+            <td>Activer l'affichage du message de bienvenue dans la fenêtre de discussion. (par défaut : true). Il s'agit du message de "Bonjour" à personnaliser depuis l'onglet Connaissances > Messages.</td>
         </tr>
 		 <tr>
             <td>user</td>
@@ -274,7 +274,7 @@ La fenêtre Webchat est votre chatbot en intégration et vous permet de le teste
         </tr>
         <tr>
             <td>background</td>
-            <td>Image de fond (par défaut: square3d) Valeurs possibles: (square3d, communication, square, travel)</td>
+            <td>Image de fond. Par défaut: square3d (= losanges en guise d'image de fond de la webchat). Valeurs possibles: (square3d, communication, square, travel). Ajouter la valeur 'none' si vous ne souhaitez pas personnaliser l'image de fond de votre webchat.</td>
         </tr>
          <tr>
             <td>autocomplete</td>
@@ -333,8 +333,25 @@ La webchat géré également **la sécurité du chatbot** d'une meilleure façon
 </div>
 
 
-::: danger 🔴
+::: tip 💡
 La fenêtre Webchat s'affiche également dans le canal de diffusion Webchat (onglet "Paramètres"), afin de vous permettre de tester et parler directement au chatbot en production.
+:::
+
+### Personnalisation de la webchat 
+
+Accédez à l'onglet **Personnalisation** si vous souhaitez personnaliser la webchat depuis la plateforme Witivio. 
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/parametres/personnalisationwebchat.PNG')" alt="webchat">
+</div>
+
+Cliquez sur le bouton **PRE-VISUALISER** pour avoir une preview de votre webchat personnalisée. 
+
+::: danger 🔴
+	Lorsque vous souhaitez afficher cette configuration personnalissée, il suffit de supprimer la personnalisation déjà existante dans le script JS et ne laisser que ces informations : 
+	
+Bot Id 
+Api KEY
 :::
 
 ## Webpart SharePoint Modern

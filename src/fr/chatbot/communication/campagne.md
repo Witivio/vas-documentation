@@ -207,12 +207,12 @@ Entregistrez votre brouillon. Cliquez sur MODIFIER votre campagne si vous souhai
 - Essayer la campagne 
 - Envoyer la campagne 
 
-* ESSAYER 
+* **ESSAYER** 
 
 Avant d'envoyer la campagne, vous avez la possiblité de la tester. Ajoutez une adresse mail puis cliquez sur vérifier. Vous pourrez ainsi vérifier si l'utilisateur a bien l'application du chatbot d'installé dans Microsoft Teams. L'envoi ne sera pas disponible tant que l'adresse e-mail ne correspond pas à un utilisateur valide. 
 
 
-* ENVOYER 
+* **ENVOYER** 
 
 Lorsque vous modifiez votre message, vous pouvez décider de l'envoyer maintenant ou de programmer l'envoi. 
 
