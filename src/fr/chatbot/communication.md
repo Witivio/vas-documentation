@@ -21,7 +21,7 @@ Cet outil est disponible sur Skype et Microsoft Teams également, mais n'est pas
 ---
 1. Dans un premier temps, cliquez sur l'onglet « **Communication** » puis « [**Listes d'utilisateur**](/fr/chatbot/parametres/liste_utilisateurs.html#listes-d-utilisateurs) » pour ajouter une liste de diffusion.
 
-2. Une fois votre liste d'utilisateur crée, créez une campagne afin de débuter votre communication push. Cliquez sur « **Communication** » puis « [**Campagnes**](/fr/chatbot/communication/campagne.html#campagnes) ».
+2. Une fois votre liste d'utilisateur crée, créez une campagne afin de débuter votre communication push. Cliquez sur « **Communication** » puis « [**Campagnes Skype ou Cammpagne Teams**](/fr/chatbot/communication/campagne.html#campagnes) ».
 
 
 
