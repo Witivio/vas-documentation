@@ -12,6 +12,26 @@ sidebar : auto
 
 [Replay Webinars et tutos](https://www.youtube.com/channel/UCTI2DzxWddbejQ_TlX-WkdQ/videos)
 
+## Transfert de fichier via votre chatbot / Catalogue de chatbots dans Teams / Suggérez des questions à vos utilisateurs / Feedback d'apprentissage 
+**Mise à jour du 26 janvier 2021**
+
+* Nouvelle langue supportée : l'espagnol 
+Vous pourrez désormais créer votre chatbot en espagnol! Cette nouvelle langue vous permettra de déployer votre chatbot à une nouvelle population et ainsi élargir la portée de vos messages/conseils. 
+
+* Customisez votre WebChat depuis la plateforme Witivio 
+Votre WebChat sera entièrement customisable depuis la plateforme Witivio. Après avoir choisi la bonne couleur, l'icône, le texte de description, la taille, l'emplacement etc... Vous pourrez prévisualiser votre Webchat avant de la publier. Une fois de plus, cette nouvelle fonctionnalité vous permettra d'être encore plus autonome dans la gestion de vos chatbots et notamment des canaux de diffusion. 
+
+* Campagnes Teams 
+La campagne push est un moyen de communication qui permet au chatbot de diffuser une information en interne. Le chatbot vient s'adresser à l'utilisateur. 
+ 
+* Import de Synonymes
+Afin de gagner en rapidité et efficacité lors de la création de votre chatbot, vous pourrez importer des synonymes. 
+Pour rappel, les synonymes permettent d’améliorer les connaissances du chatbot mais également la compréhension des acronymes métiers, il peut s'agir d'acronyme ou de type de langage propre à votre milieu (Exemple : TR/Ticket Restaurant/Ticket Resto).
+
+<br/>
+<br/>
+<iframe class="video_embed" src="https://www.youtube.com/embed/WyW5JgawkjE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 ## Transfert de fichier via votre chatbot / Catalogue de chatbots dans Teams / Suggérez des questions à vos utilisateurs / Feedback d'apprentissage 
