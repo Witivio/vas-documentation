@@ -348,10 +348,9 @@ Accédez à l'onglet **Personnalisation** si vous souhaitez personnaliser la web
 Cliquez sur le bouton **PRE-VISUALISER** pour avoir une preview de votre webchat personnalisée. 
 
 ::: danger 🔴
-	Lorsque vous souhaitez afficher cette configuration personnalissée, il suffit de supprimer la personnalisation déjà existante dans le script JS et ne laisser que ces informations : 
-	
-Bot Id 
-Api KEY
+	Lorsque vous souhaitez afficher cette configuration personnalissée, il suffit de supprimer la personnalisation déjà existante dans le script JS et ne laisser que ces informations : 	
+- Bot Id (Paramètres > Paramètres > Bot)
+- Api KEY (Paramètres > Paramètres > Clef)
 :::
 
 ## Webpart SharePoint Modern

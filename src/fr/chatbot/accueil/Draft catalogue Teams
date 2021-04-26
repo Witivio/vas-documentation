@@ -1,0 +1,31 @@
+Voici les étapes à suivre afin de publier un chatbot dans le catalogue Teams. 
+
+En tant qu'**administrateur** rendez vous sur le **centre d'administration Microsoft Teams** depuis le **portail office**.
+Accéder à l'onglet **Gérer les applications** et cherchez le chatbot que vous souhaitez publier dans le catalogue.
+
+**CAS 1** : le chatbot que vous souhaitez publier dans votre catalogue Teams a déjà été ajoutée en tant qu'application sur Teams. 
+
+Dans le centre d'administration de Teams, cherchez le chatbot que vous souhaitez publier puis récupérez son Id. 
+
+Rendez-vous sur la plateforme app.witivio.com > Catalogue Teams. Collez ici l'Id du chatbot puis sélectionnez Enregistrer l'Id de l'application.  
+
+Rendez-vous dans l'onglet applications sur Microsoft Teams > accédez à l'onglet "Pour [Nom de votre entreprise]". Ici retrouvez l'application **Chatbots**. 
+
+Cliquez sur Ajouter ou Ouvrir afin accéder à l'application Chatbots. Ici vous retrouverez le chatbot qui a été publié précedemment. 
+ 
+
+**CAS 2** : le chatbot que vous souhaitez publier dans votre catalogue Teams n'est pas présenten tant qu'application sur Teams.
+
+Accédez à la palteforme Witivio, sélectionnez le chatbot que vous souhaitez installer sur Teams (puis publier dans votre catalogue Teams). 
+
+Rendez-vous dans l'onglet Paramètres > Canaux > MODIFIER le canal Teams. Ici, téléchargez le package zip du chatbot. 
+
+En tant qu'administrateur Teams, je peux publier les chatbot dans le catalogue Teams. En tant que simple utilisateur, j'ai la possiblité de soumettre une application; ma demande doit ensuite être validée
+
+par l'administrateur Teams. 
+
+Une fois que l'application du chatbot est validée, l'administrateur du portail Teams me fourni l'Id de l'application Teams du chatbot. 
+
+Comme pour le cas 1, rdv sur la plateforme Witivio > catalogue Teams. Ici je colle l'Id fourni par l'admin et je clique sur Enregistrer l'Id de l'application et je sauvegarde. 
+
+Pour le CAS 1 et 2 > une fois l'Id ajoutée > j'ai un nouveau champs qui apparait "Afficher chatbot"

@@ -25,7 +25,6 @@ Cet outil est disponible sur Skype et Microsoft Teams également, mais n'est pas
 
 
 
-
 ### Commentaires
 ---
 
