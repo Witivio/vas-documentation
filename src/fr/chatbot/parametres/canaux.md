@@ -353,6 +353,10 @@ Cliquez sur le bouton **PRE-VISUALISER** pour avoir une preview de votre webchat
 - Api KEY (Paramètres > Paramètres > Clef)
 :::
 
+Lorsqu'il s'agit de votre première configuration, une fois la personnalisation terminée, cliquer sur SAUVEGARDER en haut à droite. Accédez au code JS de votre page et ajoutez les deux valeurs Bot Id et Api key. 
+
+Si vous souhaitez obtenir le code JS de votre configuration, cliquer sur COPIER LA CONFIGURATION en haut à droite. Celle-ci sera copiée dans votre presse-papier. 
+
 ## Webpart SharePoint Modern
 
 

@@ -77,7 +77,7 @@ Lorsque vous activez cette option, Cliquez sur + Ajouter pour configurer :
 > Langues supportés : Afrikaans, Allemand, Arabe, Bangla, Bosnien, Bulgare, Catalan, Chinois, Croate, Danois, Estonien, Anglais, En finnois, Français, Gallois, Grec, Créole haïtien, Hébreu, Hindi, Hmong Daw, Hongrois, Islandais, Indonésien, Italien, Japonais, Kiswahili, Klingon, Coréen, Letton, Lituanien, Malais, Maltais, Néerlandais, Norvégien, Persan, Polonais, Portugais, Roumain, Russe , Serbe, Slovaque, Slovène, Espagnol, Suédois, Tamil,Thai, Tchèque, Turc, Ukrainien, Urdu, Vietnamien.
 
 
-- **la langue de la base de connaissances dans laquelle le chatbot doit aller chercher la réponse** (Ici par exemple espagnol)
+- **la langue de la base de connaissances dans laquelle le chatbot doit aller chercher la réponse** (Ici par exemple français)
 
 >Langues comprises par le chatbot : Allemand, Anglais, Français, Italien.
 

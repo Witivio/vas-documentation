@@ -397,6 +397,7 @@ The Webchat allows you to manage the **security of the chatbot** in a better way
 The Webchat also appears in the Webchat channel settings tab, so you can test and talk directly to the chatbot in production.
 :::
 
+
 ## SharePoint Modern Webpart
 
 You can download the webpart [here](http://webchat.witivio.com/webpart/witivio-webchat.sppkg)
