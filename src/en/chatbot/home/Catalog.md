@@ -3,7 +3,7 @@
 The **Catalog Teams** page allows an administrator/coach to publish or remove the application **'Chatbots'** in the Teams catalog automatically or manually.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/CatalogueTeamse.png')" alt="catalogue teams">
+  <img :src="$withBase('/assets/img/en/home/homepage.PNG')" alt="catalogue teams">
 </div>
 
 ## Catalog application 
@@ -13,7 +13,7 @@ With multiple chatbots on Microsoft Teams, it is a good idea to implement an app
 This catalog application lists all the chatbots available in Microsoft Teams, the chatbots you chose to "**publish**" on the application  ([Publish a chatbot in Teams](en/chatbot/settings/channels.html#microsoft-teams).
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/chatbotAppe.png')" alt="autorisation teams">
+  <img :src="$withBase('/assets/img/en/home/chatbotApp.PNG')" alt="autorisation teams">
 </div>
 
 This application displays to the users the chatbots list deployed in the Teams tenant. It shows them the name and the scope of each chatbot.
@@ -41,20 +41,20 @@ In order to publish the application **'Chatbots'** in the Teams catalog, Witivio
 Click on the **"I authorize you "** button to start the authentication process.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/autorisationAutoe.png')" alt="autorisation teams">
+  <img :src="$withBase('/assets/img/en/home/autorisationAuto.PNG')" alt="autorisation teams">
 </div>
 
 Vous devriez voir apparaitre une fenêtre d'authentification microsoft.
 **Identifiez-vous** avec les informations d'un **admnistrateur du tenant**. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/popupautorisatione.png')" alt="autorisation teams">
+  <img :src="$withBase('/assets/img/en/home/popupautorisation.PNG')" alt="autorisation teams">
 </div>
 
 Once the authorization is successfully completed, the status above the **"I authorize you "** button should change to **connected** as shown in the following image. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/authSucesse.png')" alt="autorisation teams">
+  <img :src="$withBase('/assets/img/en/home/authSucess.PNG')" alt="autorisation teams">
 </div>
 
 ### Publication ###
@@ -63,13 +63,13 @@ Once the authorization is successfully completed, the status above the **"I auth
 Once **connected**, you can publish the application automatically from the platform by clicking on the **Publish** button.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/publishAppe.png')" alt="publication application teams">
+  <img :src="$withBase('/assets/img/en/home/publishApp.PNG')" alt="publication application teams">
 </div>
 
 Once published, the **Remove** button that appears allows you to remove the application from the Teams catalog.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/unpublishAppe.png')" alt="publication application teams">
+  <img :src="$withBase('/assets/img/en/home/unpublishApp.PNG')" alt="publication application teams">
 </div>
 
 
@@ -82,7 +82,7 @@ If you do not have a **Tenant administrator** account, you can publish the **'Ch
 From the **'Catalog Teams'** page, download the application package by clicking on the **download** button as shown in the image below.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/downloadZipe.png')" alt="download application teams">
+  <img :src="$withBase('/assets/img/en/home/downloadZip.PNG')" alt="download application teams">
 </div>
 
 ### Publication ###
@@ -90,13 +90,13 @@ From the **'Catalog Teams'** page, download the application package by clicking 
 Go to **Teams**, then click on °°° in the left navigation bar, as shown in the image below. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/teamse.png')" alt="dropdown teams">
+  <img :src="$withBase('/assets/img/en/home/teams.PNG')" alt="dropdown teams">
 </div>
 
 A pop-up box appears, then click on **More Apps**.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/dropdownteamse.png')" alt="dropdown teams">
+  <img :src="$withBase('/assets/img/en/home/dropdownteams.PNG')" alt="dropdown teams">
 </div>
 
 You are now in **Teams Catalog**.
@@ -104,13 +104,13 @@ Click on **Submit to app catalog** as shown in the screen below.
 Then click on **Submit an app**.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/appliCataloguee.png')" alt="application personalisé teams">
+  <img :src="$withBase('/assets/img/en/home/appliCatalogue.PNG')" alt="application personalisé teams">
 </div>
 
 A pop-up opens, select the package you downloaded previously and click on **Open**.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/popupapplipersoe.png')" alt="application pop up personalisé teams">
+  <img :src="$withBase('/assets/img/en/home/popupappliperso.PNG')" alt="application pop up personalisé teams">
 </div>
 
 The application will appear with a pending status.
@@ -121,20 +121,20 @@ Ask an administrator [procedure](/en/chatbot/home/catalog.html#administration):
 Once the administrator has accepted your application, the status of the application **'Chatbots'** will change to **Approved**.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/approuvede.png')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/en/home/approuved.PNG')" alt="application approuvé">
 </div>
 
 Then you will find the application in your **Teams Catalog**.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/chatbotsCataloguese.png')" alt="application approuvé">
+  <img :src="$withBase('/assets/img/en/home/chatbotsCatalogues.PNG')" alt="application approuvé">
 </div>
 
 To complete the publication go back to the Platform Catalog page. Enter the **application id** provided by the administrator when approving the application **'Chatbots'**.
 Then click on **Save app id**.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/idAppene.png')" alt="application approved">
+  <img :src="$withBase('/assets/img/en/home/idAppen.PNG')" alt="application approved">
 </div>
 
 ::: danger 🔴
@@ -147,7 +147,7 @@ As an **admin** go to the **Microsoft Teams admin center** from Office 365 porta
 Access the **Manage apps** tab.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/manageappcataloge.png')" alt="catalog">
+  <img :src="$withBase('/assets/img/en/home/manageappcatalog.PNG')" alt="catalog">
 </div>
 
 Using the search bar, look for the application **'Chatbots'** in the list and click it.
@@ -156,19 +156,19 @@ First, send the **App ID** to the person who published the app.
 This user will need it to add it to the Witivio platform.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/manageappcatalog2e.png')" alt="catalog">
+  <img :src="$withBase('/assets/img/en/home/manageappcatalog2.PNG')" alt="catalog">
 </div>
 
 Then change the publication status from **Submitted** to **Published**.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/manageappcatalog3e.png')" alt="application approuv">
+  <img :src="$withBase('/assets/img/en/home/manageappcatalog3.PNG')" alt="application approuv">
 </div>
 
 Then click on publish.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/home/manageappcatalog4e.png')" alt="application approuv">
+  <img :src="$withBase('/assets/img/en/home/manageappcatalog4.PNG')" alt="application approuv">
 </div>
 
 
