@@ -2,33 +2,19 @@
 
 
 It is possible to create dashboards using the Power BI application. To this, you
-will need Witivio - Power BI connectors (on demand).
+will need Witivio - Power BI connectors.
 
-Please follow these steps to use them:
-
-1) Install PowerBI Desktop via the Microsoft Marketplace.
-
-2) In the file "my documents", create a "Power BI Desktop" file.
-
-3) In the file "Power BI Desktop" create a "Custom Connectors" file.
-
-4) Add these files to the "Custom Connectors" folder.
-
-5)  Restart PowerBi App.
-
-The Witivio connectors will appear in the "Custom" data sources.
 
 **To retrieve chatbot or license information:**
 
 -   In the Power BI application click on **"Get Data"** at the left top.
 
--   Choose **"More..."** then **"Other"**.
+-   Choose **"More..."** then **"Other"** then search for "**Witivio**"
 
--   Select **"Witivio"** if you want to get the information about a chatbot. 
-Select **"Witivio license"** to display your license information.
+-   Select **"Witivio"** to get the information about a chatbot. 
 
     When choosing "Witivio (Beta), add the **chatbot ID**. You can find it on the
-    platform in the Settings tab > Settings > Settings > Bot.
+    platform in the Settings tab > **Settings** > **Settings** > **Bot**.
     
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/dashboards/power1.png')" alt="Suggested questions 2">

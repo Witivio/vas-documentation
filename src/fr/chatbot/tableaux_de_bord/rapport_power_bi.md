@@ -1,25 +1,15 @@
 # Tableaux de bord Power BI
 
 
-Il est possible de créer des tableaux de bord à l'aide de l'application **Power BI Desktop**. Pour cela, vous avez besoin des **connecteurs Witivio - Power BI** (sur demande).
-
-Suivez les étapes suivantes afin de les utiliser :
-
-1) Installer PowerBI Desktop via le Microsoft Marketplace.
-2) Dans votre dossier **mes documents**, créez un dossier **Power BI Desktop**.
-3) Dans le dossier **Power BI Desktop** créez un dossier **Custom Connectors**.
-4) Ajoutez ces fichiers dans le dossier **Custom Connectors**.
-5) Redémarrez **PowerBi**.
-
-Le connecteur witivio apparaitra dans les sources de données **Custom**.
+Il est possible de créer des tableaux de bord à l'aide de l'application **Power BI Desktop**. Pour cela, vous avez besoin du **connecteurs Witivio - Power BI**.
 
 **Pour récupérer les informations d'un chatbot ou de la licence :**
 
 -   Dans l'application Power BI cliquez sur "Obtenir les données" au niveau du ruban supérieur.
 
--   Choisissez "**Plus** ..." puis "**Autre**".
+-   Choisissez "**Plus** ..." puis "**Autre**" puis recherchez "**Witivio**". 
 
--   Sélectionnez **Witivio** si vous souhaitez obtenir les informations d'un chatbot. Sélectionnez **Witivio licence** pour afficher les informations de votre licence.
+-   Sélectionnez **Witivio** pour obtenir les informations d'un chatbot.
 
 Lorsque vous choisissez "**Witivio (Bêta)**", ajoutez l'ID du chatbot. Retrouvez ce dernier sur la plateforme dans l'onglet **Paramètres** > **Paramètres** > **Bot**.  
   
