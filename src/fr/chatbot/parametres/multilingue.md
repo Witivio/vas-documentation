@@ -5,10 +5,10 @@ Deux possibilités s'offrent à vous afin d'activer votre chatbot en multilingue
 
 ## 1. Une base de connaissance par langue
 
-Aujourd'hui, les chatbots Witivio s’expriment en français, anglais, allemand et italien.
+Aujourd'hui, les chatbots Witivio s’expriment en français, anglais, allemand, italien et également espagnol en version beta.
 
 ::: warning ⚠️
-Pour rappel, toute langue activée doit avoir une base de connaissance correspondate. Dans l'onglet Paramètres puis Multilingue, cochez donc la langue souhaitée puis accédez à l'onglet Connaissances > FAQ afin d'ajouter les questions corréspondantes.
+Pour rappel, toute langue activée doit avoir une base de connaissance correspondate. Dans l'onglet Paramètres puis Multilingue, cochez donc la langue souhaitée puis accédez à l'onglet Connaissances > FAQ afin d'ajouter les connaissances (questions, alternatives, réponses) corréspondantes.
 :::
 
 ::: tip 💾

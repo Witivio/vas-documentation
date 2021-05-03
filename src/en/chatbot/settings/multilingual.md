@@ -4,7 +4,7 @@ You have two possibilities to activate your chatbot in multilingual:
 
 ## 1. A knowledge base for each language
 
-It is possible to activate a chatbot in multilingual by adding a new language. Witivio chatbots speak french, english, german and italian.
+It is possible to activate a chatbot in multilingual by adding a new language. Witivio chatbots speak French, English, German, Italian and Spanish (beta version).
 
 ::: tip 💾 
 Do not forget to register in case you add a language. 
@@ -26,7 +26,7 @@ Do not forget to register in case you add a language.
 -   **Detection of the wished language:** when the user starts the conversation,
     the chatbot detects automatically the wished language. For example, if the
     user starts the conversation by saying “Bonjour”, the chatbot detects the
-    french language and the conversation will continue in french.
+    french language and the conversation will continue in French.
 
 ::: warning ⚠️
 Starting a conversation with "Hello" could mislead the chatbot, as it is a
