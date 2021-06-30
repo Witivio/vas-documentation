@@ -12,7 +12,7 @@ Cette page vous permettra d'identifier :
 Ces données sont filtrables par chatbot, par coach, par page et par date. Elles peuvent également être exportées.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/page_accueil/home3.png')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/page_accueil/home3.PNG')" alt="low score">
 </div>
 
 ### Commentaires
