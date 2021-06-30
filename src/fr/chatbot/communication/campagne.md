@@ -137,7 +137,7 @@ Cliquez sur l'onglet **Communication** puis sur **Campagne Teams**.
   <img :src="$withBase('/assets/img/fr/communication/menucampagneteams.PNG')" alt="campagnesteams">
 </div>
 
-Donnez un nom à votre campagne et choisissez le type de message que vous souhaitez programmer, parmis les formats suivants : 
+Donnez un nom à votre campagne et choisissez le type de message que vous souhaitez programmer, parmi les formats suivants : 
 * Idée
 * Succès
 * Important 
