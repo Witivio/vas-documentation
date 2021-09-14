@@ -19,11 +19,9 @@ For instance, a company uses three chatbots, each one having a specific scope: H
 
 ## MetaBot configuration
 
- 
 
 Among the different configuration steps, the language choice is important. Indeed, a MetaBot and its chatbots friends must have at least one common language. 
 
- 
 
 For example, if a MetaBot is configured in French, its chatbots friends must speak at least French. 
 
@@ -35,6 +33,28 @@ The example below shows that the IT chatbot cannot be a MetaBot's friend because
   <img :src="$withBase('/assets/img/en/metabot/metabotlanguage.PNG')" alt="metabot language">
 </div>
 <br />
+
+
+## Ask for the scope
+
+Go to the Knowledge tab and then Configuration to configure the context request. 
+
+When a user asks a metabot a question, the metabot may hesitate which friend chatbot to find the knowledge from. The metabot can thus ask "What is the scope of the question?" and the user selects one of the friend chatbots' scopes. 
+This contextualization request can be disabled. The user asks a question to the metabot, which will directly query all the friend chatbots, and decide all by itself on the best answer to give the user (the answer with the best confidence score).
+
+Example:
+A collaborator asks the metabot: "how many day off do I have left?" 
+When the feature below is enabled, the metabot, if in doubt, asks the user to choose the context between different scopes (for example HR and Accounting). When this feature is disabled, the chatbot does not ask the chatbot scope, and directly gives the answer with the best answer.
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/metabot/askforscope.PNG')" alt="Metabot">
+
+When you decide to activate the contextualization request, you can customize your question. For example "Can you tell me the scope of your question? " / "What is the context of your question?".
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/metabot/demandedecontextualisation1.PNG')" alt="Metabot">
+
+
 
 ## How the MetaBot works
 
