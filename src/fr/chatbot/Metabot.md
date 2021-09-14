@@ -29,6 +29,25 @@ L'exemple ci-dessous montre que le chatbot IT ne peut pas être ami du MetaBot c
  <br />
  <br />
 
+## Demande de contextualisation
+
+Accédez à l'onglet Connaissances puis Configuration afin de configurer la demande de contextualisation. 
+
+Lorsqu'un utilisateur interroge un metabot, ce dernier peut hésiter auprès de quel "chatbot ami" trouver la connaissance. Le Metabot peut ainsi demander "Quel est le périmètre de la question ?" et l'utilisateur sélectionne un des périmètres des chatbots amis. 
+Cette demande de contextualisation peut être supprimée. L'utilisateur pose sa question au metabot, qui va interroger  directement tous les "chatbots amis", et statuer tout seul sur la meilleure réponse à lui donner (la réponse ayant le meilleur score de confiance).
+
+Exemple :
+Un collaborateur demande au metabot : "combien de CP me reste-t-il de ?" 
+Lorsque la fonctionnalité ci-dessous est activée, le métabot, s'il a un doute, demande à l'utilisateur de choisir le contexte entre Rh et comptabilité. Lorsque cette fonctionnalité est désactivée, le chatbot ne demande pas le périmètre du chatbot, et donne directement la réponse avec la meilleure réponse. 
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/metabot/demandedecontextualisation.PNG')" alt="Metabot">
+
+Enfin, lorsque vous décidez d'activer la demande de contextualisation, vous pouvez personnaliser votre question. Par exemple " Pouvez-vous m'indiquer le périmètre de votre question ? " / "Quelle est le contexte de votre question ?".
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/metabot/demandedecontextualisation1.PNG')" alt="Metabot">
+
 
 ## Fonctionnement du MetaBot
  <br />
@@ -122,7 +141,7 @@ Lorsque le MetaBot n'a pas de réponse, il demande le périmètre de la question
 
  <br />
 
-La boite de réception du MetaBot comporte un seul onglet "Pas de périmètre". L'action disponible depuis cet onglet est le transfert de la question sans réponse à un chatbot ami. Les coachs du chatbot ami traitent ensuite la question depuis l'inbox du chatbot ami et l'intégre à ses connaissances. 
+La boite de réception du MetaBot comporte un seul onglet "Pas de périmètre". L'action disponible depuis cet onglet est le transfert de la question sans réponse à un ou plusieurs chatbots ami. Les coachs du/des chatbot(s) ami(s) traitent ensuite la question depuis l'inbox du chatbot ami et l'intégre à ses connaissances. 
  <br />
  <br />
 
@@ -135,6 +154,11 @@ La boite de réception du MetaBot comporte un seul onglet "Pas de périmètre". 
   <img :src="$withBase('/assets/img/fr/metabot/metabottransfert.PNG')" alt="Metabot Transfert">
 </div>
 
+## Campagnes Push
+
+Il est désormais possible de créer des campagnes push via le MetaBot. Une fois votre campagne configurée, le message push sera distribué par le MetaBot. Celui-ci parlera à l'utilisateur, par exemple pour diffuser une information en interne, promouvoir l'usage du chatbot, ...
+
+Cliquez [**ici**](/fr/chatbot/communication/campagne.html#campagnes-teams) pour savoir comment configurer une campagne Push Teams. 
 
 ## Limites
  <br />
@@ -144,7 +168,6 @@ La boite de réception du MetaBot comporte un seul onglet "Pas de périmètre". 
 - Multilingue 
 - Escalade de type Teams 
 - Gestion de profils
-- Campagne push 
 - Conversation initiale 
 - Statistiques Power BI 
 - Liste autorisation 
