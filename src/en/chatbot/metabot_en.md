@@ -68,7 +68,7 @@ Once your MetaBot is configured, to allow it to query the knowledge of other cha
 
  
 
-- as well as to indicate the perimeter of each chatbot friend 
+- as well as to indicate the scope of each chatbot friend 
 
  
 
@@ -82,7 +82,7 @@ Once added, the chatbots friends are available in integration. Click on the PUBL
 <br />
 
 
-When the user asks a question to the MetaBot, the MetaBot looks for the most relevant answer in the knowledge of the chatbots friends according to their perimeters. 
+When the user asks a question to the MetaBot, the MetaBot looks for the most relevant answer in the knowledge of the chatbots friends according to their scopes. 
 
 <br />
 <br />
@@ -91,7 +91,7 @@ When the user asks a question to the MetaBot, the MetaBot looks for the most rel
 
  
 
-The user asks a question, the MetaBot directly understands the perimeter and thus gives back an answer from a chatbot friend. (% > answer threshold). 
+The user asks a question, the MetaBot directly understands the scope and thus gives back an answer from a chatbot friend. (% > answer threshold). 
 
  
 
@@ -104,7 +104,7 @@ The user asks a question, the MetaBot directly understands the perimeter and thu
 
  
 
-When the MetaBot finds several answers of different chatbots friends, it first asks for the perimeter. Depending on the user's choice, the MetaBot provides the answer found. 
+When the MetaBot finds several answers of different chatbots friends, it first asks for the scope. Depending on the user's choice, the MetaBot provides the answer found. 
 
  
 
@@ -112,22 +112,22 @@ When the MetaBot finds several answers of different chatbots friends, it first a
 
  
 
-- HR perimeter 
+- HR scope 
 
   
 
-- IT perimeter  
+- IT scope  
 
  
 
-- Legal perimeter 
+- Legal scope 
 
   
 
 - None of above
 
 
-If the user selects one particular perimeter the MetaBot returns the answer of the corresponding chatbot friend. In addition, if the feedback of the chatbot friend is enabled, then the MetaBot asks for the feedback. 
+If the user selects one particular scope the MetaBot returns the answer of the corresponding chatbot friend. In addition, if the feedback of the chatbot friend is enabled, then the MetaBot asks for the feedback. 
 
  
 
@@ -135,7 +135,7 @@ However, if the user selects "None of above", then the question is sent to the M
 
  
 
-NB. Once the perimeter has been requested, it is possible that the MetaBot identifies several questions from the same perimeter and thus triggers the Active Learning.
+NB. Once the scope has been requested, it is possible that the MetaBot identifies several questions from the same scope and thus triggers the Active Learning.
 
 <br />
 <br />
@@ -145,7 +145,7 @@ NB. Once the perimeter has been requested, it is possible that the MetaBot ident
 
  
 
-When the MetaBot does not find any answers among the chatbots' friends, it means that the score is below the threshold of the response score. The MetaBot returns the no answer message and asks for the perimeter. 
+When the MetaBot does not find any answers among the chatbots' friends, it means that the score is below the threshold of the response score. The MetaBot returns the no answer message and asks for the scope. 
 
  
 
@@ -153,15 +153,15 @@ When the MetaBot does not find any answers among the chatbots' friends, it means
 
  
 
-- HR perimeter 
+- HR scope 
 
  
 
-- IT perimeter 
+- IT scope 
 
  
 
-- Legal perimeter
+- Legal scope
 
  
 
@@ -169,7 +169,7 @@ When the MetaBot does not find any answers among the chatbots' friends, it means
 
  
 
-Depending on the chosen perimeter, the answer is logged in the inbox of the chatbot friend in the "Unanswered questions" tab. Moreover, if the escalation of the chatbot friend is enabled, it will be triggered. 
+Depending on the chosen scope, the answer is logged in the inbox of the chatbot friend in the "Unanswered questions" tab. Moreover, if the escalation of the chatbot friend is enabled, it will be triggered. 
 
  
 
@@ -188,7 +188,7 @@ However, if the user chooses "None of above", the result is logged in the MetaBo
 
  
 
-When the MetaBot has no answer, it asks the perimeter of the question asked. If the user chooses "None of these perimeters", the question without answer and perimeter is logged in the MetaBot's inbox.
+When the MetaBot has no answer, it asks the scope of the question asked. If the user chooses "None of these scopes", the question without answer and scope is logged in the MetaBot's inbox.
 
  
  **Inbox processing**
@@ -200,7 +200,7 @@ When the MetaBot has no answer, it asks the perimeter of the question asked. If 
 
  
 
-The MetaBot inbox has a single tab "No perimeter". The available action from this tab is the transfer of the unanswered question to a chatbot friend. The coaches of the chatbot friend then process the question from the inbox of the chatbot friend and integrate it with its knowledge.
+The MetaBot inbox has a single tab "No scope". The available action from this tab is the transfer of the unanswered question to a chatbot friend. The coaches of the chatbot friend then process the question from the inbox of the chatbot friend and integrate it with its knowledge.
 
 <br />
 <br />
@@ -228,7 +228,7 @@ The MetaBot inbox has a single tab "No perimeter". The available action from thi
 
 - Authorization list 
 
-- the chatbot friend history contains only questions and answers related to its perimeter
+- the chatbot friend history contains only questions and answers related to its scope
 
 - Not allowed to go back into the conversation and change choices
 
