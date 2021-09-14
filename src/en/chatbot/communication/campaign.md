@@ -8,7 +8,7 @@ This tab is available for chatbot with Skype for Business and Microsoft Teams as
 :::
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/communication/campaign1.PNG')" alt="low score">
+  <img :src="$withBase('/assets/img/en/communication/campaign.PNG')" alt="low score">
 </div>
 
 
@@ -143,7 +143,7 @@ Do not forget to save changes.
 
 :::
 
-## Campagnes Teams
+## Teams campaigns
 
 Click on **Communication** tab and then on **Teams Campaigns**. 
 
@@ -151,24 +151,24 @@ Click on **Communication** tab and then on **Teams Campaigns**.
   <img :src="$withBase('/assets/img/fr/communication/menucampagneteams.PNG')" alt="campagnesteams">
 </div>
 
-Donnez un nom à votre campagne et choisissez le type de message que vous souhaitez programmer, parmis les formats suivants : 
-* Idée
-* Succès
+Give your campaign a name and choose the type of message you want to program among the following formats: 
+* Idea
+* Success
 * Important 
 * Adaptive card 
 * Message
 
-### Idée 
+### Idea 
 
-Configurez le message d'idée que vous souahitez envoyer à l'aide de l'éditeur de texte. Une fois votre message ajouté, cliquez sur Suivant puis Actualiser l'aperçu avant de continuer la configuration de votre message push. 
+Set up the idea message you want to send using the text editor. Once you have added your message, click Next and then refresh Preview before going on to set up your push message. 
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/communication/teamsidee.PNG')" alt="campagnesteams">
 </div>
 
-### Succès 
+### Success 
 
-A l'aide de l'editeur de texte, configurez le message de succès, par exemple pour faire une annonce. Une fois votre message ajouté, cliquez sur Suivant puis Actualiser l'aperçu avant de continuer la configuration de votre message push. 
+Using the text editor, configure the success message, for example to make an announcement. Once you have added your message, click Next and then refresh Preview before going on to configure your push message. 
 
 
 <div class="image_center">
@@ -177,7 +177,7 @@ A l'aide de l'editeur de texte, configurez le message de succès, par exemple po
 
 ### Important 
 
-A l'aide de l'editeur de texte, configurez un message important, par exemple pour communiquer une deadline. Une fois votre message ajouté, cliquez sur Suivant puis Actualiser l'aperçu avant de continuer la configuration de votre message push. 
+Using the text editor, set up an important message, for example to communicate a deadline. Once you have added your message, click Next and then refresh Preview before going on to configure your push message. 
 
 
 <div class="image_center">
@@ -186,7 +186,7 @@ A l'aide de l'editeur de texte, configurez un message important, par exemple pou
 
 ### Adaptive card
 
-Créez votre message push en format Adaptive Card. Ajoutez un titre, une image, du texte ou un bouton. Une fois votre message ajouté, cliquez sur Suivant afin de continuer la configuration de votre message push. 
+Create your push message in Adaptive Card format. Add a title, an image, text or a button. Once you have added your message, click Next to continue configuring your push message. 
 
 
 <div class="image_center">
@@ -195,56 +195,56 @@ Créez votre message push en format Adaptive Card. Ajoutez un titre, une image, 
 
 ### Message 
 
-Utilisez ce format pour créer un message simple. Une fois votre message ajouté, cliquez sur Suivant puis Actualiser l'aperçu avant de continuer la configuration de votre message push. 
+Use this format to create a simple message. Once you have added your message, click Next and then refresh Preview before going on to configure your push message. 
 
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/communication/teamsmessage.PNG')" alt="campagnesteams">
 </div>
 
-Une fois le message créer, vous avez la possibilité de distribuer le message : 
+Once the message is created, you can distribute the message : 
 
-* à une nouvelle liste de diffusion
-* une liste de diffusion existante
-* à tous les utilisateurs : il s'agit des utilisateurs ayant installés l'application du chatbot sur Teams. 
+* to a new distribution list
+* an existing distribution list
+* to all users: this means users who have the chatbot application on their Teams. 
+
+
+::: warning ⚠️
+In order to get the scheduled push message, a user must have the chatbot installed on Microsoft Teams.  
+:::
+
+Save your draft. Click on EDIT your campaign if you want to :
+
+- Modify your message
+- Delete the campaign 
+- Try the campaign 
+- Send the campaign
+
+* **TRY** 
+
+Before sending the campaign, you have the possibility to try it. Add an email address and click on verify. This will allow you to check if the user has the chatbot application installed in Microsoft Teams. The sending will not be available until the email address corresponds to a valid user. 
+
+
+* **SEND** 
+
+When editing your message, you can decide to send it now or schedule it to be sent later. 
+
+Click on the arrow to the right of the SEND NOW button, then select Send Later: the campaign can be scheduled to be sent with a delay of up to 6 days.
+
+The campaign is then saved and sent at the time decided. 
+
+Once the campaign is finished, find a report in the Teams Campaign tab > **Completed**.
+
+Click on REPORT to have a summary of the campaign: 
+
+- Campaign name 
+- Date and time sent
+- Result: error, success, rescheduled or ongoing.
+- Recipients 
+
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/campagnesteamsdestinataires.PNG')" alt="campagnesteams">
-</div>
-
-Pour rappel, pour qu'un utilisateur reçoit le message push programmé, il doit avoir installé le chatbot sur Microsoft Teams. 
-
-Entregistrez votre brouillon. Cliquez sur MODIFIER votre campagne si vous souhaitez :
-
-- Modifier votre message
-- Supprimer la campagne 
-- Essayer la campagne 
-- Envoyer la campagne 
-
-* **ESSAYER** 
-
-Avant d'envoyer la campagne, vous avez la possiblité de la tester. Ajoutez une adresse mail puis cliquez sur vérifier. Vous pourrez ainsi vérifier si l'utilisateur a bien l'application du chatbot d'installé dans Microsoft Teams. L'envoi ne sera pas disponible tant que l'adresse e-mail ne correspond pas à un utilisateur valide. 
-
-
-* **ENVOYER** 
-
-Lorsque vous modifiez votre message, vous pouvez décider de l'envoyer maintenant ou de programmer l'envoi. 
-
-Cliquez sur la fleche à droite du bouton ENVOYER MAINTENANT, puis sélectionnez Envoyer plus tard : l'envoi de la campagne peut être programmé avec un différé de maximum 6 jours.
-
-La campagne est ensuite enregristrée et envoyé à l'heure décidée. 
-
-Une fois la campagne terminée, retrouvez un rapport dans l'onglet Campagne Teams > **Terminé**
-
-Cliquez sur RAPPORT pour avoir un résumé de la campagne : 
-
-- Nom de la campagne 
-- Date et heure d'envoi
-- Résultat : erreur, succès, reporté ou en cours
-- Destinataires 
-
-<div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/campagnesteamsrapport.PNG')" alt="campagnesteams">
+  <img :src="$withBase('/assets/img/en/communication/campaignreport.PNG')" alt="campagnesteams">
 </div>
 
 

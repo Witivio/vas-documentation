@@ -154,7 +154,7 @@ Configurez le message d'idée que vous souahitez envoyer à l'aide de l'éditeur
 
 ### Succès 
 
-A l'aide de l'editeur de texte, configurez le message de succès, par exemple pour faire une annonce. Une fois votre message ajouté, cliquez sur Suivant puis Actualiser l'aperçu avant de continuer la configuration de votre message push. 
+A l'aide de l'éditeur de texte, configurez le message de succès, par exemple pour faire une annonce. Une fois votre message ajouté, cliquez sur Suivant puis Actualiser l'aperçu avant de continuer la configuration de votre message push. 
 
 
 <div class="image_center">
@@ -163,7 +163,7 @@ A l'aide de l'editeur de texte, configurez le message de succès, par exemple po
 
 ### Important 
 
-A l'aide de l'editeur de texte, configurez un message important, par exemple pour communiquer une deadline. Une fois votre message ajouté, cliquez sur Suivant puis Actualiser l'aperçu avant de continuer la configuration de votre message push. 
+A l'aide de l'éditeur de texte, configurez un message important, par exemple pour communiquer une deadline. Une fois votre message ajouté, cliquez sur Suivant puis Actualiser l'aperçu avant de continuer la configuration de votre message push. 
 
 
 <div class="image_center">
@@ -200,7 +200,7 @@ Une fois le message créer, vous avez la possibilité de distribuer le message :
 
 Pour rappel, pour qu'un utilisateur reçoit le message push programmé, il doit avoir installé le chatbot sur Microsoft Teams. 
 
-Entregistrez votre brouillon. Cliquez sur MODIFIER votre campagne si vous souhaitez :
+Enregistrez votre brouillon. Cliquez sur MODIFIER votre campagne si vous souhaitez :
 
 - Modifier votre message
 - Supprimer la campagne 

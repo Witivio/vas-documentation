@@ -205,6 +205,14 @@ The MetaBot inbox has a single tab "No scope". The available action from this ta
 <br />
 <br />
 
+## Push campaign
+
+It is now possible to create push campaigns via the MetaBot. Once your campaign is configured, the push message will be distributed by the MetaBot. The MetaBot will talk to the user, for instance to spread information internally, to promote the use of the chatbot, ...
+
+Click [here](en/chatbot/communication/campaign.html#campagnes-teams) to know how to configure a Push Teams campaign.  
+
+<br />
+<br />
 
 ## Limitations
 
@@ -220,8 +228,6 @@ The MetaBot inbox has a single tab "No scope". The available action from this ta
 
 - Profile management
 
-- Push Campaign 
-
 - Initial conversation 
 
 - Power BI Statistics 
@@ -232,6 +238,8 @@ The MetaBot inbox has a single tab "No scope". The available action from this ta
 
 - Not allowed to go back into the conversation and change choices
 
+<br />
+<br />
 
 ### Comments
 
