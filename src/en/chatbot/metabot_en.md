@@ -46,13 +46,16 @@ Example:
 A collaborator asks the metabot: "how many day off do I have left?" 
 When the feature below is enabled, the metabot, if in doubt, asks the user to choose the context between different scopes (for example HR and Accounting). When this feature is disabled, the chatbot does not ask the chatbot scope, and directly gives the answer with the best answer.
 
+
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/metabot/askforscope.PNG')" alt="Metabot">
+</div>
 
 When you decide to activate the contextualization request, you can customize your question. For example "Can you tell me the scope of your question? " / "What is the context of your question?".
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/metabot/demandedecontextualisation1.PNG')" alt="Metabot">
+</div>
 
 
 

@@ -42,12 +42,13 @@ Lorsque la fonctionnalité ci-dessous est activée, le métabot, s'il a un doute
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/metabot/demandedecontextualisation.PNG')" alt="Metabot">
+  </div>
 
 Enfin, lorsque vous décidez d'activer la demande de contextualisation, vous pouvez personnaliser votre question. Par exemple " Pouvez-vous m'indiquer le périmètre de votre question ? " / "Quelle est le contexte de votre question ?".
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/metabot/demandedecontextualisation1.PNG')" alt="Metabot">
-
+</div>
 
 ## Fonctionnement du MetaBot
  <br />
