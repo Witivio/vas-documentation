@@ -146,10 +146,6 @@ La boite de réception du MetaBot comporte un seul onglet "Pas de périmètre". 
  <br />
  <br />
 
-<div class="image_center">
-  <img :src="$withBase('/assets/img/fr/metabot/metabotinbox.PNG')" alt="Metabot Inbox">
-</div>
-
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/metabot/metabottransfert.PNG')" alt="Metabot Transfert">

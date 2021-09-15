@@ -203,7 +203,7 @@ When the MetaBot has no answer, it asks the scope of the question asked. If the 
 
  
 
-The MetaBot inbox has a single tab "No scope". The available action from this tab is the transfer of the unanswered question to a chatbot friend. The coaches of the chatbot friend then process the question from the inbox of the chatbot friend and integrate it with its knowledge.
+The MetaBot inbox has a single tab "No scope". The available action from this tab is the transfer of the unanswered question to one or several friend chatbots. The coaches of the chatbot friend then process the question from the inbox of the chatbot friend and integrate it with its knowledge.
 
 <br />
 <br />
