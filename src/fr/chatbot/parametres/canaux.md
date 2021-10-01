@@ -399,7 +399,7 @@ La webchat est maintenant disponible à partir de vos pages sur votre site Share
 4. Sélectionnez la. Le composant apparaît, mais la discussion en ligne n'est pas encore configurée.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/parametres/canaux9.PNG')" alt="canauxe">
+  <img :src="$withBase('/assets/img/fr/parametres/canaux9.PNG')" alt="canaux">
 </div>
 
 ::: warning ⚠️
