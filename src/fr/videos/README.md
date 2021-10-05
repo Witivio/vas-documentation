@@ -13,7 +13,7 @@ sidebar : auto
 [Replay Webinars et tutos](https://www.youtube.com/channel/UCTI2DzxWddbejQ_TlX-WkdQ/videos)
 
 ## Transfert de fichier via votre chatbot / Catalogue de chatbots dans Teams / Suggérez des questions à vos utilisateurs / Feedback d'apprentissage 
-**Mise à jour du 26 janvier 2021**
+**Mise à jour 23 mars 2021**
 
 * Nouvelle langue supportée : l'espagnol 
 Vous pourrez désormais créer votre chatbot en espagnol! Cette nouvelle langue vous permettra de déployer votre chatbot à une nouvelle population et ainsi élargir la portée de vos messages/conseils. 
