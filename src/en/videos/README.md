@@ -15,7 +15,7 @@ sidebar : auto
 
 
 ## Send files via your chatbot / Chatbots catalog in Teams / Suggest questions to your users / Learning feedback 
-**Updated January 26, 2021** **
+**Updated March 23, 2021** 
 
 * Send files via your chatbot 
 Users will now be able to transfer a file during a conversation with the chatbot without leaving the chat box. This new feature will allow you to extend the chatbot's functionality to provide a complete conversational experience.
