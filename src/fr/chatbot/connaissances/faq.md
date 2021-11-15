@@ -844,7 +844,6 @@ Le call API doit retourner un Tableau
 </div>
 
 
-
 #### SOUS DIALOGUE
 ---
 * Permet d’appeler un sous dialogue d’un autre onglet du même fichier ou d’un arbre d’une autre question​
@@ -907,6 +906,32 @@ Glissez la forme Next escalation à la fin de votre arbre de conversation ou à 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/connaissances/responsedynamique18.png')" alt="reponse de type dyanmique 18">
 </div>
+
+### Flux de conversation 
+
+Le type de réponse flux de conversation permet de designer un arbre de conversation directement sur Virtual Agent Studio. Le flux de conversation permet ainsi de répondre à une question principale. Le chatbot va diriger la conversation avec l'utilisateur, afin de pouvoir lui répondre grâce à des scénarios préétablis. Chacune des branches du flux de conversation représente des actions différentes, en fonction de la situation.
+
+Accédez à l'onglet Connaissances puis FAQ. Une fois que vous avez ajouté une nouvelle question et ses alternatives, dans l'onglet Réponse, choisissez le type de réponse **"Flux de conversation"** puis sélectionner. 
+
+Débutez la construction du flux de conversation en cliquant sur + COMMENCER LE DIALOGUE. 
+
+Déroulez le menu afin de choisir l'action que doit faire le chatbot 
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/connaissances/fluxdeconversation.PNG')" alt="flux de conversation">
+</div>
+
+### ACTIONS
+---
+#### Envoyer un message à l'utilisateur
+---
+Le chatbot envoie un message à l'utilisateur. Vous pouvez personnalsier votre message à l'aide de l'editeur de texte,  ajouter un lien hypertexte ou définir une variable. 
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/connaissances/fluxenvoyerunmessage.PNG')" alt="fluxdeconversation">
+</div>
+
+
 
 
 ## Alternatives

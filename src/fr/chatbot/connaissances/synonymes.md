@@ -29,7 +29,21 @@ Cliquez sur l'onglet « **Connaissances** » puis « **Synonymes** »
 Synonymes de « dress-code » : équipement vestimentaire, tenue vestimentaire.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/connaissances/synonyme3.png')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/connaissances/synonyme3.png')" alt="synonymes">
+</div>
+
+### IMPORTER :
+
+Il est possible d'importer vos synonymes à l'aide d'un fichiers excel. 
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/connaissances/importsyonymes.PNG')" alt="synonymes">
+</div>
+
+Le template d'import à suivre ne comporte pas d'en-tête et comporte un groupe de synonyme par ligne, comme illustré dans l'exemple suivant : 
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/connaissances/importsyonymesexemple.PNG')" alt="synonymes">
 </div>
 
 

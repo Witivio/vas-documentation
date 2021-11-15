@@ -21,7 +21,7 @@ module.exports = {
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['link', { rel: "icon", sizes: "16x16", href: "/assets/img/index/favicon.ico" }],
-    ['link', { rel: 'icon', href: '/assets/img/logo_white.png' }],
+    ['link', { rel: 'icon', href: '/assets/img/VirtualAgentStudio300.png' }],
     ['script', { src: "/scripts/redirection.js" }],
     ['script', { src: "https://webchat.witivio.com/v2/init.js" }],
     ['script', { id: "hs-script-loader", async: "", defer: "", src: "//js.hs-scripts.com/5583418.js"}],
@@ -44,7 +44,7 @@ module.exports = {
   themeConfig: {
     smoothScroll: true,
     repo: '',
-    logo: '/assets/img/index/logo_black.png',
+    logo: '/assets/img/index/VirtualAgentStudio.png',
     editLinks: false,
     docsDir: '',
     editLinkText: '',

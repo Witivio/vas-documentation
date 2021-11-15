@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /assets/img/index/logo_black.png
+heroImage: /assets/img/index/VirtualAgentStudio.png
 tagline: Chatbots d’entreprise pour le Digital Workplace
 taglineStartup: Witivio 365 est la plateforme complète de création et monitoring de Chatbots pour le Digital Workplace et Office 365. Nos solutions sont pensées pour vos collaborateurs et visent à faciliter l’accès à l’information au sein de votre organisation.
 actionText: Commencer →
