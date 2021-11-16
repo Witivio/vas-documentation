@@ -12,7 +12,22 @@ sidebar : auto
 
 [Replay Webinars et tutos](https://www.youtube.com/channel/UCTI2DzxWddbejQ_TlX-WkdQ/videos)
 
-## Transfert de fichier via votre chatbot / Catalogue de chatbots dans Teams / Suggérez des questions à vos utilisateurs / Feedback d'apprentissage 
+## Modifier les alternatives / Un nouveau coach ou admin ? Nous lui envoyons un e-mail pour tout lui expliquer / Etre notifié de l'usage et la performance d'un chatbot / Créer des variables / Le Virtual Agent Studio supporte 47 nouvelles langues 
+**Mise à jour octobre 2021**
+
+* Modifier les alternatives sans devoir les supprimer auparavant.
+* Un nouveau coach ou admin ? Nous lui envoyons un e-mail pour tout lui expliquer à votre place.
+* Envie de savoir si votre chatbot est performant ou pas ?
+* Créer des variables, ça sert à quoi ?
+* Amélioration de la performance du Virtual Agent Studio
+* Le Virtual Agent Studio supporte 47 nouvelles langues !
+
+
+<br/>
+<br/>
+<iframe class="video_embed" src="https://www.youtube.com/embed/DdOEozTfVcA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Nouvelle langue supportée : l'espagnol / Customisez votre WebChat depuis la plateforme Witivio / Campagnes Teams / Import de Synonymes 
 **Mise à jour 23 mars 2021**
 
 * Nouvelle langue supportée : l'espagnol 
