@@ -12,6 +12,20 @@ sidebar : auto
 
 [Replay Webinars et tutos](https://www.youtube.com/channel/UCTI2DzxWddbejQ_TlX-WkdQ/videos)
 
+## API Provider : le pouvoir des APIs
+**Mise à jour novembre 2021**
+
+Désormais, votre studio vous propose un nouvel outil, un Provider d'API. 
+
+Vous pouvez grâce a cette nouvelle fonctionnalité, enregistrer une API et l'appeler aussi souvent que nécessaire en quelques clics.
+Avant cette mise à jour, pour pouvoir utiliser la même API dans plusieurs arbres conversationnels, il fallait re-paramétrer à chaque fois la connexion à l'API. Désormais l'API est disponible dans votre Provider. 
+
+Par exemple, pour un chatbot IT, qui après quelques questions en arrive à proposer la connexion à l'outil de création de tickets, il suffit de créer dans le Provider API, l'API ticket une seule fois, puis la solliciter aussi souvent que nécessaire.
+
+<br/> 
+<br/>
+<iframe class="video_embed" src="https://www.youtube.com/embed/-KRTn1uZbPs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Modifier les alternatives / Un nouveau coach ou admin ? Nous lui envoyons un e-mail pour tout lui expliquer / Etre notifié de l'usage et la performance d'un chatbot / Créer des variables / Le Virtual Agent Studio supporte 47 nouvelles langues 
 **Mise à jour octobre 2021**
 
