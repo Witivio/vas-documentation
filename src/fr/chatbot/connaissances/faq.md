@@ -921,7 +921,7 @@ Déroulez le menu afin de choisir l'action que doit faire le chatbot
   <img :src="$withBase('/assets/img/fr/connaissances/fluxdeconversation.PNG')" alt="flux de conversation">
 </div>
 
-### ACTIONS
+#### ACTIONS
 ---
 #### Envoyer un message à l'utilisateur
 ---
@@ -931,8 +931,97 @@ Le chatbot envoie un message à l'utilisateur. Vous pouvez personnalsier votre m
   <img :src="$withBase('/assets/img/fr/connaissances/fluxenvoyerunmessage.PNG')" alt="fluxdeconversation">
 </div>
 
+---
+#### Poser une question à l'utilisateur avec une liste de choix
+---
 
+Cette action permet d'intégrer une question avec une liste de choix à votre flux de conversation.
+Ajoutez votre question puis cliquez sur Ajouter un choix. Ajoutez autant de choix que nécessaire. Les choix se présenteront sous forme de boutons cliquables. Complétez ensuite chaque branche des respectifs choix. 
 
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/connaissances/listedechoix.PNG')" alt="fluxdeconversation">
+</div>
+
+---
+#### Poser une question à l'utilisateur
+---
+
+Cette action permet au chatbot de poser une question ouverte à l'utilisateur et la réponse sera enregistrée sous forme de variable.
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/connaissances/poserunequestion.PNG')" alt="fluxdeconversation">
+</div>
+
+#### Demander un fichier à l'utilisateur
+---
+
+Cette action permet au chatbot de demander à l'utilisateur d'ajouter un fichier. L'utilisateur pourra ainsi joindre un fichier en PJ à la conversation sur Microsoft Teams. 
+
+Exemple : 
+- Ajouter un justificatif pour une note de frais
+- Joindre une capture d'écran à la procédure d'ouverture de ticket au support  
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/connaissances/joindreunfichier.PNG')" alt="fluxdeconversation">
+</div>
+
+#### Envoyer une adaptive card à l'utilisateur
+---
+
+Ajoutez une adaptive card à votre flux de conversation. Completez les champs nécessaires.
+
+* Ajoutez un titre 
+* Ajoutez une image : coller l'url de l'image depuis la galerie d'images (Outils > Galerie d'image)
+* Ajoutez le texte 
+* Ajoutez un ou plusieurs boutons : ajouter le titre ainsi que l'URL du bouton
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/connaissances/adaptivecard.PNG')" alt="fluxdeconversation">
+</div>
+
+#### Envoyer une adaptive card à partir d'un JSON
+---
+
+Ajoutez une adaptive card à votre flux de conversation depuis un code json. 
+
+Collez le code JSON dans la zone de texte. Pour rappel, vous pouvez copier le code json d'une adaptive card déjà existante dans votre base de connaissances.
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/connaissances/adaptivecardjson.PNG')" alt="fluxdeconversation">
+</div>
+
+#### Commencer un autre dialogue
+---
+
+Cette action permet d'appeler un flux de conversation externe, un autre flux de conversation faisant partie de la base de connaissances du chatbot. 
+
+S'il existe d'autres flux, déroulez le menu ouvrant et sélectionnez le dialogue que vous souhaitez appeler. Sélectionner VOIR LE DIALOGUE si vous souhaitez afficher le flux sélectionné. 
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/connaissances/commencerundialogue.PNG')" alt="fluxdeconversation">
+</div>
+
+#### Commencer un autre dialogue
+---
+
+Cette action permet d'appeler un flux de conversation interne. Nommez le dialogue, ajoutez-le puis sélectionnez-le en haut à droite de votre page afin de l'ouvrir et le construire. 
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/connaissances/appelerdialogueinterne.PNG')" alt="fluxdeconversation">
+</div>
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/connaissances/appelerdialogueinterne2.PNG')" alt="fluxdeconversation">
+</div>
+
+#### Commencer un autre dialogue
+---
+
+Cette action permet d'appeler un flux de conversation interne. Nommez le dialogue, ajoutez-le puis sélectionnez-le en haut à droite de votre page afin de l'ouvrir et le construire. 
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/connaissances/appelerdialogueinterne.PNG')" alt="fluxdeconversation">
+</div>
 
 ## Alternatives
 

@@ -251,7 +251,7 @@ Une fois l'escalade configurée, téléchargez le fichier ZIP du chatbot ainsi q
 - Cliquez sur Charger une application personnalisée en bas à gauche
 - Sélectionnez le fichier ZIP de gestion de tickets
 - Sélectionnez l'équipe support Teams créer au préalable.
-- Renseignez l'Id et le mot de passe du bot service (Cliquez ici pour en savoir plus)
+- Renseignez l'Id du chatbot et l'Id de l'escalade (Outils > Escalade > CONFIGURER l'escalade Teams > vous retrouverez ici les deux ID demandés)
 
 ::: tip 💡
 Lorsque le message suivant apparait dans l'équipe Support Teams, cela signifie que l'escalade est correctement configurée:
