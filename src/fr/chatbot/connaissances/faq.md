@@ -906,6 +906,7 @@ Glissez la forme Next escalation à la fin de votre arbre de conversation ou à 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/connaissances/responsedynamique18.png')" alt="reponse de type dyanmique 18">
 </div>
+ 
 
 ### Flux de conversation 
 
@@ -1102,6 +1103,9 @@ Le code suivant est à ajouter dans la réponse à une question:
 <attachment contentType="button" title="Your title" link="Your link" />
 ```
 
+::: warning ⚠️
+**Le nombre de flux ou arbre de conversation par chatbot est limité à 400.**
+:::
 
 
 ### Commentaires
