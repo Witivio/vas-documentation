@@ -1002,14 +1002,6 @@ S'il existe d'autres flux, déroulez le menu ouvrant et sélectionnez le dialogu
   <img :src="$withBase('/assets/img/fr/connaissances/commencerundialogue.PNG')" alt="fluxdeconversation">
 </div>
 
-#### Commencer un autre dialogue
----
-
-Cette action permet d'appeler un flux de conversation interne. Nommez le dialogue, ajoutez-le puis sélectionnez-le en haut à droite de votre page afin de l'ouvrir et le construire. 
-
-<div class="image_center">
-  <img :src="$withBase('/assets/img/fr/connaissances/appelerdialogueinterne.PNG')" alt="fluxdeconversation">
-</div>
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/connaissances/appelerdialogueinterne2.PNG')" alt="fluxdeconversation">
