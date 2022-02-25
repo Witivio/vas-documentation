@@ -916,7 +916,7 @@ Accédez à l'onglet Connaissances puis FAQ. Une fois que vous avez ajouté une 
 
 Débutez la construction du flux de conversation en cliquant sur + COMMENCER LE DIALOGUE. 
 
-Déroulez le menu afin de choisir l'action que doit faire le chatbot 
+Déroulez le menu afin de choisir l'action que doit faire le chatbot. Cliquez sur + afin d'ajouter une nouvelle étape. 
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/connaissances/fluxdeconversation.PNG')" alt="flux de conversation">
@@ -1015,6 +1015,14 @@ Cette action permet d'appeler un flux de conversation interne. Nommez le dialogu
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/connaissances/appelerdialogueinterne.PNG')" alt="fluxdeconversation">
 </div>
+
+#### Tester un flux de conversation
+
+Il est possible de tester le flux de conversation directement depuis la question. Pour cela, sauvegardez et fermez votre flux de conversation. Entrainez ensuite votre base de connaissances. Cette manipulation est à faire une seule fois. 
+
+Une fois l'entrainement terminé, accédez de nouveau à votre question et ouvrez le panneau ESSAYER à gauche. Posez votre question au chatbot afin de la tester. Si vous souhaitez apporter des modifications, procédez aux changements puis sauvegardez avec l'icône en haut à droite 💾. Il n'est pas nécessaire de renouveler l'entrainement. Reposez votre question de nouveau dans le panneau ESSAYER afin de vérifier que les changements ayant été pris en compte.  
+
+
 
 ## Alternatives
 
