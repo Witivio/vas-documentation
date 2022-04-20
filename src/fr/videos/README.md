@@ -8,7 +8,7 @@ sidebar : auto
 
 ### Retrouvez ici toutes les vidéos concernant les mises à jours et améliorations de la plateforme Witivio.
 
-### Retrouvez également nos replys de webinars et vidéos tutos sur notre chaîne youtube 
+### Retrouvez également nos replays de webinars et vidéos tutos sur notre chaîne youtube 
 
 [Replay Webinars et tutos](https://www.youtube.com/channel/UCTI2DzxWddbejQ_TlX-WkdQ/videos)
 
