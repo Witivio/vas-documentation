@@ -360,7 +360,7 @@ Si vous souhaitez obtenir le code JS de votre configuration, cliquer sur COPIER 
 ## Webpart SharePoint Modern
 
 
->Vous pouvez télécharger la webpart [**ici**](http://webchat.witivio.com/webpart/witivio-webchat.sppkg)
+>Vous pouvez télécharger la webpart [**ici**](https://webchat.witivio.com/webpart/witivio-webchat.sppkg)
 
 
 Pour ajouter le composant WebPart dans votre SharePoint Modern, vous devez ajouter le package sppkg au catalogue des applications.
