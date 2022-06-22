@@ -47,12 +47,12 @@ Ci-dessous par exemple , l’idée proposée, portant sur Dynameet, a été vot�
 
 
 
-## Boîte de réception
+## Historique d'entrainement et de publication
 
-Ce bouton vous informe de l’état de la boîte de réception du chatbot sélectionné. Vous retrouvez le nombre de questions sans réponse, de questions à score faible, de questions suggérées et le nombre de feedbacks non résolus.
+Ce bouton renseigne l'historique d'entrainement et de publication. Vous retrouverez ainsi la date et l'heure du dernier entrainement et de la dernière publication de la base de connaissances. Si votre chatbot est multilingue, vous trouverez les données liées à la langue affichée. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/barre_notification/notification3.png')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/barre_notification/historique d'entrainement.PNG')" alt="low score">
 </div>
 
 
