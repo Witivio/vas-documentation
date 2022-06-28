@@ -93,7 +93,7 @@ Une fois votre base de connaissances exportée, apportez les modifications souha
 * Type de réponses: simple, contextuelle, arbre de conversation, Adaptive Card, Webhooks, Power Automate, Azure Logic Apps.
 * Status de publication: Récemment ajouté ou modifié, Entrainé et non publié, Publié en intégration, Publié en production
 * Tous les états : prêt à être publié, à valider
-* Tous les tags (à configurer dans l'onglet Paramètres > paramètres)
+* Tous les tags : il est possible d'appliquer un filtre multi-tags afin d'afficher les questions comportant plusieurs tags à la fois. 
 * Pas de réponses
 * Peu d'alternatives
 * Tout sélectionner

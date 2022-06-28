@@ -6,9 +6,11 @@
 
 ## Identité
 
-Cet onglet permet non seulement d’avoir des informations sur l’identité du chatbot, mais également de changer la photo et le nom du chatbot (à l'aide du petit stylo).
+Cet onglet permet non seulement d’avoir des informations sur l’identité du chatbot, mais également de changer la photo, le nom du chatbot (à l'aide du petit stylo) ainsi que la description.
 
-Vous pouvez également décider de supprimer le chatbot.
+Vous pouvez également demander la suppresion du chatbot.
+
+Cet onglet vous permet aussi d'ajouter un ou plusieurs tags à votre chatbot. Par exemple, ajoutez le tag Chatbot démo, Chatbot test, en construction, ... Ces tags s'affichent à côté du nom du chatbot au niveau de la page d'accueil. 
 
 
 ## Autorisations

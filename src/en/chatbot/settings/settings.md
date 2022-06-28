@@ -10,12 +10,12 @@ Click on **Settings tab** then **Settings** again.
 ## Bot
 
 
-This tab allows to have information about the Id of the chatbot, but also to
-modify its name and pictue, when needed.
+This tab allows you not only to have information about the identity of the chatbot, but also to change the photo, the name of the chatbot (using the small pen) and the description.
 
-::: tip 💡
-You can also delete the chatbot.
-:::
+You can also request the deletion of the chatbot.
+
+This tab also allows you to add one or more tags to your chatbot. For example, add the tag Demo chatbot, Test chatbot, Building chatbot, ... These tags are displayed next to the chatbot's name on the homepage. 
+
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/en/settings/setting2.png')" alt="low score">

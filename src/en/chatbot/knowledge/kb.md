@@ -122,7 +122,6 @@ can therefore filter by:
 
 
 
-
 ## Advanced Import 
 
 Once your knowledge base is exported, make the required modifications, save your excel export and then import it using the **ADVANCED IMPORT** button.
@@ -131,6 +130,26 @@ Once your knowledge base is exported, make the required modifications, save your
   <img :src="$withBase('/assets/img/en/knowledge/kb8.png')" alt="low score">
 </div>
 
+
+### Filter your knowledge base
+
+>Search bar: you can find a question more easily and quickly by typing one or more words in the search bar.
+
+>You can also use other filters to find a question more easily in your knowledge base. You can filter by :
+
+* Categories
+* Type of answers: simple, contextual, conversation tree, Adaptive Card, Webhooks, Power Automate, Azure Logic Apps.
+* Publication status: Recently added or modified, Trained and not published, Published in integration, Published in production.
+* All states: ready to be published, to be validated
+* All tags: it is possible to apply a multi-tag filter to display questions with multiple tags at the same time. 
+* No answers
+* Few alternatives
+* Select all
+
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/en/knowledge/filter.PNG')" alt="low score">
+</div>
 
 
 ## Create a new question
@@ -143,7 +162,7 @@ Once you have created your question, click on it to modify it, add the answer an
 
 * It is now possible to modify the advanced parameters (category, profile, schedule ...) of a question before entering the answer.
 * Status: Fill in the status of your question and add a tag to facilitate the construction of your chatbot's knowledge base (Ready to be published or validated).
-* Tags: Improve, complete the enswer,... It's up to you to determine the use of this feature!
+* Tags: Improve, complete the answer,... It's up to you to determine the use of this feature!
 
 You can also add tags to your chatbots from the Settings tab > Settings > Bot.
 
