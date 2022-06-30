@@ -24,7 +24,7 @@ Avant de débuter la construction de votre base de connaissances, n'hésitez pas
 
 ## Import
 
-Si vous possédez déjà une base de connaissances créée en amont (questions/réponses issues d'une FAQ), vous pourrez importer ces données sur la plateforme. Le fichier à importer doit être sous format Excel et suivre une forme précise :
+Si vous possédez déjà une base de connaissances créée en amont (questions/réponses issues d'une FAQ), vous pouvez importer ces données sur le studio. Le fichier à importer doit être un fichier Excel avec le format suivant :
 
 -   **Colonne 1** : Les questions
 -   **Colonne 2:** Les réponses
@@ -55,24 +55,24 @@ Le fichier à importer ne doit pas comporter de titre de colonne
 
 Cliquez [**ici**](https://witivio.blob.core.windows.net/static/samples/exemple%20import.xlsx) pour télécharger un exemple de fichier d'import
 
-Pour importer un fichier, il faut cliquer sur "Importer"(1)
+Pour importer un fichier, cliquez sur "Importer"(1) en haut à droite de la page FAQ. 
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/connaissances/kb3.png')" alt="low score">
 </div>
 
 
-Il vous faut ensuite sélectionner une [**catégorie**](/fr/chatbot/connaissances/categories.html) dans laquelle vous souhaitez importer votre fichier. La catégorie **Editorial** regroupe l’ensemble des questions.
+Choisissez ensuite la [**catégorie**](/fr/chatbot/connaissances/categories.html) dans laquelle vous souhaitez importer votre fichier.
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/connaissances/kb4.png')" alt="low score">
 </div>
 
-
+Cliquez ensuite sur Ajouter. Les questions importées seront ainsi intégrées à la base de connaissances du chatbot. 
 
 ## Export
 
-Le bouton **EXPORTER** permet de télécharger toute la base de connaissances. Il est possible de télécharger par catégories en ajoutant un filtre avant l’exportation.
+Le bouton **EXPORTER** permet de télécharger toute la base de connaissances sous format Excel. Il est possible d'appliquer des filtres avant l'export. Par exemple, filtrez par catégorie, par type de réponses avant d'exporter. 
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/connaissances/kb5.png')" alt="low score">
@@ -80,7 +80,9 @@ Le bouton **EXPORTER** permet de télécharger toute la base de connaissances. I
 
 ## Import avancé
 
-Une fois votre base de connaissances exportée, apportez les modifications souhaitées, sauvegardez votre export excel puis importez-le à l'aide du bouton **IMPORT AVANCE**.
+Une fois votre base de connaissances exportée, apportez les modifications souhaitées, sauvegardez votre export Excel puis importez-le à l'aide du bouton **IMPORT AVANCE**.
+
+Pour cela, cliquez sur la flèche à droite du bouton IMPORTER puis sur Import avancé. Sélectionnez le fichier Excel modifié puis cliquez sur Ajouter. 
 
 
 ### Filtrez votre base de connaissances

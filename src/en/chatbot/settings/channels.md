@@ -400,7 +400,7 @@ The Webchat also appears in the Webchat channel settings tab, so you can test an
 
 ## SharePoint Modern Webpart
 
-You can download the webpart [here](http://webchat.witivio.com/webpart/witivio-webchat.sppkg)
+You can download the webpart [here](https://webchat.witivio.com/webpart/witivio-webchat.sppkg)
 
 In order to add the webpart into your SharePoint Modern, you need to add the sppkg package to the app catalog.
 
