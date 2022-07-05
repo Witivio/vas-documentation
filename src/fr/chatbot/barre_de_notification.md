@@ -50,7 +50,7 @@ Ci-dessous par exemple , l’idée proposée, portant sur Dynameet, a été vot�
 Ce bouton renseigne l'historique d'entrainement et de publication. Vous retrouverez ainsi la date et l'heure du dernier entrainement et de la dernière publication de la base de connaissances. Si votre chatbot est multilingue, vous trouverez les données liées à la langue affichée. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/barre_notification/historique d'entrainement.PNG')" alt="low score">
+  <img :src="$withBase('/assets/img/fr/barre_notification/historique_entrainement.PNG')" alt="low score">
 </div>
 
 
