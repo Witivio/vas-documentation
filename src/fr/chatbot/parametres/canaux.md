@@ -337,7 +337,7 @@ La fenêtre Webchat est votre chatbot en intégration et vous permet de le teste
 ```
 <script>
   "use strict";
-     const userConfig = {
+  window.webchatV3Settings = {
         color: "[COLOR]",
         position: "right bottom 50px 25px",
         avatar: "[URL]",
@@ -358,15 +358,15 @@ La fenêtre Webchat est votre chatbot en intégration et vous permet de le teste
         skipContent: false,
         callout: true,
         calloutCapacity: true,
-        calloutDescription: "Bonjour !",
+        calloutDescription: "",
         autocomplete: true,
         refresh: true,
         hideSendBox: false,
         apiKey: "[APIKEY]",
         botId: "[BOTID]",
         triggerableDialog: {
-          triggerableDialogId: "[triggerableDialogId]",
-          triggerableDialogItemId: "[triggerableDialogItemId]",
+          triggerableDialogId: "[TRIGGERABLEDIALOGID]",
+          triggerableDialogItemId: "[TRIGGERABLEDIALOGITEMID]",
         },
         environnement: "integration",
         profileId: "",
@@ -374,8 +374,6 @@ La fenêtre Webchat est votre chatbot en intégration et vous permet de le teste
         displayName: "AAA",
         env: "prod",
       };
-
-window.userSettings = userConfig;
 var e=document,t=e.createElement("script");t.type="text/javascript",t.async=!1,t.src="https://webchat.virtualagentstudio.com/v3/static/js/main.js";var a=e.getElementsByTagName("script")[0];a.parentNode.insertBefore(t,a);
 var e=document,t=e.createElement("script");t.type="text/javascript",t.async=!1,t.src="https://webchat.virtualagentstudio.com/v3/source/simple-update-in.production.min.js";var a=e.getElementsByTagName("script")[0];a.parentNode.insertBefore(t,a);
 </script>
