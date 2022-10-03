@@ -255,7 +255,7 @@ La fenêtre Webchat est votre chatbot en intégration et vous permet de le teste
 }
             </code>
             </pre>
-            Si auncune configuration n'est spécifiée, le composant génère un identifiant unique qui est enregistré dans le navigateur.
+            Si aucune configuration n'est spécifiée, le composant génère un identifiant unique qui est enregistré dans le navigateur.
             </td>
         </tr>
         <tr>
@@ -356,27 +356,24 @@ La fenêtre Webchat est votre chatbot en intégration et vous permet de le teste
         slide: false,
         animation: true,
         skipContent: false,
-        callout: true,
-        calloutCapacity: true,
-        calloutDescription: "",
+        callout: {
+          display: true,
+          capacity: false,
+          description: "",
+        }
         autocomplete: true,
         refresh: true,
         hideSendBox: false,
         apiKey: "[APIKEY]",
         botId: "[BOTID]",
-        triggerableDialog: {
-          triggerableDialogId: "[TRIGGERABLEDIALOGID]",
-          triggerableDialogItemId: "[TRIGGERABLEDIALOGITEMID]",
-        },
-        environnement: "integration",
-        profileId: "",
-        userId: "AAA",
-        displayName: "AAA",
-        env: "prod",
       };
 var e=document,t=e.createElement("script");t.type="text/javascript",t.async=!1,t.src="https://webchat.virtualagentstudio.com/v3/static/js/main.js";var a=e.getElementsByTagName("script")[0];a.parentNode.insertBefore(t,a);
 var e=document,t=e.createElement("script");t.type="text/javascript",t.async=!1,t.src="https://webchat.virtualagentstudio.com/v3/source/simple-update-in.production.min.js";var a=e.getElementsByTagName("script")[0];a.parentNode.insertBefore(t,a);
 </script>
+
+<body>
+  <div class="vas-webchat" id="vas-webchat"></div>
+</body>
 ```
 
 <table>
@@ -437,15 +434,15 @@ var e=document,t=e.createElement("script");t.type="text/javascript",t.async=!1,t
             <td>Permet de ne pas afficher le menu ainsi que le message de bienvenue à l'ouverture de la webchat.</td>
         </tr>
 		    <tr>
-            <td>callout</td>
+            <td>callout.display</td>
             <td>Activer le message de bienvenue (par défaut: true). Il s'agit du message de base d'invitation à la conversation à personnaliser depuis l'onglet.</td>
         </tr>
 		    <tr>
-            <td>calloutCapacity</td>
+            <td>callout.capacity</td>
             <td>Affiche les suggestions dans la callout (menu.suggestion doit être activé).</td>
         </tr>
 		    <tr>
-            <td>CalloutDescription</td>
+            <td>callout.description</td>
             <td>Message d'accueil présente dans la callout (le paramètre callout doit être activé)</td>
         </tr>
 		    <tr>
@@ -477,24 +474,20 @@ var e=document,t=e.createElement("script");t.type="text/javascript",t.async=!1,t
             <td>Identifiant du Triggerable Item ID à démarrer (facultatif)</td>
         </tr>
         <tr>
-            <td>environnement</td>
-            <td>Environnement de la base de connaissance ('production', ou 'intégration') (par défaut : 'intégration')</td>
+            <td>environment</td>
+            <td>Environnement de la base de connaissance ('production', ou 'intégration') (par défaut : 'production')</td>
         </tr>
         <tr>
             <td>profileId</td>
-            <td>Paramètres obligatoires. (par défault: "")</td>
+            <td>Modifie la réponse apportée par la webchat selon le profil de l'utilisateur. (par défault: "")</td>
         </tr>
         <tr>
             <td>userId</td>
-            <td>Paramètres obligatoires. (par défault: "AAA")</td>
+            <td>Si aucune configuration n'est spécifiée, le composant génère un identifiant unique qui est enregistré dans le navigateur. (par défault: "")</td>
         </tr>
         <tr>
             <td>displayName</td>
-            <td>Paramètres obligatoires. (par défault: "AAA")</td>
-        </tr>
-        <tr>
-            <td>env</td>
-            <td>Environnement utilisé par les développeurs (par défaut : "prod")</td>
+            <td>Nom d'utilisateur. (par défault: "")</td>
         </tr>
 </table>
 
