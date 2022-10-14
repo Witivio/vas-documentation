@@ -24,13 +24,15 @@ Grâce à la liste déroulante, choisissez le type d'interaction que vous souhai
   <img :src="$withBase('/assets/img/fr/communication/creation-sondage')" alt="Début de sondage">
 </div>
 
-Pour l'exemple nous choisissons de poser une question avec une liste de choix. 
+Pour l'exemple nous choisissons de poser une question simple dans une liste de choix afin d'initier le lancement du sondage. 
 
 Grâce à cette fonctionnalité c'est le bot qui vient parler à l'utilisateur et non l'invere, nous vous invitons donc à ponctuer la conversation pour essayer de la rendre dynamique et augmenter l'immersion de l'expérience conversationelle.
 
-### Heading level 3  Paramètre important
-
+::: warning ⚠️
 Afin d'enregistrer les réponses reçues de votre sondage vous devrez paramétrer une variable. Cette étape est primordiale pour l'enregistrement et l'interprétation des résultats.
+:::
+
+
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/communication/lancement-sondage')" alt="Première-question">
