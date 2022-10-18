@@ -235,8 +235,120 @@ Cliquez sur RAPPORT pour avoir un résumé de la campagne :
 
 
 
+## Campagnes de sondage
+
+Cliquez sur l'onglet **Communication** puis sur **Campagne teams** ou bien **Campagne Skype** selon votre besoin.  
 
 
+
+Rendez-vous dans l'onglet **terminé** . Depuis cette interface vous pouvez consulter toutes les campagnes. Nous allons donc sélectionner une campagne de sondage.
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/communication/campagnetermine.PNG')" alt="campagnes terminées">
+</div>
+
+
+## Engagement de la campagne
+
+
+Dans ce tableau récapitulatif de campagne nous retrouvons plusieurs élements liés à l'envoi de la campagne : 
+
+- Destinataires (le nombre de personnes à qui cette campagne a été envoyée)
+- Messages envoyés (le nombre de messages ayant été reçus)
+- Messages vus (les personnes ayant effectivement reçues le sondage)
+- Messages en erreur (Les messages ayant rencontré des problèmes)
+
+
+En bas vous retrouverez le détail de chaque élement avec la liste d'utilisateurs pour chaque etat. 
+
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/communication/sondage-board.PNG')" alt="engagement de campagne">
+</div>
+
+
+
+## Detail des réponses
+
+
+On trouve ici le nombre de réponses reçues ainsi que le temps de réponse moyen au sondage. Le temps de réponse est calculé à partir de l'instant où l'utilisateur va répondre à la première question du sondage. 
+
+Vous pouvez visualiser deux types de "dernière réponse". Les réponses simples sous forme de texte s'afficheront comme ceci : 
+
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/communication/reponse-simple.PNG')" alt="réponse simple">
+</div>
+
+Tandis que les réponses à choix multiples seront affichées sous forme de camembert, permettant l'interprétation des différents choix et de leurs résultats. 
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/communication/detailchoix.PNG')" alt="visualisation du choix du détails">
+</div>
+
+
+En cliquant sur le lien **plus de détails** disponible sous chaque question vous pouvez visualiser l'onglet permettant de visualiser l'ensemble des réponses pour chaque utilisateur par rapport à la question sélectionnée. 
+
+
+
+## Detail des réponses
+
+
+Vous pouvez aussi faire le choix de visualiser les résultats par utilisateur. Pour ouvrir les réponses d'un utilisateur vous pouvez cliquer sur son nom de compte Microsoft. 
+
+
+
+
+
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/communication/reponseutilisateur.PNG')" alt="onglet : réponses utilisateurs">
+</div>
+
+
+Vous pouvez à présent constater le détail des réponses pour chaque utilisateur. Dans le cas, où vous auriez activé l'anonymisation le compte Microsoft ou son adresse-mail seraient masqués. Vous pouvez naviguer à travers les réponses de chaque utilisateur en utilisant le fleches directionnelles à côté de l'adresse de l'utilisateur.
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/communication/reponseutilisateur.PNG')" alt="onglet : réponses utilisateurs">
+</div>
+
+
+
+
+
+## Consulter les campagnes 
+
+Pour paramétrer une campagne déjà pré-programmée rendez-vous dans l'onglet **Brouillon** et cliquez sur **Configurer** de l'un des sondages. 
+
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/communication/configurerclonesondage.PNG')" alt="configurer un sondage">
+</div>
+
+Dans cette nouvelle fenêtre vous pouvez à présent modifier la campagne selon vos souhaits, et utiliser les différentes fonctionnalités : 
+
+- Supprimer
+- Essayer (permet d'envoyer la campagne à un seul utilisateur pour tester)
+- Cloner (permet créer une copie de cette campagne et de l'envoyer dans les brouillons)
+- Envoyer Maintenant 
+- Enregistrer
+
+
+
+Enfin, vous pouvez sélectionner la liste de diffusion en choisissant **une liste existante** ou bien d'envoyer à **tous les utilisateurs**.
+En sélectionnant une liste existante vous pouvez visualiser le nombre d'utilisateurs utilisant Teams, il s'agit donc du nombre d'utilisateurs ciblés par cette campagne.
+
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/communication/liste.PNG')" alt="liste d'utilisateurs">
+</div>
+
+
+Une fois le sondage envoyé il faut parfois attendre plusieurs minutes avant la réception de celui-ci. Les listes sont parfois très longues et l'envoi peut prendre du temps. 
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/teams.PNG')" alt="résultat teams">
+</div>
 
 
 ### Commentaires
