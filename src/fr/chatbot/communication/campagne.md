@@ -344,7 +344,7 @@ En sélectionnant une liste existante vous pouvez visualiser le nombre d'utilisa
 </div>
 
 
-Une fois le sondage envoyé il faut parfois attendre plusieurs minutes avant la réception de celui-ci. Les listes sont parfois très longues et l'envoi peut prendre du temps. 
+Une fois la campagne envoyée il faut parfois attendre plusieurs minutes avant la réception de celui-ci puisqu'il dépend du temps de traitement des paramètres de votre campagne. 
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/teams.PNG')" alt="résultat teams">

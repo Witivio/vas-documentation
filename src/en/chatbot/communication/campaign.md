@@ -249,6 +249,43 @@ Click on REPORT to have a summary of the campaign:
 
 
 
+
+
+## Survey campaigns 
+
+
+
+To create a new campaign please 
+- click on the button **new campagaign**.
+- Fill the name of your campaign 
+- choose the type of campaign message format **survey**.
+- Select the survey you've created earlier.
+- Select the distribution list
+- Save as draft. 
+
+On the draft tab you can find every campaign already created. Select the campaign you need using the **edit** button.  
+
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/communication/configurerclonesondage.PNG')" alt="configurer un sondage">
+</div>
+In this page you can now edit you campaign as you wish and use differents fonctionnalities.
+
+- Delete
+- Clone (to make a copy of this campaign et send it to draft)
+- Try (You can try this campaign sending the message to one user)
+- Send now 
+- Or send later (clicking on the arrow close to the **send now button**)
+- Save
+
+When you choose to **send now** you might need to wait a few minutes to recive it into your application. 
+
+
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/teams.PNG')" alt="résultat teams">
+</div>
+
+
 ### Comments
 ---
 
