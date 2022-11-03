@@ -254,31 +254,54 @@ Click on REPORT to have a summary of the campaign:
 ## Survey campaigns 
 
 
+### Create a new campaign
 
-To create a new campaign please 
-- click on the button **new campagaign**.
+To create a new campaign please use the button **new campagaign**.
 - Fill the name of your campaign 
-- choose the type of campaign message format **survey**.
+- Choose the type of campaign message format **survey**.
 - Select the survey you've created earlier.
 - Select the distribution list
 - Save as draft. 
 
-On the draft tab you can find every campaign already created. Select the campaign you need using the **edit** button.  
+<div class="image_center">
+  <img :src="$withBase('/assets/img/fr/communication/newcampaignsave.PNG')" alt="new campaign">
+</div>
+
+::: warning ⚠️
+In order to get the scheduled push message, your users must have the chatbot installed on Microsoft Teams.  
+:::
+
 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/configurerclonesondage.PNG')" alt="configurer un sondage">
+  <img :src="$withBase('/assets/img/fr/communication/edit-a-campaign.PNG')" alt="edit a campaign">
 </div>
-In this page you can now edit you campaign as you wish and use differents fonctionnalities.
 
-- Delete
-- Clone (to make a copy of this campaign et send it to draft)
-- Try (You can try this campaign sending the message to one user)
-- Send now 
-- Or send later (clicking on the arrow close to the **send now button**)
-- Save
+Once you have created your campaign you can now click on **edit** and use different fonctionnalities.
 
-When you choose to **send now** you might need to wait a few minutes to recive it into your application. 
+
+* **Clone** 
+
+If you want to create a new campaign same as this one. You can use this button to create a copy. Click on the button, add the new title and validate your action. A new copy is created on your campaign dashboard. 
+
+
+* **TRY** 
+
+Before sending the campaign, you have the possibility to try it. Add an email address and click on verify. This will allow you to check if the user has the chatbot application installed in Microsoft Teams. The sending will not be available until the email address corresponds to a valid user. 
+
+
+* **SEND** 
+
+When editing your message, you can decide to send it now or schedule to send it later. 
+
+Click on the arrow to the right of the SEND NOW button, then select Send Later: the campaign can be scheduled to be sent with a delay of up to 6 days.
+
+The campaign is then saved and sent when it's time. 
+
+Once the campaign is finished, find a report in the Teams Campaign tab. 
+
+When you choose **send now** you might need to wait a few minutes to receive it into your application. 
+
 
 
 <div class="image_center">

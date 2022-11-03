@@ -3,64 +3,60 @@
 Create a survey for your collaborators using Virtual Agent Studio.
 
 
-Cliquez sur l'onglet **Communication** puis sur **Sondage**. 
+Click on the  **Communication** tab and then on **Survey**. 
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/communication/Sondage.PNG')" alt="Sondage">
 </div>
-Create a first survey using the button **new survey**. First you have to give a name to this survey.
+Create a first survey please use the button **new survey**. And attribute a name to it.
 
-You can create a new "flux de conversation" for you survey clicking the button **create**.
+To registrer the questions of your survey you need to use the conversation flow tool. To do it, you can click on  **create**.
 
-You are in the creation tool.  This documentation will give you the basics to create a simple survey. If you are new to this creation tool please take a look to our dedicaded documentation about "flux de conversation" .
- [**flux de conversation**](/fr/chatbot/connaissances.html#flux-de-conversation)
+## Create a survey
+
+You are in the conversation flow tool.  This documentation will give you the basics to create a simple survey. If you are new to this creation tool please take a look to our dedicaded documentation about 
+ [**conversation flow**](/fr/chatbot/connaissances.html#flux-de-conversation).
 
 
- You can now use the dropdown and select wich type of interaction you need, to start the conversation with your chatbot.
+ You can now use the dropdown and select wich type of interaction you want, to start the conversation with your chatbot.
 
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/communication/creation-sondage')" alt="Début de sondage">
 </div>
 
-You can chose to ask a simple question with multiple choice to strat the survey. In this exemple we chose to ask the user if he is ready to strat the conversation.
-
+In this exemple we chose to ask a simple question with multiple choice to strat the survey. First we decided to ask the user if he is ready to start the survey. At the moment, it is not possible to reschedule the survey. But your users can wait and answer it later. 
 
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/communication/lancement-sondage')" alt="Première-question">
 </div>
 
-Grâce à cette fonctionnalité c'est le bot qui vient parler à l'utilisateur et non plus l'inverse. Nous vous invitons donc à ponctuer la conversation pour essayer de la rendre dynamique et augmenter l'immersion de l'expérience conversationelle.
+With this new feature the chatbot is talking to the user and not the reverse. Please make sure to ponctuate the conversation to make it feel more dynamical to your users and increase the conversational experience. 
 
 ::: warning ⚠️
-Afin d'enregistrer les réponses reçues de votre sondage vous devrez paramétrer une variable. Cette étape est primordiale pour l'enregistrement et l'interprétation des résultats.
-:::
+To save every user answers into the survey you have to insert a variable. This step is essential to save the data and interprate the results later.
+::: 
 
-
-
-Vos utilisateurs peuvent répondre de manière "libre" à votre chatbot. Pour poser une question libre on utilise "poser une question à l'utilisateur" suivi de la variable pour enregistrer les résultats. 
+You may need your users to answer completely free way to your chatbot. To ask a free way question you can use "ask a question to the user" and add a **variable** to save the results. 
 
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/communication/suite-sondage.png')" alt="choix libre">
 </div>
-
-Pour créer une question à choix multiple on sélectionne "poser une question à l'utilisateur avec une liste de choix". Avec ce type de question les embranchements possibles sont infinis. 
+To create a question with multiple choices please select "ask a question to the user with multiple choices". With this type of question the possibilities of your survey are infinite. Please use a **variable** to save your users answers.
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/communication/choix-multiples-sondages.png')" alt="liste de choix">
 </div>
 
-
-Un dernier message à l'utilisateur pour le remercier et on enregistre pour ne pas perdre l'avancement.
+A last message to the user to thanks him and then **save** your work to not loose it. 
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/communication/fin-sondage.png')" alt="choix libre">
 </div>
 
-
-Votre sondage est prêt. Vous pouvez à présent  [**lancer une campagne**](/fr/chatbot/campagne.html#campagne). 
+Your survey is created. You can now create a [**Survey campaign**](/fr/chatbot/campagne.html#campagne). 
 
 
 
