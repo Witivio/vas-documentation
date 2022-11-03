@@ -29,7 +29,7 @@ In this exemple we chose to ask a simple question with multiple choice to strat 
 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/lancement-sondage')" alt="Première-question">
+  <img :src="$withBase('/assets/img/fr/communication/startdialog.png')" alt="Première-question">
 </div>
 
 With this new feature the chatbot is talking to the user and not the reverse. Please make sure to ponctuate the conversation to make it feel more dynamical to your users and increase the conversational experience. 
@@ -42,21 +42,23 @@ You may need your users to answer completely free way to your chatbot. To ask a 
 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/suite-sondage.png')" alt="choix libre">
+  <img :src="$withBase('/assets/img/fr/communication/variable.png')" alt="free answer">
 </div>
-To create a question with multiple choices please select "ask a question to the user with multiple choices". With this type of question the possibilities of your survey are infinite. Please use a **variable** to save your users answers.
+
+
+To create a question with differents choices please select **list of choices**. With this type of question the possibilities of your survey are infinite. Then, please use a **variable** to save your users answers.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/choix-multiples-sondages.png')" alt="liste de choix">
+  <img :src="$withBase('/assets/img/fr/communication/listofchoices.png')" alt="list of choices">
 </div>
 
 A last message to the user to thanks him and then **save** your work to not loose it. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/fin-sondage.png')" alt="choix libre">
+  <img :src="$withBase('/assets/img/fr/communication/save.png')" alt="save your work      ">
 </div>
 
-Your survey is created. You can now create a [**Survey campaign**](/fr/chatbot/campagne.html#campagne). 
+Your survey is created. You can now create a [**survey campaign**](/fr/chatbot/campagne.html#campagne). 
 
 
 
