@@ -1,6 +1,20 @@
+
 # Sondages
 
-Créez un sondage auprès de vos collaborateurs grâce à Virtual Agent Studio.  
+## Introduction et informations importantes.
+
+
+
+Ce nouveau composant de sondage est livré en production à partir de mardi 14 novembre en version de test. 
+Afin de vous aider à prendre en main le composant nous avons souhaité dans un premier temps désactiver (dans les sondages) les fonctionnalités suivantes : 
+- demander un fichier  à l'utilisateur
+- faire appel à un dialogue interne. 
+
+Ces fonctionnalités feront l'objet d'une mise à jour prochaine.
+
+
+
+## Créer un sondage
 
 
 
@@ -9,6 +23,7 @@ Cliquez sur l'onglet **Communication** puis sur **Sondage**.
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/communication/Sondage.PNG')" alt="Sondage">
 </div>
+
 
 Lancez la création d'un premier sondage en cliquant sur le bouton **nouveau sondage**
 
@@ -59,6 +74,9 @@ Un dernier message à l'utilisateur pour le remercier et on enregistre pour ne p
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/communication/fin-sondage.png')" alt="choix libre">
 </div>
+
+
+
 
 
 Votre sondage est prêt. Vous pouvez à présent  [**lancer une campagne**](/fr/chatbot/campagne.html#campagne). 
