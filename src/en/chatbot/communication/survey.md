@@ -7,7 +7,7 @@
 This new survey component is delivered into production from thuesday November 14th as a beta test version. 
 In order to help you to take control of this component we wanted to desactivate (in the surveys) the following features : 
 - Request a file from the user
-- Call an internal dialog.
+- Call another dialog.
 
 
 These features will be updated soon.

@@ -8,7 +8,7 @@
 Ce nouveau composant de sondage est livré en production à partir de mardi 14 novembre en version de test. 
 Afin de vous aider à prendre en main le composant nous avons souhaité dans un premier temps désactiver (dans les sondages) les fonctionnalités suivantes : 
 - demander un fichier  à l'utilisateur
-- faire appel à un dialogue interne. 
+- faire appel à un autre dialogue. 
 
 Ces fonctionnalités feront l'objet d'une mise à jour prochaine.
 
