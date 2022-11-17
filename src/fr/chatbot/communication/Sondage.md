@@ -36,7 +36,7 @@ Vous êtes dans l'outil de création. Cette documentation vous donnera les bases
 Grâce à la liste déroulante, choisissez le type d'interaction que vous souhaitez pour débuter la conversation avec votre bot.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/creation-sondage')" alt="Début de sondage">
+  <img :src="$withBase('/assets/img/fr/communication/creation-sondage.PNG')" alt="Début de sondage">
 </div>
 
 Pour l'exemple nous choisissons de poser une question simple dans une liste de choix afin d'initier le lancement du sondage. 
@@ -44,7 +44,7 @@ Pour l'exemple nous choisissons de poser une question simple dans une liste de c
 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/lancement-sondage')" alt="Première-question">
+  <img :src="$withBase('/assets/img/fr/communication/lancement-sondage.PNG')" alt="Première-question">
 </div>
 
 Grâce à cette fonctionnalité c'est le bot qui vient parler à l'utilisateur et non plus l'inverse. Nous vous invitons donc à ponctuer la conversation pour essayer de la rendre dynamique et augmenter l'immersion de l'expérience conversationelle.
@@ -59,13 +59,13 @@ Vos utilisateurs peuvent répondre de manière "libre" à votre chatbot. Pour po
 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/suite-sondage.png')" alt="choix libre">
+  <img :src="$withBase('/assets/img/fr/communication/suite-sondage.PNG')" alt="choix libre">
 </div>
 
 Pour créer une question à choix multiple on sélectionne "poser une question à l'utilisateur avec une liste de choix". Avec ce type de question les embranchements possibles sont infinis. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/choix-multiples-sondages.png')" alt="liste de choix">
+  <img :src="$withBase('/assets/img/fr/communication/choix-multiples-sondages.PNG')" alt="liste de choix">
 </div>
 
 

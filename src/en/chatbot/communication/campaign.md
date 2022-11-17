@@ -274,7 +274,7 @@ In order to get the scheduled push message, your users must have the chatbot ins
 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/edit-a-campaign.PNG')" alt="edit a campaign">
+  <img :src="$withBase('/assets/img/en/communication/edit-a-campaign.PNG')" alt="edit a campaign">
 </div>
 
 Once you have created your campaign you can now click on **edit** and use different fonctionnalities.
@@ -304,9 +304,6 @@ When you choose **send now** you might need to wait a few minutes to receive it 
 
 
 
-<div class="image_center">
-  <img :src="$withBase('/assets/img/fr/teams.PNG')" alt="résultat teams">
-</div>
 
 
 ### Comments
