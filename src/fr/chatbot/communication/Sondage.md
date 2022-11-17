@@ -21,7 +21,7 @@ Ces fonctionnalités feront l'objet d'une mise à jour prochaine.
 Cliquez sur l'onglet **Communication** puis sur **Sondage**. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/Sondage.PNG')" alt="Sondage">
+  <img :src="$withBase('/assets/img/fr/communication/Sondage.png')" alt="Sondage">
 </div>
 
 
@@ -35,16 +35,13 @@ Vous êtes dans l'outil de création. Cette documentation vous donnera les bases
 
 Grâce à la liste déroulante, choisissez le type d'interaction que vous souhaitez pour débuter la conversation avec votre bot.
 
-<div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/creation-sondage.PNG')" alt="Début de sondage">
-</div>
 
 Pour l'exemple nous choisissons de poser une question simple dans une liste de choix afin d'initier le lancement du sondage. 
 
 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/lancement-sondage.PNG')" alt="Première-question">
+  <img :src="$withBase('/assets/img/fr/communication/lancement-sondage.png')" alt="Première-question">
 </div>
 
 Grâce à cette fonctionnalité c'est le bot qui vient parler à l'utilisateur et non plus l'inverse. Nous vous invitons donc à ponctuer la conversation pour essayer de la rendre dynamique et augmenter l'immersion de l'expérience conversationelle.

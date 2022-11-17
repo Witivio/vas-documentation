@@ -244,7 +244,7 @@ Cliquez sur l'onglet **Communication** puis sur **Campagne teams** ou bien **Cam
 Rendez-vous dans l'onglet **terminé** . Depuis cette interface vous pouvez consulter toutes les campagnes. Nous allons donc sélectionner une campagne de sondage.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/campagnetermine.PNG')" alt="campagnes terminées">
+  <img :src="$withBase('/assets/img/fr/communication/campagnetermine.png')" alt="campagnes terminées">
 </div>
 
 
@@ -340,14 +340,14 @@ En sélectionnant une liste existante vous pouvez visualiser le nombre d'utilisa
 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/liste.PNG')" alt="liste d'utilisateurs">
+  <img :src="$withBase('/assets/img/fr/communication/liste.png')" alt="liste d'utilisateurs">
 </div>
 
 
 Une fois la campagne envoyée il faut parfois attendre plusieurs minutes avant la réception de celui-ci puisqu'il dépend du temps de traitement des paramètres de votre campagne. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/teams.PNG')" alt="résultat teams">
+  <img :src="$withBase('/assets/img/fr/teams.png')" alt="résultat teams">
 </div>
 
 

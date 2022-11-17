@@ -181,7 +181,8 @@ module.exports = {
           collapsable: true,
           children: [
             ['/en/chatbot/communication/user_lists.md', 'User Lists'],
-            ['/en/chatbot/communication/campaign.md', 'Campaign']
+            ['/en/chatbot/communication/campaign.md', 'Campaign'],
+            ['/en/chatbot/communication/survey.md', 'Survey'],
           ]
         },
         {
@@ -337,6 +338,7 @@ module.exports = {
           children: [
             ['/fr/chatbot/communication/utilisateur_liste.md', "Listes d'utilisateurs"],
             ['/fr/chatbot/communication/campagne.md', 'Campagnes'],
+            ['/fr/chatbot/communication/sondage.md', 'Sondages'],
           ]
         },
         {
