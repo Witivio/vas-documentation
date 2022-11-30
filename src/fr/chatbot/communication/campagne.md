@@ -277,13 +277,13 @@ Vous pouvez visualiser deux types de "dernière réponse". Les réponses simples
 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/reponse-simple.PNG')" alt="réponse simple">
+  <img :src="$withBase('/assets/img/fr/communication/reponse-simple.png')" alt="réponse simple">
 </div>
 
 Tandis que les réponses à choix multiples seront affichées sous forme de camembert, permettant l'interprétation des différents choix et de leurs résultats. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/detailchoix.PNG')" alt="visualisation du choix du détails">
+  <img :src="$withBase('/assets/img/fr/communication/detailchoix.png')" alt="visualisation du choix du détails">
 </div>
 
 
@@ -302,14 +302,14 @@ Vous pouvez aussi faire le choix de visualiser les résultats par utilisateur. P
 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/reponseutilisateur.PNG')" alt="onglet : réponses utilisateurs">
+  <img :src="$withBase('/assets/img/fr/communication/reponseutilisateur.png')" alt="onglet : réponses utilisateurs">
 </div>
 
 
 Vous pouvez à présent constater le détail des réponses pour chaque utilisateur. Dans le cas, où vous auriez activé l'anonymisation le compte Microsoft ou son adresse-mail seraient masqués. Vous pouvez naviguer à travers les réponses de chaque utilisateur en utilisant le fleches directionnelles à côté de l'adresse de l'utilisateur.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/reponseutilisateur.PNG')" alt="onglet : réponses utilisateurs">
+  <img :src="$withBase('/assets/img/fr/communication/reponseutilisateur.png')" alt="onglet : réponses utilisateurs">
 </div>
 
 
@@ -322,7 +322,7 @@ Pour paramétrer une campagne déjà pré-programmée rendez-vous dans l'onglet 
 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/configurerclonesondage.PNG')" alt="configurer un sondage">
+  <img :src="$withBase('/assets/img/fr/communication/configurerclonesondage.png')" alt="configurer un sondage">
 </div>
 
 Dans cette nouvelle fenêtre vous pouvez à présent modifier la campagne selon vos souhaits, et utiliser les différentes fonctionnalités : 

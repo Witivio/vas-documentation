@@ -62,7 +62,7 @@ Vos utilisateurs peuvent répondre de manière "libre" à votre chatbot. Pour po
 Pour créer une question à choix multiple on sélectionne "poser une question à l'utilisateur avec une liste de choix". Avec ce type de question les embranchements possibles sont infinis. 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/choix-multiples-sondages.png')" alt="liste de choix">
+  <img :src="$withBase('/assets/img/fr/communication/choix-multiples-sondage.png')" alt="liste de choix">
 </div>
 
 
