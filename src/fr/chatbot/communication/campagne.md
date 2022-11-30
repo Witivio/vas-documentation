@@ -263,7 +263,7 @@ En bas vous retrouverez le détail de chaque élement avec la liste d'utilisateu
 
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/fr/communication/sondage-board.PNG')" alt="engagement de campagne">
+  <img :src="$withBase('/assets/img/fr/communication/sondage-board.png')" alt="engagement de campagne">
 </div>
 
 
