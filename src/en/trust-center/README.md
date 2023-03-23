@@ -5,7 +5,7 @@ title: "Architecture and security"
 
 
 
-## Introduction
+## Introduction f
 
 This document summarizes the macro technical architecture as well as data management and authentication systems.
 
