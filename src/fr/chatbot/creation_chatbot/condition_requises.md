@@ -101,9 +101,9 @@ Il faut maintenant activer Teams sur ce nouveau bot et modifier les paramètres 
 
 ## Configurer le canal sur l'application Witivio 365
 
-Votre bot est créé sur Azure et configuré pour Microsoft Teams. Vous avez donc toutes les informations pour l'activer dans l'interface. Pour cela, copiez le icrosoft App Id et le Microsoft Password dans les champs correspondant.
+Votre bot est créé sur Azure et configuré pour Microsoft Teams. Vous avez donc toutes les informations pour l'activer dans l'interface. Pour cela, copiez le Microsoft App Id et le Microsoft Password dans les champs correspondant.
 
-Copiew l'url affiché dans l'interface.
+Copiez l'url affiché dans l'interface.
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/creation_chatbot/prerequisite10.1.png')" alt="Apply">
 </div>
@@ -126,7 +126,7 @@ Votre canal est configuré et votre chatbot sera actif sur Teams dans quelques m
 
 Par défaut votre chatbot Teams n'a pas d'image.
 
-Pour lui ajouter une photo, accèdez a votre bot sur azure.
+Pour lui ajouter une photo, accèdez à votre bot sur azure.
 Dans la section **paramètres** cliquez sur **profil de bot**
 Dans ce menu, vous pouvez changer l'icone du bot dans Microsoft Teams ainsi que son nom.
 

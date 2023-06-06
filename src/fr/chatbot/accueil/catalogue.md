@@ -151,7 +151,7 @@ Accéder à l'onglet **Gérer les applications**
 
 Grâce à la barre de recherche, retrouvez l'application **Chatbots** dans la liste et cliquez dessus.
 Vous accédez à une page d'information de l'application **Chatbots**.
-Dans  un premier temps transmettez l'**id de l'application** à la personnes ayant publiée l'app.
+Dans  un premier temps transmettez l'**id de l'application** à la personne ayant publiée l'app.
 Elle en aura besoin pour le renseigner dans la plateforme Witivio.
 
 <div class="image_center">

@@ -59,7 +59,7 @@ Les règles des scores sont les règles qui déterminent le déclenchement de l�
 Si dans l’onglet « Pas de réponse » vous retrouvez des scores supérieurs à 30%, cela s’explique par le fait que l’utilisateur a fait le choix « aucune de ces questions » lorsque l'Active Learning s'est déclenché.
 :::
 
-Le score de confiance (1) pris en charge peut être configurés en cliquant sur **Connaissances** puis **Configuration**.
+Le score de confiance (1) pris en charge peut être configuré en cliquant sur **Connaissances** puis **Configuration**.
 
 <div class="image_center">
   <img :src="$withBase('/assets/img/fr/boite_de_reception/inbox3.png')" alt="Suggested questions 2">
