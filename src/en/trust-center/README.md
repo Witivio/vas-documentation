@@ -5,14 +5,14 @@ title: "Architecture and security"
 
 
 
-## Introduction f
+## Introduction
 
 This document summarizes the macro technical architecture as well as data management and authentication systems.
 
 ## Architecture
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/trust_center/trust_center1.png')" alt="Architecture and security">
+  <img :src="$withBase('/assets/img/en/trustcenter/trust_center1.png')" alt="Architecture and security">
 </div>
 
 
@@ -51,7 +51,7 @@ CF : [https://azure.microsoft.com/en-us/regions](https://azure.microsoft.com/en-
 <br />
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/trust_center/trust_center2.png')" alt="Azure Architecture">
+  <img :src="$withBase('/assets/img/en/trustcenter/trust_center2.png')" alt="Azure Architecture">
 </div>
 
 
@@ -82,7 +82,7 @@ Cf : [https://docs.microsoft.com/en-us/azure/active-directory/application-dev-se
 ---
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/trust_center/trust_center3.png')" alt="Azure Architecture - Flow">
+  <img :src="$withBase('/assets/img/en/trustcenter/trust_center3.png')" alt="Azure Architecture - Flow">
 </div>
 
 
@@ -98,7 +98,7 @@ When configuring a bot, the chatbot administrator / sponsor must grant special p
 ---
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/trust_center/trust_center4.png')" alt="Azure Architecture - Architecture">
+  <img :src="$withBase('/assets/img/en/trustcenter/trust_center4.png')" alt="Azure Architecture - Architecture">
 </div>
 
 
@@ -177,7 +177,7 @@ Communication with the Skype Online or Skype OnPremise server is done using the 
 Cf : [https://ucwa.skype.com/](https://ucwa.skype.com/)
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/trust_center/trust_center5.png')" alt="Protocol and communication">
+  <img :src="$withBase('/assets/img/en/trustcenter/trust_center5.png')" alt="Protocol and communication">
 </div>
 
 
@@ -186,7 +186,7 @@ Cf : [https://ucwa.skype.com/](https://ucwa.skype.com/)
 ---
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/trust_center/trust_center6.png')" alt="Protocol and communication">
+  <img :src="$withBase('/assets/img/en/trustcenter/trust_center6.png')" alt="Protocol and communication">
 </div>
 
 
@@ -222,7 +222,7 @@ Authentication to the Skype for Business OnPremise server is done with:
 The Skype for Business Connector is installed on an internal server. The push system requires communication to the cloud.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/trust_center/trust_center7.png')" alt="Protocol and communication - Communication API push with the chatbot">
+  <img :src="$withBase('/assets/img/en/trustcenter/trust_center7.png')" alt="Protocol and communication - Communication API push with the chatbot">
 </div>
 
 <br />
@@ -230,7 +230,7 @@ The Skype for Business Connector is installed on an internal server. The push sy
 <br />
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/trust_center/trust_center8.png')" alt="Protocol and communication - Communication API push with the chatbot">
+  <img :src="$withBase('/assets/img/en/trustcenter/trust_center8.png')" alt="Protocol and communication - Communication API push with the chatbot">
 </div>
 
 
@@ -264,7 +264,7 @@ Cf : [https://docs.microsoft.com/en-us/azure/key-vault/key-vault-whatis](https:/
 ---
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/trust_center/trust_center9.png')" alt="Flow">
+  <img :src="$withBase('/assets/img/en/trustcenter/trust_center9.png')" alt="Flow">
 </div>
 
 
@@ -276,7 +276,7 @@ Cf : [https://docs.microsoft.com/en-us/azure/key-vault/key-vault-whatis](https:/
 The interconnection between the chatbot and Microsoft Teams is operated by Microsoft.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/trust_center/trust_center10.png')" alt="Protocol and communication - Microsoft Teams">
+  <img :src="$withBase('/assets/img/en/trustcenter/trust_center10.png')" alt="Protocol and communication - Microsoft Teams">
 </div>
 
 
@@ -291,7 +291,7 @@ An Azure AD application specific to each chatbot (create in the Witivio tenant) 
 ---
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/trust_center/trust_center11.png')" alt="Protocol and communication - WebChat">
+  <img :src="$withBase('/assets/img/en/trustcenter/trust_center11.png')" alt="Protocol and communication - WebChat">
 </div>
 
 
@@ -300,7 +300,7 @@ An Azure AD application specific to each chatbot (create in the Witivio tenant) 
 ---
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/trust_center/trust_center12.png')" alt="Protocol and communication - Token Generation">
+  <img :src="$withBase('/assets/img/en/trustcenter/trust_center12.png')" alt="Protocol and communication - Token Generation">
 </div>
 
 
@@ -334,7 +334,7 @@ The Witivio connector is validated by Microsoft and published in the LogicApps &
 The communication is made via API and Webhook communication.
 
 <div class="image_center">
-  <img :src="$withBase('/assets/img/en/trust_center/trust_center13.png')" alt="Power Automate / LogicApps integration">
+  <img :src="$withBase('/assets/img/en/trustcenter/trust_center13.png')" alt="Power Automate / LogicApps integration">
 </div>
 
 

@@ -1,4 +1,4 @@
-# Authentitcation & Single Sign On
+# Authentication & Single Sign On
 
 # Identity Provider (IdP)
 
