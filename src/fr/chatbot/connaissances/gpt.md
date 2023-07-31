@@ -85,7 +85,7 @@ Afin de donner à votre chatbot les meilleures chances de trouver la bonne répo
 
   
 
- ## Etape 3 : Intégrer les documents dans votre chatbot 
+## Etape 3 : Intégrer les documents dans votre chatbot 
 
  
 
@@ -97,7 +97,7 @@ Afin de donner à votre chatbot les meilleures chances de trouver la bonne répo
 
  
 
- ## Etape 4 : Testez les réponses 
+## Etape 4 : Testez les réponses 
 
  
 
