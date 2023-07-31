@@ -155,6 +155,7 @@ module.exports = {
             ['/en/chatbot/knowledge/messages.md', 'Messages'],
             ['/en/chatbot/knowledge/categories.md', 'Categories'],
             ['/en/chatbot/knowledge/kb.md', 'KB'],
+            ['/en/chatbot/knowledge/learninggpt.md', 'GPT learning'],
             ['/en/chatbot/knowledge/entities.md', 'Entities'],
             ['/en/chatbot/knowledge/synonyms.md', 'Synonyms'],
             ['/en/chatbot/knowledge/test_plan.md', 'Test Plan'],
@@ -311,6 +312,7 @@ module.exports = {
             ['/fr/chatbot/connaissances/messages.md', 'Messages de bases'],
             ['/fr/chatbot/connaissances/categories.md', 'Catégories'],
             ['/fr/chatbot/connaissances/faq.md', 'FAQ'],
+            ['/fr/chatbot/connaissances/gpt.md', 'Apprentissage GPT'],
             ['/fr/chatbot/connaissances/entites.md', 'Entités'],
             ['/fr/chatbot/connaissances/synonymes.md', 'Synonymes'],
             ['/fr/chatbot/connaissances/plan_de_test.md', 'Plan de test'],
@@ -460,6 +462,7 @@ module.exports = {
           children: [
             ['/fr/chatbot/connaissances/processus_de_creation.md', 'Processus de création'],
             ['/fr/chatbot/connaissances/messages.md', 'Messages de bases'],
+            ['/fr/chatbot/connaissances/gpt.md', 'Apprentissage GPT'],
             ['/fr/chatbot/connaissances/categories.md', 'Catégories'],
             ['/fr/chatbot/connaissances/faq.md', 'FAQ'],
             ['/fr/chatbot/connaissances/entites.md', 'Entités'],

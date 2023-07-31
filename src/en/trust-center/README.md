@@ -73,7 +73,7 @@ Cf : [https://docs.microsoft.com/en-us/azure/active-directory/application-dev-se
 | --- | --- |
 | **ID** | 8c5c0060-2892-4355-b0db-661f206028a9 |
 | **Permissions** | Delegated permissions |
-| **Scopes** | User.Read, profile, Groups.Real.All, User.ReadBasic.All, |
+| **Scopes** | User.Read, profile, User.ReadBasic.All, |
 
 >More information: [https://developer.microsoft.com/en-us/graph/docs/concepts/permissions\_reference](https://developer.microsoft.com/en-us/graph/docs/concepts/permissions_reference)
 

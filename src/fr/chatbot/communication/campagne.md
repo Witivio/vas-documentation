@@ -344,6 +344,10 @@ En sélectionnant une liste existante vous pouvez visualiser le nombre d'utilisa
 </div>
 
 
+::: warning ⚠️
+Afin de garantir une stabilité des services nous avons instauré une sécurité sur les envois de campagne à plus de 10 000 utilisateurs. Pour envoyer une campagne de très grande envergure veuillez prévenir vos CSM. La demande sera traitée et validée en interne dans les plus brefs délais.
+:::
+
 Une fois la campagne envoyée il faut parfois attendre plusieurs minutes avant la réception de celui-ci puisqu'il dépend du temps de traitement des paramètres de votre campagne. 
 
 <div class="image_center">

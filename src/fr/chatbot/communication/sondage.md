@@ -47,12 +47,12 @@ Pour l'exemple nous choisissons de poser une question simple dans une liste de c
 Grâce à cette fonctionnalité c'est le bot qui vient parler à l'utilisateur et non plus l'inverse. Nous vous invitons donc à ponctuer la conversation pour essayer de la rendre dynamique et augmenter l'immersion de l'expérience conversationelle.
 
 ::: warning ⚠️
-Afin d'enregistrer les réponses reçues de votre sondage vous devrez paramétrer une variable. Cette étape est primordiale pour l'enregistrement et l'interprétation des résultats.
+En cliquant sur "options avancées" vous remarquerez que la variable est remplie automatiquement. Vous pouvez la modifier pour rentrer une valeur qui vous convient afin de réutiliser cette variable plus tard. Attention, vous devez remplire ce champ pour que les réponses soient bien enregistrées et ainsi pouvoir interpréter les résultats.
 :::
 
 
 
-Vos utilisateurs peuvent répondre de manière "libre" à votre chatbot. Pour poser une question libre on utilise "poser une question à l'utilisateur" suivi de la variable pour enregistrer les résultats. 
+Vos utilisateurs peuvent répondre de manière "libre" à votre chatbot. Pour poser une question libre on utilise "poser une question à l'utilisateur"  pour enregistrer les résultats. 
 
 
 <div class="image_center">
