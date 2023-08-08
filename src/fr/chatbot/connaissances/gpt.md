@@ -77,12 +77,13 @@ Afin de donner à votre chatbot les meilleures chances de trouver la bonne répo
 
 - Tout commentaire dans le document sera considéré comme un élément de réponse ce qui peut influencer la pertinence des résultats. 
 
-- Les images des documents ne sont pour le moment pas traitées comme des éléments de réponse. Assurez-vous que la réponse soit contenue dans du texte. 
+- Préférez les blocs de texte unis aux blocs de texte séparés. (Essentiellement pour les Pptx)
+
 
 - Les documents donnés doivent de préférence correspondre à la langue du chatbot.  
 
  
-
+>⚠️ **Avertissement :** Les images des documents ne sont pour le moment pas traitées comme des éléments de réponse. Assurez-vous que la réponse soit contenue dans du texte. 
   
 
 ## Etape 3 : Intégrer les documents dans votre chatbot 
