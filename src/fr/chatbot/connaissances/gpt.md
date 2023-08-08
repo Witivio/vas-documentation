@@ -106,7 +106,7 @@ Afin de donner à votre chatbot les meilleures chances de trouver la bonne répo
 
  
 
-Si l'IA donne une réponse qui semble incorrecte ou hors contexte, nous vous invitons à vérifier le contenu de vos documents et à reformuler au besoin afin d’améliorer la compréhension de certains paragraphes. Veuillez noter que l'exactitude des informations peut varier, nous vous invitons donc à vérifier la pertinence des réponses fournies afin d’anticiper s 
+Si l'IA donne une réponse qui semble incorrecte ou hors contexte, nous vous invitons à vérifier le contenu de vos documents et à reformuler au besoin afin d’améliorer la compréhension de certains paragraphes. 
 
  
 
