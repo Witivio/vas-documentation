@@ -42,17 +42,21 @@ Each file can reach a maximum size of 10 MB, the maximum storage space per chatb
 ## Step 2: Check the structure of the documents
 To give your chatbot the best chances of finding the right answer, we advise you to ensure the good structure of your documents. Here is a list of best practices that can help you:
 
-Prepare a clear and structured table of contents at the beginning of your document
+- Prepare a clear and structured table of contents at the beginning of your document
 
-The key information you wish to respond to should be contained in detailed and clear paragraphs.
+- The key information you wish to respond to should be contained in detailed and clear paragraphs.
 
-The documentation contains few tables. Indeed, tables are only a sequence of information, the tool is currently not able to understand their meaning.
+- The documentation contains few tables. Indeed, tables are only a sequence of information, the tool is currently not able to understand their meaning.
 
-Tables must be genuine "table" components in the initial reference documents (Docx, PowerPoint etc.).
+- Tables must be genuine "table" components in the initial reference documents (Docx, PowerPoint etc.).
 
-Any comment in the document will be considered as an answer element which can influence the relevance of the results.
+- Any comment in the document will be considered as an answer element which can influence the relevance of the results.
 
-Images in documents are not currently treated as answer elements. Make sure the answer is contained in text.
+- Please attempt to write your content in a single block of text rather than multiple blocks to aid the tool in better understanding the context. 
+
+
+
+>⚠️ **Avertissement :**  Warning: Images in documents are currently not processed as part of the response. Make sure the answer is contained within text.
 
 The documents given must preferably correspond to the language of the chatbot.
 
